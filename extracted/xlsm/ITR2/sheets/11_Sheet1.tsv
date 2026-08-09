@@ -1,0 +1,22 @@
+row	A	B	C	D	E	F	G	H	I
+1		2026-07-30
+2	2026-07-30	Date Of  interest calculation		Interest u/s 234A	0			Point No.15 of Income Details :  Net Tax liability	0
+3	03/02/2026	Date of filing		Interest u/s 234B	0			TDS	0
+4		Due date for filing of returns		Interest u/s 234C	0			TCS	0
+5	06/03/2024	Date Of  interest calculation 234A						Assessed Tax	0
+7	Reference Of Tax Head	IsSenior	Tax Head	Value	ISSuperSenior	IsNormal	Age
+8	Point 7 of Income Detail	TRUE	Taxable Income	0	FALSE	TRUE	2014
+10	GrpA(Normal Citizen)	200000		0
+11		500000		0
+12		1000000		0
+13		1000001		0
+15	GrpB(Senior Citizen)	250000		0
+16		500000		0
+17		1000000		0
+18		1000001		0		459920
+19						459920
+20	GrpC(Super Senior Citizen)
+22		500000		0
+23		1000000		0
+24		1000001		0
+26	Tax on Taxable Income			0

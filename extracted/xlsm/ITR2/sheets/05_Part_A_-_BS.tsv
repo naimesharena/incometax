@@ -1,0 +1,91 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N
+3			Part A-BS			BALANCE SHEET AS ON 31ST DAY OF MARCH,2022 OR AS ON THE DATE OF CLOSURE OF BUSINESS AS APPLICABLE OF THE PROPRIETORY BUSINESS  OR PROFESSION
+4			SOURCES OF FUNDS	1	Proprietor’s fund
+5					a	Proprietor’s capital					a
+6					b	Reserves and Surplus
+7						i	Revaluation Reserve		bi
+8						ii	Capital Reserve		bii
+9						iii	Statutory Reserve		biii
+10						iv	Any other Reserve		biv					 
+11						v	Total (bi + bii + biii + biv)				bv	0
+12					c	Total proprietor’s fund (a + bv)					1c	0
+13				2	Loan funds
+14					a	Secured loans
+15						i	Foreign Currency Loans		ai
+16						ii	Rupee Loans
+17							A	From Banks	iiA
+18							B	From others	iiB
+19							C	Total ( iiA + iiB)	iiC	0
+20						iii	Total (ai + iiC)				aiii	0
+21					b	Unsecured loans (including deposits)
+22						i	From Banks		bi
+23						ii	From others		bii
+24						iii	Total (bi + bii)				biii	0
+25					c	Total Loan Funds (aiii + biii)					2c	0
+26				3	Deferred tax liability						3
+27				4	Sources of funds (1c + 2c +3)						4	0
+28			APPLICATION OF FUNDS	1	Fixed assets
+29					a	Gross: Block			1a
+30					b	Depreciation			1b
+31					c	Net Block (1a – 1b)			1c	0
+32					d	Capital work-in-progress			1d
+33					e	Total (1c + 1d)					1e	0
+34				2	Investments
+35					a	Long-term investments
+36						i	Government and other Securities - Quoted		ai
+37						ii	Government and other Securities – Unquoted		aii
+38						iii	Total (ai + aii)				aiii	0
+39					b	Short-Term investments
+40						i	Equity Shares, including share application money		bi
+41						ii	Preference Shares		bii
+42						iii	Debenture		biii
+43						iv	Total (bi + bii + biii)				biv	0
+44					c	Total investments (aiii + biv)					2c	0
+45				3	Current assets, loans and advances
+46					a	Current assets
+47						i	Inventories
+48							A	Stores/consumables including packing material	iA
+49							B	Raw materials	iB
+50							C	Stock-in-process	iC
+51							D	Finished Goods/Traded Goods	iD
+52							E	Total (iA + iB + iC + iD)			iE	0
+53						ii	Sundry Debtors				aii
+54						iii	Cash and Bank Balances
+55							A	Cash-in-hand	iiiA
+56							B	Balance with bank	iiiB
+57							C	Total (iiiA + iiiB)			iiiC	0
+58						iv	Other Current Assets				aiv
+59						v	Total current assets (iE + aii + iiiC + aiv)				av	0
+60					b	Loans and advances
+61						i	Advances recoverable in cash or in kind or for value to be received		bi
+62						ii	Deposits, loans and advances to corporates and others		bii
+63						iii	Balance with Revenue Authorities		biii
+64						iv	Total (bi + bii + biii)				biv	0
+65					c	Total of current assets, loans and advances (av + biv)					3c	0
+66					d	Current liabilities and provisions
+67						i	Current liabilities
+68							A	Sundry Creditors	iA
+69							B	Liability for Leased Assets	iB
+70							C	Interest Accrued on above	iC
+71							D	Interest accrued but not due on loans	iD
+72							E	Total (iA + iB + iC + iD)			iE	0
+73						ii	Provisions
+74							A	Provision for Income Tax	iiA
+75							B	Provision for Wealth Tax	iiB
+76							B	Provision for Leave
+encashment/Superannuation/Gratuity	iiB
+77							C	Other Provisions	iiC
+78							D	Total (iiA + iiB + iiC )			iiD	0
+79						iii	Total (iE + iiD)				diii	0
+80					e	Net current assets (3c – diii)					3e	0
+81				4	a	Miscellaneous expenditure not written off or adjusted			4a
+82					b	Deferred tax asset			4b
+83					c	Profit and loss account / Accumulated balance			4c
+84					d	Total (4a + 4b + 4c)					4d	0
+85				5	Total, application of funds (1e + 2c + 3e +4d)						5	0
+86			NO ACCOUNT
+CASE	6	In a case where regular books of account of business or profession are not maintained -furnish the following information as on 31st day of March, 2022, in respect of business or profession)
+87					a	Amount of total sundry debtors					6a
+88					b	Amount of total sundry creditors					6b
+89					c	Amount of total stock-in-trade					6c
+90					d	Amount of the cash balance					6d

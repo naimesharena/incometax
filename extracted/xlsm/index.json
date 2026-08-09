@@ -1,0 +1,4881 @@
+[
+  {
+    "code": "ITR1",
+    "xlsm": "ITR1_AY_26-27_V1.2.xlsm",
+    "out": "/home/user/incometax/extracted/xlsm/ITR1",
+    "modules": [
+      {
+        "module": "AY23_24Changes.bas",
+        "stream": "VBA/AY23_24Changes",
+        "file": "vba/AY23_24Changes.bas",
+        "lines": 1736,
+        "chars": 94811
+      },
+      {
+        "module": "checkBoxModule.bas",
+        "stream": "VBA/checkBoxModule",
+        "file": "vba/checkBoxModule.bas",
+        "lines": 29,
+        "chars": 914
+      },
+      {
+        "module": "EfilingCommon.bas",
+        "stream": "VBA/EfilingCommon",
+        "file": "vba/EfilingCommon.bas",
+        "lines": 4069,
+        "chars": 162523
+      },
+      {
+        "module": "ePayPrefill.bas",
+        "stream": "VBA/ePayPrefill",
+        "file": "vba/ePayPrefill.bas",
+        "lines": 7,
+        "chars": 83
+      },
+      {
+        "module": "FilingSectRadioButton.bas",
+        "stream": "VBA/FilingSectRadioButton",
+        "file": "vba/FilingSectRadioButton.bas",
+        "lines": 59,
+        "chars": 1435
+      },
+      {
+        "module": "GenerateJson.bas",
+        "stream": "VBA/GenerateJson",
+        "file": "vba/GenerateJson.bas",
+        "lines": 7121,
+        "chars": 304106
+      },
+      {
+        "module": "HS256.cls",
+        "stream": "VBA/HS256",
+        "file": "vba/HS256.cls",
+        "lines": 534,
+        "chars": 19350
+      },
+      {
+        "module": "ImportExcel.bas",
+        "stream": "VBA/ImportExcel",
+        "file": "vba/ImportExcel.bas",
+        "lines": 1302,
+        "chars": 63327
+      },
+      {
+        "module": "ImportJson.bas",
+        "stream": "VBA/ImportJson",
+        "file": "vba/ImportJson.bas",
+        "lines": 6764,
+        "chars": 301647
+      },
+      {
+        "module": "md80C.bas",
+        "stream": "VBA/md80C",
+        "file": "vba/md80C.bas",
+        "lines": 213,
+        "chars": 7763
+      },
+      {
+        "module": "md80CCC.bas",
+        "stream": "VBA/md80CCC",
+        "file": "vba/md80CCC.bas",
+        "lines": 196,
+        "chars": 7523
+      },
+      {
+        "module": "md80E.bas",
+        "stream": "VBA/md80E",
+        "file": "vba/md80E.bas",
+        "lines": 835,
+        "chars": 32094
+      },
+      {
+        "module": "md80EE.bas",
+        "stream": "VBA/md80EE",
+        "file": "vba/md80EE.bas",
+        "lines": 1061,
+        "chars": 41267
+      },
+      {
+        "module": "md80EEA.bas",
+        "stream": "VBA/md80EEA",
+        "file": "vba/md80EEA.bas",
+        "lines": 1153,
+        "chars": 44185
+      },
+      {
+        "module": "md80EEB.bas",
+        "stream": "VBA/md80EEB",
+        "file": "vba/md80EEB.bas",
+        "lines": 889,
+        "chars": 34988
+      },
+      {
+        "module": "mdATI.bas",
+        "stream": "VBA/mdATI",
+        "file": "vba/mdATI.bas",
+        "lines": 783,
+        "chars": 26419
+      },
+      {
+        "module": "mdCalInterst234B.bas",
+        "stream": "VBA/mdCalInterst234B",
+        "file": "vba/mdCalInterst234B.bas",
+        "lines": 708,
+        "chars": 25741
+      },
+      {
+        "module": "mdGen139_8A.bas",
+        "stream": "VBA/mdGen139_8A",
+        "file": "vba/mdGen139_8A.bas",
+        "lines": 412,
+        "chars": 18745
+      },
+      {
+        "module": "mdHashing.bas",
+        "stream": "VBA/mdHashing",
+        "file": "vba/mdHashing.bas",
+        "lines": 169,
+        "chars": 4308
+      },
+      {
+        "module": "mdImportXML.bas",
+        "stream": "VBA/mdImportXML",
+        "file": "vba/mdImportXML.bas",
+        "lines": 2299,
+        "chars": 94627
+      },
+      {
+        "module": "mdInitializer.bas",
+        "stream": "VBA/mdInitializer",
+        "file": "vba/mdInitializer.bas",
+        "lines": 94,
+        "chars": 3608
+      },
+      {
+        "module": "mdInt24b.bas",
+        "stream": "VBA/mdInt24b",
+        "file": "vba/mdInt24b.bas",
+        "lines": 957,
+        "chars": 38742
+      },
+      {
+        "module": "mdProgressBar.bas",
+        "stream": "VBA/mdProgressBar",
+        "file": "vba/mdProgressBar.bas",
+        "lines": 108,
+        "chars": 3859
+      },
+      {
+        "module": "MessageBox.frm",
+        "stream": "VBA/MessageBox",
+        "file": "vba/MessageBox.frm",
+        "lines": 13,
+        "chars": 407
+      },
+      {
+        "module": "mfMessage.bas",
+        "stream": "VBA/mfMessage",
+        "file": "vba/mfMessage.bas",
+        "lines": 49,
+        "chars": 1065
+      },
+      {
+        "module": "mIncmDtls.bas",
+        "stream": "VBA/mIncmDtls",
+        "file": "vba/mIncmDtls.bas",
+        "lines": 7348,
+        "chars": 287373
+      },
+      {
+        "module": "Module1.bas",
+        "stream": "VBA/Module1",
+        "file": "vba/Module1.bas",
+        "lines": 1917,
+        "chars": 88309
+      },
+      {
+        "module": "Module2.bas",
+        "stream": "VBA/Module2",
+        "file": "vba/Module2.bas",
+        "lines": 1913,
+        "chars": 87977
+      },
+      {
+        "module": "Module3.bas",
+        "stream": "VBA/Module3",
+        "file": "vba/Module3.bas",
+        "lines": 2,
+        "chars": 31
+      },
+      {
+        "module": "Module4.bas",
+        "stream": "VBA/Module4",
+        "file": "vba/Module4.bas",
+        "lines": 2,
+        "chars": 31
+      },
+      {
+        "module": "Module5.bas",
+        "stream": "VBA/Module5",
+        "file": "vba/Module5.bas",
+        "lines": 104,
+        "chars": 5805
+      },
+      {
+        "module": "Module8.bas",
+        "stream": "VBA/Module8",
+        "file": "vba/Module8.bas",
+        "lines": 36,
+        "chars": 486
+      },
+      {
+        "module": "ModuleEA10_13A.bas",
+        "stream": "VBA/ModuleEA10_13A",
+        "file": "vba/ModuleEA10_13A.bas",
+        "lines": 327,
+        "chars": 15100
+      },
+      {
+        "module": "Pincodechanges.bas",
+        "stream": "VBA/Pincodechanges",
+        "file": "vba/Pincodechanges.bas",
+        "lines": 62,
+        "chars": 2252
+      },
+      {
+        "module": "PreFillJson.bas",
+        "stream": "VBA/PreFillJson",
+        "file": "vba/PreFillJson.bas",
+        "lines": 4431,
+        "chars": 193429
+      },
+      {
+        "module": "PWD.bas",
+        "stream": "VBA/PWD",
+        "file": "vba/PWD.bas",
+        "lines": 42,
+        "chars": 861
+      },
+      {
+        "module": "Sch80D.bas",
+        "stream": "VBA/Sch80D",
+        "file": "vba/Sch80D.bas",
+        "lines": 1152,
+        "chars": 39583
+      },
+      {
+        "module": "Sch80G.bas",
+        "stream": "VBA/Sch80G",
+        "file": "vba/Sch80G.bas",
+        "lines": 2412,
+        "chars": 88191
+      },
+      {
+        "module": "Sch80GGA.bas",
+        "stream": "VBA/Sch80GGA",
+        "file": "vba/Sch80GGA.bas",
+        "lines": 606,
+        "chars": 23550
+      },
+      {
+        "module": "Sch80GGC.bas",
+        "stream": "VBA/Sch80GGC",
+        "file": "vba/Sch80GGC.bas",
+        "lines": 922,
+        "chars": 37402
+      },
+      {
+        "module": "Sch80U_DD.bas",
+        "stream": "VBA/Sch80U_DD",
+        "file": "vba/Sch80U_DD.bas",
+        "lines": 1085,
+        "chars": 38202
+      },
+      {
+        "module": "SchAL.bas",
+        "stream": "VBA/SchAL",
+        "file": "vba/SchAL.bas",
+        "lines": 167,
+        "chars": 7238
+      },
+      {
+        "module": "SchBA.bas",
+        "stream": "VBA/SchBA",
+        "file": "vba/SchBA.bas",
+        "lines": 931,
+        "chars": 32779
+      },
+      {
+        "module": "SchDI.bas",
+        "stream": "VBA/SchDI",
+        "file": "vba/SchDI.bas",
+        "lines": 12,
+        "chars": 184
+      },
+      {
+        "module": "SchHP.bas",
+        "stream": "VBA/SchHP",
+        "file": "vba/SchHP.bas",
+        "lines": 3089,
+        "chars": 118691
+      },
+      {
+        "module": "SchTaxVerify.bas",
+        "stream": "VBA/SchTaxVerify",
+        "file": "vba/SchTaxVerify.bas",
+        "lines": 676,
+        "chars": 30852
+      },
+      {
+        "module": "SchTCS.bas",
+        "stream": "VBA/SchTCS",
+        "file": "vba/SchTCS.bas",
+        "lines": 568,
+        "chars": 22458
+      },
+      {
+        "module": "SchTDS.bas",
+        "stream": "VBA/SchTDS",
+        "file": "vba/SchTDS.bas",
+        "lines": 3221,
+        "chars": 111035
+      },
+      {
+        "module": "Sheet1.cls",
+        "stream": "VBA/Sheet1",
+        "file": "vba/Sheet1.cls",
+        "lines": 2606,
+        "chars": 141983
+      },
+      {
+        "module": "Sheet10.cls",
+        "stream": "VBA/Sheet10",
+        "file": "vba/Sheet10.cls",
+        "lines": 9,
+        "chars": 300
+      },
+      {
+        "module": "Sheet11.cls",
+        "stream": "VBA/Sheet11",
+        "file": "vba/Sheet11.cls",
+        "lines": 78,
+        "chars": 2323
+      },
+      {
+        "module": "Sheet12.cls",
+        "stream": "VBA/Sheet12",
+        "file": "vba/Sheet12.cls",
+        "lines": 723,
+        "chars": 28294
+      },
+      {
+        "module": "Sheet13.cls",
+        "stream": "VBA/Sheet13",
+        "file": "vba/Sheet13.cls",
+        "lines": 544,
+        "chars": 27810
+      },
+      {
+        "module": "Sheet14.cls",
+        "stream": "VBA/Sheet14",
+        "file": "vba/Sheet14.cls",
+        "lines": 394,
+        "chars": 18725
+      },
+      {
+        "module": "Sheet15.cls",
+        "stream": "VBA/Sheet15",
+        "file": "vba/Sheet15.cls",
+        "lines": 15,
+        "chars": 417
+      },
+      {
+        "module": "Sheet16.cls",
+        "stream": "VBA/Sheet16",
+        "file": "vba/Sheet16.cls",
+        "lines": 368,
+        "chars": 14455
+      },
+      {
+        "module": "Sheet17.cls",
+        "stream": "VBA/Sheet17",
+        "file": "vba/Sheet17.cls",
+        "lines": 1797,
+        "chars": 70841
+      },
+      {
+        "module": "Sheet18.cls",
+        "stream": "VBA/Sheet18",
+        "file": "vba/Sheet18.cls",
+        "lines": 94,
+        "chars": 3213
+      },
+      {
+        "module": "Sheet19.cls",
+        "stream": "VBA/Sheet19",
+        "file": "vba/Sheet19.cls",
+        "lines": 709,
+        "chars": 36804
+      },
+      {
+        "module": "Sheet2.cls",
+        "stream": "VBA/Sheet2",
+        "file": "vba/Sheet2.cls",
+        "lines": 315,
+        "chars": 15685
+      },
+      {
+        "module": "Sheet201.cls",
+        "stream": "VBA/Sheet201",
+        "file": "vba/Sheet201.cls",
+        "lines": 698,
+        "chars": 33727
+      },
+      {
+        "module": "Sheet202.cls",
+        "stream": "VBA/Sheet202",
+        "file": "vba/Sheet202.cls",
+        "lines": 222,
+        "chars": 8450
+      },
+      {
+        "module": "Sheet3.cls",
+        "stream": "VBA/Sheet3",
+        "file": "vba/Sheet3.cls",
+        "lines": 377,
+        "chars": 17059
+      },
+      {
+        "module": "Sheet4.cls",
+        "stream": "VBA/Sheet4",
+        "file": "vba/Sheet4.cls",
+        "lines": 1095,
+        "chars": 45651
+      },
+      {
+        "module": "Sheet5.cls",
+        "stream": "VBA/Sheet5",
+        "file": "vba/Sheet5.cls",
+        "lines": 9,
+        "chars": 299
+      },
+      {
+        "module": "Sheet6.cls",
+        "stream": "VBA/Sheet6",
+        "file": "vba/Sheet6.cls",
+        "lines": 56,
+        "chars": 1572
+      },
+      {
+        "module": "Sheet7.cls",
+        "stream": "VBA/Sheet7",
+        "file": "vba/Sheet7.cls",
+        "lines": 65,
+        "chars": 1678
+      },
+      {
+        "module": "Sheet8.cls",
+        "stream": "VBA/Sheet8",
+        "file": "vba/Sheet8.cls",
+        "lines": 9,
+        "chars": 299
+      },
+      {
+        "module": "Sheet9.cls",
+        "stream": "VBA/Sheet9",
+        "file": "vba/Sheet9.cls",
+        "lines": 699,
+        "chars": 27988
+      },
+      {
+        "module": "ThisWorkbook.cls",
+        "stream": "VBA/ThisWorkbook",
+        "file": "vba/ThisWorkbook.cls",
+        "lines": 85,
+        "chars": 2987
+      },
+      {
+        "module": "UserForm1.frm",
+        "stream": "VBA/UserForm1",
+        "file": "vba/UserForm1.frm",
+        "lines": 15,
+        "chars": 493
+      },
+      {
+        "module": "UserForm2.frm",
+        "stream": "VBA/UserForm2",
+        "file": "vba/UserForm2.frm",
+        "lines": 16,
+        "chars": 446
+      },
+      {
+        "module": "UserForm3.frm",
+        "stream": "VBA/UserForm3",
+        "file": "vba/UserForm3.frm",
+        "lines": 16,
+        "chars": 482
+      }
+    ],
+    "sheet_count": 21,
+    "hidden_dumps": [
+      {
+        "sheet": "Income Details",
+        "state": "visible",
+        "file": "sheets/01_Income_Details.tsv",
+        "rows": 178,
+        "cells": 635,
+        "formulas": 156,
+        "formulasFile": "sheets/01_Income_Details.formulas.tsv"
+      },
+      {
+        "sheet": "HP",
+        "state": "visible",
+        "file": "sheets/02_HP.tsv",
+        "rows": 75,
+        "cells": 219,
+        "formulas": 49,
+        "formulasFile": "sheets/02_HP.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule EA 10(13A)",
+        "state": "hidden",
+        "file": "sheets/03_Schedule_EA_10_13A.tsv",
+        "rows": 10,
+        "cells": 24,
+        "formulas": 3,
+        "formulasFile": "sheets/03_Schedule_EA_10_13A.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule 24(b)",
+        "state": "hidden",
+        "file": "sheets/04_Schedule_24_b.tsv",
+        "rows": 8,
+        "cells": 35,
+        "formulas": 6,
+        "formulasFile": "sheets/04_Schedule_24_b.formulas.tsv"
+      },
+      {
+        "sheet": "Part A Gen_139(8A)",
+        "state": "hidden",
+        "file": "sheets/05_Part_A_Gen_139_8A.tsv",
+        "rows": 24,
+        "cells": 45,
+        "formulas": 8,
+        "formulasFile": "sheets/05_Part_A_Gen_139_8A.formulas.tsv"
+      },
+      {
+        "sheet": "TDS",
+        "state": "visible",
+        "file": "sheets/06_TDS.tsv",
+        "rows": 41,
+        "cells": 182,
+        "formulas": 66,
+        "formulasFile": "sheets/06_TDS.formulas.tsv"
+      },
+      {
+        "sheet": "TCS",
+        "state": "visible",
+        "file": "sheets/07_TCS.tsv",
+        "rows": 8,
+        "cells": 21,
+        "formulas": 4,
+        "formulasFile": "sheets/07_TCS.formulas.tsv"
+      },
+      {
+        "sheet": "Taxes Paid and Verification",
+        "state": "visible",
+        "file": "sheets/08_Taxes_Paid_and_Verification.tsv",
+        "rows": 47,
+        "cells": 108,
+        "formulas": 13,
+        "formulasFile": "sheets/08_Taxes_Paid_and_Verification.formulas.tsv"
+      },
+      {
+        "sheet": "Part B ATI",
+        "state": "hidden",
+        "file": "sheets/09_Part_B_ATI.tsv",
+        "rows": 40,
+        "cells": 134,
+        "formulas": 22,
+        "formulasFile": "sheets/09_Part_B_ATI.formulas.tsv"
+      },
+      {
+        "sheet": "80D",
+        "state": "hidden",
+        "file": "sheets/10_80D.tsv",
+        "rows": 46,
+        "cells": 106,
+        "formulas": 17,
+        "formulasFile": "sheets/10_80D.formulas.tsv"
+      },
+      {
+        "sheet": "80G",
+        "state": "hidden",
+        "file": "sheets/11_80G.tsv",
+        "rows": 43,
+        "cells": 260,
+        "formulas": 141,
+        "formulasFile": "sheets/11_80G.formulas.tsv"
+      },
+      {
+        "sheet": "80GGA",
+        "state": "hidden",
+        "file": "sheets/12_80GGA.tsv",
+        "rows": 11,
+        "cells": 50,
+        "formulas": 17,
+        "formulasFile": "sheets/12_80GGA.formulas.tsv"
+      },
+      {
+        "sheet": "80GGC",
+        "state": "hidden",
+        "file": "sheets/13_80GGC.tsv",
+        "rows": 15,
+        "cells": 74,
+        "formulas": 36,
+        "formulasFile": "sheets/13_80GGC.formulas.tsv"
+      },
+      {
+        "sheet": "80U-80DD",
+        "state": "hidden",
+        "file": "sheets/14_80U-80DD.tsv",
+        "rows": 10,
+        "cells": 42,
+        "formulas": 7,
+        "formulasFile": "sheets/14_80U-80DD.formulas.tsv"
+      },
+      {
+        "sheet": "80C",
+        "state": "hidden",
+        "file": "sheets/15_80C.tsv",
+        "rows": 16,
+        "cells": 30,
+        "formulas": 6,
+        "formulasFile": "sheets/15_80C.formulas.tsv"
+      },
+      {
+        "sheet": "80E_80EE_80EEA_80EEB",
+        "state": "hidden",
+        "file": "sheets/16_80E_80EE_80EEA_80EEB.tsv",
+        "rows": 26,
+        "cells": 117,
+        "formulas": 13,
+        "formulasFile": "sheets/16_80E_80EE_80EEA_80EEB.formulas.tsv"
+      },
+      {
+        "sheet": "BankCode",
+        "state": "hidden",
+        "file": "sheets/17_BankCode.tsv",
+        "rows": 318,
+        "cells": 636,
+        "formulas": 0
+      },
+      {
+        "sheet": "IFSC",
+        "state": "hidden",
+        "file": "sheets/18_IFSC.tsv.gz",
+        "rows": 40437,
+        "cells": 140437,
+        "formulas": 0
+      },
+      {
+        "sheet": "DataBase",
+        "state": "hidden",
+        "file": "sheets/19_DataBase.tsv.gz",
+        "rows": 19303,
+        "cells": 40792,
+        "formulas": 17,
+        "formulasFile": "sheets/19_DataBase.formulas.tsv"
+      },
+      {
+        "sheet": "SUMMARY",
+        "state": "hidden",
+        "file": "sheets/20_SUMMARY.tsv",
+        "rows": 15,
+        "cells": 30,
+        "formulas": 10,
+        "formulasFile": "sheets/20_SUMMARY.formulas.tsv"
+      },
+      {
+        "sheet": "Help",
+        "state": "hidden",
+        "file": "sheets/21_Help.tsv",
+        "rows": 67,
+        "cells": 95,
+        "formulas": 0
+      }
+    ],
+    "fields": 376
+  },
+  {
+    "code": "ITR2",
+    "xlsm": "ITR2_AY_26-27_V1.3/ITR2_AY_26-27_V1.3.xlsm",
+    "out": "/home/user/incometax/extracted/xlsm/ITR2",
+    "modules": [
+      {
+        "module": "AY23_24Changes.bas",
+        "stream": "VBA/AY23_24Changes",
+        "file": "vba/AY23_24Changes.bas",
+        "lines": 1806,
+        "chars": 89633
+      },
+      {
+        "module": "BFLA_Calculations.bas",
+        "stream": "VBA/BFLA_Calculations",
+        "file": "vba/BFLA_Calculations.bas",
+        "lines": 411,
+        "chars": 18354
+      },
+      {
+        "module": "Calculations.bas",
+        "stream": "VBA/Calculations",
+        "file": "vba/Calculations.bas",
+        "lines": 231,
+        "chars": 8455
+      },
+      {
+        "module": "CG_Calc.bas",
+        "stream": "VBA/CG_Calc",
+        "file": "vba/CG_Calc.bas",
+        "lines": 985,
+        "chars": 48408
+      },
+      {
+        "module": "CGDeductions.bas",
+        "stream": "VBA/CGDeductions",
+        "file": "vba/CGDeductions.bas",
+        "lines": 2984,
+        "chars": 107973
+      },
+      {
+        "module": "checkBoxModule.bas",
+        "stream": "VBA/checkBoxModule",
+        "file": "vba/checkBoxModule.bas",
+        "lines": 33,
+        "chars": 944
+      },
+      {
+        "module": "CYLACalculations.bas",
+        "stream": "VBA/CYLACalculations",
+        "file": "vba/CYLACalculations.bas",
+        "lines": 8837,
+        "chars": 387726
+      },
+      {
+        "module": "DEP_DCG.bas",
+        "stream": "VBA/DEP_DCG",
+        "file": "vba/DEP_DCG.bas",
+        "lines": 302,
+        "chars": 11545
+      },
+      {
+        "module": "EfilingCommon.bas",
+        "stream": "VBA/EfilingCommon",
+        "file": "vba/EfilingCommon.bas",
+        "lines": 5674,
+        "chars": 228457
+      },
+      {
+        "module": "ePayPrefill.bas",
+        "stream": "VBA/ePayPrefill",
+        "file": "vba/ePayPrefill.bas",
+        "lines": 8,
+        "chars": 85
+      },
+      {
+        "module": "FilingSectRadioButton.bas",
+        "stream": "VBA/FilingSectRadioButton",
+        "file": "vba/FilingSectRadioButton.bas",
+        "lines": 75,
+        "chars": 1960
+      },
+      {
+        "module": "Generate_XML.bas",
+        "stream": "VBA/Generate_XML",
+        "file": "vba/Generate_XML.bas",
+        "lines": 18334,
+        "chars": 865833
+      },
+      {
+        "module": "GenerateJson.bas",
+        "stream": "VBA/GenerateJson",
+        "file": "vba/GenerateJson.bas",
+        "lines": 36879,
+        "chars": 1239248
+      },
+      {
+        "module": "GST.bas",
+        "stream": "VBA/GST",
+        "file": "vba/GST.bas",
+        "lines": 199,
+        "chars": 6158
+      },
+      {
+        "module": "HS256.cls",
+        "stream": "VBA/HS256",
+        "file": "vba/HS256.cls",
+        "lines": 535,
+        "chars": 19352
+      },
+      {
+        "module": "ImportJson.bas",
+        "stream": "VBA/ImportJson",
+        "file": "vba/ImportJson.bas",
+        "lines": 30756,
+        "chars": 1539579
+      },
+      {
+        "module": "ImportPrefill.bas",
+        "stream": "VBA/ImportPrefill",
+        "file": "vba/ImportPrefill.bas",
+        "lines": 15135,
+        "chars": 702854
+      },
+      {
+        "module": "ImportSchedule112A.bas",
+        "stream": "VBA/importschedule112a",
+        "file": "vba/ImportSchedule112A.bas",
+        "lines": 348,
+        "chars": 14473
+      },
+      {
+        "module": "ImportSchedule115AD.bas",
+        "stream": "VBA/importschedule115ad",
+        "file": "vba/ImportSchedule115AD.bas",
+        "lines": 354,
+        "chars": 15150
+      },
+      {
+        "module": "Initializer.bas",
+        "stream": "VBA/Initializer",
+        "file": "vba/Initializer.bas",
+        "lines": 74,
+        "chars": 2980
+      },
+      {
+        "module": "Manufacturing_Account.bas",
+        "stream": "VBA/Manufacturing_Account",
+        "file": "vba/Manufacturing_Account.bas",
+        "lines": 6,
+        "chars": 166
+      },
+      {
+        "module": "md112A.bas",
+        "stream": "VBA/md112A",
+        "file": "vba/md112A.bas",
+        "lines": 1275,
+        "chars": 53775
+      },
+      {
+        "module": "md115AD.bas",
+        "stream": "VBA/md115AD",
+        "file": "vba/md115AD.bas",
+        "lines": 1176,
+        "chars": 49910
+      },
+      {
+        "module": "md80_.bas",
+        "stream": "VBA/md80_",
+        "file": "vba/md80_.bas",
+        "lines": 1943,
+        "chars": 75942
+      },
+      {
+        "module": "md80C.bas",
+        "stream": "VBA/md80C",
+        "file": "vba/md80C.bas",
+        "lines": 202,
+        "chars": 7788
+      },
+      {
+        "module": "md80E.bas",
+        "stream": "VBA/md80E",
+        "file": "vba/md80E.bas",
+        "lines": 693,
+        "chars": 29994
+      },
+      {
+        "module": "md80EE.bas",
+        "stream": "VBA/md80EE",
+        "file": "vba/md80EE.bas",
+        "lines": 877,
+        "chars": 32663
+      },
+      {
+        "module": "md80EEA.bas",
+        "stream": "VBA/md80EEA",
+        "file": "vba/md80EEA.bas",
+        "lines": 858,
+        "chars": 32559
+      },
+      {
+        "module": "md80EEB.bas",
+        "stream": "VBA/md80EEB",
+        "file": "vba/md80EEB.bas",
+        "lines": 675,
+        "chars": 25557
+      },
+      {
+        "module": "mdAMT.bas",
+        "stream": "VBA/mdAMT",
+        "file": "vba/mdAMT.bas",
+        "lines": 175,
+        "chars": 7181
+      },
+      {
+        "module": "mdAMTC.bas",
+        "stream": "VBA/mdAMTC",
+        "file": "vba/mdAMTC.bas",
+        "lines": 1440,
+        "chars": 63250
+      },
+      {
+        "module": "mdATI.bas",
+        "stream": "VBA/mdATI",
+        "file": "vba/mdATI.bas",
+        "lines": 772,
+        "chars": 26931
+      },
+      {
+        "module": "mdBA.bas",
+        "stream": "VBA/mdBA",
+        "file": "vba/mdBA.bas",
+        "lines": 1214,
+        "chars": 41838
+      },
+      {
+        "module": "mdCFL.bas",
+        "stream": "VBA/mdCFL",
+        "file": "vba/mdCFL.bas",
+        "lines": 1052,
+        "chars": 48868
+      },
+      {
+        "module": "mdEI.bas",
+        "stream": "VBA/mdEI",
+        "file": "vba/mdEI.bas",
+        "lines": 1182,
+        "chars": 42712
+      },
+      {
+        "module": "mdESR.bas",
+        "stream": "VBA/mdESR",
+        "file": "vba/mdESR.bas",
+        "lines": 274,
+        "chars": 10647
+      },
+      {
+        "module": "mdGen139_8A.bas",
+        "stream": "VBA/mdGen139_8A",
+        "file": "vba/mdGen139_8A.bas",
+        "lines": 405,
+        "chars": 18844
+      },
+      {
+        "module": "mdHashing.bas",
+        "stream": "VBA/mdHashing",
+        "file": "vba/mdHashing.bas",
+        "lines": 98,
+        "chars": 2958
+      },
+      {
+        "module": "mdICDS.bas",
+        "stream": "VBA/mdICDS",
+        "file": "vba/mdICDS.bas",
+        "lines": 47,
+        "chars": 1685
+      },
+      {
+        "module": "mdImportXL.bas",
+        "stream": "VBA/mdImportXL",
+        "file": "vba/mdImportXL.bas",
+        "lines": 3637,
+        "chars": 166120
+      },
+      {
+        "module": "mdImportXML.bas",
+        "stream": "VBA/mdImportXML",
+        "file": "vba/mdImportXML.bas",
+        "lines": 2580,
+        "chars": 102971
+      },
+      {
+        "module": "mdInterestCalc.bas",
+        "stream": "VBA/mdInterestCalc",
+        "file": "vba/mdInterestCalc.bas",
+        "lines": 711,
+        "chars": 31912
+      },
+      {
+        "module": "mdOI.bas",
+        "stream": "VBA/mdOI",
+        "file": "vba/mdOI.bas",
+        "lines": 2185,
+        "chars": 74915
+      },
+      {
+        "module": "mdProgressbar.bas",
+        "stream": "VBA/mdProgressbar",
+        "file": "vba/mdProgressbar.bas",
+        "lines": 91,
+        "chars": 3297
+      },
+      {
+        "module": "mdPTI.bas",
+        "stream": "VBA/mdPTI",
+        "file": "vba/mdPTI.bas",
+        "lines": 1679,
+        "chars": 64533
+      },
+      {
+        "module": "mdVDA.bas",
+        "stream": "VBA/mdVDA",
+        "file": "vba/mdVDA.bas",
+        "lines": 206,
+        "chars": 7717
+      },
+      {
+        "module": "MessageBox.frm",
+        "stream": "VBA/MessageBox",
+        "file": "vba/MessageBox.frm",
+        "lines": 14,
+        "chars": 409
+      },
+      {
+        "module": "mfMessage.bas",
+        "stream": "VBA/mfMessage",
+        "file": "vba/mfMessage.bas",
+        "lines": 37,
+        "chars": 822
+      },
+      {
+        "module": "Module1.bas",
+        "stream": "VBA/Module1",
+        "file": "vba/Module1.bas",
+        "lines": 5,
+        "chars": 76
+      },
+      {
+        "module": "Module2.bas",
+        "stream": "VBA/Module2",
+        "file": "vba/Module2.bas",
+        "lines": 60,
+        "chars": 2481
+      },
+      {
+        "module": "Module3.bas",
+        "stream": "VBA/Module3",
+        "file": "vba/Module3.bas",
+        "lines": 56,
+        "chars": 1877
+      },
+      {
+        "module": "Module4.bas",
+        "stream": "VBA/Module4",
+        "file": "vba/Module4.bas",
+        "lines": 170,
+        "chars": 6663
+      },
+      {
+        "module": "msSI.bas",
+        "stream": "VBA/msSI",
+        "file": "vba/msSI.bas",
+        "lines": 402,
+        "chars": 13385
+      },
+      {
+        "module": "Nature_of_business.bas",
+        "stream": "VBA/Nature_of_business",
+        "file": "vba/Nature_of_business.bas",
+        "lines": 121,
+        "chars": 3595
+      },
+      {
+        "module": "ParseJson.bas",
+        "stream": "VBA/ParseJson",
+        "file": "vba/ParseJson.bas",
+        "lines": 347,
+        "chars": 15337
+      },
+      {
+        "module": "Part_A_General.bas",
+        "stream": "VBA/Part_A_General",
+        "file": "vba/Part_A_General.bas",
+        "lines": 8081,
+        "chars": 333105
+      },
+      {
+        "module": "PARTA_BS.bas",
+        "stream": "VBA/PartA_BS",
+        "file": "vba/PARTA_BS.bas",
+        "lines": 210,
+        "chars": 13214
+      },
+      {
+        "module": "Profit_Loss.bas",
+        "stream": "VBA/Profit_Loss",
+        "file": "vba/Profit_Loss.bas",
+        "lines": 1921,
+        "chars": 65474
+      },
+      {
+        "module": "pwd.bas",
+        "stream": "VBA/pwd",
+        "file": "vba/pwd.bas",
+        "lines": 86,
+        "chars": 2390
+      },
+      {
+        "module": "Quantitative_Details.bas",
+        "stream": "VBA/Quantitative_Details",
+        "file": "vba/Quantitative_Details.bas",
+        "lines": 875,
+        "chars": 35488
+      },
+      {
+        "module": "Sch10A.bas",
+        "stream": "VBA/Sch10A",
+        "file": "vba/Sch10A.bas",
+        "lines": 207,
+        "chars": 6487
+      },
+      {
+        "module": "Sch5A.bas",
+        "stream": "VBA/Sch5A",
+        "file": "vba/Sch5A.bas",
+        "lines": 496,
+        "chars": 21265
+      },
+      {
+        "module": "Sch80D.bas",
+        "stream": "VBA/Sch80D",
+        "file": "vba/Sch80D.bas",
+        "lines": 1166,
+        "chars": 40905
+      },
+      {
+        "module": "Sch80G.bas",
+        "stream": "VBA/Sch80G",
+        "file": "vba/Sch80G.bas",
+        "lines": 2773,
+        "chars": 114390
+      },
+      {
+        "module": "Sch80GGC.bas",
+        "stream": "VBA/Sch80GGC",
+        "file": "vba/Sch80GGC.bas",
+        "lines": 833,
+        "chars": 32499
+      },
+      {
+        "module": "Sch80U_80DD.bas",
+        "stream": "VBA/Sch80U_80DD",
+        "file": "vba/Sch80U_80DD.bas",
+        "lines": 1168,
+        "chars": 40013
+      },
+      {
+        "module": "SchAL.bas",
+        "stream": "VBA/SchAL",
+        "file": "vba/SchAL.bas",
+        "lines": 1735,
+        "chars": 68081
+      },
+      {
+        "module": "SchBP.bas",
+        "stream": "VBA/SchBP",
+        "file": "vba/SchBP.bas",
+        "lines": 330,
+        "chars": 9997
+      },
+      {
+        "module": "SchCG.bas",
+        "stream": "VBA/SchCG",
+        "file": "vba/SchCG.bas",
+        "lines": 9176,
+        "chars": 452846
+      },
+      {
+        "module": "SchDPM_DOA.bas",
+        "stream": "VBA/SchDPM_DOA",
+        "file": "vba/SchDPM_DOA.bas",
+        "lines": 2055,
+        "chars": 92234
+      },
+      {
+        "module": "SchFSI.bas",
+        "stream": "VBA/SchFSI",
+        "file": "vba/SchFSI.bas",
+        "lines": 917,
+        "chars": 37607
+      },
+      {
+        "module": "SchHP.bas",
+        "stream": "VBA/SchHP",
+        "file": "vba/SchHP.bas",
+        "lines": 3359,
+        "chars": 135724
+      },
+      {
+        "module": "SchIT.bas",
+        "stream": "VBA/SchIT",
+        "file": "vba/SchIT.bas",
+        "lines": 1023,
+        "chars": 39891
+      },
+      {
+        "module": "SchOI.bas",
+        "stream": "VBA/SchOI",
+        "file": "vba/SchOI.bas",
+        "lines": 81,
+        "chars": 2415
+      },
+      {
+        "module": "SchOS.bas",
+        "stream": "VBA/SchOS",
+        "file": "vba/SchOS.bas",
+        "lines": 2741,
+        "chars": 99865
+      },
+      {
+        "module": "SchRA.bas",
+        "stream": "VBA/SchRA",
+        "file": "vba/SchRA.bas",
+        "lines": 1012,
+        "chars": 41251
+      },
+      {
+        "module": "SchTDS.bas",
+        "stream": "VBA/SchTDS",
+        "file": "vba/SchTDS.bas",
+        "lines": 4016,
+        "chars": 184157
+      },
+      {
+        "module": "SchTPSA.bas",
+        "stream": "VBA/SchTPSA",
+        "file": "vba/SchTPSA.bas",
+        "lines": 305,
+        "chars": 10273
+      },
+      {
+        "module": "SchTR_FA.bas",
+        "stream": "VBA/SchTR_FA",
+        "file": "vba/SchTR_FA.bas",
+        "lines": 5679,
+        "chars": 206847
+      },
+      {
+        "module": "SchUD.bas",
+        "stream": "VBA/SchUD",
+        "file": "vba/SchUD.bas",
+        "lines": 545,
+        "chars": 19372
+      },
+      {
+        "module": "Sheet1.cls",
+        "stream": "VBA/Sheet1",
+        "file": "vba/Sheet1.cls",
+        "lines": 7762,
+        "chars": 362129
+      },
+      {
+        "module": "Sheet10.cls",
+        "stream": "VBA/Sheet10",
+        "file": "vba/Sheet10.cls",
+        "lines": 231,
+        "chars": 9798
+      },
+      {
+        "module": "Sheet11.cls",
+        "stream": "VBA/Sheet11",
+        "file": "vba/Sheet11.cls",
+        "lines": 41,
+        "chars": 1025
+      },
+      {
+        "module": "Sheet12.cls",
+        "stream": "VBA/Sheet12",
+        "file": "vba/Sheet12.cls",
+        "lines": 43,
+        "chars": 1029
+      },
+      {
+        "module": "Sheet13.cls",
+        "stream": "VBA/Sheet13",
+        "file": "vba/Sheet13.cls",
+        "lines": 2512,
+        "chars": 113457
+      },
+      {
+        "module": "Sheet14.cls",
+        "stream": "VBA/Sheet14",
+        "file": "vba/Sheet14.cls",
+        "lines": 1265,
+        "chars": 59530
+      },
+      {
+        "module": "Sheet15.cls",
+        "stream": "VBA/Sheet15",
+        "file": "vba/Sheet15.cls",
+        "lines": 80,
+        "chars": 2399
+      },
+      {
+        "module": "Sheet16.cls",
+        "stream": "VBA/Sheet16",
+        "file": "vba/Sheet16.cls",
+        "lines": 97,
+        "chars": 2976
+      },
+      {
+        "module": "Sheet17.cls",
+        "stream": "VBA/Sheet17",
+        "file": "vba/Sheet17.cls",
+        "lines": 102,
+        "chars": 3500
+      },
+      {
+        "module": "Sheet18.cls",
+        "stream": "VBA/Sheet18",
+        "file": "vba/Sheet18.cls",
+        "lines": 62,
+        "chars": 1630
+      },
+      {
+        "module": "Sheet19.cls",
+        "stream": "VBA/Sheet19",
+        "file": "vba/Sheet19.cls",
+        "lines": 442,
+        "chars": 15961
+      },
+      {
+        "module": "Sheet2.cls",
+        "stream": "VBA/Sheet2",
+        "file": "vba/Sheet2.cls",
+        "lines": 571,
+        "chars": 19461
+      },
+      {
+        "module": "Sheet20.cls",
+        "stream": "VBA/Sheet20",
+        "file": "vba/Sheet20.cls",
+        "lines": 986,
+        "chars": 35512
+      },
+      {
+        "module": "Sheet201.cls",
+        "stream": "VBA/Sheet201",
+        "file": "vba/Sheet201.cls",
+        "lines": 888,
+        "chars": 38075
+      },
+      {
+        "module": "Sheet202.cls",
+        "stream": "VBA/Sheet202",
+        "file": "vba/Sheet202.cls",
+        "lines": 242,
+        "chars": 9261
+      },
+      {
+        "module": "Sheet21.cls",
+        "stream": "VBA/Sheet21",
+        "file": "vba/Sheet21.cls",
+        "lines": 124,
+        "chars": 3915
+      },
+      {
+        "module": "Sheet22.cls",
+        "stream": "VBA/Sheet22",
+        "file": "vba/Sheet22.cls",
+        "lines": 62,
+        "chars": 1721
+      },
+      {
+        "module": "Sheet23.cls",
+        "stream": "VBA/Sheet23",
+        "file": "vba/Sheet23.cls",
+        "lines": 113,
+        "chars": 4761
+      },
+      {
+        "module": "Sheet24.cls",
+        "stream": "VBA/Sheet24",
+        "file": "vba/Sheet24.cls",
+        "lines": 406,
+        "chars": 21112
+      },
+      {
+        "module": "Sheet25.cls",
+        "stream": "VBA/Sheet25",
+        "file": "vba/Sheet25.cls",
+        "lines": 271,
+        "chars": 11992
+      },
+      {
+        "module": "Sheet26.cls",
+        "stream": "VBA/Sheet26",
+        "file": "vba/Sheet26.cls",
+        "lines": 256,
+        "chars": 9663
+      },
+      {
+        "module": "Sheet27.cls",
+        "stream": "VBA/Sheet27",
+        "file": "vba/Sheet27.cls",
+        "lines": 402,
+        "chars": 15804
+      },
+      {
+        "module": "Sheet28.cls",
+        "stream": "VBA/Sheet28",
+        "file": "vba/Sheet28.cls",
+        "lines": 1142,
+        "chars": 61655
+      },
+      {
+        "module": "Sheet29.cls",
+        "stream": "VBA/Sheet29",
+        "file": "vba/Sheet29.cls",
+        "lines": 66,
+        "chars": 1730
+      },
+      {
+        "module": "Sheet3.cls",
+        "stream": "VBA/Sheet3",
+        "file": "vba/Sheet3.cls",
+        "lines": 67,
+        "chars": 2570
+      },
+      {
+        "module": "Sheet30.cls",
+        "stream": "VBA/Sheet30",
+        "file": "vba/Sheet30.cls",
+        "lines": 40,
+        "chars": 1023
+      },
+      {
+        "module": "Sheet31.cls",
+        "stream": "VBA/Sheet31",
+        "file": "vba/Sheet31.cls",
+        "lines": 11,
+        "chars": 319
+      },
+      {
+        "module": "Sheet32.cls",
+        "stream": "VBA/Sheet32",
+        "file": "vba/Sheet32.cls",
+        "lines": 11,
+        "chars": 319
+      },
+      {
+        "module": "Sheet33.cls",
+        "stream": "VBA/Sheet33",
+        "file": "vba/Sheet33.cls",
+        "lines": 18,
+        "chars": 603
+      },
+      {
+        "module": "Sheet34.cls",
+        "stream": "VBA/Sheet34",
+        "file": "vba/Sheet34.cls",
+        "lines": 18,
+        "chars": 592
+      },
+      {
+        "module": "Sheet35.cls",
+        "stream": "VBA/Sheet35",
+        "file": "vba/Sheet35.cls",
+        "lines": 20,
+        "chars": 424
+      },
+      {
+        "module": "Sheet36.cls",
+        "stream": "VBA/Sheet36",
+        "file": "vba/Sheet36.cls",
+        "lines": 45,
+        "chars": 1512
+      },
+      {
+        "module": "Sheet37.cls",
+        "stream": "VBA/Sheet37",
+        "file": "vba/Sheet37.cls",
+        "lines": 134,
+        "chars": 4938
+      },
+      {
+        "module": "Sheet38.cls",
+        "stream": "VBA/Sheet38",
+        "file": "vba/Sheet38.cls",
+        "lines": 174,
+        "chars": 5593
+      },
+      {
+        "module": "Sheet39.cls",
+        "stream": "VBA/Sheet39",
+        "file": "vba/Sheet39.cls",
+        "lines": 2402,
+        "chars": 112770
+      },
+      {
+        "module": "Sheet4.cls",
+        "stream": "VBA/Sheet4",
+        "file": "vba/Sheet4.cls",
+        "lines": 157,
+        "chars": 4875
+      },
+      {
+        "module": "Sheet40.cls",
+        "stream": "VBA/Sheet40",
+        "file": "vba/Sheet40.cls",
+        "lines": 532,
+        "chars": 20289
+      },
+      {
+        "module": "Sheet41.cls",
+        "stream": "VBA/Sheet41",
+        "file": "vba/Sheet41.cls",
+        "lines": 113,
+        "chars": 3264
+      },
+      {
+        "module": "Sheet42.cls",
+        "stream": "VBA/Sheet42",
+        "file": "vba/Sheet42.cls",
+        "lines": 39,
+        "chars": 1006
+      },
+      {
+        "module": "Sheet43.cls",
+        "stream": "VBA/Sheet43",
+        "file": "vba/Sheet43.cls",
+        "lines": 263,
+        "chars": 9605
+      },
+      {
+        "module": "Sheet44.cls",
+        "stream": "VBA/Sheet44",
+        "file": "vba/Sheet44.cls",
+        "lines": 15,
+        "chars": 522
+      },
+      {
+        "module": "Sheet45.cls",
+        "stream": "VBA/Sheet45",
+        "file": "vba/Sheet45.cls",
+        "lines": 18,
+        "chars": 592
+      },
+      {
+        "module": "Sheet46.cls",
+        "stream": "VBA/Sheet46",
+        "file": "vba/Sheet46.cls",
+        "lines": 371,
+        "chars": 15874
+      },
+      {
+        "module": "Sheet47.cls",
+        "stream": "VBA/Sheet47",
+        "file": "vba/Sheet47.cls",
+        "lines": 142,
+        "chars": 5411
+      },
+      {
+        "module": "Sheet48.cls",
+        "stream": "VBA/Sheet48",
+        "file": "vba/Sheet48.cls",
+        "lines": 42,
+        "chars": 1012
+      },
+      {
+        "module": "Sheet49.cls",
+        "stream": "VBA/Sheet49",
+        "file": "vba/Sheet49.cls",
+        "lines": 62,
+        "chars": 1612
+      },
+      {
+        "module": "Sheet5.cls",
+        "stream": "VBA/Sheet5",
+        "file": "vba/Sheet5.cls",
+        "lines": 192,
+        "chars": 5947
+      },
+      {
+        "module": "Sheet50.cls",
+        "stream": "VBA/Sheet50",
+        "file": "vba/Sheet50.cls",
+        "lines": 103,
+        "chars": 3080
+      },
+      {
+        "module": "Sheet51.cls",
+        "stream": "VBA/Sheet51",
+        "file": "vba/Sheet51.cls",
+        "lines": 70,
+        "chars": 2393
+      },
+      {
+        "module": "Sheet52.cls",
+        "stream": "VBA/Sheet52",
+        "file": "vba/Sheet52.cls",
+        "lines": 191,
+        "chars": 7184
+      },
+      {
+        "module": "Sheet53.cls",
+        "stream": "VBA/Sheet53",
+        "file": "vba/Sheet53.cls",
+        "lines": 664,
+        "chars": 27459
+      },
+      {
+        "module": "Sheet54.cls",
+        "stream": "VBA/Sheet54",
+        "file": "vba/Sheet54.cls",
+        "lines": 673,
+        "chars": 27705
+      },
+      {
+        "module": "Sheet55.cls",
+        "stream": "VBA/Sheet55",
+        "file": "vba/Sheet55.cls",
+        "lines": 689,
+        "chars": 27667
+      },
+      {
+        "module": "Sheet56.cls",
+        "stream": "VBA/Sheet56",
+        "file": "vba/Sheet56.cls",
+        "lines": 112,
+        "chars": 3766
+      },
+      {
+        "module": "Sheet57.cls",
+        "stream": "VBA/Sheet57",
+        "file": "vba/Sheet57.cls",
+        "lines": 89,
+        "chars": 2940
+      },
+      {
+        "module": "Sheet58.cls",
+        "stream": "VBA/Sheet58",
+        "file": "vba/Sheet58.cls",
+        "lines": 423,
+        "chars": 17892
+      },
+      {
+        "module": "Sheet59.cls",
+        "stream": "VBA/Sheet59",
+        "file": "vba/Sheet59.cls",
+        "lines": 336,
+        "chars": 13879
+      },
+      {
+        "module": "Sheet6.cls",
+        "stream": "VBA/Sheet6",
+        "file": "vba/Sheet6.cls",
+        "lines": 42,
+        "chars": 1026
+      },
+      {
+        "module": "Sheet60.cls",
+        "stream": "VBA/Sheet60",
+        "file": "vba/Sheet60.cls",
+        "lines": 715,
+        "chars": 24960
+      },
+      {
+        "module": "Sheet61.cls",
+        "stream": "VBA/Sheet61",
+        "file": "vba/Sheet61.cls",
+        "lines": 18,
+        "chars": 423
+      },
+      {
+        "module": "Sheet62.cls",
+        "stream": "VBA/Sheet62",
+        "file": "vba/Sheet62.cls",
+        "lines": 9,
+        "chars": 300
+      },
+      {
+        "module": "Sheet7.cls",
+        "stream": "VBA/Sheet7",
+        "file": "vba/Sheet7.cls",
+        "lines": 445,
+        "chars": 14307
+      },
+      {
+        "module": "Sheet8.cls",
+        "stream": "VBA/Sheet8",
+        "file": "vba/Sheet8.cls",
+        "lines": 997,
+        "chars": 47077
+      },
+      {
+        "module": "Sheet9.cls",
+        "stream": "VBA/Sheet9",
+        "file": "vba/Sheet9.cls",
+        "lines": 354,
+        "chars": 11845
+      },
+      {
+        "module": "Sheet98.cls",
+        "stream": "VBA/Sheet98",
+        "file": "vba/Sheet98.cls",
+        "lines": 97,
+        "chars": 3099
+      },
+      {
+        "module": "SheetALL.cls",
+        "stream": "VBA/SheetALL",
+        "file": "vba/SheetALL.cls",
+        "lines": 14,
+        "chars": 326
+      },
+      {
+        "module": "SPI_SI.bas",
+        "stream": "VBA/SPI_SI",
+        "file": "vba/SPI_SI.bas",
+        "lines": 709,
+        "chars": 23255
+      },
+      {
+        "module": "Tax_Calc.bas",
+        "stream": "VBA/Tax_Calc",
+        "file": "vba/Tax_Calc.bas",
+        "lines": 1499,
+        "chars": 50766
+      },
+      {
+        "module": "ThisWorkbook.cls",
+        "stream": "VBA/ThisWorkbook",
+        "file": "vba/ThisWorkbook.cls",
+        "lines": 46,
+        "chars": 1438
+      },
+      {
+        "module": "TI_TTI_Salary.bas",
+        "stream": "VBA/TI_TTI_Salary",
+        "file": "vba/TI_TTI_Salary.bas",
+        "lines": 3313,
+        "chars": 129028
+      },
+      {
+        "module": "Trading_Account.bas",
+        "stream": "VBA/Trading_Account",
+        "file": "vba/Trading_Account.bas",
+        "lines": 276,
+        "chars": 10035
+      },
+      {
+        "module": "UserForm1.frm",
+        "stream": "VBA/UserForm1",
+        "file": "vba/UserForm1.frm",
+        "lines": 18,
+        "chars": 539
+      },
+      {
+        "module": "UserForm2.frm",
+        "stream": "VBA/UserForm2",
+        "file": "vba/UserForm2.frm",
+        "lines": 16,
+        "chars": 446
+      },
+      {
+        "module": "UserForm3.frm",
+        "stream": "VBA/UserForm3",
+        "file": "vba/UserForm3.frm",
+        "lines": 82,
+        "chars": 2907
+      },
+      {
+        "module": "Verification.bas",
+        "stream": "VBA/Verification",
+        "file": "vba/Verification.bas",
+        "lines": 197,
+        "chars": 7749
+      }
+    ],
+    "sheet_count": 66,
+    "hidden_dumps": [
+      {
+        "sheet": "ISIN List",
+        "state": "hidden",
+        "file": "sheets/01_ISIN_List.tsv.gz",
+        "rows": 88568,
+        "cells": 177136,
+        "formulas": 0
+      },
+      {
+        "sheet": "Home",
+        "state": "visible",
+        "file": "sheets/02_Home.tsv",
+        "rows": 52,
+        "cells": 307,
+        "formulas": 12,
+        "formulasFile": "sheets/02_Home.formulas.tsv"
+      },
+      {
+        "sheet": "PART A - General",
+        "state": "visible",
+        "file": "sheets/03_PART_A_-_General.tsv",
+        "rows": 87,
+        "cells": 192,
+        "formulas": 7,
+        "formulasFile": "sheets/03_PART_A_-_General.formulas.tsv"
+      },
+      {
+        "sheet": "Nature Of Business",
+        "state": "hidden",
+        "file": "sheets/04_Nature_Of_Business.tsv",
+        "rows": 5,
+        "cells": 27,
+        "formulas": 14,
+        "formulasFile": "sheets/04_Nature_Of_Business.formulas.tsv"
+      },
+      {
+        "sheet": "Part A - BS",
+        "state": "hidden",
+        "file": "sheets/05_Part_A_-_BS.tsv",
+        "rows": 88,
+        "cells": 272,
+        "formulas": 23,
+        "formulasFile": "sheets/05_Part_A_-_BS.formulas.tsv"
+      },
+      {
+        "sheet": "Manufacturing Account",
+        "state": "hidden",
+        "file": "sheets/06_Manufacturing_Account.tsv",
+        "rows": 26,
+        "cells": 79,
+        "formulas": 6,
+        "formulasFile": "sheets/06_Manufacturing_Account.formulas.tsv"
+      },
+      {
+        "sheet": "Trading Account",
+        "state": "hidden",
+        "file": "sheets/07_Trading_Account.tsv",
+        "rows": 50,
+        "cells": 120,
+        "formulas": 12,
+        "formulasFile": "sheets/07_Trading_Account.formulas.tsv"
+      },
+      {
+        "sheet": "Profit and Loss",
+        "state": "hidden",
+        "file": "sheets/08_Profit_and_Loss.tsv",
+        "rows": 191,
+        "cells": 531,
+        "formulas": 50,
+        "formulasFile": "sheets/08_Profit_and_Loss.formulas.tsv"
+      },
+      {
+        "sheet": "Part A - OI",
+        "state": "hidden",
+        "file": "sheets/09_Part_A_-_OI.tsv",
+        "rows": 105,
+        "cells": 324,
+        "formulas": 11,
+        "formulasFile": "sheets/09_Part_A_-_OI.formulas.tsv"
+      },
+      {
+        "sheet": "Quantitative Details",
+        "state": "hidden",
+        "file": "sheets/10_Quantitative_Details.tsv",
+        "rows": 69,
+        "cells": 114,
+        "formulas": 0
+      },
+      {
+        "sheet": "Sheet1",
+        "state": "hidden",
+        "file": "sheets/11_Sheet1.tsv",
+        "rows": 21,
+        "cells": 65,
+        "formulas": 15,
+        "formulasFile": "sheets/11_Sheet1.formulas.tsv"
+      },
+      {
+        "sheet": "ITold",
+        "state": "hidden",
+        "file": "sheets/12_ITold.tsv",
+        "rows": 22,
+        "cells": 86,
+        "formulas": 64,
+        "formulasFile": "sheets/12_ITold.formulas.tsv"
+      },
+      {
+        "sheet": "Part A Gen_139(8A)",
+        "state": "hidden",
+        "file": "sheets/13_Part_A_Gen_139_8A.tsv",
+        "rows": 24,
+        "cells": 45,
+        "formulas": 8,
+        "formulasFile": "sheets/13_Part_A_Gen_139_8A.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule S",
+        "state": "visible",
+        "file": "sheets/14_Schedule_S.tsv",
+        "rows": 100,
+        "cells": 272,
+        "formulas": 35,
+        "formulasFile": "sheets/14_Schedule_S.formulas.tsv"
+      },
+      {
+        "sheet": "House Property",
+        "state": "visible",
+        "file": "sheets/15_House_Property.tsv",
+        "rows": 73,
+        "cells": 220,
+        "formulas": 34,
+        "formulasFile": "sheets/15_House_Property.formulas.tsv"
+      },
+      {
+        "sheet": "BP",
+        "state": "hidden",
+        "file": "sheets/16_BP.tsv",
+        "rows": 155,
+        "cells": 505,
+        "formulas": 69,
+        "formulasFile": "sheets/16_BP.formulas.tsv"
+      },
+      {
+        "sheet": "DPM - DOA",
+        "state": "hidden",
+        "file": "sheets/17_DPM_-_DOA.tsv",
+        "rows": 50,
+        "cells": 304,
+        "formulas": 100,
+        "formulasFile": "sheets/17_DPM_-_DOA.formulas.tsv"
+      },
+      {
+        "sheet": "DEP_DCG",
+        "state": "hidden",
+        "file": "sheets/18_DEP_DCG.tsv",
+        "rows": 40,
+        "cells": 149,
+        "formulas": 34,
+        "formulasFile": "sheets/18_DEP_DCG.formulas.tsv"
+      },
+      {
+        "sheet": "ESR",
+        "state": "hidden",
+        "file": "sheets/19_ESR.tsv",
+        "rows": 13,
+        "cells": 41,
+        "formulas": 5,
+        "formulasFile": "sheets/19_ESR.formulas.tsv"
+      },
+      {
+        "sheet": "CG",
+        "state": "visible",
+        "file": "sheets/20_CG.tsv",
+        "rows": 525,
+        "cells": 2501,
+        "formulas": 598,
+        "formulasFile": "sheets/20_CG.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule 112A",
+        "state": "visible",
+        "file": "sheets/21_Schedule_112A.tsv",
+        "rows": 11,
+        "cells": 92,
+        "formulas": 29,
+        "formulasFile": "sheets/21_Schedule_112A.formulas.tsv"
+      },
+      {
+        "sheet": "HelpCSV",
+        "state": "hidden",
+        "file": "sheets/22_HelpCSV.tsv",
+        "rows": 26,
+        "cells": 48,
+        "formulas": 0
+      },
+      {
+        "sheet": "Schedule 115AD(1)(iii) proviso",
+        "state": "visible",
+        "file": "sheets/23_Schedule_115AD_1_iii_proviso.tsv",
+        "rows": 11,
+        "cells": 92,
+        "formulas": 29,
+        "formulasFile": "sheets/23_Schedule_115AD_1_iii_proviso.formulas.tsv"
+      },
+      {
+        "sheet": "VDA",
+        "state": "visible",
+        "file": "sheets/24_VDA.tsv",
+        "rows": 7,
+        "cells": 23,
+        "formulas": 8,
+        "formulasFile": "sheets/24_VDA.formulas.tsv"
+      },
+      {
+        "sheet": "OS",
+        "state": "visible",
+        "file": "sheets/25_OS.tsv",
+        "rows": 121,
+        "cells": 823,
+        "formulas": 289,
+        "formulasFile": "sheets/25_OS.formulas.tsv"
+      },
+      {
+        "sheet": "CYLA - BFLA",
+        "state": "visible",
+        "file": "sheets/26_CYLA_-_BFLA.tsv",
+        "rows": 50,
+        "cells": 513,
+        "formulas": 186,
+        "formulasFile": "sheets/26_CYLA_-_BFLA.formulas.tsv"
+      },
+      {
+        "sheet": "CFL",
+        "state": "visible",
+        "file": "sheets/27_CFL.tsv",
+        "rows": 23,
+        "cells": 156,
+        "formulas": 51,
+        "formulasFile": "sheets/27_CFL.formulas.tsv"
+      },
+      {
+        "sheet": "Unabsorbed Depreciation",
+        "state": "hidden",
+        "file": "sheets/28_Unabsorbed_Depreciation.tsv",
+        "rows": 15,
+        "cells": 51,
+        "formulas": 12,
+        "formulasFile": "sheets/28_Unabsorbed_Depreciation.formulas.tsv"
+      },
+      {
+        "sheet": "ICDS",
+        "state": "hidden",
+        "file": "sheets/29_ICDS.tsv",
+        "rows": 15,
+        "cells": 35,
+        "formulas": 3,
+        "formulasFile": "sheets/29_ICDS.formulas.tsv"
+      },
+      {
+        "sheet": "10AA",
+        "state": "hidden",
+        "file": "sheets/30_10AA.tsv",
+        "rows": 13,
+        "cells": 30,
+        "formulas": 8,
+        "formulasFile": "sheets/30_10AA.formulas.tsv"
+      },
+      {
+        "sheet": "80C",
+        "state": "hidden",
+        "file": "sheets/31_80C.tsv",
+        "rows": 8,
+        "cells": 13,
+        "formulas": 4,
+        "formulasFile": "sheets/31_80C.formulas.tsv"
+      },
+      {
+        "sheet": "80G",
+        "state": "hidden",
+        "file": "sheets/32_80G.tsv",
+        "rows": 37,
+        "cells": 244,
+        "formulas": 136,
+        "formulasFile": "sheets/32_80G.formulas.tsv"
+      },
+      {
+        "sheet": "80D",
+        "state": "hidden",
+        "file": "sheets/33_80D.tsv",
+        "rows": 46,
+        "cells": 99,
+        "formulas": 18,
+        "formulasFile": "sheets/33_80D.formulas.tsv"
+      },
+      {
+        "sheet": "RA",
+        "state": "hidden",
+        "file": "sheets/34_RA.tsv",
+        "rows": 8,
+        "cells": 31,
+        "formulas": 11,
+        "formulasFile": "sheets/34_RA.formulas.tsv"
+      },
+      {
+        "sheet": "80GGA",
+        "state": "hidden",
+        "file": "sheets/35_80GGA.tsv",
+        "rows": 14,
+        "cells": 70,
+        "formulas": 21,
+        "formulasFile": "sheets/35_80GGA.formulas.tsv"
+      },
+      {
+        "sheet": "80",
+        "state": "hidden",
+        "file": "sheets/36_80.tsv",
+        "rows": 88,
+        "cells": 179,
+        "formulas": 85,
+        "formulasFile": "sheets/36_80.formulas.tsv"
+      },
+      {
+        "sheet": "80E_80EE_80EEA_80EEB",
+        "state": "hidden",
+        "file": "sheets/37_80E_80EE_80EEA_80EEB.tsv",
+        "rows": 26,
+        "cells": 117,
+        "formulas": 13,
+        "formulasFile": "sheets/37_80E_80EE_80EEA_80EEB.formulas.tsv"
+      },
+      {
+        "sheet": "VI-A",
+        "state": "visible",
+        "file": "sheets/38_VI-A.tsv",
+        "rows": 62,
+        "cells": 332,
+        "formulas": 116,
+        "formulasFile": "sheets/38_VI-A.formulas.tsv"
+      },
+      {
+        "sheet": "80U-80DD",
+        "state": "hidden",
+        "file": "sheets/39_80U-80DD.tsv",
+        "rows": 6,
+        "cells": 33,
+        "formulas": 6,
+        "formulasFile": "sheets/39_80U-80DD.formulas.tsv"
+      },
+      {
+        "sheet": "80GGC",
+        "state": "hidden",
+        "file": "sheets/40_80GGC.tsv",
+        "rows": 9,
+        "cells": 31,
+        "formulas": 12,
+        "formulasFile": "sheets/40_80GGC.formulas.tsv"
+      },
+      {
+        "sheet": "AMT",
+        "state": "hidden",
+        "file": "sheets/41_AMT.tsv",
+        "rows": 12,
+        "cells": 76,
+        "formulas": 36,
+        "formulasFile": "sheets/41_AMT.formulas.tsv"
+      },
+      {
+        "sheet": "SPI - SI",
+        "state": "visible",
+        "file": "sheets/42_SPI_-_SI.tsv",
+        "rows": 123,
+        "cells": 1378,
+        "formulas": 287,
+        "formulasFile": "sheets/42_SPI_-_SI.formulas.tsv"
+      },
+      {
+        "sheet": "AMTC",
+        "state": "visible",
+        "file": "sheets/43_AMTC.tsv",
+        "rows": 23,
+        "cells": 95,
+        "formulas": 38,
+        "formulasFile": "sheets/43_AMTC.formulas.tsv"
+      },
+      {
+        "sheet": "EI",
+        "state": "visible",
+        "file": "sheets/44_EI.tsv",
+        "rows": 33,
+        "cells": 97,
+        "formulas": 16,
+        "formulasFile": "sheets/44_EI.formulas.tsv"
+      },
+      {
+        "sheet": "FSI1",
+        "state": "hidden",
+        "file": "sheets/45_FSI1.tsv",
+        "rows": 259,
+        "cells": 353,
+        "formulas": 27,
+        "formulasFile": "sheets/45_FSI1.formulas.tsv"
+      },
+      {
+        "sheet": "PTI",
+        "state": "visible",
+        "file": "sheets/46_PTI.tsv",
+        "rows": 48,
+        "cells": 176,
+        "formulas": 44,
+        "formulasFile": "sheets/46_PTI.formulas.tsv"
+      },
+      {
+        "sheet": "TPSA",
+        "state": "hidden",
+        "file": "sheets/47_TPSA.tsv",
+        "rows": 16,
+        "cells": 38,
+        "formulas": 8,
+        "formulasFile": "sheets/47_TPSA.formulas.tsv"
+      },
+      {
+        "sheet": "FSI",
+        "state": "visible",
+        "file": "sheets/48_FSI.tsv",
+        "rows": 23,
+        "cells": 87,
+        "formulas": 35,
+        "formulasFile": "sheets/48_FSI.formulas.tsv"
+      },
+      {
+        "sheet": "Sch 5A",
+        "state": "visible",
+        "file": "sheets/49_Sch_5A.tsv",
+        "rows": 12,
+        "cells": 33,
+        "formulas": 4,
+        "formulasFile": "sheets/49_Sch_5A.formulas.tsv"
+      },
+      {
+        "sheet": "TR_FA",
+        "state": "visible",
+        "file": "sheets/50_TR_FA.tsv",
+        "rows": 110,
+        "cells": 395,
+        "formulas": 49,
+        "formulasFile": "sheets/50_TR_FA.formulas.tsv"
+      },
+      {
+        "sheet": "AL",
+        "state": "visible",
+        "file": "sheets/51_AL.tsv",
+        "rows": 29,
+        "cells": 65,
+        "formulas": 6,
+        "formulasFile": "sheets/51_AL.formulas.tsv"
+      },
+      {
+        "sheet": "GST",
+        "state": "hidden",
+        "file": "sheets/52_GST.tsv",
+        "rows": 7,
+        "cells": 10,
+        "formulas": 3,
+        "formulasFile": "sheets/52_GST.formulas.tsv"
+      },
+      {
+        "sheet": "Tax Calculated",
+        "state": "hidden",
+        "file": "sheets/53_Tax_Calculated.tsv",
+        "rows": 336,
+        "cells": 3118,
+        "formulas": 1599,
+        "formulasFile": "sheets/53_Tax_Calculated.formulas.tsv"
+      },
+      {
+        "sheet": "Part B - TI TTI",
+        "state": "visible",
+        "file": "sheets/54_Part_B_-_TI_TTI.tsv",
+        "rows": 127,
+        "cells": 622,
+        "formulas": 157,
+        "formulasFile": "sheets/54_Part_B_-_TI_TTI.formulas.tsv"
+      },
+      {
+        "sheet": "IT",
+        "state": "visible",
+        "file": "sheets/55_IT.tsv",
+        "rows": 29,
+        "cells": 192,
+        "formulas": 64,
+        "formulasFile": "sheets/55_IT.formulas.tsv"
+      },
+      {
+        "sheet": "ESOP",
+        "state": "visible",
+        "file": "sheets/56_ESOP.tsv",
+        "rows": 18,
+        "cells": 60,
+        "formulas": 16,
+        "formulasFile": "sheets/56_ESOP.formulas.tsv"
+      },
+      {
+        "sheet": "TDS",
+        "state": "visible",
+        "file": "sheets/57_TDS.tsv",
+        "rows": 59,
+        "cells": 211,
+        "formulas": 38,
+        "formulasFile": "sheets/57_TDS.formulas.tsv"
+      },
+      {
+        "sheet": "Part B ATI",
+        "state": "hidden",
+        "file": "sheets/58_Part_B_ATI.tsv",
+        "rows": 45,
+        "cells": 136,
+        "formulas": 24,
+        "formulasFile": "sheets/58_Part_B_ATI.formulas.tsv"
+      },
+      {
+        "sheet": "Verification",
+        "state": "visible",
+        "file": "sheets/59_Verification.tsv",
+        "rows": 8,
+        "cells": 15,
+        "formulas": 1,
+        "formulasFile": "sheets/59_Verification.formulas.tsv"
+      },
+      {
+        "sheet": "CG Pop up_prefill",
+        "state": "hidden",
+        "file": "sheets/60_CG_Pop_up_prefill.tsv",
+        "rows": 6,
+        "cells": 9,
+        "formulas": 0
+      },
+      {
+        "sheet": "OLDAL",
+        "state": "veryHidden",
+        "file": "sheets/61_OLDAL.tsv",
+        "rows": 17,
+        "cells": 49,
+        "formulas": 1,
+        "formulasFile": "sheets/61_OLDAL.formulas.tsv"
+      },
+      {
+        "sheet": "Temporary Values",
+        "state": "hidden",
+        "file": "sheets/62_Temporary_Values.tsv",
+        "rows": 44,
+        "cells": 167,
+        "formulas": 5,
+        "formulasFile": "sheets/62_Temporary_Values.formulas.tsv"
+      },
+      {
+        "sheet": "DropDownValues",
+        "state": "hidden",
+        "file": "sheets/63_DropDownValues.tsv.gz",
+        "rows": 19302,
+        "cells": 90853,
+        "formulas": 10,
+        "formulasFile": "sheets/63_DropDownValues.formulas.tsv"
+      },
+      {
+        "sheet": "SUMMARY",
+        "state": "hidden",
+        "file": "sheets/64_SUMMARY.tsv",
+        "rows": 40,
+        "cells": 103,
+        "formulas": 45,
+        "formulasFile": "sheets/64_SUMMARY.formulas.tsv"
+      },
+      {
+        "sheet": "BA",
+        "state": "hidden",
+        "file": "sheets/65_BA.tsv",
+        "rows": 8,
+        "cells": 23,
+        "formulas": 2,
+        "formulasFile": "sheets/65_BA.formulas.tsv"
+      },
+      {
+        "sheet": "Instructions",
+        "state": "hidden",
+        "file": "sheets/66_Instructions.tsv",
+        "rows": 121,
+        "cells": 287,
+        "formulas": 1,
+        "formulasFile": "sheets/66_Instructions.formulas.tsv"
+      }
+    ],
+    "fields": 2729
+  },
+  {
+    "code": "ITR3",
+    "xlsm": "ITR3_AY_26-27_V1.2/ITR3_AY_26-27_V1.2.xlsm",
+    "out": "/home/user/incometax/extracted/xlsm/ITR3",
+    "modules": [
+      {
+        "module": "AY23_24_Changes.bas",
+        "stream": "VBA/AY23_24_Changes",
+        "file": "vba/AY23_24_Changes.bas",
+        "lines": 3617,
+        "chars": 174090
+      },
+      {
+        "module": "AY25_26_Changes.bas",
+        "stream": "VBA/AY25_26_Changes",
+        "file": "vba/AY25_26_Changes.bas",
+        "lines": 1327,
+        "chars": 60947
+      },
+      {
+        "module": "AY26_27_Changes.bas",
+        "stream": "VBA/AY26_27_Changes",
+        "file": "vba/AY26_27_Changes.bas",
+        "lines": 918,
+        "chars": 45763
+      },
+      {
+        "module": "BFLA_Calculations.bas",
+        "stream": "VBA/BFLA_Calculations",
+        "file": "vba/BFLA_Calculations.bas",
+        "lines": 405,
+        "chars": 17415
+      },
+      {
+        "module": "Calculations.bas",
+        "stream": "VBA/Calculations",
+        "file": "vba/Calculations.bas",
+        "lines": 238,
+        "chars": 8858
+      },
+      {
+        "module": "CG_Calc.bas",
+        "stream": "VBA/CG_Calc",
+        "file": "vba/CG_Calc.bas",
+        "lines": 1819,
+        "chars": 90063
+      },
+      {
+        "module": "CGDeductions.bas",
+        "stream": "VBA/CGDeductions",
+        "file": "vba/CGDeductions.bas",
+        "lines": 3300,
+        "chars": 122665
+      },
+      {
+        "module": "checkBoxModule.bas",
+        "stream": "VBA/checkBoxModule",
+        "file": "vba/checkBoxModule.bas",
+        "lines": 35,
+        "chars": 948
+      },
+      {
+        "module": "CYLACalculations.bas",
+        "stream": "VBA/CYLACalculations",
+        "file": "vba/CYLACalculations.bas",
+        "lines": 11132,
+        "chars": 486096
+      },
+      {
+        "module": "DEP_DCG.bas",
+        "stream": "VBA/DEP_DCG",
+        "file": "vba/DEP_DCG.bas",
+        "lines": 302,
+        "chars": 11545
+      },
+      {
+        "module": "EfilingCommon.bas",
+        "stream": "VBA/EfilingCommon",
+        "file": "vba/EfilingCommon.bas",
+        "lines": 5060,
+        "chars": 198501
+      },
+      {
+        "module": "ePayPrefill.bas",
+        "stream": "VBA/ePayPrefill",
+        "file": "vba/ePayPrefill.bas",
+        "lines": 8,
+        "chars": 85
+      },
+      {
+        "module": "FilingSectRadioButton.bas",
+        "stream": "VBA/FilingSectRadioButton",
+        "file": "vba/FilingSectRadioButton.bas",
+        "lines": 100,
+        "chars": 2612
+      },
+      {
+        "module": "Generate_XML.bas",
+        "stream": "VBA/Generate_XML",
+        "file": "vba/Generate_XML.bas",
+        "lines": 18565,
+        "chars": 868946
+      },
+      {
+        "module": "GenerateJson.bas",
+        "stream": "VBA/GenerateJson",
+        "file": "vba/GenerateJson.bas",
+        "lines": 34343,
+        "chars": 1290720
+      },
+      {
+        "module": "GST.bas",
+        "stream": "VBA/GST",
+        "file": "vba/GST.bas",
+        "lines": 199,
+        "chars": 6158
+      },
+      {
+        "module": "HS256.cls",
+        "stream": "VBA/HS256",
+        "file": "vba/HS256.cls",
+        "lines": 535,
+        "chars": 19352
+      },
+      {
+        "module": "ImportJson.bas",
+        "stream": "VBA/ImportJson",
+        "file": "vba/ImportJson.bas",
+        "lines": 28968,
+        "chars": 1442611
+      },
+      {
+        "module": "ImportPrefill.bas",
+        "stream": "VBA/ImportPrefill",
+        "file": "vba/ImportPrefill.bas",
+        "lines": 16709,
+        "chars": 780853
+      },
+      {
+        "module": "ImportSchedule112A.bas",
+        "stream": "VBA/importschedule112a",
+        "file": "vba/ImportSchedule112A.bas",
+        "lines": 351,
+        "chars": 14701
+      },
+      {
+        "module": "ImportSchedule115AD.bas",
+        "stream": "VBA/importschedule115ad",
+        "file": "vba/ImportSchedule115AD.bas",
+        "lines": 358,
+        "chars": 15395
+      },
+      {
+        "module": "Initializer.bas",
+        "stream": "VBA/Initializer",
+        "file": "vba/Initializer.bas",
+        "lines": 77,
+        "chars": 3082
+      },
+      {
+        "module": "Manufacturing_Account.bas",
+        "stream": "VBA/Manufacturing_Account",
+        "file": "vba/Manufacturing_Account.bas",
+        "lines": 6,
+        "chars": 166
+      },
+      {
+        "module": "md112A.bas",
+        "stream": "VBA/md112A",
+        "file": "vba/md112A.bas",
+        "lines": 998,
+        "chars": 42261
+      },
+      {
+        "module": "md115AD.bas",
+        "stream": "VBA/md115AD",
+        "file": "vba/md115AD.bas",
+        "lines": 961,
+        "chars": 42171
+      },
+      {
+        "module": "md80_.bas",
+        "stream": "VBA/md80_",
+        "file": "vba/md80_.bas",
+        "lines": 2118,
+        "chars": 83302
+      },
+      {
+        "module": "md80C.bas",
+        "stream": "VBA/md80C",
+        "file": "vba/md80C.bas",
+        "lines": 174,
+        "chars": 6319
+      },
+      {
+        "module": "md80E.bas",
+        "stream": "VBA/md80E",
+        "file": "vba/md80E.bas",
+        "lines": 562,
+        "chars": 21414
+      },
+      {
+        "module": "md80EE.bas",
+        "stream": "VBA/md80EE",
+        "file": "vba/md80EE.bas",
+        "lines": 703,
+        "chars": 26078
+      },
+      {
+        "module": "md80EE_Addrows.bas",
+        "stream": "VBA/md80EE_Addrows",
+        "file": "vba/md80EE_Addrows.bas",
+        "lines": 29,
+        "chars": 1570
+      },
+      {
+        "module": "md80EEA.bas",
+        "stream": "VBA/md80EEA",
+        "file": "vba/md80EEA.bas",
+        "lines": 727,
+        "chars": 26940
+      },
+      {
+        "module": "md80EEB.bas",
+        "stream": "VBA/md80EEB",
+        "file": "vba/md80EEB.bas",
+        "lines": 634,
+        "chars": 23637
+      },
+      {
+        "module": "mdAMT.bas",
+        "stream": "VBA/mdAMT",
+        "file": "vba/mdAMT.bas",
+        "lines": 185,
+        "chars": 7665
+      },
+      {
+        "module": "mdAMTC.bas",
+        "stream": "VBA/mdAMTC",
+        "file": "vba/mdAMTC.bas",
+        "lines": 1646,
+        "chars": 73127
+      },
+      {
+        "module": "mdATI.bas",
+        "stream": "VBA/mdATI",
+        "file": "vba/mdATI.bas",
+        "lines": 877,
+        "chars": 33457
+      },
+      {
+        "module": "mdBA.bas",
+        "stream": "VBA/mdBA",
+        "file": "vba/mdBA.bas",
+        "lines": 1199,
+        "chars": 40909
+      },
+      {
+        "module": "mdCFL.bas",
+        "stream": "VBA/mdCFL",
+        "file": "vba/mdCFL.bas",
+        "lines": 997,
+        "chars": 46389
+      },
+      {
+        "module": "mdEI.bas",
+        "stream": "VBA/mdEI",
+        "file": "vba/mdEI.bas",
+        "lines": 1210,
+        "chars": 46985
+      },
+      {
+        "module": "mdESR.bas",
+        "stream": "VBA/mdESR",
+        "file": "vba/mdESR.bas",
+        "lines": 274,
+        "chars": 10647
+      },
+      {
+        "module": "mdGen139_8A.bas",
+        "stream": "VBA/mdGen139_8A",
+        "file": "vba/mdGen139_8A.bas",
+        "lines": 385,
+        "chars": 17036
+      },
+      {
+        "module": "mdHashing.bas",
+        "stream": "VBA/mdHashing",
+        "file": "vba/mdHashing.bas",
+        "lines": 98,
+        "chars": 2958
+      },
+      {
+        "module": "mdICDS.bas",
+        "stream": "VBA/mdICDS",
+        "file": "vba/mdICDS.bas",
+        "lines": 127,
+        "chars": 4551
+      },
+      {
+        "module": "mdImportXL.bas",
+        "stream": "VBA/mdImportXL",
+        "file": "vba/mdImportXL.bas",
+        "lines": 3683,
+        "chars": 168334
+      },
+      {
+        "module": "mdImportXML.bas",
+        "stream": "VBA/mdImportXML",
+        "file": "vba/mdImportXML.bas",
+        "lines": 2590,
+        "chars": 103729
+      },
+      {
+        "module": "mdInterestCalc.bas",
+        "stream": "VBA/mdInterestCalc",
+        "file": "vba/mdInterestCalc.bas",
+        "lines": 924,
+        "chars": 40631
+      },
+      {
+        "module": "mdOI.bas",
+        "stream": "VBA/mdOI",
+        "file": "vba/mdOI.bas",
+        "lines": 2246,
+        "chars": 76377
+      },
+      {
+        "module": "mdProgressbar.bas",
+        "stream": "VBA/mdProgressbar",
+        "file": "vba/mdProgressbar.bas",
+        "lines": 90,
+        "chars": 3287
+      },
+      {
+        "module": "mdPTI.bas",
+        "stream": "VBA/mdPTI",
+        "file": "vba/mdPTI.bas",
+        "lines": 1659,
+        "chars": 63350
+      },
+      {
+        "module": "mdVDA.bas",
+        "stream": "VBA/mdVDA",
+        "file": "vba/mdVDA.bas",
+        "lines": 100,
+        "chars": 4033
+      },
+      {
+        "module": "MessageBox.frm",
+        "stream": "VBA/MessageBox",
+        "file": "vba/MessageBox.frm",
+        "lines": 14,
+        "chars": 409
+      },
+      {
+        "module": "mfMessage.bas",
+        "stream": "VBA/mfMessage",
+        "file": "vba/mfMessage.bas",
+        "lines": 37,
+        "chars": 819
+      },
+      {
+        "module": "Module1.bas",
+        "stream": "VBA/Module1",
+        "file": "vba/Module1.bas",
+        "lines": 8,
+        "chars": 172
+      },
+      {
+        "module": "Module2.bas",
+        "stream": "VBA/Module2",
+        "file": "vba/Module2.bas",
+        "lines": 45,
+        "chars": 1986
+      },
+      {
+        "module": "Module3.bas",
+        "stream": "VBA/Module3",
+        "file": "vba/Module3.bas",
+        "lines": 119,
+        "chars": 2793
+      },
+      {
+        "module": "Module4.bas",
+        "stream": "VBA/Module4",
+        "file": "vba/Module4.bas",
+        "lines": 13,
+        "chars": 273
+      },
+      {
+        "module": "msSI.bas",
+        "stream": "VBA/msSI",
+        "file": "vba/msSI.bas",
+        "lines": 532,
+        "chars": 20349
+      },
+      {
+        "module": "Nature_of_business.bas",
+        "stream": "VBA/Nature_of_business",
+        "file": "vba/Nature_of_business.bas",
+        "lines": 135,
+        "chars": 4374
+      },
+      {
+        "module": "ParseJson.bas",
+        "stream": "VBA/ParseJson",
+        "file": "vba/ParseJson.bas",
+        "lines": 347,
+        "chars": 15337
+      },
+      {
+        "module": "Part_A_General.bas",
+        "stream": "VBA/Part_A_General",
+        "file": "vba/Part_A_General.bas",
+        "lines": 8440,
+        "chars": 344409
+      },
+      {
+        "module": "PARTA_BS.bas",
+        "stream": "VBA/PartA_BS",
+        "file": "vba/PARTA_BS.bas",
+        "lines": 210,
+        "chars": 13214
+      },
+      {
+        "module": "Profit_Loss.bas",
+        "stream": "VBA/Profit_Loss",
+        "file": "vba/Profit_Loss.bas",
+        "lines": 2478,
+        "chars": 89392
+      },
+      {
+        "module": "pwd.bas",
+        "stream": "VBA/pwd",
+        "file": "vba/pwd.bas",
+        "lines": 86,
+        "chars": 2390
+      },
+      {
+        "module": "Quantitative_Details.bas",
+        "stream": "VBA/Quantitative_Details",
+        "file": "vba/Quantitative_Details.bas",
+        "lines": 922,
+        "chars": 38118
+      },
+      {
+        "module": "Sch10A.bas",
+        "stream": "VBA/Sch10A",
+        "file": "vba/Sch10A.bas",
+        "lines": 207,
+        "chars": 6490
+      },
+      {
+        "module": "Sch5A.bas",
+        "stream": "VBA/Sch5A",
+        "file": "vba/Sch5A.bas",
+        "lines": 451,
+        "chars": 18513
+      },
+      {
+        "module": "Sch80D.bas",
+        "stream": "VBA/Sch80D",
+        "file": "vba/Sch80D.bas",
+        "lines": 1122,
+        "chars": 38188
+      },
+      {
+        "module": "Sch80G.bas",
+        "stream": "VBA/Sch80G",
+        "file": "vba/Sch80G.bas",
+        "lines": 2876,
+        "chars": 114697
+      },
+      {
+        "module": "Sch80GGC.bas",
+        "stream": "VBA/Sch80GGC",
+        "file": "vba/Sch80GGC.bas",
+        "lines": 836,
+        "chars": 32174
+      },
+      {
+        "module": "Sch80U_80DD.bas",
+        "stream": "VBA/Sch80U_80DD",
+        "file": "vba/Sch80U_80DD.bas",
+        "lines": 1127,
+        "chars": 38393
+      },
+      {
+        "module": "SchAL.bas",
+        "stream": "VBA/SchAL",
+        "file": "vba/SchAL.bas",
+        "lines": 1648,
+        "chars": 63179
+      },
+      {
+        "module": "SchBP.bas",
+        "stream": "VBA/SchBP",
+        "file": "vba/SchBP.bas",
+        "lines": 371,
+        "chars": 12135
+      },
+      {
+        "module": "SchCG.bas",
+        "stream": "VBA/SchCG",
+        "file": "vba/SchCG.bas",
+        "lines": 7842,
+        "chars": 396541
+      },
+      {
+        "module": "SchDPM_DOA.bas",
+        "stream": "VBA/SchDPM_DOA",
+        "file": "vba/SchDPM_DOA.bas",
+        "lines": 2128,
+        "chars": 95675
+      },
+      {
+        "module": "SchFSI.bas",
+        "stream": "VBA/SchFSI",
+        "file": "vba/SchFSI.bas",
+        "lines": 906,
+        "chars": 35817
+      },
+      {
+        "module": "SchHP.bas",
+        "stream": "VBA/SchHP",
+        "file": "vba/SchHP.bas",
+        "lines": 3160,
+        "chars": 126094
+      },
+      {
+        "module": "SchIT.bas",
+        "stream": "VBA/SchIT",
+        "file": "vba/SchIT.bas",
+        "lines": 564,
+        "chars": 16574
+      },
+      {
+        "module": "SchOI.bas",
+        "stream": "VBA/SchOI",
+        "file": "vba/SchOI.bas",
+        "lines": 81,
+        "chars": 2415
+      },
+      {
+        "module": "SchOS.bas",
+        "stream": "VBA/SchOS",
+        "file": "vba/SchOS.bas",
+        "lines": 2736,
+        "chars": 99797
+      },
+      {
+        "module": "SchRA.bas",
+        "stream": "VBA/SchRA",
+        "file": "vba/SchRA.bas",
+        "lines": 1109,
+        "chars": 46015
+      },
+      {
+        "module": "SchTDS.bas",
+        "stream": "VBA/SchTDS",
+        "file": "vba/SchTDS.bas",
+        "lines": 3715,
+        "chars": 168256
+      },
+      {
+        "module": "SchTPSA.bas",
+        "stream": "VBA/SchTPSA",
+        "file": "vba/SchTPSA.bas",
+        "lines": 305,
+        "chars": 10264
+      },
+      {
+        "module": "SchTR_FA.bas",
+        "stream": "VBA/SchTR_FA",
+        "file": "vba/SchTR_FA.bas",
+        "lines": 6238,
+        "chars": 237366
+      },
+      {
+        "module": "SchUD.bas",
+        "stream": "VBA/SchUD",
+        "file": "vba/SchUD.bas",
+        "lines": 574,
+        "chars": 21058
+      },
+      {
+        "module": "Sheet1.cls",
+        "stream": "VBA/Sheet1",
+        "file": "vba/Sheet1.cls",
+        "lines": 8730,
+        "chars": 399298
+      },
+      {
+        "module": "Sheet10.cls",
+        "stream": "VBA/Sheet10",
+        "file": "vba/Sheet10.cls",
+        "lines": 246,
+        "chars": 10974
+      },
+      {
+        "module": "Sheet11.cls",
+        "stream": "VBA/Sheet11",
+        "file": "vba/Sheet11.cls",
+        "lines": 46,
+        "chars": 1134
+      },
+      {
+        "module": "Sheet12.cls",
+        "stream": "VBA/Sheet12",
+        "file": "vba/Sheet12.cls",
+        "lines": 62,
+        "chars": 1399
+      },
+      {
+        "module": "Sheet13.cls",
+        "stream": "VBA/Sheet13",
+        "file": "vba/Sheet13.cls",
+        "lines": 1883,
+        "chars": 84395
+      },
+      {
+        "module": "Sheet14.cls",
+        "stream": "VBA/Sheet14",
+        "file": "vba/Sheet14.cls",
+        "lines": 1115,
+        "chars": 53173
+      },
+      {
+        "module": "Sheet15.cls",
+        "stream": "VBA/Sheet15",
+        "file": "vba/Sheet15.cls",
+        "lines": 73,
+        "chars": 2108
+      },
+      {
+        "module": "Sheet16.cls",
+        "stream": "VBA/Sheet16",
+        "file": "vba/Sheet16.cls",
+        "lines": 116,
+        "chars": 3545
+      },
+      {
+        "module": "Sheet17.cls",
+        "stream": "VBA/Sheet17",
+        "file": "vba/Sheet17.cls",
+        "lines": 96,
+        "chars": 3338
+      },
+      {
+        "module": "Sheet18.cls",
+        "stream": "VBA/Sheet18",
+        "file": "vba/Sheet18.cls",
+        "lines": 62,
+        "chars": 1630
+      },
+      {
+        "module": "Sheet19.cls",
+        "stream": "VBA/Sheet19",
+        "file": "vba/Sheet19.cls",
+        "lines": 419,
+        "chars": 15893
+      },
+      {
+        "module": "Sheet2.cls",
+        "stream": "VBA/Sheet2",
+        "file": "vba/Sheet2.cls",
+        "lines": 578,
+        "chars": 19663
+      },
+      {
+        "module": "Sheet20.cls",
+        "stream": "VBA/Sheet20",
+        "file": "vba/Sheet20.cls",
+        "lines": 1218,
+        "chars": 48702
+      },
+      {
+        "module": "Sheet201.cls",
+        "stream": "VBA/Sheet201",
+        "file": "vba/Sheet201.cls",
+        "lines": 940,
+        "chars": 40472
+      },
+      {
+        "module": "Sheet202.cls",
+        "stream": "VBA/Sheet202",
+        "file": "vba/Sheet202.cls",
+        "lines": 315,
+        "chars": 12763
+      },
+      {
+        "module": "Sheet21.cls",
+        "stream": "VBA/Sheet21",
+        "file": "vba/Sheet21.cls",
+        "lines": 467,
+        "chars": 19949
+      },
+      {
+        "module": "Sheet22.cls",
+        "stream": "VBA/Sheet22",
+        "file": "vba/Sheet22.cls",
+        "lines": 54,
+        "chars": 1604
+      },
+      {
+        "module": "Sheet23.cls",
+        "stream": "VBA/Sheet23",
+        "file": "vba/Sheet23.cls",
+        "lines": 120,
+        "chars": 4693
+      },
+      {
+        "module": "Sheet24.cls",
+        "stream": "VBA/Sheet24",
+        "file": "vba/Sheet24.cls",
+        "lines": 401,
+        "chars": 15786
+      },
+      {
+        "module": "Sheet25.cls",
+        "stream": "VBA/Sheet25",
+        "file": "vba/Sheet25.cls",
+        "lines": 334,
+        "chars": 12715
+      },
+      {
+        "module": "Sheet26.cls",
+        "stream": "VBA/Sheet26",
+        "file": "vba/Sheet26.cls",
+        "lines": 255,
+        "chars": 9275
+      },
+      {
+        "module": "Sheet27.cls",
+        "stream": "VBA/Sheet27",
+        "file": "vba/Sheet27.cls",
+        "lines": 402,
+        "chars": 15777
+      },
+      {
+        "module": "Sheet28.cls",
+        "stream": "VBA/Sheet28",
+        "file": "vba/Sheet28.cls",
+        "lines": 1338,
+        "chars": 72061
+      },
+      {
+        "module": "Sheet29.cls",
+        "stream": "VBA/Sheet29",
+        "file": "vba/Sheet29.cls",
+        "lines": 49,
+        "chars": 1279
+      },
+      {
+        "module": "Sheet3.cls",
+        "stream": "VBA/Sheet3",
+        "file": "vba/Sheet3.cls",
+        "lines": 142,
+        "chars": 7300
+      },
+      {
+        "module": "Sheet30.cls",
+        "stream": "VBA/Sheet30",
+        "file": "vba/Sheet30.cls",
+        "lines": 40,
+        "chars": 1023
+      },
+      {
+        "module": "Sheet31.cls",
+        "stream": "VBA/Sheet31",
+        "file": "vba/Sheet31.cls",
+        "lines": 11,
+        "chars": 319
+      },
+      {
+        "module": "Sheet32.cls",
+        "stream": "VBA/Sheet32",
+        "file": "vba/Sheet32.cls",
+        "lines": 11,
+        "chars": 319
+      },
+      {
+        "module": "Sheet33.cls",
+        "stream": "VBA/Sheet33",
+        "file": "vba/Sheet33.cls",
+        "lines": 18,
+        "chars": 602
+      },
+      {
+        "module": "Sheet34.cls",
+        "stream": "VBA/Sheet34",
+        "file": "vba/Sheet34.cls",
+        "lines": 18,
+        "chars": 592
+      },
+      {
+        "module": "Sheet35.cls",
+        "stream": "VBA/Sheet35",
+        "file": "vba/Sheet35.cls",
+        "lines": 18,
+        "chars": 420
+      },
+      {
+        "module": "Sheet36.cls",
+        "stream": "VBA/Sheet36",
+        "file": "vba/Sheet36.cls",
+        "lines": 45,
+        "chars": 1512
+      },
+      {
+        "module": "Sheet37.cls",
+        "stream": "VBA/Sheet37",
+        "file": "vba/Sheet37.cls",
+        "lines": 138,
+        "chars": 5137
+      },
+      {
+        "module": "Sheet38.cls",
+        "stream": "VBA/Sheet38",
+        "file": "vba/Sheet38.cls",
+        "lines": 179,
+        "chars": 5713
+      },
+      {
+        "module": "Sheet39.cls",
+        "stream": "VBA/Sheet39",
+        "file": "vba/Sheet39.cls",
+        "lines": 2451,
+        "chars": 114704
+      },
+      {
+        "module": "Sheet4.cls",
+        "stream": "VBA/Sheet4",
+        "file": "vba/Sheet4.cls",
+        "lines": 257,
+        "chars": 9923
+      },
+      {
+        "module": "Sheet40.cls",
+        "stream": "VBA/Sheet40",
+        "file": "vba/Sheet40.cls",
+        "lines": 540,
+        "chars": 19997
+      },
+      {
+        "module": "Sheet41.cls",
+        "stream": "VBA/Sheet41",
+        "file": "vba/Sheet41.cls",
+        "lines": 114,
+        "chars": 3236
+      },
+      {
+        "module": "Sheet42.cls",
+        "stream": "VBA/Sheet42",
+        "file": "vba/Sheet42.cls",
+        "lines": 39,
+        "chars": 1006
+      },
+      {
+        "module": "Sheet43.cls",
+        "stream": "VBA/Sheet43",
+        "file": "vba/Sheet43.cls",
+        "lines": 162,
+        "chars": 5540
+      },
+      {
+        "module": "Sheet44.cls",
+        "stream": "VBA/Sheet44",
+        "file": "vba/Sheet44.cls",
+        "lines": 15,
+        "chars": 526
+      },
+      {
+        "module": "Sheet45.cls",
+        "stream": "VBA/Sheet45",
+        "file": "vba/Sheet45.cls",
+        "lines": 18,
+        "chars": 592
+      },
+      {
+        "module": "Sheet46.cls",
+        "stream": "VBA/Sheet46",
+        "file": "vba/Sheet46.cls",
+        "lines": 701,
+        "chars": 28354
+      },
+      {
+        "module": "Sheet47.cls",
+        "stream": "VBA/Sheet47",
+        "file": "vba/Sheet47.cls",
+        "lines": 112,
+        "chars": 4363
+      },
+      {
+        "module": "Sheet48.cls",
+        "stream": "VBA/Sheet48",
+        "file": "vba/Sheet48.cls",
+        "lines": 51,
+        "chars": 1144
+      },
+      {
+        "module": "Sheet49.cls",
+        "stream": "VBA/Sheet49",
+        "file": "vba/Sheet49.cls",
+        "lines": 110,
+        "chars": 3971
+      },
+      {
+        "module": "Sheet5.cls",
+        "stream": "VBA/Sheet5",
+        "file": "vba/Sheet5.cls",
+        "lines": 192,
+        "chars": 5947
+      },
+      {
+        "module": "Sheet50.cls",
+        "stream": "VBA/Sheet50",
+        "file": "vba/Sheet50.cls",
+        "lines": 194,
+        "chars": 6785
+      },
+      {
+        "module": "Sheet51.cls",
+        "stream": "VBA/Sheet51",
+        "file": "vba/Sheet51.cls",
+        "lines": 70,
+        "chars": 2393
+      },
+      {
+        "module": "Sheet52.cls",
+        "stream": "VBA/Sheet52",
+        "file": "vba/Sheet52.cls",
+        "lines": 227,
+        "chars": 8522
+      },
+      {
+        "module": "Sheet53.cls",
+        "stream": "VBA/Sheet53",
+        "file": "vba/Sheet53.cls",
+        "lines": 260,
+        "chars": 11917
+      },
+      {
+        "module": "Sheet54.cls",
+        "stream": "VBA/Sheet54",
+        "file": "vba/Sheet54.cls",
+        "lines": 276,
+        "chars": 11846
+      },
+      {
+        "module": "Sheet55.cls",
+        "stream": "VBA/Sheet55",
+        "file": "vba/Sheet55.cls",
+        "lines": 677,
+        "chars": 27566
+      },
+      {
+        "module": "Sheet56.cls",
+        "stream": "VBA/Sheet56",
+        "file": "vba/Sheet56.cls",
+        "lines": 114,
+        "chars": 3904
+      },
+      {
+        "module": "Sheet57.cls",
+        "stream": "VBA/Sheet57",
+        "file": "vba/Sheet57.cls",
+        "lines": 103,
+        "chars": 3911
+      },
+      {
+        "module": "Sheet58.cls",
+        "stream": "VBA/Sheet58",
+        "file": "vba/Sheet58.cls",
+        "lines": 339,
+        "chars": 14485
+      },
+      {
+        "module": "Sheet59.cls",
+        "stream": "VBA/Sheet59",
+        "file": "vba/Sheet59.cls",
+        "lines": 273,
+        "chars": 12418
+      },
+      {
+        "module": "Sheet6.cls",
+        "stream": "VBA/Sheet6",
+        "file": "vba/Sheet6.cls",
+        "lines": 56,
+        "chars": 1285
+      },
+      {
+        "module": "Sheet60.cls",
+        "stream": "VBA/Sheet60",
+        "file": "vba/Sheet60.cls",
+        "lines": 652,
+        "chars": 23650
+      },
+      {
+        "module": "Sheet61.cls",
+        "stream": "VBA/Sheet61",
+        "file": "vba/Sheet61.cls",
+        "lines": 19,
+        "chars": 425
+      },
+      {
+        "module": "Sheet62.cls",
+        "stream": "VBA/Sheet62",
+        "file": "vba/Sheet62.cls",
+        "lines": 9,
+        "chars": 300
+      },
+      {
+        "module": "Sheet7.cls",
+        "stream": "VBA/Sheet7",
+        "file": "vba/Sheet7.cls",
+        "lines": 413,
+        "chars": 14029
+      },
+      {
+        "module": "Sheet8.cls",
+        "stream": "VBA/Sheet8",
+        "file": "vba/Sheet8.cls",
+        "lines": 761,
+        "chars": 33755
+      },
+      {
+        "module": "Sheet9.cls",
+        "stream": "VBA/Sheet9",
+        "file": "vba/Sheet9.cls",
+        "lines": 393,
+        "chars": 13318
+      },
+      {
+        "module": "Sheet98.cls",
+        "stream": "VBA/Sheet98",
+        "file": "vba/Sheet98.cls",
+        "lines": 103,
+        "chars": 3332
+      },
+      {
+        "module": "SheetALL.cls",
+        "stream": "VBA/SheetALL",
+        "file": "vba/SheetALL.cls",
+        "lines": 14,
+        "chars": 326
+      },
+      {
+        "module": "SPI_SI.bas",
+        "stream": "VBA/SPI_SI",
+        "file": "vba/SPI_SI.bas",
+        "lines": 880,
+        "chars": 30219
+      },
+      {
+        "module": "Tax_Calc.bas",
+        "stream": "VBA/Tax_Calc",
+        "file": "vba/Tax_Calc.bas",
+        "lines": 1339,
+        "chars": 47362
+      },
+      {
+        "module": "ThisWorkbook.cls",
+        "stream": "VBA/ThisWorkbook",
+        "file": "vba/ThisWorkbook.cls",
+        "lines": 24,
+        "chars": 685
+      },
+      {
+        "module": "TI_TTI_Salary.bas",
+        "stream": "VBA/TI_TTI_Salary",
+        "file": "vba/TI_TTI_Salary.bas",
+        "lines": 3109,
+        "chars": 120256
+      },
+      {
+        "module": "Trading_Account.bas",
+        "stream": "VBA/Trading_Account",
+        "file": "vba/Trading_Account.bas",
+        "lines": 318,
+        "chars": 11764
+      },
+      {
+        "module": "UserForm1.frm",
+        "stream": "VBA/UserForm1",
+        "file": "vba/UserForm1.frm",
+        "lines": 18,
+        "chars": 539
+      },
+      {
+        "module": "UserForm2.frm",
+        "stream": "VBA/UserForm2",
+        "file": "vba/UserForm2.frm",
+        "lines": 16,
+        "chars": 446
+      },
+      {
+        "module": "UserForm3.frm",
+        "stream": "VBA/UserForm3",
+        "file": "vba/UserForm3.frm",
+        "lines": 103,
+        "chars": 3326
+      },
+      {
+        "module": "Verification.bas",
+        "stream": "VBA/Verification",
+        "file": "vba/Verification.bas",
+        "lines": 206,
+        "chars": 8117
+      }
+    ],
+    "sheet_count": 66,
+    "hidden_dumps": [
+      {
+        "sheet": "ISIN List",
+        "state": "hidden",
+        "file": "sheets/01_ISIN_List.tsv.gz",
+        "rows": 124306,
+        "cells": 425748,
+        "formulas": 0
+      },
+      {
+        "sheet": "Home",
+        "state": "visible",
+        "file": "sheets/02_Home.tsv",
+        "rows": 52,
+        "cells": 307,
+        "formulas": 7,
+        "formulasFile": "sheets/02_Home.formulas.tsv"
+      },
+      {
+        "sheet": "PART A - General",
+        "state": "visible",
+        "file": "sheets/03_PART_A_-_General.tsv",
+        "rows": 180,
+        "cells": 369,
+        "formulas": 11,
+        "formulasFile": "sheets/03_PART_A_-_General.formulas.tsv"
+      },
+      {
+        "sheet": "Part A Gen_139(8A)",
+        "state": "hidden",
+        "file": "sheets/04_Part_A_Gen_139_8A.tsv",
+        "rows": 24,
+        "cells": 45,
+        "formulas": 8,
+        "formulasFile": "sheets/04_Part_A_Gen_139_8A.formulas.tsv"
+      },
+      {
+        "sheet": "Nature Of Business",
+        "state": "visible",
+        "file": "sheets/05_Nature_Of_Business.tsv",
+        "rows": 5,
+        "cells": 30,
+        "formulas": 16,
+        "formulasFile": "sheets/05_Nature_Of_Business.formulas.tsv"
+      },
+      {
+        "sheet": "Part A - BS",
+        "state": "visible",
+        "file": "sheets/06_Part_A_-_BS.tsv",
+        "rows": 92,
+        "cells": 284,
+        "formulas": 24,
+        "formulasFile": "sheets/06_Part_A_-_BS.formulas.tsv"
+      },
+      {
+        "sheet": "Manufacturing Account",
+        "state": "visible",
+        "file": "sheets/07_Manufacturing_Account.tsv",
+        "rows": 26,
+        "cells": 79,
+        "formulas": 6,
+        "formulasFile": "sheets/07_Manufacturing_Account.formulas.tsv"
+      },
+      {
+        "sheet": "Trading Account",
+        "state": "visible",
+        "file": "sheets/08_Trading_Account.tsv",
+        "rows": 54,
+        "cells": 132,
+        "formulas": 12,
+        "formulasFile": "sheets/08_Trading_Account.formulas.tsv"
+      },
+      {
+        "sheet": "Profit and Loss",
+        "state": "visible",
+        "file": "sheets/09_Profit_and_Loss.tsv",
+        "rows": 211,
+        "cells": 588,
+        "formulas": 52,
+        "formulasFile": "sheets/09_Profit_and_Loss.formulas.tsv"
+      },
+      {
+        "sheet": "Part A - OI",
+        "state": "visible",
+        "file": "sheets/10_Part_A_-_OI.tsv",
+        "rows": 108,
+        "cells": 333,
+        "formulas": 11,
+        "formulasFile": "sheets/10_Part_A_-_OI.formulas.tsv"
+      },
+      {
+        "sheet": "Quantitative Details",
+        "state": "visible",
+        "file": "sheets/11_Quantitative_Details.tsv",
+        "rows": 22,
+        "cells": 67,
+        "formulas": 0
+      },
+      {
+        "sheet": "Sheet1",
+        "state": "hidden",
+        "file": "sheets/12_Sheet1.tsv",
+        "rows": 21,
+        "cells": 66,
+        "formulas": 16,
+        "formulasFile": "sheets/12_Sheet1.formulas.tsv"
+      },
+      {
+        "sheet": "ITold",
+        "state": "veryHidden",
+        "file": "sheets/13_ITold.tsv",
+        "rows": 22,
+        "cells": 86,
+        "formulas": 64,
+        "formulasFile": "sheets/13_ITold.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule S",
+        "state": "visible",
+        "file": "sheets/14_Schedule_S.tsv",
+        "rows": 76,
+        "cells": 214,
+        "formulas": 27,
+        "formulasFile": "sheets/14_Schedule_S.formulas.tsv"
+      },
+      {
+        "sheet": "House Property",
+        "state": "visible",
+        "file": "sheets/15_House_Property.tsv",
+        "rows": 73,
+        "cells": 213,
+        "formulas": 30,
+        "formulasFile": "sheets/15_House_Property.formulas.tsv"
+      },
+      {
+        "sheet": "BP",
+        "state": "visible",
+        "file": "sheets/16_BP.tsv",
+        "rows": 164,
+        "cells": 544,
+        "formulas": 81,
+        "formulasFile": "sheets/16_BP.formulas.tsv"
+      },
+      {
+        "sheet": "DPM - DOA",
+        "state": "visible",
+        "file": "sheets/17_DPM_-_DOA.tsv",
+        "rows": 52,
+        "cells": 321,
+        "formulas": 105,
+        "formulasFile": "sheets/17_DPM_-_DOA.formulas.tsv"
+      },
+      {
+        "sheet": "DEP_DCG",
+        "state": "visible",
+        "file": "sheets/18_DEP_DCG.tsv",
+        "rows": 40,
+        "cells": 149,
+        "formulas": 34,
+        "formulasFile": "sheets/18_DEP_DCG.formulas.tsv"
+      },
+      {
+        "sheet": "ESR",
+        "state": "visible",
+        "file": "sheets/19_ESR.tsv",
+        "rows": 13,
+        "cells": 41,
+        "formulas": 5,
+        "formulasFile": "sheets/19_ESR.formulas.tsv"
+      },
+      {
+        "sheet": "CG",
+        "state": "visible",
+        "file": "sheets/20_CG.tsv",
+        "rows": 534,
+        "cells": 2665,
+        "formulas": 669,
+        "formulasFile": "sheets/20_CG.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule 112A",
+        "state": "visible",
+        "file": "sheets/21_Schedule_112A.tsv",
+        "rows": 12,
+        "cells": 95,
+        "formulas": 40,
+        "formulasFile": "sheets/21_Schedule_112A.formulas.tsv"
+      },
+      {
+        "sheet": "HelpCSV",
+        "state": "hidden",
+        "file": "sheets/22_HelpCSV.tsv",
+        "rows": 26,
+        "cells": 48,
+        "formulas": 0
+      },
+      {
+        "sheet": "Schedule 115AD(1)(iii) proviso",
+        "state": "visible",
+        "file": "sheets/23_Schedule_115AD_1_iii_proviso.tsv",
+        "rows": 11,
+        "cells": 90,
+        "formulas": 37,
+        "formulasFile": "sheets/23_Schedule_115AD_1_iii_proviso.formulas.tsv"
+      },
+      {
+        "sheet": "OS",
+        "state": "visible",
+        "file": "sheets/24_OS.tsv",
+        "rows": 116,
+        "cells": 761,
+        "formulas": 276,
+        "formulasFile": "sheets/24_OS.formulas.tsv"
+      },
+      {
+        "sheet": "CYLA - BFLA",
+        "state": "visible",
+        "file": "sheets/25_CYLA_-_BFLA.tsv",
+        "rows": 52,
+        "cells": 531,
+        "formulas": 190,
+        "formulasFile": "sheets/25_CYLA_-_BFLA.formulas.tsv"
+      },
+      {
+        "sheet": "CFL",
+        "state": "visible",
+        "file": "sheets/26_CFL.tsv",
+        "rows": 23,
+        "cells": 150,
+        "formulas": 40,
+        "formulasFile": "sheets/26_CFL.formulas.tsv"
+      },
+      {
+        "sheet": "Unabsorbed Depreciation",
+        "state": "visible",
+        "file": "sheets/27_Unabsorbed_Depreciation.tsv",
+        "rows": 17,
+        "cells": 57,
+        "formulas": 20,
+        "formulasFile": "sheets/27_Unabsorbed_Depreciation.formulas.tsv"
+      },
+      {
+        "sheet": "80GGC",
+        "state": "hidden",
+        "file": "sheets/28_80GGC.tsv",
+        "rows": 10,
+        "cells": 34,
+        "formulas": 18,
+        "formulasFile": "sheets/28_80GGC.formulas.tsv"
+      },
+      {
+        "sheet": "VDA",
+        "state": "visible",
+        "file": "sheets/29_VDA.tsv",
+        "rows": 7,
+        "cells": 24,
+        "formulas": 7,
+        "formulasFile": "sheets/29_VDA.formulas.tsv"
+      },
+      {
+        "sheet": "80U-80DD",
+        "state": "hidden",
+        "file": "sheets/30_80U-80DD.tsv",
+        "rows": 6,
+        "cells": 34,
+        "formulas": 6,
+        "formulasFile": "sheets/30_80U-80DD.formulas.tsv"
+      },
+      {
+        "sheet": "ICDS",
+        "state": "visible",
+        "file": "sheets/31_ICDS.tsv",
+        "rows": 15,
+        "cells": 51,
+        "formulas": 15,
+        "formulasFile": "sheets/31_ICDS.formulas.tsv"
+      },
+      {
+        "sheet": "10AA",
+        "state": "hidden",
+        "file": "sheets/32_10AA.tsv",
+        "rows": 13,
+        "cells": 30,
+        "formulas": 8,
+        "formulasFile": "sheets/32_10AA.formulas.tsv"
+      },
+      {
+        "sheet": "80G",
+        "state": "hidden",
+        "file": "sheets/33_80G.tsv",
+        "rows": 43,
+        "cells": 288,
+        "formulas": 135,
+        "formulasFile": "sheets/33_80G.formulas.tsv"
+      },
+      {
+        "sheet": "80C",
+        "state": "hidden",
+        "file": "sheets/34_80C.tsv",
+        "rows": 8,
+        "cells": 15,
+        "formulas": 3,
+        "formulasFile": "sheets/34_80C.formulas.tsv"
+      },
+      {
+        "sheet": "80D",
+        "state": "hidden",
+        "file": "sheets/35_80D.tsv",
+        "rows": 46,
+        "cells": 102,
+        "formulas": 21,
+        "formulasFile": "sheets/35_80D.formulas.tsv"
+      },
+      {
+        "sheet": "RA",
+        "state": "hidden",
+        "file": "sheets/36_RA.tsv",
+        "rows": 8,
+        "cells": 31,
+        "formulas": 11,
+        "formulasFile": "sheets/36_RA.formulas.tsv"
+      },
+      {
+        "sheet": "80GGA",
+        "state": "hidden",
+        "file": "sheets/37_80GGA.tsv",
+        "rows": 10,
+        "cells": 46,
+        "formulas": 21,
+        "formulasFile": "sheets/37_80GGA.formulas.tsv"
+      },
+      {
+        "sheet": "80",
+        "state": "hidden",
+        "file": "sheets/38_80.tsv",
+        "rows": 91,
+        "cells": 185,
+        "formulas": 88,
+        "formulasFile": "sheets/38_80.formulas.tsv"
+      },
+      {
+        "sheet": "80E_80EE_80EEA_80EEB",
+        "state": "hidden",
+        "file": "sheets/39_80E_80EE_80EEA_80EEB.tsv",
+        "rows": 25,
+        "cells": 72,
+        "formulas": 17,
+        "formulasFile": "sheets/39_80E_80EE_80EEA_80EEB.formulas.tsv"
+      },
+      {
+        "sheet": "VI-A",
+        "state": "visible",
+        "file": "sheets/40_VI-A.tsv",
+        "rows": 64,
+        "cells": 330,
+        "formulas": 123,
+        "formulasFile": "sheets/40_VI-A.formulas.tsv"
+      },
+      {
+        "sheet": "SPI - SI - IF",
+        "state": "visible",
+        "file": "sheets/41_SPI_-_SI_-_IF.tsv",
+        "rows": 148,
+        "cells": 1659,
+        "formulas": 525,
+        "formulasFile": "sheets/41_SPI_-_SI_-_IF.formulas.tsv"
+      },
+      {
+        "sheet": "AMT",
+        "state": "hidden",
+        "file": "sheets/42_AMT.tsv",
+        "rows": 12,
+        "cells": 76,
+        "formulas": 37,
+        "formulasFile": "sheets/42_AMT.formulas.tsv"
+      },
+      {
+        "sheet": "AMTC",
+        "state": "visible",
+        "file": "sheets/43_AMTC.tsv",
+        "rows": 23,
+        "cells": 82,
+        "formulas": 25,
+        "formulasFile": "sheets/43_AMTC.formulas.tsv"
+      },
+      {
+        "sheet": "EI",
+        "state": "visible",
+        "file": "sheets/44_EI.tsv",
+        "rows": 33,
+        "cells": 96,
+        "formulas": 15,
+        "formulasFile": "sheets/44_EI.formulas.tsv"
+      },
+      {
+        "sheet": "FSI1",
+        "state": "hidden",
+        "file": "sheets/45_FSI1.tsv",
+        "rows": 259,
+        "cells": 353,
+        "formulas": 27,
+        "formulasFile": "sheets/45_FSI1.formulas.tsv"
+      },
+      {
+        "sheet": "PTI",
+        "state": "visible",
+        "file": "sheets/46_PTI.tsv",
+        "rows": 48,
+        "cells": 176,
+        "formulas": 44,
+        "formulasFile": "sheets/46_PTI.formulas.tsv"
+      },
+      {
+        "sheet": "TPSA",
+        "state": "visible",
+        "file": "sheets/47_TPSA.tsv",
+        "rows": 16,
+        "cells": 38,
+        "formulas": 8,
+        "formulasFile": "sheets/47_TPSA.formulas.tsv"
+      },
+      {
+        "sheet": "FSI",
+        "state": "visible",
+        "file": "sheets/48_FSI.tsv",
+        "rows": 27,
+        "cells": 99,
+        "formulas": 39,
+        "formulasFile": "sheets/48_FSI.formulas.tsv"
+      },
+      {
+        "sheet": "TR_FA",
+        "state": "visible",
+        "file": "sheets/49_TR_FA.tsv",
+        "rows": 110,
+        "cells": 279,
+        "formulas": 49,
+        "formulasFile": "sheets/49_TR_FA.formulas.tsv"
+      },
+      {
+        "sheet": "Sch 5A",
+        "state": "visible",
+        "file": "sheets/50_Sch_5A.tsv",
+        "rows": 12,
+        "cells": 33,
+        "formulas": 4,
+        "formulasFile": "sheets/50_Sch_5A.formulas.tsv"
+      },
+      {
+        "sheet": "AL",
+        "state": "visible",
+        "file": "sheets/51_AL.tsv",
+        "rows": 29,
+        "cells": 65,
+        "formulas": 6,
+        "formulasFile": "sheets/51_AL.formulas.tsv"
+      },
+      {
+        "sheet": "GST",
+        "state": "visible",
+        "file": "sheets/52_GST.tsv",
+        "rows": 7,
+        "cells": 10,
+        "formulas": 3,
+        "formulasFile": "sheets/52_GST.formulas.tsv"
+      },
+      {
+        "sheet": "Tax Calculated",
+        "state": "hidden",
+        "file": "sheets/53_Tax_Calculated.tsv",
+        "rows": 332,
+        "cells": 2887,
+        "formulas": 1617,
+        "formulasFile": "sheets/53_Tax_Calculated.formulas.tsv"
+      },
+      {
+        "sheet": "Part B - TI TTI",
+        "state": "visible",
+        "file": "sheets/54_Part_B_-_TI_TTI.tsv",
+        "rows": 127,
+        "cells": 612,
+        "formulas": 152,
+        "formulasFile": "sheets/54_Part_B_-_TI_TTI.formulas.tsv"
+      },
+      {
+        "sheet": "IT",
+        "state": "visible",
+        "file": "sheets/55_IT.tsv",
+        "rows": 28,
+        "cells": 194,
+        "formulas": 64,
+        "formulasFile": "sheets/55_IT.formulas.tsv"
+      },
+      {
+        "sheet": "ESOP",
+        "state": "visible",
+        "file": "sheets/56_ESOP.tsv",
+        "rows": 18,
+        "cells": 74,
+        "formulas": 14,
+        "formulasFile": "sheets/56_ESOP.formulas.tsv"
+      },
+      {
+        "sheet": "Part B ATI",
+        "state": "hidden",
+        "file": "sheets/57_Part_B_ATI.tsv",
+        "rows": 41,
+        "cells": 135,
+        "formulas": 24,
+        "formulasFile": "sheets/57_Part_B_ATI.formulas.tsv"
+      },
+      {
+        "sheet": "TDS",
+        "state": "visible",
+        "file": "sheets/58_TDS.tsv",
+        "rows": 53,
+        "cells": 225,
+        "formulas": 44,
+        "formulasFile": "sheets/58_TDS.formulas.tsv"
+      },
+      {
+        "sheet": "Verification",
+        "state": "visible",
+        "file": "sheets/59_Verification.tsv",
+        "rows": 8,
+        "cells": 17,
+        "formulas": 1,
+        "formulasFile": "sheets/59_Verification.formulas.tsv"
+      },
+      {
+        "sheet": "OLDAL",
+        "state": "veryHidden",
+        "file": "sheets/60_OLDAL.tsv",
+        "rows": 17,
+        "cells": 49,
+        "formulas": 1,
+        "formulasFile": "sheets/60_OLDAL.formulas.tsv"
+      },
+      {
+        "sheet": "Temporary Values",
+        "state": "hidden",
+        "file": "sheets/61_Temporary_Values.tsv",
+        "rows": 49,
+        "cells": 192,
+        "formulas": 5,
+        "formulasFile": "sheets/61_Temporary_Values.formulas.tsv"
+      },
+      {
+        "sheet": "DropDownValues",
+        "state": "hidden",
+        "file": "sheets/62_DropDownValues.tsv.gz",
+        "rows": 19302,
+        "cells": 52584,
+        "formulas": 10,
+        "formulasFile": "sheets/62_DropDownValues.formulas.tsv"
+      },
+      {
+        "sheet": "CG Pop up_prefill",
+        "state": "hidden",
+        "file": "sheets/63_CG_Pop_up_prefill.tsv",
+        "rows": 6,
+        "cells": 9,
+        "formulas": 0
+      },
+      {
+        "sheet": "SUMMARY",
+        "state": "hidden",
+        "file": "sheets/64_SUMMARY.tsv",
+        "rows": 40,
+        "cells": 103,
+        "formulas": 45,
+        "formulasFile": "sheets/64_SUMMARY.formulas.tsv"
+      },
+      {
+        "sheet": "BA",
+        "state": "hidden",
+        "file": "sheets/65_BA.tsv",
+        "rows": 8,
+        "cells": 23,
+        "formulas": 2,
+        "formulasFile": "sheets/65_BA.formulas.tsv"
+      },
+      {
+        "sheet": "Instructions",
+        "state": "hidden",
+        "file": "sheets/66_Instructions.tsv",
+        "rows": 121,
+        "cells": 287,
+        "formulas": 1,
+        "formulasFile": "sheets/66_Instructions.formulas.tsv"
+      }
+    ],
+    "fields": 3874
+  },
+  {
+    "code": "ITR4",
+    "xlsm": "ITR4_AY_26-27_V1.1.xlsm",
+    "out": "/home/user/incometax/extracted/xlsm/ITR4",
+    "modules": [
+      {
+        "module": "AY23_24Changes.bas",
+        "stream": "VBA/AY23_24Changes",
+        "file": "vba/AY23_24Changes.bas",
+        "lines": 2989,
+        "chars": 153176
+      },
+      {
+        "module": "AY25_26Changes.bas",
+        "stream": "VBA/AY25_26Changes",
+        "file": "vba/AY25_26Changes.bas",
+        "lines": 1473,
+        "chars": 68729
+      },
+      {
+        "module": "ePayPrefill.bas",
+        "stream": "VBA/ePayPrefill",
+        "file": "vba/ePayPrefill.bas",
+        "lines": 12,
+        "chars": 139
+      },
+      {
+        "module": "GenerateJSON.bas",
+        "stream": "VBA/GenerateJSON",
+        "file": "vba/GenerateJSON.bas",
+        "lines": 8257,
+        "chars": 330692
+      },
+      {
+        "module": "HS256.cls",
+        "stream": "VBA/HS256",
+        "file": "vba/HS256.cls",
+        "lines": 533,
+        "chars": 19348
+      },
+      {
+        "module": "ImportJSON.bas",
+        "stream": "VBA/ImportJSON",
+        "file": "vba/ImportJSON.bas",
+        "lines": 9639,
+        "chars": 434960
+      },
+      {
+        "module": "ImportXML.bas",
+        "stream": "VBA/ImportXML",
+        "file": "vba/ImportXML.bas",
+        "lines": 4373,
+        "chars": 176659
+      },
+      {
+        "module": "md10_13A.bas",
+        "stream": "VBA/md10_13A",
+        "file": "vba/md10_13A.bas",
+        "lines": 321,
+        "chars": 15060
+      },
+      {
+        "module": "md44AE.bas",
+        "stream": "VBA/md44AE",
+        "file": "vba/md44AE.bas",
+        "lines": 121,
+        "chars": 3683
+      },
+      {
+        "module": "md80C.bas",
+        "stream": "VBA/md80C",
+        "file": "vba/md80C.bas",
+        "lines": 215,
+        "chars": 7587
+      },
+      {
+        "module": "md80CCC.bas",
+        "stream": "VBA/md80CCC",
+        "file": "vba/md80CCC.bas",
+        "lines": 193,
+        "chars": 6724
+      },
+      {
+        "module": "md80E.bas",
+        "stream": "VBA/md80E",
+        "file": "vba/md80E.bas",
+        "lines": 822,
+        "chars": 30249
+      },
+      {
+        "module": "md80EE.bas",
+        "stream": "VBA/md80EE",
+        "file": "vba/md80EE.bas",
+        "lines": 1167,
+        "chars": 43712
+      },
+      {
+        "module": "md80EEA.bas",
+        "stream": "VBA/md80EEA",
+        "file": "vba/md80EEA.bas",
+        "lines": 1312,
+        "chars": 48519
+      },
+      {
+        "module": "md80EEB.bas",
+        "stream": "VBA/md80EEB",
+        "file": "vba/md80EEB.bas",
+        "lines": 931,
+        "chars": 34870
+      },
+      {
+        "module": "md80G.bas",
+        "stream": "VBA/md80G",
+        "file": "vba/md80G.bas",
+        "lines": 998,
+        "chars": 41632
+      },
+      {
+        "module": "md80GGC.bas",
+        "stream": "VBA/md80GGC",
+        "file": "vba/md80GGC.bas",
+        "lines": 867,
+        "chars": 34040
+      },
+      {
+        "module": "mdAL.bas",
+        "stream": "VBA/mdAL",
+        "file": "vba/mdAL.bas",
+        "lines": 1428,
+        "chars": 53394
+      },
+      {
+        "module": "mdATI.bas",
+        "stream": "VBA/mdATI",
+        "file": "vba/mdATI.bas",
+        "lines": 736,
+        "chars": 25242
+      },
+      {
+        "module": "mdCommon.bas",
+        "stream": "VBA/mdCommon",
+        "file": "vba/mdCommon.bas",
+        "lines": 2915,
+        "chars": 111469
+      },
+      {
+        "module": "mdGen139_8A.bas",
+        "stream": "VBA/mdGen139_8A",
+        "file": "vba/mdGen139_8A.bas",
+        "lines": 367,
+        "chars": 15620
+      },
+      {
+        "module": "mdHashing.bas",
+        "stream": "VBA/mdHashing",
+        "file": "vba/mdHashing.bas",
+        "lines": 172,
+        "chars": 4285
+      },
+      {
+        "module": "mdHouseProperty.bas",
+        "stream": "VBA/mdHouseProperty",
+        "file": "vba/mdHouseProperty.bas",
+        "lines": 3206,
+        "chars": 120757
+      },
+      {
+        "module": "mdImportXL.bas",
+        "stream": "VBA/mdImportXL",
+        "file": "vba/mdImportXL.bas",
+        "lines": 1222,
+        "chars": 61503
+      },
+      {
+        "module": "mdIncomeDetails.bas",
+        "stream": "VBA/mdIncomeDetails",
+        "file": "vba/mdIncomeDetails.bas",
+        "lines": 6745,
+        "chars": 284631
+      },
+      {
+        "module": "mdInitializer.bas",
+        "stream": "VBA/mdInitializer",
+        "file": "vba/mdInitializer.bas",
+        "lines": 91,
+        "chars": 3535
+      },
+      {
+        "module": "mdInt24b.bas",
+        "stream": "VBA/mdInt24b",
+        "file": "vba/mdInt24b.bas",
+        "lines": 911,
+        "chars": 34821
+      },
+      {
+        "module": "mdIT.bas",
+        "stream": "VBA/mdIT",
+        "file": "vba/mdIT.bas",
+        "lines": 9,
+        "chars": 133
+      },
+      {
+        "module": "mdNOBBP.bas",
+        "stream": "VBA/mdNOBBP",
+        "file": "vba/mdNOBBP.bas",
+        "lines": 1791,
+        "chars": 63298
+      },
+      {
+        "module": "mdPAN.bas",
+        "stream": "VBA/mdPAN",
+        "file": "vba/mdPAN.bas",
+        "lines": 28,
+        "chars": 725
+      },
+      {
+        "module": "mdProgressBar.bas",
+        "stream": "VBA/mdProgressBar",
+        "file": "vba/mdProgressBar.bas",
+        "lines": 110,
+        "chars": 3810
+      },
+      {
+        "module": "mdTaxCalc.bas",
+        "stream": "VBA/mdTaxCalc",
+        "file": "vba/mdTaxCalc.bas",
+        "lines": 1893,
+        "chars": 84348
+      },
+      {
+        "module": "mdTaxPaidVerification.bas",
+        "stream": "VBA/mdTaxPaidVerification",
+        "file": "vba/mdTaxPaidVerification.bas",
+        "lines": 823,
+        "chars": 32073
+      },
+      {
+        "module": "mdTCS.bas",
+        "stream": "VBA/mdTCS",
+        "file": "vba/mdTCS.bas",
+        "lines": 20,
+        "chars": 311
+      },
+      {
+        "module": "mdTDS.bas",
+        "stream": "VBA/mdTDS",
+        "file": "vba/mdTDS.bas",
+        "lines": 4378,
+        "chars": 153450
+      },
+      {
+        "module": "mdTDS2.bas",
+        "stream": "VBA/mdTDS2",
+        "file": "vba/mdTDS2.bas",
+        "lines": 2841,
+        "chars": 110108
+      },
+      {
+        "module": "mdTDS3.bas",
+        "stream": "VBA/mdTDS3",
+        "file": "vba/mdTDS3.bas",
+        "lines": 2781,
+        "chars": 103061
+      },
+      {
+        "module": "MessageBox.frm",
+        "stream": "VBA/MessageBox",
+        "file": "vba/MessageBox.frm",
+        "lines": 13,
+        "chars": 407
+      },
+      {
+        "module": "mfmessage.bas",
+        "stream": "VBA/mfmessage",
+        "file": "vba/mfmessage.bas",
+        "lines": 38,
+        "chars": 901
+      },
+      {
+        "module": "Module1.bas",
+        "stream": "VBA/Module1",
+        "file": "vba/Module1.bas",
+        "lines": 12,
+        "chars": 249
+      },
+      {
+        "module": "Module2.bas",
+        "stream": "VBA/Module2",
+        "file": "vba/Module2.bas",
+        "lines": 15,
+        "chars": 244
+      },
+      {
+        "module": "Module3.bas",
+        "stream": "VBA/Module3",
+        "file": "vba/Module3.bas",
+        "lines": 8,
+        "chars": 128
+      },
+      {
+        "module": "Module4.bas",
+        "stream": "VBA/Module4",
+        "file": "vba/Module4.bas",
+        "lines": 8,
+        "chars": 142
+      },
+      {
+        "module": "Module5.bas",
+        "stream": "VBA/Module5",
+        "file": "vba/Module5.bas",
+        "lines": 8,
+        "chars": 129
+      },
+      {
+        "module": "Module6.bas",
+        "stream": "VBA/Module6",
+        "file": "vba/Module6.bas",
+        "lines": 91,
+        "chars": 5595
+      },
+      {
+        "module": "PreFillJson.bas",
+        "stream": "VBA/PreFillJson",
+        "file": "vba/PreFillJson.bas",
+        "lines": 6234,
+        "chars": 290786
+      },
+      {
+        "module": "pwd.bas",
+        "stream": "VBA/pwd",
+        "file": "vba/pwd.bas",
+        "lines": 43,
+        "chars": 863
+      },
+      {
+        "module": "Sch80D.bas",
+        "stream": "VBA/Sch80D",
+        "file": "vba/Sch80D.bas",
+        "lines": 1093,
+        "chars": 39462
+      },
+      {
+        "module": "Sch80DD_80U.bas",
+        "stream": "VBA/Sch80DD_80U",
+        "file": "vba/Sch80DD_80U.bas",
+        "lines": 1136,
+        "chars": 39931
+      },
+      {
+        "module": "SchBA.bas",
+        "stream": "VBA/SchBA",
+        "file": "vba/SchBA.bas",
+        "lines": 1319,
+        "chars": 44895
+      },
+      {
+        "module": "SchDI.bas",
+        "stream": "VBA/SchDI",
+        "file": "vba/SchDI.bas",
+        "lines": 269,
+        "chars": 14390
+      },
+      {
+        "module": "Sheet1.cls",
+        "stream": "VBA/Sheet1",
+        "file": "vba/Sheet1.cls",
+        "lines": 10929,
+        "chars": 463560
+      },
+      {
+        "module": "Sheet10.cls",
+        "stream": "VBA/Sheet10",
+        "file": "vba/Sheet10.cls",
+        "lines": 47,
+        "chars": 1644
+      },
+      {
+        "module": "Sheet11.cls",
+        "stream": "VBA/Sheet11",
+        "file": "vba/Sheet11.cls",
+        "lines": 431,
+        "chars": 18649
+      },
+      {
+        "module": "Sheet12.cls",
+        "stream": "VBA/Sheet12",
+        "file": "vba/Sheet12.cls",
+        "lines": 19,
+        "chars": 593
+      },
+      {
+        "module": "Sheet13.cls",
+        "stream": "VBA/Sheet13",
+        "file": "vba/Sheet13.cls",
+        "lines": 261,
+        "chars": 12402
+      },
+      {
+        "module": "Sheet14.cls",
+        "stream": "VBA/Sheet14",
+        "file": "vba/Sheet14.cls",
+        "lines": 357,
+        "chars": 17634
+      },
+      {
+        "module": "Sheet15.cls",
+        "stream": "VBA/Sheet15",
+        "file": "vba/Sheet15.cls",
+        "lines": 89,
+        "chars": 3203
+      },
+      {
+        "module": "Sheet16.cls",
+        "stream": "VBA/Sheet16",
+        "file": "vba/Sheet16.cls",
+        "lines": 637,
+        "chars": 25409
+      },
+      {
+        "module": "Sheet17.cls",
+        "stream": "VBA/Sheet17",
+        "file": "vba/Sheet17.cls",
+        "lines": 71,
+        "chars": 2141
+      },
+      {
+        "module": "Sheet18.cls",
+        "stream": "VBA/Sheet18",
+        "file": "vba/Sheet18.cls",
+        "lines": 215,
+        "chars": 7054
+      },
+      {
+        "module": "Sheet19.cls",
+        "stream": "VBA/Sheet19",
+        "file": "vba/Sheet19.cls",
+        "lines": 33,
+        "chars": 752
+      },
+      {
+        "module": "Sheet2.cls",
+        "stream": "VBA/Sheet2",
+        "file": "vba/Sheet2.cls",
+        "lines": 10,
+        "chars": 301
+      },
+      {
+        "module": "Sheet20.cls",
+        "stream": "VBA/Sheet20",
+        "file": "vba/Sheet20.cls",
+        "lines": 1879,
+        "chars": 74780
+      },
+      {
+        "module": "Sheet201.cls",
+        "stream": "VBA/Sheet201",
+        "file": "vba/Sheet201.cls",
+        "lines": 672,
+        "chars": 30407
+      },
+      {
+        "module": "Sheet202.cls",
+        "stream": "VBA/Sheet202",
+        "file": "vba/Sheet202.cls",
+        "lines": 384,
+        "chars": 12505
+      },
+      {
+        "module": "Sheet21.cls",
+        "stream": "VBA/Sheet21",
+        "file": "vba/Sheet21.cls",
+        "lines": 438,
+        "chars": 15141
+      },
+      {
+        "module": "Sheet22.cls",
+        "stream": "VBA/Sheet22",
+        "file": "vba/Sheet22.cls",
+        "lines": 597,
+        "chars": 30562
+      },
+      {
+        "module": "Sheet3.cls",
+        "stream": "VBA/Sheet3",
+        "file": "vba/Sheet3.cls",
+        "lines": 198,
+        "chars": 7640
+      },
+      {
+        "module": "Sheet4.cls",
+        "stream": "VBA/Sheet4",
+        "file": "vba/Sheet4.cls",
+        "lines": 593,
+        "chars": 25580
+      },
+      {
+        "module": "Sheet5.cls",
+        "stream": "VBA/Sheet5",
+        "file": "vba/Sheet5.cls",
+        "lines": 888,
+        "chars": 37636
+      },
+      {
+        "module": "Sheet6.cls",
+        "stream": "VBA/Sheet6",
+        "file": "vba/Sheet6.cls",
+        "lines": 987,
+        "chars": 42507
+      },
+      {
+        "module": "Sheet7.cls",
+        "stream": "VBA/Sheet7",
+        "file": "vba/Sheet7.cls",
+        "lines": 9,
+        "chars": 299
+      },
+      {
+        "module": "Sheet8.cls",
+        "stream": "VBA/Sheet8",
+        "file": "vba/Sheet8.cls",
+        "lines": 16,
+        "chars": 475
+      },
+      {
+        "module": "Sheet9.cls",
+        "stream": "VBA/Sheet9",
+        "file": "vba/Sheet9.cls",
+        "lines": 19,
+        "chars": 572
+      },
+      {
+        "module": "ThisWorkbook.cls",
+        "stream": "VBA/ThisWorkbook",
+        "file": "vba/ThisWorkbook.cls",
+        "lines": 114,
+        "chars": 3073
+      },
+      {
+        "module": "UserForm1.frm",
+        "stream": "VBA/UserForm1",
+        "file": "vba/UserForm1.frm",
+        "lines": 17,
+        "chars": 497
+      },
+      {
+        "module": "UserForm2.frm",
+        "stream": "VBA/UserForm2",
+        "file": "vba/UserForm2.frm",
+        "lines": 17,
+        "chars": 448
+      },
+      {
+        "module": "UserForm3.frm",
+        "stream": "VBA/UserForm3",
+        "file": "vba/UserForm3.frm",
+        "lines": 17,
+        "chars": 482
+      }
+    ],
+    "sheet_count": 24,
+    "hidden_dumps": [
+      {
+        "sheet": "Income Details",
+        "state": "visible",
+        "file": "sheets/01_Income_Details.tsv",
+        "rows": 228,
+        "cells": 952,
+        "formulas": 169,
+        "formulasFile": "sheets/01_Income_Details.formulas.tsv"
+      },
+      {
+        "sheet": "HP",
+        "state": "visible",
+        "file": "sheets/02_HP.tsv",
+        "rows": 86,
+        "cells": 248,
+        "formulas": 46,
+        "formulasFile": "sheets/02_HP.formulas.tsv"
+      },
+      {
+        "sheet": "Sheet1",
+        "state": "hidden",
+        "file": "sheets/03_Sheet1.tsv",
+        "rows": 1,
+        "cells": 2,
+        "formulas": 0
+      },
+      {
+        "sheet": "44AE",
+        "state": "hidden",
+        "file": "sheets/04_44AE.tsv",
+        "rows": 19,
+        "cells": 36,
+        "formulas": 3,
+        "formulasFile": "sheets/04_44AE.formulas.tsv"
+      },
+      {
+        "sheet": "Part A Gen_139(8A)",
+        "state": "hidden",
+        "file": "sheets/05_Part_A_Gen_139_8A.tsv",
+        "rows": 24,
+        "cells": 42,
+        "formulas": 8,
+        "formulasFile": "sheets/05_Part_A_Gen_139_8A.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule EA 10(13A)",
+        "state": "hidden",
+        "file": "sheets/06_Schedule_EA_10_13A.tsv",
+        "rows": 10,
+        "cells": 24,
+        "formulas": 3,
+        "formulasFile": "sheets/06_Schedule_EA_10_13A.formulas.tsv"
+      },
+      {
+        "sheet": "Schedule 24(b)",
+        "state": "hidden",
+        "file": "sheets/07_Schedule_24_b.tsv",
+        "rows": 8,
+        "cells": 29,
+        "formulas": 10,
+        "formulasFile": "sheets/07_Schedule_24_b.formulas.tsv"
+      },
+      {
+        "sheet": "BP",
+        "state": "visible",
+        "file": "sheets/08_BP.tsv",
+        "rows": 98,
+        "cells": 241,
+        "formulas": 46,
+        "formulasFile": "sheets/08_BP.formulas.tsv"
+      },
+      {
+        "sheet": "TDS",
+        "state": "visible",
+        "file": "sheets/09_TDS.tsv",
+        "rows": 52,
+        "cells": 181,
+        "formulas": 35,
+        "formulasFile": "sheets/09_TDS.formulas.tsv"
+      },
+      {
+        "sheet": "TCS",
+        "state": "visible",
+        "file": "sheets/10_TCS.tsv",
+        "rows": 10,
+        "cells": 23,
+        "formulas": 5,
+        "formulasFile": "sheets/10_TCS.formulas.tsv"
+      },
+      {
+        "sheet": "IT",
+        "state": "visible",
+        "file": "sheets/11_IT.tsv",
+        "rows": 25,
+        "cells": 119,
+        "formulas": 93,
+        "formulasFile": "sheets/11_IT.formulas.tsv"
+      },
+      {
+        "sheet": "Part B ATI",
+        "state": "hidden",
+        "file": "sheets/12_Part_B_ATI.tsv",
+        "rows": 40,
+        "cells": 134,
+        "formulas": 23,
+        "formulasFile": "sheets/12_Part_B_ATI.formulas.tsv"
+      },
+      {
+        "sheet": "Taxes Paid and Verification",
+        "state": "visible",
+        "file": "sheets/13_Taxes_Paid_and_Verification.tsv",
+        "rows": 45,
+        "cells": 105,
+        "formulas": 22,
+        "formulasFile": "sheets/13_Taxes_Paid_and_Verification.formulas.tsv"
+      },
+      {
+        "sheet": "80D",
+        "state": "hidden",
+        "file": "sheets/14_80D.tsv",
+        "rows": 46,
+        "cells": 90,
+        "formulas": 21,
+        "formulasFile": "sheets/14_80D.formulas.tsv"
+      },
+      {
+        "sheet": "80G",
+        "state": "hidden",
+        "file": "sheets/15_80G.tsv",
+        "rows": 81,
+        "cells": 337,
+        "formulas": 75,
+        "formulasFile": "sheets/15_80G.formulas.tsv"
+      },
+      {
+        "sheet": "80DD_80U",
+        "state": "hidden",
+        "file": "sheets/16_80DD_80U.tsv",
+        "rows": 9,
+        "cells": 33,
+        "formulas": 8,
+        "formulasFile": "sheets/16_80DD_80U.formulas.tsv"
+      },
+      {
+        "sheet": "80GGC",
+        "state": "hidden",
+        "file": "sheets/17_80GGC.tsv",
+        "rows": 10,
+        "cells": 54,
+        "formulas": 13,
+        "formulasFile": "sheets/17_80GGC.formulas.tsv"
+      },
+      {
+        "sheet": "80E_80EE_80EEA_80EEB",
+        "state": "hidden",
+        "file": "sheets/18_80E_80EE_80EEA_80EEB.tsv",
+        "rows": 30,
+        "cells": 84,
+        "formulas": 25,
+        "formulasFile": "sheets/18_80E_80EE_80EEA_80EEB.formulas.tsv"
+      },
+      {
+        "sheet": "80C",
+        "state": "hidden",
+        "file": "sheets/19_80C.tsv",
+        "rows": 14,
+        "cells": 24,
+        "formulas": 8,
+        "formulasFile": "sheets/19_80C.formulas.tsv"
+      },
+      {
+        "sheet": "AL",
+        "state": "hidden",
+        "file": "sheets/20_AL.tsv",
+        "rows": 30,
+        "cells": 64,
+        "formulas": 6,
+        "formulasFile": "sheets/20_AL.formulas.tsv"
+      },
+      {
+        "sheet": "SUMMARY",
+        "state": "hidden",
+        "file": "sheets/21_SUMMARY.tsv",
+        "rows": 16,
+        "cells": 32,
+        "formulas": 11,
+        "formulasFile": "sheets/21_SUMMARY.formulas.tsv"
+      },
+      {
+        "sheet": "Help",
+        "state": "hidden",
+        "file": "sheets/22_Help.tsv",
+        "rows": 68,
+        "cells": 96,
+        "formulas": 0
+      },
+      {
+        "sheet": "DB",
+        "state": "hidden",
+        "file": "sheets/23_DB.tsv.gz",
+        "rows": 40439,
+        "cells": 182994,
+        "formulas": 4,
+        "formulasFile": "sheets/23_DB.formulas.tsv"
+      },
+      {
+        "sheet": "TaxCalc",
+        "state": "hidden",
+        "file": "sheets/24_TaxCalc.tsv",
+        "rows": 124,
+        "cells": 721,
+        "formulas": 366,
+        "formulasFile": "sheets/24_TaxCalc.formulas.tsv"
+      }
+    ],
+    "fields": 494
+  }
+]

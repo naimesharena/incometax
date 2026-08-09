@@ -1,0 +1,29 @@
+row	A	B	C	D	E	F	G	H	I	J	K
+1										Instructions for filling Schedule 112A/115AD(1)(b)(iii)(P)
+2										Option 1 – Fill Data directly in utility
+3										1	Enter all the required details. To add rows select "Add" and update the details. To delete rows select the row which is to be deleted and then click on "Delete".
+4										2	Click on "Save" to go back to schedule 112A/115AD(1)(b)(iii)(P).
+5										Note:	This option is useful when there are limited number of entries in this schedule . 
+8										Option 2 – Upload through CSV
+9										1	Download the template through the link.
+10										2	Click on the template; provide a file name to save the CSV.
+11										3	Update the data as per the headings provided in the CSV template (Refer instructions below to fill the csv file).
+12										4	Save the date and upload the CSV file in the utility.
+13										5	Maintaining data consistency is important to avoid errors upon upload.
+16										Instructions to fill csv file:
+17										1a	For the column referring to column 1a of schedule 112A in the return, ‘Share/Unit acquired’, enter the value ‘BE’ if the share/unit was acquired on or before 31st January 2018. If share/unit was acquired after 31st January 2018, enter value ‘AE’.
+18										2	For column 2 ‘ISIN Code’, enter alphanumeric value and first two characters should start with ‘IN’. In case security/Share does not have ISIN Code, enter "INNOTAVAILAB".
+If in 1a, ‘AE’ is entered, enter ‘INNOTREQUIRD’.
+19										3	For column 3 ‘Name of the Share/Unit’, input should contain only alphanumeric values without any special characters. If in 1a, ‘AE’ entered, enter ‘CONSOLIDATED’.
+20										4	Column 4 ‘No. of Shares/Units field’ should be numeric, non- negative and decimals are allowed upto 4 digits. If in 1a, ‘AE’ is entered, leave this field as blank.
+21										5	Column 5 ‘Sale-price per Share/Unit’ should be numeric, non- negative and decimals are allowed upto 4 digits. If in 1a, ‘AE’ is entered, leave this field as blank.
+22										6	Column 6 ‘Full Value of Consideration (Total Sale Value)’ should be equal to the value at sl. No. 4 multiplied by sl. No. 5 (4*5) if ‘BE’ is entered in 1a. Value should be rounded off to the nearest unit.
+If in 1a ‘AE’ is entered, enter full value of consideration.
+23										7	Column 7 ‘Cost of acquisition without indexation’, entered value should be higher of value mentioned in Column 8 [‘Cost of acquisition’] and Column 9 [“If the long-term capital asset was acquired before 01.02.2018, lower of 11 & 6”].  
+24										8	Column 8 ‘Cost of acquisition’ field should be numeric, non- negative and decimals are allowed upto 4 digits.
+25										9	Column 9 ‘If the long-term capital asset was acquired before 01.02.2018, (i.e., if entry in col 1 is “BE”) lower of 11 & 6’ [field should be lower of value mentioned in column 11‘Total Fair Market Value of capital asset as per section 55(2) (ac)’ and in column 6 ‘Full Value Consideration’].
+26										10	Column 10 ‘Fair Market Value per share/unit as on 31st January,2018’ should be numeric, non- negative and decimals are allowed upto 4 digits. If in 1a, ‘AE’ is entered, leave this field as blank.
+27										11	Column 11 ‘Total Fair Market Value of capital asset as per section 55(2) (ac)’ field should be equal to value at column 4 ‘No. of Shares/Units’ multiply by Column 10 ‘Fair Market Value per share/unit as on 31st January,2018’. Value should be rounded off to the nearest unit.
+28										12	Column 12 ‘Expenditure wholly and exclusively in connection with transfer’ field should be numeric, non- negative and decimals are allowed upto 4 digits.
+29										13	Column 13 ‘Total deductions (7+12)’ field should be sum of value at column 7 ‘Cost of acquisition without indexation’ and column 12 ‘Expenditure wholly and exclusively in connection with transfer’. Value should be rounded off to the nearest unit.
+30										14	Column 14 ‘Balance (6-13)’ field should be equal to value at column 6 ‘Full Value Consideration’ minus value at column 13 ‘Total deductions (7+12)’. Value should be rounded off to the nearest unit.

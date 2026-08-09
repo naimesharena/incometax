@@ -1,0 +1,165 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA
+3			Schedule SPI		Income of specified persons (spouse, minor child etc.) includable in income of the assessee as per section 64 									10			12.5
+4														3rd	0	0	1ST	112A - LTCG
+5				Sl. No.	Name of person	PAN of person                      (optional)	Aadhaar Number of the person	Relationship	Amount (Rs)	Head of Income in which included
+6				1						(Select)				4th	0	0	2nd	PTI - 12.5
+7				2						(Select)				2ND	0	0	1ST	115AD Proviso
+8				3						(Select)
+9				4						(Select)
+10				5						(Select)
+11				6						(Select)																																						30%-STCG
+12									0																																			Below yellow highlighted newly added Table by Bindu on 25th May 26				Below yellow highlighted newly added Table by Konda on 25th May 26
+13																																												BFLA-STCG 20% Sum	BFLA-STCG 20% Sum +10	BFLA-STCG 20% Sum (-10)		BFLA-STCG 30% Sum	BFLA-STCG 30% Sum +10	BFLA-STCG 30% Sum (-10)
+14															0	0	0																											0	10	-10		0	10	-10
+15			Please click on Recalculate initially, and also subsequently if Gender, Date of Birth , Residential Status or Assessee Status (Indl / HUF etc) is changed (Note "Recalculate button is provided in Sheet PART B - TI - TTI)
+16			Schedule SI		Income chargeable to tax at special rates (please see instructions No. 7 for rate of tax)																													Rate	Priority	STCG		Capital Gain		Rate	Priority	STCG		Capital Gain	Crr	0			Crr	0
+17			SPECIAL RATE	Sl.
+No.	Section
+	Special rate
+(%)	Income
+(i)	Taxable Income after adjusting for Min Chargeable to Tax
+(ii)	Tax thereon
+
+(iii)																			SI Table to XML						0.15	1	0	0	A3ie + A4a   -111A		0.2	1	0	0	111A(A3eii+A4aii)	Crr	0			Crr	0
+18				1	111- Tax on accumulated balance of recognized provident fund	1	0	0	0						1		1	0			ExemptionUnderSI							1	1	0	0	0			2	0	0	A8a(i)"PTI"  -PTI			2	0	0	PTI 20	Crr	0			Crr	0
+19				2	Other source income chargeable under DTAA rates	1	0	0	0						DTAAOS		DTAA	0		ExemptionAmt	400000		3lac to 4lac changed for New tax regime					DTAAOS	1	0	0	0			3	0	0	A3iie"115AD(1)(b)(ii) -115AD			3	0	0	115AD-20%	Crr	0
+20				3	111A - STCG on shares units on which STT paid where transfer was before 23rd July 2024 as applicable.	15	0	0	0						1A_BE		1A	0											15	0	0	0		0.3	2	0	0	115AD-30%
+21				3	111A - STCG on shares units on which STT paid  as applicable.	20	0	0	0						1A													1A	20	0	0	0			1	0	0	PTI 30								BFLA-LTCG 12.5% Sum	BFLA-LTCG 12.5% Sum +10	BFLA-LTCG 12.5% Sum (-10)			Newly added by Bindu on 6th June 26
+22				4	112 - LTCG on Others [where transfer / event was before 23rd July 2024 as applicable]	20	0	0	0						21_BE		21	0		partbSetoffInc	0																					LTCG			row numbers	0	10	-10
+23				4	112 - LTCG on Others 	12.5	0	0	0						21													21	12.5	0	0	0								0.125	9	0	0	B1e,B2e, B5c, B9e, B10 - 112	23	SUM VALUE	Crr	0			15-B10	0	0
+24				5	112 Proviso LTCG on listed securities/ units without indexation [where transfer was before 23rd July 2024 as applicable]	10	0	0	0						22		22	0											10	0	0	0																			14-B9e	0	0
+25				7	112 Proviso LTCG on listed securities/ units without indexation [where transfer was before 23rd July 2024 as applicable]	20	0	0	0						22_BE		22_BE																								8	0	0	B6ie - 112(1)(c )	30	9	Crr	0			13-B5c	0	0
+26				5	112(1) (LTCG on listed securities/ units without indexation)	12.5	0	0	0						22		22											22	12.5	0	0	0			LTCG						7	0	0	B6iie - 115AC(1)(c )	50	8	Crr	0			12-B2e	0	0
+27				6	112A - LTCG on sale of shares /units of equity oriented fund/units of business trust on which STT is paid [where transfer was before 23rd July 2024 as applicable]	10	0	0	0						2A_BE		2A	0																0.1	9	0	0	B7ie - 112(1)(c ) & B6cii			6	0	0	B3iieii - 115ACA(1)(b)	53	7	Crr	0			11. B6ie - 112(1)(c )	0	0
+28				6	112A - LTCG on sale of shares /units of equity oriented fund/units of business trust on which STT is paid	12.5	0	0	0						2A													2A	12.5	0	0	0			8	0	0	B7iie - 115AC(1)(c )			5	0	0	B7c - 115AD(1)(iii) proviso	59	6	Crr	0			10. B6iie - 115AC(1)(c )	0	0
+29				7	112(1)(c)(iii)- Long term capital gains on transfer of unlisted securities in the case of non-residents [where transfer was before 23rd July 2024 as applicable]	10	0	0	0						21ciii_BE		21ciii	0																	7	0	0	B4iie - 115ACA(1)(b)			4	0	0	B8c - 115E(b)	72	5	Crr	0			9. B3iie - 115ACA(1)(b)	0	0
+30				7	112(1)(c)(iii)- Long term capital gains on transfer of unlisted securities in the case of non-residents 	12.5	0	0	0						21ciii													21ciii	12.5	0	0	0			6	0	0	B7iiie - 115AD(1)(iii)			3	0	0	B11a2(ii) - PTI_other than 112A_12.5%	81	4	Crr	0			8. B6iiie - 115AD(1)(iii)	0	0
+31				8	115BB - Winnings from lotteries, crosswords puzzles, races including horse races, card games and other games of any sort or gambling or betting of any form or nature whatsoever	30	0	0	0						5BB		5BB	0										5BB	30	0	0	0			5	0	0	B8c - 115AD(1)(iii) proviso			2a	0	0	B3iei - 112 Proviso_12.5%	26	3	Crr	0			7. B8c - 115E(b)	0	0
+32				9	115BBJ - Winnings from online games	30	0	0	0						5BBJ		5BBJ	0										5ADii	30	0	0	0			4	0	0	B9c - 115E(b)			2	0	0	B11a1(ii) - PTI_112A_12.5%	79	2a	Crr	0			6. B11a2 - PTI_other than 112A_12.5%	0	0
+33				10	115AD(1)(ii) - Short term capital gains (other than on equity share or equity oriented mutual fund referred to in section 111A) by an FII	30	0	0	0						5ADii		5ADii	0										5BBJ	30	0	0	0			2	0	0	B12a1 - PTI_112A			1	0	0	B4c - 112A	28	2	Crr	0			5. B1(g)	0	0
+34				11	115BBF-Tax on income from patent
+(a) Income under head business or profession 	10	0	0	0						5BBF_BP		5Ea	0																	3	0	0	B12a2 - PTI_other than 112A			5A	0	0	B6iiie - 115AD(1)(iii)	58	1	Crr	0			4. B3ie - 112 Proviso_12.5%	0	0
+35				12	115BBG-Tax on Transfer of carbon credits
+(a) Income under head business or profession 	10	0	0	0						5BBG_BP													5ADiiiP	12.5	0	0	0			1	0	0	B5c-112A								5A	Crr	0			3. B11a1 - PTI_112A_12.5%	0	0
+36				13	115AD(1)(b)(ii) - Proviso - Short term capital gains referred to in section 111A rws. 115AD by FII, where transfer was before 23rd July 2024 as applicable	15	0	0	0						5AD1biip_BE		5AD1biip	0										5BBF_BP	10	0	0	0		0.2	3	0	0	PTI 20 (B11b)													2. B7c - 115AD(1)(iii) proviso	0	0
+37				13	115AD(1)(b)(ii) - Proviso - Short term capital gains referred to in section 111A rws. 115AD by FII, as applicable u/s 115AD(1)(b)(ii)	20	0	0	0						5AD1biip 													5BBG_BP	10	0	0	0			1	0	0	112(B1e+B2c+B3e+B6c+B9e+B10)													1. B4c - 112A	0	0
+38				14	115A(1)(a)(i)- Dividends from units purchased in foreign currency for non-residents	20	0	0	0						5A1ai		5A1ai	0		Final Exemption Allowed	400000							DTAASTCG	1	0	0	0			2	0	0	112proviso (B4ci)
+39				15	115A(1)(a)(A) - Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA	10	0	0	0						5A1aA		5A1aA	0										DTAALTCG	1	0	0	0
+40				16	115A(1)(a)(ii) - Interest received from govt/Indian Concerns received in Foreign Currency by non-residents	20	0	0	0						5A1aii		5A1aii	0					Exemption Remaining after Set off					5A1aA	10	0	0	0
+41				17	115A(1)(a)(iia) - Interest received by non-resident from infrastructure debt fund	5	0	0	0						5A1aiia		5A1aiia	0	For 112		0		400000						1	0	0	0
+42				18	115A(1) (a)(iiaa) - Income received by non-resident as referred in section 194LC(1)	5	0	0	0						5A1aiiaa		5A1aiiaa	0	FOR 111A		0		400000					5BBA	20	0	0	0
+43				19	115A(1)(a)(iiab) - Income received by non-resident as referred in section 194LD	5	0	0	0						5A1aiiab		5A1aiiab	0	For 112(proviso)		0		400000					5AD1iP	5	0	0	0
+44				20	115A(1)(a)(iiac) - Income received by non-resident as referred in section 194LBA	5	0	0	0						5A1aiiac		5A1aiiac	0	For 112A		0		400000					5BBF	10	0	0	0
+45				21	115A(1) (a)(iii) - Income from units purchased in foreign currency in case of non-residents	20	0	0	0						5A1aiii		5A1aiii	0	PTI 112A		0		400000					5BBG	10	0	0	0
+46				22	Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company	50	0	0	0						FA		FA	0										5A1ai	20	0	0	0
+47				22	115A(1)(b)- Income from royalty or fees for technical services received from Government or Indian concern  	20	0	0	0						5A1bA		5A1b	0	PTI15		0		400000					5A1aii	20	0	0	0
+48				23	115AC(1)(a) - Income by way of interest  on bonds purchased in foreign currency -non-resident	10	0	0	0						5AC1a		5AC1a	0			Konda updated on 27-05-2026							5A1aiia	5	0	0	0
+49				24	115AC(1)(c) -  Long term capital gains arising from their transfer of bonds or GDR purchased in foreign currency in case of a non-resident where transfer was before 23rd July 2024	10	0	0	0						5AC1c_BE		5AC1c	0	Exemption Remaining after Set off									5A1aiiaa	5	0	0	0
+50				24	115AC(1)(c) -  Long term capital gains arising from their transfer of bonds or GDR purchased in foreign currency in case of a non-resident	12.5	0	0	0						5AC1c				For 112		0		0	1st-112-20%LTCG				5A1aiiab	5	0	0	0
+51				25	115ACA(1)(a) - Income by way of Dividends from GDR purchased in foreign currency in case of a resident employee of an Indian company, engaged in knowledge based industry or service	10	0	0	0						5ACA1a		5ACA1a	0	FOR 112 Proviso		0		0	2nd-112Proviso-20%LTCG				5A1aiiac	5	0	0	0
+52				26	115ACA(1)(b) - Long term capital gains arising from the transfer of GDR purchased in foreign currency -resident (where transfer was before 23rd july 2024)	10	0	0	0						5ACA1b_BE		5ACA1b	0	For 111A-20%		0		400000	3rd-111A-20%STCG				5A1aiii	20	0	0	0
+53				26	115ACA(1)(b) - Long term capital gains arising from the transfer of GDR purchased in foreign currency -resident 	12.5	0	0	0						5ACA1b				For PTI-20		0		400000	4th - PTI-20% STCG				FA	50	0	0	0
+54				27	115AD(1)(i) - Income (other than dividend) received by an FII in respect of securities (other than units referred to in section115AB)	20	0	0	0						5AD1i		5AD1i	0	For 111A-15%		0		0	5th-111A-15%-STCG				5A1bA	20	0	0	0
+55				28	115AD(1)(i) - Income by way of Interest received by an FII in respect of bonds or government securities referred to in section 194LD 	5	0	0	0						5AD1iP		5AD1iP	0	For PTI-15%		0		0	6th-PTI-15%-STCG				5AC1a	10	0	0	0
+56				29	115AD(1)(b)(iii) - Long term capital gains (other than on equity share or equity oriented mutual fund referred to in section 112A) by an FII	10	0	0	0						5ADiii		5ADiii	0	For 112		0		400000	7th-112-12.5% LTCG
+57				29	115AD(1)(b)(iii) Proviso- For NON-RESIDENTS from sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid under section 112A [where transfer was before 23rd July 2024 as applicable]	10	0	0	0						5ADiiiP_BE				FOR 112 Proviso		0		400000	8th-112Proviso-12.5%LTCG				5AC1c	12.5	0	0	0
+58				29	115AD(1)(b)(iii) - Long term capital gains (other than on equity share or equity oriented mutual fund referred to in section 112A) by an FII	12.5	0	0	0						5ADiii													5ADiii	12.5	0	0	0		By Bindu on 2nd March 26
+59				30	115AD(1)(b)(iii) Proviso- For NON-RESIDENTS from sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid under section 112A	12.5	0	0	0						5ADiiiP				For 112A		0		400000	9th-112A-12.5%-LTCG				5ACA1a	10	0	0	0
+60				31	115BBA - Income received by non-resident sportsmen or sports associations or entertainer	20	0	0	0						5BBA		5BBA	0	For PTI-20% LTCG		0		400000	10th-PTI-12.5%-LTCG
+61				32	115BBC - Anonymous donations	30	0	0	0						5BBC		5BBC	0										5ACA1b	12.5	0	0	0
+62				33	115BBDA (Dividend income from domestic company exceeding Rs.10lakh)	0	0	0	0						5BBDA		5BBDA	0	For PTI-20% LTCG									5AD1i	20	0	0	0
+63				32	115BBE - Tax on income under section 68, 69, 69A, 69B, 69C or 69D.	60	0	0	0						5BBE		5BBE	0	For 112A-10		0		400000	11th-112A-10%LTCG
+64				33	115BBF-Tax on income from patent										5BBF_XXXX		5BBF	0	For PTI-10		0		400000	12th-PTI-10%LTCG				5BBC	30	0	0	0
+65					(b) Income under head other sources	10	0	0	0						5BBF		5Eacg	0										5BBE	60	0	0	0
+66				34	115BBG -Tax on income from transfer of carbon credits.										5BBG_XXXX													5BBDA	0	0	0	0
+67					(b) Income under head other sources	10	0	0	0						5BBG		5Eb	0										5Ea	20	0	0	0
+68				35	115E(a) - Investment income of a non-resident Indian	20	0	0	0						5Ea		5BBG	0										5BBF_XXXX	10	0	0	0
+69				36	115E(a) - Long term capital gains of a non-resident Indian on any asset other than a specified asset [where transfer was before 23rd July 2024 as applicable]	20	0	0	0						5Eacg_BE													5BBG_XXXX	10	0	0	0
+70				37	115E(a) - Long term capital gains of a non-resident Indian on any asset other than a specified asset  [where transfer was on or after 23rd July 2024 as applicable]	12.5	0	0	0						5Eacg														20	0	0	0
+71				36	115E(b) - Long term capital gains of a non-resident Indian on any foreign exchange asset [where transfer was before 23rd July 2024 as applicable]	10	0	0	0						5Eb_BE
+72				36	115E(b) - Long term capital gains of a non-resident Indian on any foreign exchange asset 	12.5	0	0	0						5Eb													5Eb	12.5	0	0	0
+73				37	STCG Chargeable at special rates in India as per DTAA	1	0	0	0						STCGDTAA
+74				38	LTCG Chargeable at special rates in India as per DTAA	1	0	0	0						LTCGDTAA													5AD1biip	20	0	0	0
+75				39	Pass Through Income in the nature of Short Term Capital Gain chargeable @ 15% 	15	0	0	0						PTI_STCG15P
+76				39	Pass Through Income in the nature of Short Term Capital Gain chargeable @ 20% 	20	0	0	0						PTI_STCG20P													PTI_STCG20P	20	0	0	0
+77				40	Pass Through Income in the nature of Short Term Capital Gain chargeable @ 30%	30	0	0	0						PTI_STCG30P													PTI_STCG30P	30	0	0	0
+78				41	Pass Through Income in the nature of Long Term Capital Gain chargeable @ 10% u/s 112A	10	0	0	0						PTI_LTCG10P112A
+79				41	Pass Through Income in the nature of Long Term Capital Gain chargeable @ 12.5% u/s 112A	12.5	0	0	0						PTI_LTCG12_5P112A													PTI_LTCG12_5P112A	12.5	0	0	0
+80				42	Pass Through Income in the nature of Long Term Capital Gain chargeable @ 10%  other than section 112A	10	0	0	0						PTI_LTCG10P
+81				42	Pass Through Income in the nature of Long Term Capital Gain chargeable @ 12.5% other than u/s 112A	12.5	0	0	0						PTI_LTCG12_5P													PTI_LTCG12_5P	12.5	0	0	0
+82				43	Pass Through Income in the nature of Long Term Capital Gain chargeable @ 20%	20	0	0	0						PTI_LTCG20P
+83				43	PTI-115A(1)(a)(i)- Dividends  from units purchase in foreign currency by non-residents	20	0	0	0						PTI_5A1ai													PTI_5A1ai	20	0	0	0
+84				44	PTI- 115A(1)(a)(A)-proviso - Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA.	10	0	0	0						PTI_5A1aA													PTI_5A1aA	10	0	0	0
+85				45	PTI - 115A(1)(a)(ii)- Interest received from Govt./Indian Concerns in Forgeign currency by non-residents	20	0	0	0						PTI_5A1aii													PTI_5A1aii	20	0	0	0
+86				46	PTI-115A(1)(a)(iia) - Interest received by non-resident from infrastructure debt fund	5	0	0	0						PTI_5A1aiia													PTI_5A1aiia	5	0	0	0
+87				47	PTI -115A(1)(a)(iiaa)- Income received by non-resident as referred in section 194LC(1) @ 5%	5	0	0	0						PTI_5A1aiiaa													PTI_5A1aiiaa	5	0	0	0
+88				48	PTI -115A(1)(a)(iiab)- Income received by non-resident as referred in section 194LD	5	0	0	0						PTI_5A1aiiab													PTI_5A1aiiab	5	0	0	0
+89				49	PTI -115A(1)(a)(iiac)- Income received by non-resident as referred in section 194LBA	5	0	0	0						PTI_5A1aiiac													PTI_5A1aiiac	5	0	0	0
+90				50	PTI -115A(1)(a)(iii)- Income from units of UTI purchased in foreign currency in the case of non-residents	20	0	0	0						PTI_5A1aiii													PTI_5A1aiii	20	0	0	0
+91				51	PTI -115A(1)(b)-Income from royalty or fees for technical services received from Government or Indian concern.	20	0	0	0						PTI_5A1bA													PTI_5A1bA	20	0	0	0
+92				52	PTI -115AC(1)(a)- Income by way of interest on bonds purchased in foreign currency - Non-residents	10	0	0	0						PTI_5AC1a													PTI_5AC1a	10	0	0	0
+93				53	PTI -115ACA(1)(a)- Income from GDR purchased in foreign currency - resident	10	0	0	0						PTI_5ACA1a													PTI_5ACA1a	10	0	0	0
+94				54	PTI -115AD(1)(i)- Income (other than dividend) received by an FII in respect of securities (other than units referred to in section115AB)	20	0	0	0						PTI_5AD1i													PTI_5AD1i	20	0	0	0
+95				55	PTI -115AD(1)(i)- Income by way of Interest received by an FII in respect of bonds or government securities referred to in section 194LD 	5	0	0	0						PTI_5AD1iP													PTI_5AD1iP	5	0	0	0
+96				56	PTI_115BB- Winnings from lotteries, crosswords puzzles, races including horse races, card games and other games of any sort or gambling or betting of any form or nature whatsoever	30	0	0	0						PTI_5BB													PTI_5BB	30	0	0	0
+97				56	PTI -115BBA- Income received by non-resident sportsmen or sports associations or entertainer	20	0	0	0						PTI_5BBA													PTI_5BBA	20	0	0	0
+98				57	PTI_115BBC- Anonymous donations 	30	0	0	0						PTI_5BBC													PTI_5BBC	30	0	0	0
+99				58	PTI_115BBDA- (Dividend income from domestic company exceeding Rs.10lakh	0	0	0	0						PTI_5BBDA													PTI_5BBDA	0	0	0	0
+100				57	PTI_115BBE- Income under section 68, 69, 69A, 69B, 69C or 69D	60	0	0	0						PTI_5BBE													PTI_5BBE	60	0	0	0
+101				57	PTI -115BBF- Tax on income from patent	10	0	0	0						PTI_5BBF													PTI_5BBF	10	0	0	0
+102				58	PTI - 115BBG- Tax on income from transfer of carbon credits.	10	0	0	0						PTI_5BBG													PTI_5BBG	10	0	0	0
+103				59	115A(1)(a)(iiaa)- Income received by non-resident as referred in proviso to section 194LC(1)	4	0	0	0						5A1aiiaaP		5A1aiiaaP	0										5A1aiiaaP	4	0	0	0
+104				60	115A(1)(a)(iiac)- Distributed income being Dividend referred to  in section 194LBA	10	0	0	0						5A1aiiaci		5A1aiiaci	0										5A1aiiaci	10	0	0	0
+105				60	115A(1)(a)(iiaa) -Income received by non-resident as referred in second proviso to section 194LC(1)	9	0	0	0						5A1aiiaa2P		5A1aiiaa2P	0										5A1aiiaa2P	9	0	0	0
+106				61	PTI -115A(1)(a)(iiaa)- Income received by non-resident as referred in proviso to section 194LC(1) 	4	0	0	0						PTI_5A1aiiaaP													PTI_5A1aiiaaP	4	0	0	0
+107				62	PTI_115A(1)(a)(iiac)- PTI - Distributed income being Dividend referred to  in section 194LBA	10	0	0	0						PTI_5A1aiiaci													PTI_5A1aiiaci	10	0	0	0
+108				62	PTI - 115A(1)(a)(iiaa)- Income received by non-resident as referred in second proviso to section 194LC(1)	9	0	0	0						PTI_5A1aiiaa2P													PTI_5A1aiiaa2P	9	0	0	0
+109				63	PTI -115AD(1)(i)- Income being dividend received by an FII in respect of securities (other than units referred to in section115AB)	20	0	0	0						5AD1iDiv		5AD1iDiv	0										5AD1iDiv	20	0	0	0	AD 109 to AF 109 updated by Sai on 19/05/2026
+110				64	115AC(1)(b) - Income by way of dividend on GDR purchased in foreign currency - Non-residents	20	0	0	0						PTI_5AD1iDiv													PTI_5AD1iDiv	20	0	0	0	AD 110 to AF 110 updated by Sai on 19/05/2026
+111				65	115AD(1)(i) - Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB)	20	0	0	0						5AC1b		5AC1b	0										5AC1abD	20	0	0	0	AD 111 to AF 111 updated by Sai on 19/05/2026
+112				66	PTI -115AC(1)(b) - Income by way of dividend on GDR purchased in foreign currency 	10	0	0	0						PTI_5AC1b													PTI_5AC1abD	10	0	0	0
+113				67	PTI -115E(a)- Investment income of a non-resident Indian	20	0	0	0						PTI_5Ea													PTI_5Ea	20	0	0	0
+114				68	115BBH- Income from transfer of Virtual Digital Assets										xx													xx	0		0	0
+115				69	a) Income under head business or profession 	30	0	0	0						5BBH_BP													5BBH_BP	30	0	0	0
+116				70	b) Income under head Capital Gain	30	0	0	0						5BBH													5BBH	30	0	0	0
+119						Tax at Spl Rate	0	0	0
+120			Do you want to edit the details auto-populated in table above ?						No
+121															Balance_exemption	100000
+122			Schedule IF		Information regarding partnership firms in which you are partner anytime during the previous year
+123			FIRMS IN WHICH PARTNER	Number of firms in which you are partner
+124					Sl.No.	Name of the Firm	PAN of the firm	Whether the firm is Liable for 
+Audit? (Y/ N)	Whether section 92E is applicable to firm? (Y/ N)	Percentage
+Share in the
+profit of the firm	Amount of
+share
+in profit	Amount of interest due or received	Amount of remuneration due or received	Capital balance as
+ on 31st March in
+the firm
+125											i	ii	iii	iv
+126					1																		0	0	N	N
+127					2																		0	0
+128					3																		0	0
+129					4																		0	0
+130					5																		0	0
+131					6																		0	0
+132											0	0	0	0
+152										5A1ai
+153										5A1aii
+154										5A1aiia
+155										5A1aiiaa
+156										5A1aiiab
+157										5A1aiiac
+158										5A1aiii
+159										FA
+160										5A1bA
+161										5A1bB
+162										5AC1a
+163										5ACA1a
+164										5AD1i
+165										5AD1iP
+166										5BBA
+167										5BBC
+168										5BBE
+169										5Ea
+170										1
+171										5BB

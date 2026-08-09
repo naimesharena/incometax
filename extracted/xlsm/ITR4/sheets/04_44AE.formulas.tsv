@@ -1,0 +1,4 @@
+cell	formula	cached_value
+G9	E9*F9	0
+D18	D17+1	10
+G20	SUM(G9:G18)	0

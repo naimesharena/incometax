@@ -1,0 +1,606 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA	BB	BC	BD	BE	BF	BG	BH	BI	BJ	BK	BL	BM	BN
+1																													Block count STCG		23
+2																													Number of blocks		1
+3			Schedule CG				Capital Gains																						Block count LTCG		41
+4				A(I)	Short-term capital gain (Items 4 & 5 are not applicable for residents)																								Number of blocks		1
+5					1	From sale of land or building or both (fill up details separately for each property) (in case of co-ownership, enter your share of capital gain)																			Check Sheet Filled			STCG Breakup
+6						Date of purchase/ acquisition																							Number of blocks		1
+7						Date of sale/transfer																									For AY 2025-26 by Sai		STCG 15% REMOVED ay 26-27 by bindu on 12th feb 26
+8						a 	i	Full value of consideration received/receivable								ai			0						0	Sheet count		A1e	0		A1e- Short-term Capital Gains on Immovable property	0
+9							ii	Value of property as per stamp valuation authority								aii									0	0		A2c	0		A2c- Short-term Capital Gains from Slump sale	0										YES
+10							iii	Full value of consideration adopted as per section 50C for the purpose of Capital Gains [in case (aii) does not exceed 1.10 times (ai), take this figure as (ai), or else take (aii)]								aiii	0								0		0	A3ie	0		A3ie(i)	0	STCG 15%
+11						b	Deductions under section 48																					A3iie	0		A3ie- 111A- Short-term capital gain on equity share or equity oriented MF (STT paid)	0
+12			CAPITAL GAINS				i	Cost of acquisition without indexation								bi									0			A4a	0		A3iie(i)	0	STCG 15%
+13							ii	Cost of Improvement without indexation								bii									0			A4b	0		A3iie- 115AD- Short-term capital gain on equity share or equity oriented MF (STT paid)	0
+14							iii	Expenditure wholly and exclusively in connection with transfer								biii									0			A5e	0		A4a- STCG on transactions covered u/s 111A for Non Residents	0	STCG 15%
+15							iv	Total (bi + bii + biii)								biv	0											A6g	0		A4a(ii)	0
+16						c	Balance (aiii – biv)									c	0											A7	0		A4b- STCG from sale of shares not covered in sl. no 4a or sale of debentures for Non Residents	0
+17						di	Deduction under section 54B(Specify details in item Dbelow)									di									0			A8	0		A5e- Short-term capital gain on sale of securities by an FII as per section 115AD	0
+18						dii	Deduction under section 54G(Specify details in item Dbelow)									dii									0						A6g- STCG on assets other than at A1 or A2 or A3 or A4 or A5	0
+19						diii	Deduction under section 54GA(Specify details in item Dbelow)									diii									0						A7- Amount deemed to be short term capital gains	0
+20						d	Total Deduction under section 54B/54G/54GA									d	0														A8(a)(i)	0	STCG 15%
+21						e 	Short-term Capital Gains on Immovable property (1c - 1d)											A1e	0												A8a_20%- Pass Through Income/ Loss in the nature of Short-Term Capital Gain, chargeable @ 20%
+22						f	In case of transfer of immovable property please furnish following details (See Note)																								A8b- Pass Through Income/ Loss in the nature of Short-Term Capital Gain, chargeable @ 30%
+23							Sl. No.	Name of Buyer(s)		PAN of Buyer		Aadhaar Number of Buyer(s)	Percentage share 	Amount 	Address of Property	State Code	Pin Code	Country	ZipCode
+(Leave Blank if No Zipcode)												A8c- Pass Through Income/ Loss in the nature of Short-Term Capital Gain, chargeable at applicable rates
+24							1									(Select)		(Select)
+25							2									(Select)		(Select)
+26							3									(Select)		(Select)
+28																										A1e	0
+29						Note 1 : Furnishing of PAN is mandatory, if the tax is deduced under section 194-IA.
+Note 2 : In case of more than one buyer, please indicate the respective percentage share and amount.
+30					2	From Slump sale
+31						ai	Fair market value as per Rule 11UAE(2) 									2ai
+32						aii	Fair market value as per Rule 11UAE(3) 									2aii
+33						aiii	Full value of consideration  (higher of ai or aii)  									2aiii	0								0
+34						b	Net worth of the under taking or division (6(e) of Form 3CEA)									2b									0											neg15
+35						c	Short term capital gains from slump sale (2aiii-2b)											A2c	0
+36					3	From sale of equity share or unit of equity oriented Mutual Fund (MF) or unit of a business trust on which STT is paid under section 111A or 115AD(1)(ii) proviso (for FII) (where A4 is not applicable))
+37						ia 	Full value of consideration 									3ia									0				Incomes		For AY 2025-26 by sai		Total Loss in STCG
+38						ib 	Deductions under section 48 																					STCG 15%	111A	0	STCG 20%	111A	0
+39							i 	Cost of acquisition without indexation								ibi									0									0
+40							ii 	Cost of Improvement without indexation								ibii									0				115AD (1)(b)(ii)	0		115AD (1)(b)(ii)	0
+41							iii 	Expenditure wholly and exclusively in connection with transfer								ibiii									0				PTI	0		PTI	0
+42							iv 	Total  ( ibi + ibii + ibiii) 								ibiv	0
+43						ic 	Balance (3ia – 3ibiv) 									3ic	0																For AY 2025-26
+44						id 	Loss to be disallowed, under section 94(7) or 94(8) for example if asset bought/acquired within 3 months prior to record date and dividend/income/bonus units are received, then loss arising out of sale of such asset to be ignored  (Enter positive values only)									3id									0			LTCG10%	112 proviso	0						112 sec48
+B5ciii - NOT REQUIRED Added below cell			Newly added by Bindu on 4th June 26	All the below sections will be one section 112 in SI
+45						ie 	Short-term capital gain on equity share or equity oriented MF (STT paid) u/s.  111A(for others) (3ic + 3id ) 										0	A3ie	0										112(1)c(iii)	0	112_B6cii
+B6cii	0	LTCG12.5%	112(1)c(iii) 
+B7ieii	0	112
+B1gb
+B2ii(e ) ),B10, B11	0	0	B1g	0
+46						(ii) From sale of equity share or unit of equity oriented Mutual Fund (MF) or unit of a business trust on  which STT is paid u/s 115AD(1)(b)(ii) [for FII]																							115AC(1)	0	PTI_112	0		115AC(1)
+ B7iieii	0	PTI_112
+B12A(1)(ii)	0		B2e	0
+47						iia 	Full value of consideration 									3iia									0				115ACA(1)	0	PTI	0		115ACA(1)
+ B4iieii	0	PTI
+B12A(2)(ii)	0		B5c	0
+48						iib 	Deductions under section 48 																						115AD(iii)	0	115AD(iii)_Proviso	0		115E(a)_B9dii	0	115AD(iii)_Proviso
+B8cii	0		B9e	0
+49							i 	Cost of acquisition without indexation								iibi									0				115E(b)	0	112A	0		115E(b)_B9cii	0	112A
+ B5cii	0		B10	0
+50							ii 	Cost of Improvement without indexation								iibii									0								LTCG 12.5%	115AD(iii)	0	Newly added by Bindu on 24th Feb 26
+51							iii 	Expenditure wholly and exclusively in connection with transfer								iibiii									0
+52							iv 	Total  ( i + ii + iii) 								iibiv	0													AY 2025-26	2024-25 old formula
+53						iic 	Balance (3a – 3biv) 									3iic	0											LTCG 20%	112	0	0	112(1) B4iei	0
+54						iid 	Loss to be disallowed u/s 94(7) or 94(8)- for example if asset bought/acquired within 3 months prior to record date and dividend/income/bonus units are received, then loss arising out of sale of such asset to be ignored (Enter positive value only)									3iid									0				115Ea	0	No use of for 2025-26
+55						iie 	Short-term capital gain on equity share or equity oriented MF or unit of a business trust  (STT paid) u/s 115AD(1)(b)(ii) [for FII] (3iic +3iid)										0	A3iie	0										PTI	0
+56					4	For NON-RESIDENT, not being an FII- from sale of shares or debentures of an Indian company (to be computed with foreign exchange adjustment under first proviso to section 48)
+57						a	STCG on transactions covered u/s 111A (A4ai + A4aii)											A4a	0									STCG 30%	115AD	0
+58						a	Where the before was on or after 23rd July 2024											A4ai-15%
+59						a	STCG on transactions covered u/s 111A											A4a
+60						b	STCG from sale of shares not covered in sl.no. 4a or sale of debentures											A4b											PTI	0
+61					5	For NON-RESIDENTS- from sale of securities (other than those at A3 above) by an FII as per section 115AD
+62						a	i	In case securities sold include shares of a company other than quoted shares, enter the following details
+63								a	Full value of consideration received/receivable in respect of unquoted shares							5aia									0			Applicable rate	AR	0
+64								b	Fair market value of unquoted shares determined in the prescribed manner							aib									0				PTI	0	It's legacy issue changed by Riyaz on 30/04/2025
+65								c	Full value of consideration in respect of unquoted shares adopted as per section 50CA for the purpose of Capital Gains (higher of a or b)							aic	0								0
+66							ii	Full value of consideration in respect of securities other than unquoted shares								5aii									0
+67							iii	Total (ic + ii)								5aiii	0
+68						b	Deductions under section 48
+69							i	Cost of acquisition without indexation								bi
+70							ii	Cost of improvement without indexation								bii
+71							iii	Expenditure wholly and exclusively in connection with transfer								biii
+72							iv	Total (bi + bii + biii)								biv	0
+73						c	Balance (5aiii – biv)									5c	0
+74						d	Loss to be disallowed under section 94(7) or 94(8)- for example if asset bought/acquired within 3 months prior to record date and dividend/income/bonus units are received, then loss arising out of sale of such security to be ignored (Enter positive value only)									5d
+75						e 	Short-term capital gain on sale of securities by an FII (other than those at A3)  (5c +5d)											A5e	0
+76					6	From sale of assets other than at A1 or A2 or A3 or A4 or A5 above
+77						a	i	In case assets sold include shares of a company other than quoted shares, enter the following details
+78								a	Full value of consideration received/receivable in respect of unquoted shares							6aia									0
+79								b	Fair market value of unquoted shares determined in the prescribed manner							aib									0
+80								c	Full value of consideration in respect of unquoted shares adopted as per section 50CA for the purpose of Capital Gains (higher of a or b)							aic	0								0
+81							ii	Full value of consideration in respect of assets other than unquoted shares								aii									0
+82							iii	Total (ic + ii)								aiii	0
+83						a	Full value of consideration 									6a									0
+84						b	Deductions under section 48
+85							i	Cost of acquisition without indexation								bi									0
+86							ii	Cost of Improvement without indexation								bii									0
+87							iii	Expenditure wholly and exclusively in connection with transfer								biii									0
+88							iv	Total (bi + bii + biii)								biv	0
+89						c	Balance (6aiii – biv)									6c	0
+90						d	In case of asset (security/unit)loss to be disallowed u/s 94(7) or 94(8)- for example if asset bought/acquired within 3 months prior to record date and dividend/income/bonus units are received, then loss arising out of sale of such asset to be ignored (Enter positive value only)									6d									0				Section Wise
+91						e	Deemed short term capital gains on depreciable assets (6 of schedule- DCG)									e	0
+92						fi	Deduction under section 54D (Specify details in item Dbelow)									fi									0			54
+93						fi	Deduction under section 54G (Specify details in item Dbelow)									fi									0			54B
+94						fii	Deduction under section 54GA (Specify details in item Dbelow)									fii									0			54D
+95						f	Deduction under section 54G/54GA									6f	0											54EC
+96						g	STCG on assets other than at A1 or A2 or A3 or A4 or A5 above (6c + 6d + 6e-6f)											A6g	0									54F
+97					7	Amount deemed to be short-term capital gains
+98					a	Whether any amount of unutilized capital gain on asset transferred during the previous years shown below was deposited in the Capital Gains Accounts Scheme within due date for that year?
+ If yes, then provide the details below										No
+99							Sl.No.	Previous year in which asset transferred	Section under which deduction claimed in that year
+ 
+	New asset acquired/constructed		Amount not used for new asset or remained unutilized in Capital gains account (X)
+100										Previous year in which asset acquired/constructed	Amount utilised out of Capital Gains account 
+101						i	1
+103					b	Amount deemed to be short term capital gains u/s 54B/54G/54GA, other than at ‘a’										7b
+104						Total amount deemed to be short term capital gains (aXi + aXii + aXiii + b)												A7	0						0
+105						Deemed short term capital gains on depreciable assets (6 of schedule- DCG)												A8	0						0
+106					8	Pass Through Income/Loss in the nature of Short Term Capital Gain, (Fill up schedule PTI) (A8a+ A8b + A8c)												A8	0						0
+107						ai	Pass Through Income/ Loss in the nature of Short Term Capital Gain, chargeable @ 15%									8ai
+108						a2	Pass Through Income/ Loss in the nature of Short Term Capital Gain, chargeable @ 15% other than Section 111A									8a2
+109						a	Pass Through Income/ Loss in the nature of Short Term Capital Gain, chargeable @ 20%									8a
+110						b	Pass Through Income / Loss in the nature of Short Term Capital Gain, chargeable @ 30%									8b
+111						c	Pass Through Income / Loss in the nature of Short Term Capital Gain, chargeable at applicable rates 									8c
+112					9	Amount of  STCG included in A1-A8 but claimed as not chargeable to tax or chargeable at special rates in India as per DTAA (Applicable for Non-Residents only)
+113							Sl. No. (1)	Amount of income 
+(2)	Item No. A1 to A8 above in which included 
+(3)	Country name, code (4)	Article of DTAA 
+(5)	Rate as per Treaty 
+(enter NIL, if not chargeable)
+(6)	Whether Tax Residency Certificate obtained? 
+(7)	Section of I.T. Act 
+(8)	Rate as per I.T. Act 
+(9)	Applicable rate [lower of (6) or (9)] (10)										Section Code	Section Amount	STCG section Amt		Total Amount of each section				A3ie	Not using A3ie(i) in AY 26-27 By Bindu on 12th feb 26	A3iie	Not using A3iie(i) in AY 26-27 By Bindu on 12th feb 26	A8a	Not using A8(a)(i) in AY 26-27 By Bindu on 12th feb 26	Changed by Riyaz		Changed by Riyaz		AY 2025-26 - A3ie(ii)	0	AY 2025-26-A3iie(ii)		AY 2025-26-A4a(ii)		AY 2025-26-A8a(ii)
+114							1		(Select)	(Select)						0										(Select)	0	0		A1e- Short-term Capital Gains on Immovable property	0	A2c- Short-term Capital Gains from Slump sale	0	A3ie(i)	0	A3iie(i)	0	A8(a)(i)	0	A8b- Pass Through Income/ Loss in the nature of Short-Term Capital Gain, chargeable @ 30%	0	A8c- Pass Through Income/ Loss in the nature of Short-Term Capital Gain, chargeable at applicable rates	0	A3ie- 111A- Short-term capital gain on equity share or equity oriented MF (STT paid)	0	A3iie- 115AD- Short-term capital gain on equity share or equity oriented MF (STT paid)	0	A4a- STCG on transactions covered u/s 111A for Non Residents	0	A8a_20%- Pass Through Income/ Loss in the nature of Short-Term Capital Gain, chargeable @ 20%	0
+115							2		(Select)	(Select)						0										(Select)	0	0		A4a(i)	0	A4b- STCG from sale of shares not covered in sl. no 4a or sale of debentures for Non Residents	0	A4e	0	A5e- Short-term capital gain on sale of securities by an FII as per section 115AD	0	A7- Amount deemed to be short term capital gains	0	A6g- STCG on assets other than at A1 or A2 or A3 or A4 or A5	0			Using A3ie instead of A3ie(ii) by Bindu on 12th feb 26		Using A3iie instead of A3iie(ii) by Bindu on 12th feb 26		Using A4a instead of A4a(ii) by Bindu on 12th feb 26		Using A8a instead of A8a(ii) by Bindu on 12th feb 26
+116							3		(Select)	(Select)						0										(Select)	0	0			0		0		0		0		0		0
+117																														Not using A4a(i) in AY 26-27 By Bindu on 12th feb 26
+120							a	Total amount of STCG claimed as not chargeable to tax as per DTAA										A9a	0
+121							b	Total amount of STCG claimed as chargeable to tax at special rates as per DTAA										A9b	0
+122					8	Amount of  STCG included in A1-A7 but not chargeable to tax or chargeable at special rates in India as per DTAA
+123							Sl.	Country name, code	Article of DTAA	Whether Tax Residency Certificate obtained?	Item no. A1 to A7 above in which included	Amount of STCG
+124							1	(Select)		(Select)
+125							2	(Select)		(Select)
+127							III	Total amount of STCG not chargeable to tax as per DTAA										A8							0
+128					9	Amount deemed to be short term capital gains under sections 54B/54D/54G/54GA																						54G
+129						i	Amount deemed to be short term capital gains under sections 54B									i												54GA
+130						ii	 Amount deemed to be short term capital gains under sections 54D									ii												54GB
+131						iii	 Amount deemed to be short term capital gains under sections 54G									iii												115F
+132						iv	 Amount deemed to be short term capital gains under sections 54GA									iv
+133						Total Amount deemed to be short term capital gains under sections 54B/54D/54G/54GA												A7	0
+134					9	Deemed short term capital gains on depreciable assets (6 of schedule- DCG)												A9	0
+135				A(A)		Capital Loss on buy back of shares [Short Term Capital loss @20% / 30% / Applicable rate] (can be claimed only if respective Dividend income u/s 2(22)(f) is offered in 1aiii or sl.no.2d/2e  of schedule OS)												A(A)	0
+136							Sl.No	Rate				Amount
+137							1	(Select)
+138							2	(Select)
+139																											0	0	0
+140					10	Total short term capital gain (A1e+ A2c+ A3e+A4a+ A4b+ A5e+ A6g +A7 + A8-A9a)+A(A)												A10	0
+141				B(I)	Long-term capital gain (LTCG) (Items 5, 6 , 7 & 8 are not applicable for residents)																						LTCG Break Up old (AY 2024-25)			LTCG Break Up For AY 2025-26 by Sai
+142				Long-term Capital Gains	1	From sale of land or building or both (fill up details separately for each property) (from a to f)																					B1e	0		B1e	0
+143						Date of purchase/ acquisition																	100							B1e_20%	0
+144						Date of sale/transfer																	100							B1e_12.5%	0
+145						a	i	Full value of consideration received/receivable								ai									0		B2e	0		B2e_20%	0
+146							ii	Value of property as per stamp valuation authority								aii									0		B3e	0		B2e_12.5%	0
+147							iii	Full value of consideration adopted as per section 50C for the purpose of Capital Gains  [in case (aii) does not exceed 1.10 times (ai), take this figure as (ai), or else take (aii)]								aiii	0								0	0	Bi4e	0		B3e	0
+148						b	Deductions under section 48																				B4iie	0		B4ie_20%	0
+149							i	Cost of acquisition without indexation								bi														B4ie_12.5%	0
+150							biia	Cost of acquisition with indexation  (Applicable only for: 
+ Residents for computational purposes under second proviso to section 112(1)(a) where acquisition is before 23rd July 2024 )								biia	0								0		B5c	0		B4iie_10%	0
+151							biib	Total Cost of Improvement								iib														B4iie_12.5%	0
+152							Sl. No.	Cost of improvement without indexation biib(a)		Year of Improvement		Cost of Improvement with indexation 
+
+(b & c applicable only for: 
+Residents for computational purposes under second proviso to section 112(1)(a) where acquisition is before 23rd July 2024)																		B5c_10%	0
+153							1					0	0																	B5c_12.5%	0
+154							2					0	0																	B6c_20%	0
+155																														B6c_10%	0
+156								Total Cost of improvement without indexation								biibci	0
+157								Total Cost of Improvement with indexation								biibcii	0
+158							biii	Expenditure wholly and exclusively in connection with transfer								biii									0		B6ie	0		B6c_12.5%	0
+159							biv	Total ( bi + ∑biib(a) + biii)								biv	0										B6iie	0		B7ie_10%	0
+160							biva	Total (only for the purpose of computing eiB) (biia +  Ʃbiib(c) + biii)
+(Applicable for Residents for computational purposes under second proviso to section 112(1)(a) where acquisition is before 23rd July 2024)								biva	0													B7ie_12.5%	0
+161						c	Balance (aiii – biv)									1c	0										B6iiie	0		B7iie_10%	0
+162							ca	(Applicable for Residents for computational purposes under second proviso to section 112(1)(a) where acquisition is before 23rd July 2024)
+(only for the purpose of computing eiB) (In case of negative, to be considered as nil) 								1ca	0													B7iie_12.5%	0
+163						di	Deduction under section 54 (Specify details in item D below)									di									0		B7c	0		B7iiie	0
+164						dii	Deduction under section 54B (Specify details in item D below)									dii									0		B7f	0		B8c_10%	0
+165						diii	Deduction under section 54D (Specify details in item D below)									diii									0		B8e	0		B8c_12.5%	0
+166						div	Deduction under section 54EC (Specify details in item D below)									div									0		B9	0		B9c_10%	0
+167						dv	Deduction under section 54F  (Specify details in item D below)									dv									0					B9c_12.5%	0
+168						dvi	Deduction under section 54G (Specify details in item D below)									dvi									0					B9d_20%	0
+169						dvii	Deduction under section 54GA (Specify details in item D below)									dvii									0					B9d_12.5%	0
+170						d	Deduction under section 54/54B/54D/54EC/54F/54G/54GA  (Specify details in item D below) 									1d	0													B10e_20%	0
+171						e 	Long-term Capital Gains on Immovable property (1c - 1d)											B1e	0											B10e_12.5%	0
+172						ea	Long term Capital Gains on Immovable property (1ca-1d) 
+(Applicable for Residents for computational purposes under second proviso to section 112(1)(a) where acquisition is before 23rd July 2024 )
+(only for the purpose of computing eiB) (In case of negative, to be considered as nil)											B1e(a)	0											B11_20%	0
+173						ei	Where acquisition is before 23rd July 2024 (for resident only
+(Note : Tax computed at (ei) is for determining ‘excess amount to be ignored in e(ii)’ )																							B11_12.5%	0
+174						eiA	Tax as per Section 112(1)(a)(ii)(B) (1e*12.5%)											B1ei(A)	0											B12a1_10%	0
+175						eiB	Tax for the purpose of second proviso to Section 112(1)(a) (1ea*20%) 											B1ei(B)	0											B12a1_12.5%	0
+176						eii	Excess amount, if any, that is required to be ignored as per second proviso to section 112(1)(a) (for residents only)
+[B1ei(A)- B1ei(B)]											B1eii	0											B12a2_10%	0
+177						f	In case of transfer of immovable property please furnish the following details (See Note)																							B12a2_12.5%	0
+178							Sl. No.	Name of Buyer(s)		PAN of Buyer(s)		Aadhaar Number of Buyer(s)	Percentage share 	Amount 	Address of Property	State Code	Pin Code	Country	Zipcode
+(Leave Blank if No Zipcode)											B12(b)	0
+179							1									(Select)		(Select)
+180							2									(Select)		(Select)
+181							3									(Select)		(Select)
+183																										B1e	0
+184						Note 1 : Furnishing of PAN is mandatory, if the tax is deduced under section 194-IA.
+Note 2 : In case of more than one buyer, please indicate the respective percentage share and amount.
+185					g	Total Long-term Capital Gains on all Immovable propertyies (ƩB1e)											0
+186						a	Before 23rd July 2024 (sum of capital gains on all properties transferred before 23rd July 2024) 										0			0.2
+187						b	On or after 23rd July 2024 (sum of capital gains on all properties transferred on or after 23rd July 2024)										0			0.125
+188					h	Total excess tax to be ignored (ƩB1eii)											0
+189					2	From Slump sale
+191						ai	Fair market value as per Rule 11UAE(2) 									2ai
+192						aii	Fair market value as per Rule 11UAE(3) 									2aii
+193						aiii	Full value of consideration (higher of ai or aii)  									2aiii	0								0
+194						b	Net worth of the under taking or division (6(e) of Form 3CEA)									2b									0
+195						c	Balance (2aiii - 2b)									2c	0
+196						di	Deduction u/s 54EC (Specify details in item D below)									di									0
+197						dii	Deduction u/s 54EE (Specify details in item D below)																		0
+198						dii	Deduction u/s 54F (Specify details in item D below)									dii									0
+199						d	Total Deduction u/s 54EC/54F 									2d	0
+200						e	Long term capital gains from slump sale (2c-2d)											B2e	0
+201						i	Before 23rd July 2024-Not using											B2ei	0	0.2
+202						ii	On or after 23rd July 2024											B2eii	0	0.125
+203					3	For residents, from sale of unlisted bonds or unlisted debenture (other than capital indexed bonds issued by Government) (applicable only where transfer was before 23rd July 2024 )
+204						a	Full value of consideration									3a									0
+205						b	Deductions under section 48
+206							i	Cost of acquisition without indexation								bi									0
+207							ii	Cost of improvement without indexation								bii									0
+208							iii	Expenditure wholly and exclusively in connection with transfer								biii									0
+209							iv	Total (bi + bii +biii)								biv	0
+210						c	Balance (3a – biv)									3c	0								0
+211						di	Deduction under sections 54EC (Specify details in item D below)									di									0
+212						di	Deduction under sections 54EE (Specify details in item D below)									dii									0
+213						d	Deduction under sections 54F(Specify details in item D below)									3d									0
+214						d	Total Deduction u/s 54EE/54F 									3d
+215						e 	LTCG on bonds or debenture (3c – 3d)											B3e	0	0.2
+216					3i	From sale of (i) listed securities (other than a unit) or zero coupon bond as per Section 112(1)
+218						ia	Full value of consideration									3ia									0
+219						ib	Deductions under section 48
+220							i	Cost of acquisition with indexation								bi
+221							i	Cost of acquisition without indexation								bia									0
+222							ii	Cost of improvement with indexation 								bii
+223							ii	Cost of improvement without indexation								biia									0
+224							iii	Expenditure wholly and exclusively in connection with transfer								biii									0
+225							iv	Total (bi + bii +biii) 								biv	0
+226							iva	Total (bia + biia + biii) (for the purpose of computing excess as per proviso section 112(1)) (applicable where transfer was before 23rd July 2024 )								biva
+227						ic		Balance (3ia – ibiv)								3c	0
+228						di	Deduction under sections 54EC(Specify details in item D below)																		0
+229						idiii	Deduction under sections 54EE(Specify details in item D below)																		0
+230						ica		Balance (4a – biva) (for the purpose of computing excess tax as per proviso to section 112(1)) (applicable where transfer was before 23rd July 2024)								3ca
+231						id	Deduction under sections 54F(Specify details in item D below)									3id									0
+232						d	Total Deduction u/s 54EE/54F 									4d
+233						ie 	Long-term Capital Gains on assets at B4 above where transfer was    (3c-3d)											B3ie	0
+234						i	Before 23rd July 2024-Not using											B4iei	0	0.2
+235						ii	On or after 23rd July 2024											B4ieii	0	0.125
+236						iea	Long-term Capital Gains on assets at B4 above where transfer was before 23rd July 2024 (4ca – 4d) -Not using
+(for the purpose of computing excess tax as per proviso to section 112(1)) 											B4iea	0
+237						if	Tax as per 112(1)(a)(ii)(A) or 112(1)(c)(ii)(A) [LTCG at 20 % with indexation] (applicable where transfer was before 23rd July 2024)[ B4(ei)*20%]-Not using
+(applicable where transfer was before 23rd July, 2024)											B4if	0
+238						ig	Tax as per 1st Proviso to section 112(1) [LTCG at 10 % without indexation] [ B4(ea)*10%]-Not using
+(applicable where transfer was before 23rd July, 2024)											B4ig	0
+239						ih	Excess amount that is required to be ignored as per 1st proviso to section 112(1) [B4(f) – B4(g)]-Not using
+ (applicable where transfer was before 23rd July 2024) 											B4ih	0
+240					3ii	From sale of (ii) GDR of an Indian company referred in sec. 115ACA (applicable only for resident individuals)
+241						iia	Full value of consideration									3iia									0
+242						iib	Deductions under section 48
+243							i	Cost of acquisition without indexation								iibi									0
+244							ii	Cost of improvement without indexation								iibii									0
+245							iii	Expenditure wholly and exclusively in connection with transfer								iibiii									0
+246							iv	Total (bi + bii +biii)								iibiv	0
+247						iic	Balance (3iia –iibiv)									3iic	0
+248						di	Deduction under sections 54EC(Specify details in item D below)									di									0
+249						dii	Deduction under sections 54EE(Specify details in item D below)									dii									0
+250						iid	Deduction under sections 54F(Specify details in item D below)									iid									0
+251						d	Total Deduction u/s 54EE/54F 									4di
+252						e 	Long-term Capital Gains on assets at B4 above where transfer was (3c-3d)											B3iie	0
+253						(i)	Before 23rd July 2024-Not using											B4iiei	0	0.1
+254						(ii)	On or after 23rd July 2024											B4iieii	0	0.125
+255					4	From sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid under section 112A 
+256						a	LTCG u/s 112A (column 14 of Schedule 112A)									4a	0
+257						i	Sum of column 14 where transfer was before 23rd July 2024  									5ai	0
+258						ii	Sum of column 14 where transfer was on or after 23rd July 2024									5aii	0
+259						b	Deduction under sections 54F (Specify details in item D below)
+where transfer was									5b	0
+260						bi	Before 23rd July 2024									5bi
+261						b	Deduction under sections 54F (Specify details in item D below)									4b
+262						c	Long-term Capital Gains on assets at B4 above (4a-4b)											B4c	0
+263						i	Before 23rd July 2024-Not using											B5ci	0	0.1
+264						ii	On or after 23rd July 2024											B5cii	0	0.125
+265					5	For NON-RESIDENTS- from sale of unlisted shares or listed debenture of Indian company (to be computed with foreign exchange adjustment under first proviso to section 48)																			0
+266						a	LTCG computed without indexation benefit in respect of on unlisted shares or listed debentures									5a	0								0
+267						i	Before 23rd July 2024 - Listed Debentures									5ai
+268						ii	Before 23rd July 2024 - Other than listed Debentures									5aii
+269						a	LTCG computed without indexation benefit in respect of on unlisted shares or listed debentures									5a
+270						b	Deduction under sections 54F (Specify details in item D below)									5b	0								0
+271						i	Before 23rd July 2024 - Listed Debentures									5bi
+272						ii	Before 23rd July 2024 - Other than listed Debentures									5bii
+273						b	Deduction under sections 54F (Specify details in item D below)									5b
+274						c	LTCG on unlisted shares or listed debentures (5a-5b)											B5c	0						0
+275						i	where transfer was before 23rd July 2024 – Listed Debentures-Not using											B5ci	0	0.2
+276						ii	where transfer was before 23rd July 2024 – other than Listed Debentures-Not using											B5cii	0	0.1
+277						iii	where transfer was on or after 23rd July 2024 (Only Listed Shares or Listed debentures											B5ciii	0	0.125
+278					6	For NON-RESIDENTS- from sale of unlisted securities as per sec. 112(1)(c)																			0
+279						ia	i	In case securities sold include shares of a company other than quoted shares, enter the following details								i6a	0								0
+280								a	Full value of consideration received/receivable in respect of unquoted shares						0	6ai									0
+281								b	Fair market value of unquoted shares determined in the prescribed manner						0	aib									0
+282								c	Full value of consideration in respect of unquoted shares adopted as per section 50CA for the purpose of Capital Gains (higher of a or b)						0	aic	0								0
+283							ii	Full value of consideration in respect of securities other than unquoted shares							0	aii									0
+284							iii	Total (ic + ii)							0	aiii	0
+285						ib	Deductions under section 48																		0
+286							i	Cost of acquisition without indexation							0	6bi									0
+287							ii	Cost of improvement without indexation							0	bii									0
+288							iii	Expenditure wholly and exclusively in connection with transfer							0	biii									0
+289							iv	Total (bi + bii +biii)							0	biv	0								0
+290						ic	Balance (6aiii –6 biv)								0	6ic	0								0
+291						id	Deduction under sections 54F(Specify details in item D below)								0	d									0
+292						ie 	Long-term Capital Gains on assets at  B6  in case of NON-RESIDENT (6c – 6d)											B6ie	0						0
+293						(i)	Where transfer was before 23rd July 2024 [applicable for 7(i) & 7(ii) ]-NOT USING											B7iei	0	0.1
+294						(ii)	Where transfer was on or after 23rd July 2024 [ applicable for 7(i) & 7(ii) ]											B7ieii	0	0.125
+295						For NON-RESIDENTS- from sale of  bonds or GDR as referred in sec. 115AC																			0
+296						iia	i	In case securities sold include shares of a company other than quoted shares, enter the following details
+297								a	Full value of consideration received/receivable in respect of unquoted shares						0	6iiai									0
+298								b	Fair market value of unquoted shares determined in the prescribed manner						0	iiaib									0
+299								c	Full value of consideration in respect of unquoted shares adopted as per section 50CA for the purpose of Capital Gains (higher of a or b)						0	iiaic	0								0
+300							ii	Full value of consideration in respect of securities other than unquoted shares							0	iiaii									0
+301							iii	Total (ic + ii)							0	iiaiii	0								0
+302						iib	Deductions under section 48																		0
+303							i	Cost of acquisition without indexation							0	bi									0
+304							ii	Cost of improvement without indexation							0	bii									0
+305							iii	Expenditure wholly and exclusively in connection with transfer							0	biii									0
+306							iv	Total (bi + bii +biii)							0	biv	0								0
+307						iic	Balance (6aiii – 6biv)								0	6iic	0								0
+308						iid	Deduction under sections 54F(Specify details in item D below)								0	d									0
+309						iie 	Long-term Capital Gains on assets at B6  in case of NON-REESIDENT (6c – 6d)											B6iie	0						0
+310						(i)	Where transfer was before 23rd July 2024 [applicable for 7(i) & 7(ii) ]-NOT USING											B7iiei	0	0.1
+311						(ii)	Where transfer was on or after 23rd July 2024 [ applicable for 7(i) & 7(ii) ]											B7iieii	0	0.125
+312						For NON-RESIDENTS- from sale of securities by FII as referred to in sec. 115AD(other than securities referred to in Section 112A For which column B7 is to be filled up)																			0
+313						iiia	i	In case securities sold include shares of a company other than quoted shares, enter the following details								i6a	0
+314								a	Full value of consideration received/receivable in respect of unquoted shares							6iiiai									0
+315								b	Fair market value of unquoted shares determined in the prescribed manner							iiiaib									0
+316								c	Full value of consideration in respect of unquoted shares adopted as per section 50CA for the purpose of Capital Gains (higher of a or b)							iiiaic	0								0
+317							ii	Full value of consideration in respect of securities other than unquoted shares								iiiaii									0
+318							iii	Total (ic + ii)								iiiaiii	0								0
+319						iiib	Deductions under section 48																		0
+320							i	Cost of acquisition without indexation								bi									0
+321							ii	Cost of improvement without indexation								bii									0
+322							iii	Expenditure wholly and exclusively in connection with transfer								biii									0
+323							iv	Total (bi + bii +biii)								biv	0								0
+324						iiic	Balance (6aiii – 6biv)									6iiic	0								0
+325						iiid	Deduction under sections 54F(Specify details in item D below)									diii									0
+326						iiie 	Long-term Capital Gains on assets at  B6  in case of NON-RESIDENT (6c-6d)
+											B6iiie	0						0
+327							(iii) - Long-term Capital Gains on assets from sale of securities by FII as referred to in sec. 115AD 											B7iiiei	0	Should be 12.5%
+10%
+328							Total of Long-term Capital Gains on assets at  7 above in case of NON-RESIDENT												0
+329					7	For FII/FPI  ( NON-RESIDENTS ) - From sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid under section 112A read with section 115AD
+330						a	LTCG u/s 112A (Column 14 of 115AD(1)(iii) proviso)									7a	0
+331						i	Sum of column 14 where transfer was before 23rd July 2024  -Not using									7ai	0
+332						ii	Sum of column 14 where transfer was on or after 23rd July 2024 									7aii	0
+333						b	Deduction under sections 54F (Specify details in item D below)									8b	0
+334						i	Before 23rd July 2024 [applicable for 7(i) and 7(ii)]-not using									8bi
+335						b	Deduction under sections 54F (Specify details in item D below)									7b
+336						c	Long-term Capital Gains on assets at B7 above (7a-7b)											B7c	0
+337						i	Before 23rd July 2024-Not using											B8ci	0	0.1
+338						ii	On or after 23rd July 2024											B8cii	0	0.125
+339					8	From sale of foreign exchange asset by NON-RESIDENT INDIAN (If opted under chapter XII-A)																			0
+340						a	LTCG on sale of foreign exchange asset (as per Section 115F)  (computed without indexation)									8a	0								0
+341						i	Before 23rd July 2024									8ai
+342						a	LTCG on sale of foreign exchange asset (as per Section 115F)  (computed without indexation)									8a
+343						b	Less deduction under section 115F(Specify details in item D below)									8b	0								0
+344						i	Before 23rd July 2024-Not using									8bi
+345						b	Less deduction under section 115F(Specify details in item D below)									8b
+346						c	Balance LTCG on sale of specified asset (8a – 8b)											B8c	0						0
+347						i	Before 23rd July 2024-Not using											B8ci	0	0.1
+348						ii	On or after 23rd July 2024											B8cii	0	0.125
+349						d	LTCG on sale of asset, other than specified asset (as per Section 115E) where transfer was 
+(computed without indexation)									9d	0								0
+350						i	Before 23rd July 2024									9di				0.2
+351						ii	On or after 23rd July 2024									9dii				0.125
+352						e 	Less deduction under section 115F(Specify details in item D below)									9e
+353						f	Balance LTCG on sale of asset, other than specified asset  (9d – 9e)											B9f	0
+354					9	From sale of assets where B1 to B8 above are not applicable																			0
+355						a	i	In case assets sold include shares of a company other than quoted shares, enter the following details								i6a	0
+356								a	Full value of consideration received/receivable in respect of unquoted shares						0	9ai									0
+357								b	Fair market value of unquoted shares determined in the prescribed manner						0	ib									0
+358								c	Full value of consideration in respect of unquoted shares adopted as per section 50CA for the purpose of Capital Gains (higher of a or b)						0	ic	0								0
+359							ii	Full value of consideration in respect of assets other than unquoted shares							0	9aii									0
+360							iii	Total (ic + ii)							0	9aiii	0								0
+361						b	Deductions under section 48
+362							i	Cost of acquisition without indexation							0	9bi									0
+363							ii	Cost of improvement without indexation							0	bii									0
+364							iii	Expenditure wholly and exclusively in connection with transfer							0	biii									0
+365							iv	Total (bi + bii +biii)							0	biv	0
+366						c	Balance (9aiii – biv)								0	9c	0
+367						di	Deduction under sections 54D (Specify details in item D below)								0	di									0
+368						dii	Deduction under sections 54EC (Specify details in item D below)								0	dii									0
+369						diii	Deduction under sections 54EE (Specify details in item D below)								0	dii									0
+370						dii	Deduction under sections 54F (Specify details in item D below)								0	dii									0
+371						diii	Deduction under sections 54G (Specify details in item D below)								0	diii									0
+372						div	Deduction under sections 54GA (Specify details in item D below)								0	div									0
+373						d	Deduction under sections 54D/54F/54G/54GA (Specify details in item D below)								0	9d	0
+374						e 	Long-term Capital Gains on assets at B9 above (9c-9d)											B9e	0
+375					9	i	Amount deemed to be LTCG under sections 54									i									0
+376						ii	Amount deemed to be LTCG under sections 54B									ii									0
+377						ii	Amount deemed to be LTCG under sections 54D									ii									0
+378						iii	Amount deemed to be LTCG under sections 54EC									iii									0
+379						iv	Amount deemed to be LTCG under sections 54F									iv									0
+380						ii	Amount deemed to be LTCG under sections 54G									ii									0
+381						ii	Amount deemed to be LTCG under sections 54GA									ii									0
+382						v	Amount deemed to be LTCG under sections 54GB									v									0
+383						vi	Amount deemed to be LTCG under sections 115F									vi									0
+384						Total Amount deemed to be LTCG under sections 54/54B/54D/54EC/54F/54G/54GA/54GB/115F												B9	0						0
+385						i		Before 23rd July 2024-Not using											B10ei	0	0.2
+386						ii	On or After 23rd July 2024											B10eii	0	0.125
+387					10	Amount deemed to be long-term capital gains
+388					a	Whether any amount of unutilized capital gain on asset transferred during the previous years shown below was deposited in the Capital Gains Accounts Scheme within due date for that year? 
+If yes, then provide the details below										No
+389							Sl.No.	Previous year in which asset transferred	Section under which deduction claimed in that year
+ 
+	New asset acquired/constructed		Amount not used for new asset or remained unutilized in Capital gains account (X)
+390										Year in which asset acquired/constructed	Amount utilised out of Capital Gains account 
+391							1
+392							2
+394					b	Amount deemed to be long-term capital gains, other than at ‘a’										11b	0
+395					i	Where deemed capital gain arose before 23rd July 2024-Not using										bi
+396					b	Amount deemed to be long-term capital gains, other than at ‘a’										10b
+397						Total Amount deemed to be long-term capital gains (aXi + aXii +aXiii+ b)												B10	0						0
+398					i	Where deemed capital gain arose before 23rd July 2024-Not using												B11i	0	0.2
+399					ii	Where deemed capital gain arose on or after 23rd July 2024												B11ii	0	0.125
+400					11	Pass Through Income/loss in the nature of Long Term Capital Gain,(Fill up schedule PTI) (B11a1+B11a2)												B11	0
+401						a1(i)	Pass Through Income/loss in the nature of Long Term Capital Gain, chargeable @ 10% u/s. 112A									12a1(i)				0.1
+402						a1	Pass Through Income/ Loss in the nature of Long-Term Capital Gain, chargeable @ 12.5% u/s 112A									11a1				0.125
+403						a2(i)	Pass Through Income/loss in the nature of Long Term Capital Gain, chargeable @ 10% - under sections other than u/s. 112A									12a2(i)				0.1
+404						a2	Pass Through Income/ Loss in the nature of Long-Term Capital Gain, chargeable @ 12.5% other than u/s 112A									11a2				0.125
+405						b	Pass Through Income  /Loss in the nature of Long Term Capital Gain, chargeable @ 20%									12b				0.2
+406					12	Amount of LTCG included in items B1 to B11 but claimed as not chargeable to tax or chargeable at special rates in India as per DTAA (Applicable for Non-Residents only)
+407							Sl. No. (1)	Amount of income 
+(2)	Item No. B1 to B11 above in which included 
+(3)	Country name, code (4)	Article of DTAA 
+(5)	Rate as per Treaty 
+(enter NIL, if not chargeable)
+(6)	Whether Tax Residency Certificate obtained? 
+(7)	Section of I.T. Act 
+(8)	Rate as per I.T. Act 
+(9)	Applicable rate [lower of (6) or (9)] (10)										Section Code	Section Amount	LTCG Section Amount	B1e (B1ga)		B2e	0			B4ie		B4iie		B8c		B9c		B9f				B11		AY 2025-26		AY 2025-26		AY 2025-26		AY 2025-26		AY 2025-26		AY 2025-26		AY 2025-26 (B1gb)		AY 2025-26		As per BA
+408							1		(Select)	(Select)						0										(Select)	0	0	B1e_20%	0	B2e_20%	0	B3e	0	B4ie_12.5%	0	B4iie_10%	0	B8c_10%	0	B9c_10%	0	B9f_20%	0	B10e_20%	0	B11_20%	0	B3iie-115ACA - LTCG u/s 115ACA from GDR of an Indian company	0	B7c-115AD(1)(iii) proviso - LTCG under section 112A read with section 115AD	0	B8c-LTCG from sale of foreign exchange asset by NRI	0	B9f_12.5%	0	B9e-LTCG from sale of assets where B1 to B8 are not applicable	0	B10-Amount deemed to be long-term capital gains	0	B1g-Total LTCG on all Immovable properties	0	B2e-LTCG from Slump sale	0	B3ie-112(1) LTCG u/s 112(1) from listed securities (other than a unit) or zero coupon bonds	0
+409							2		(Select)	(Select)						0										(Select)	0	0	B5c_10%	0	B6c_20%	0	B7ie_10%	0	B7iie_10%	0	B6iiie-115AD - LTCG u/s 115AD from securities by FII	0	B12a1_10%	0	B12a2_10%	0	B12(b)	0	B4c-112A- LTCG from sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid	0	B6c_10%	0	B6iie-115AC - LTCG u/s 115AC from bonds or GDR	0	B11a1-Pass Through Income/ Loss in the nature of LTCG, chargeable @ 12.5% u/s 112A	0	B11a2-Pass Through Income/ Loss in the nature of LTCG, chargeable @ 12.5% other than u/s 112A	0	B6ie-112(1)(c) - LTCG u/s 112(1)(c) from unlisted securities	0	B5c-LTCG on unlisted shares or listed debentures	0
+413							a	Total amount of LTCG claimed as not chargeable to tax under DTAA										B12a	0
+414							b	Total amount of LTCG claimed as chargeable to tax at special rates as per DTAA										B12b	0						0																						0
+415							Sl.	Country name, code	Article of DTAA	Whether Tax Residency Certificate obtained?	Item B1 to B9 above in which included	Amount of LTCG
+416							1
+417							2
+419							III	Total amount of LTCG not chargeable to tax as per DTAA										B10	0
+420					B(A)	Capital Loss on buy back of shares [Long Term Capital loss @12.5%] (can be claimed only if respective Dividend income u/s 2(22)(f) is offered in 1aiii or sl.no.2d/2e of schedule OS)												B(A)	0
+421							Sl.No	Rate			Amount														For AY 2025-26
+422							1	(Select)																	0	0	Formula updated by Bindu on 4th June 26
+423							2	(Select)
+425					13	Total long term capital gain chargeable under I.T. Act  [B1g +B2e+ B3e +B4c+ B5c + B6c + B7c+ B8c + B9e+ B10+ B11 - B12a+B(A)]												B13	0
+426				C1	Sum of Capital Gain Income  (8ii +8iii + 8iv + 8v + 8vi + 8vii of table E below) 													C1	0
+427				C2	Income from transfer of Virtual Digital Assets (Item No. B of Schedule VDA )													C2	0
+428				C3	Income chargeable under the head “CAPITAL GAINS” (C1 + C2 )													C3	0
+429				D	Information about deduction claimed against Capital Gains
+430					1	In case of deduction u/s 54/54B/54D/54EC/54F/54G/54GA/115F give following details
+431						a	Deduction claimed u/s 54
+432							Sl. No	Date of transfer of original asset	Cost of new residential house	Date of purchase/construction of new residential house	Amount deposited in Capital Gains Accounts Scheme before due date	Date of deposit 	Account number	IFS code	Amount of deduction claimed 
+433							1
+434							2
+435							3
+436							Total					0
+437						b	Deduction claimed u/s 54B
+438							Sl. No	Date of transfer of original asset	Cost of new agricultural land	Date of purchase of new agricultural land	Amount deposited in Capital Gains Accounts Scheme before due date	Date of deposit 	Account number	IFS code	Amount of deduction claimed							0	1
+439							1								0
+440							2
+441							Total					0
+442						c	Deduction claimed u/s 54D
+443							Sl. No	Date of acquisition of original asset	Cost of purchase/ construction of new land or building for industrial undertaking	Date of purchase of new land or building 	Amount deposited in Capital Gains Accounts Scheme before due date	Date of deposit 	Account number	IFS code	Amount of deduction claimed
+444							1								0							1	1
+445							2
+446							Total					0
+447						d	Deduction claimed u/s 54EC
+448							Sl. No	Date of transfer of original asset	Amount invested in specified/notified bonds 
+(not exceeding fifty lakh rupees)	Date of investment	Amount of deduction claimed
+449							1
+450							2
+451							Total				0
+452						e	Deduction claimed u/s 54EE
+453							Sl. No.	Date of transfer of original asset	Amount invested in specified assets	Date of investment	Amount of deduction claimed
+454							1
+455							2
+456							Total
+457						e	Deduction claimed u/s 54F
+
+458							Sl. No.	Date of transfer of original asset	Cost of new residential house	Date of purchase/construction of new residential house	Amount deposited in Capital Gains Accounts Scheme before due date	Date of deposit 	Account number	IFS code	Amount of deduction claimed
+459							1
+460							2
+461							Total					0
+462						f	Deduction claimed u/s 54G
+463							Sl. No.	Date of transfer of original asset from urban area 	Cost and expenses incurred for purchase or construction of new asset 	Date of purchase/construction of new asset in an area other than urban area  	Amount deposited in Capital Gains Accounts Scheme before due date	Date of deposit 	Account number	IFS code	Amount of deduction claimed
+464							1								0							0	1
+465							2
+466							Total					0
+467						g	Deduction claimed u/s 54GA
+468							Sl. No.	Date of transfer of original asset from urban area 	Cost and expenses incurred for purchase or construction of new asset 	Date of purchase/construction of new asset in SEZ  	Amount deposited in Capital Gains Accounts Scheme before due date	Date of deposit 	Account number	IFS code	Amount of deduction claimed
+469							1								0
+470							2
+471							Total					0
+472						h	Deduction claimed u/s 115F (for Non-Resident Indians)
+473							Sl. No	Date of transfer of original foreign exchange asset 	Amount invested in new specified asset or savings certificate	Date of investment	Amount of deduction claimed
+474							1
+475							2
+476							Total				0
+477								Section	Amount of Deduction	Cost of New Asset	Date of its acquisition/ construction	Amount deposited in Capital Gains Accounts Scheme before due date
+478							1	(Select)
+479							2	(Select)
+480							3	(Select)
+481							4	(Select)
+482							5	(Select)
+483							6	(Select)
+484							7	(Select)
+485							8	(Select)
+489						1i	Total deduction claimed ) (1a + 1b + 1c + 1d + 1e + 1f+1g+1h)							1i	0
+490					2	In case of deduction u/s 54GB, furnish PAN of the company
+491				E	Set-off of current year capital losses with current year capital gains (excluding amounts included in A9a & B13a which is not chargeable as per  DTAA)
+492					SI. No.	Type of Capital Gain			Capital Gain of current year (Fill this column only if computed figure is positive)	Short term capital loss 				Long term capital loss			Current year’s capital gains remaining after set off
+      (9= 1-2-3-4-5-6-7-8)
+
+493										0.15	0.3	applicable rate	DTAA rates	0.1	0.2	DTAA rates
+494									1	2	3	4	5	6	7	8	9
+495					i	Capital Loss to be set off (Fill this row only if figure computed is negative)
+                          ------>				0	0	0	0	0	0	0
+496					ii	Short term capital gain		0.15	0		0	0	0				0
+497					iii			0.3	0	0		0	0				0
+498					iv			applicable rate 	0	0	0		0				0
+499					v			DTAA rates	0	0	0	0					0
+500					vi	Long term capital gain		0.1	0	0	0	0	0		0	0	0
+501					vii			0.2	0	0	0	0	0	0		0	0
+502					viii			DTAA rates	0	0	0	0	0	0	0		0
+503					ix	Total loss set off
+(ii + iii + iv + v + vi+vii+viii)				0	0	0	0	0	0	0
+504					x	Loss remaining after set off
+(i – vii)				0	0	0	0	0	0	0
+506				E	Set-off of current year capital losses with current year capital gains (excluding amounts included in A9a & B12a which is not chargeable as per  DTAA)
+507				SI. No	Type of Capital Gain				Capital Gain of current year (Fill this column only if computed figure is positive)	Short term capital loss 					Long term capital loss
+508										0.15	0.2	0.3	applicable rate	DTAA rates	0.1	0.125	0.2	DTAA rates	Current year’s capital gains remaining after set off
+      (11= 1-2-3-4-5-6-7-8-9-10)
+509									1	2	3	4	5	6	7	8	9	10	11
+510				i	Capital Loss to be set off (Fill this row only if figure computed is negative)
+                          ------>					0	0	0	0	0	0	0	0	0								Column Wise	Row Wise
+511					ii	Short term capital gain		0.15	0		0	0	0	0					0						0.15	0	0	0	0
+512					iii			0.2	0	0		0	0	0					0						0.2	0	0		0
+513					iv			0.3	0	0	0		0	0					0						0.3	0	0		0
+514					v			Applicable rate	0	0	0	0		0					0						APP	0	0		0
+515					vi			DTAA rates	0	0	0	0	0						0						DTAA	0	0		0
+516					vii	Long term capital gain		0.1	0	0	0	0	0	0		0	0	0	0						0.1	0	0		0
+517					viii			0.125	0	0	0	0	0	0	0		0	0	0						0.125	0	0		0
+518					ix			0.2	0	0	0	0	0	0	0	0		0	0						0.2	0	0		0
+519					x			DTAA rates	0	0	0	0	0	0	0	0	0		0						DTAA	0	0		0
+520					xi	Total loss set off (ii + iii + iv + v + vi+vii+viii+ix+x)				0	0	0	0	0	0	0	0	0
+521					xii	Loss remaining after set off (i – xi)				0	0	0	0	0	0	0	0	0
+522				Do you want to edit the detail autopopulated above?
+523				SI. No	Type of Capital Gain				Capital Gain of current year (Fill this column only if computed figure is positive)	Short term capital loss 				Long term capital loss
+524										0.2	0.3	applicable rate	DTAA rates	0.125	DTAA rates	Current year’s capital gains remaining after set off
+      (8= 1-2-3-4-5-6-7)
+525									1	2	3	4	5	6	7	8
+526					i	Capital Loss to be set off (Fill this row only if figure computed is negative)------>				0	0	0	0	0	0
+527					ii	Short term capital gain		0.2	0		0	0	0			0
+528					iii			0.3	0	0		0	0			0
+529					iv			applicable rate	0	0	0		0			0
+530					v			DTAA rates	0	0	0	0				0
+531					vi	Long term capital gain		0.125	0	0	0	0	0		0	0
+532					vii			DTAA rates	0	0	0	0	0	0		0
+533					viii	Total loss set off (ii + iii + iv + v + vi+vii)				0	0	0	0	0	0
+534					ix	Loss remaining after set off (i – viii)				0	0	0	0	0	0
+535				Do you want to edit the detail autopopulated above?																						FALSE	FALSE
+536				F																													frm Sum
+537						Type of Capital gain / Date						Upto 15/6
+(i)	16/6 to 15/9
+(ii)		16/9 to 15/12
+(iii)		16/12 to 15/3
+(iv)		16/3 to 31/3
+(v)												from D	54EE	#NAME?	0
+538						Short-term capital gains taxable at the rate of 15%. Enter value from item 5via of schedule BFLA, if any.																									0	54B	0	0	0
+539					1	Short-term capital gains taxable at the rate of 20%.Enter value from item  5vi of schedule BFLA, if any.																									0
+540					2	Short-term capital gains taxable at the rate of 30%. Enter value from item 5vii of schedule BFLA, if any.																										54	0	0
+541					3	Short-term capital gains taxable at applicable rates. Enter value from item 5viii of schedule BFLA, if any.																					0				0	54EC	0	0
+542					4	Short-term capital gains taxable at DTAA rates Enter value from item 5ix of schedule BFLA, if any.																									0
+543						Long- term capital gains taxable at the rate of 10%  Enter value from item 5xa  of schedule BFLA, if any.																										54F	0	0
+544					5	Long- term capital gains taxable at the rate of 12.5%  Enter value from item 5x of schedule BFLA, if any. 																									0
+545						Long- term capital gains taxable at the rate of 20%  Enter value from item 5xi of schedule BFLA, if any.																										54GB	0	0
+546					6	Long-term capital gains taxable at DTAA rates Enter value from item 5xi of schedule BFLA, if any.																									0
+547					7	Capital gains on transfer of Virtual Digital Asset taxable at the rate of 30% 
+Enter value from item 17B of schedule SI, if any
+548			 NOTE ►			Please include the income of the specified persons (spouse, minor child, etc.) referred to in Schedule SPI  while computing the income under this head																										115F	0
+549																															0	54GA	0	0	0
+550																															0	54G	0	0	0
+551																															0	54D	0	0	0
+552																															0

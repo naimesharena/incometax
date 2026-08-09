@@ -1,0 +1,68 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L
+3			Schedule 80D
+4			1	If you are individual, whether you or any of your family member(excluding parents) is a senior citizen?
+If you are HUF, whether any member of HUF is a senior citizen?								Not Claiming for Self/Family
+5			a	Self & Family
+6			(i)	Health Insurance								0
+7				Details of Insurance
+8				Sl. No.              
+ (i)	Name of the Insurer (Insurance company)
+(ii)			Policy Number 
+ (iii)		Receipt/document number of the premium paid
+(iv)		Health Insurance amount                           
+(iv)
+9				1
+10				2
+11				3
+12				4
+14				Total of payments								0
+15			(ii)	Preventive Health Checkup
+16			b	Self & Family Including  senior citizen
+17			(i)	Health Insurance								0
+18				Details of Insurance
+19				Sl. No.              
+ (i)	Name of the Insurer (Insurance company)
+(ii)			Policy Number 
+ (iii)		Receipt/document number of the premium paid
+(iv)		Health Insurance amount                           
+(iv)
+20				1
+21				2
+22				3
+23				4
+25				Total of payments								0
+26			(ii)	Preventive Health Checkup
+27			(iii)	Medical Expenditure (This deduction can be claimed on which health insurance is not claimed at (i) above)
+28			2	Whether any one of your parents is a senior citizen								Not claiming for Parents
+29			a	Parents
+30			(i)	Health Insurance								0
+31				Details of Insurance
+32				Sl. No.              
+ (i)	Name of the Insurer (Insurance company)
+(ii)			Policy Number 
+ (iii)		Receipt/document number of the premium paid
+(iv)		Health Insurance amount                           
+(iv)
+33				1
+34				2
+35				3
+36				4
+38				Total of payments								0
+39			(ii)	Preventive Health Checkup
+40			b	Parents Including senior citizen
+41			(i)	Health Insurance								0
+42				Details of Insurance
+43				Sl. No.              
+ (i)	Name of the Insurer (Insurance company)
+(ii)			Policy Number 
+ (iii)		Receipt/document number of the premium paid
+(iv)		Health Insurance amount                           
+(iv)
+44				1
+45				2
+46				3
+47				4
+49				Total of payments								0
+50			(ii)	Preventive Health Checkup
+51			(iii)	Medical Expenditure (This deduction can be claimed on which health insurance is not claimed at (i) above)
+52			3	Eligible Amount of Deduction								0

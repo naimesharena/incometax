@@ -1,0 +1,74 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA	BB	BC	BD	BE	BF	BG	BH	BI	BJ	BK	BL	BM	BN	BO	BP	BQ	BR
+2																	SAL.TotalGrossSalary															Central Govt	0
+3			Schedule VI-A		Deductions under Chapter VI-A																	GTI_Limit	0		0							State Govt	0
+4																																Public SU	0
+5				1. Part B- Deduction in respect of certain payments							System Calculated											Max_Amount	0									Pensioner	0
+6				a	80C - Life insurance premium, deferred annuity, contributions to provident fund, subscription to certain equity shares or debentures, etc.			a	0		0												0									OTHER	0																						0															0
+7				b	80CCC - Payment in respect Pension Fund			b	0		0																					Select or null	3	3																					0
+8				S.No	Type of Identifier	Identifier No	Amount
+9				1
+10				2
+12				c	80CCD(1) - Contribution to pension scheme of Central Government			c			0				0		Salaryded	0												0		DA or Basic salary	0																						0
+13				S.No	Type of Identifier	Name of Identifier	Amount
+14				1
+15				2
+17				d	80CCD(1B) - Contribution to pension scheme of Central Government			d			0																			0			0																						0
+18				S.No	Type of Identifier	Name of Identifier	Amount
+19				1
+20				2
+22					PRAN
+23				1
+24				2
+25				3
+27			TOTAL
+DEDUCTIONS	e	80CCD(2) - Contribution to pension scheme of Central Government by the Employer			e			0												Tot Income 						0	0		HRA	0																						0
+28				f	80CCG - Investment made under an equity savings scheme			f			0						0	0					0							0		HRA		GTI_LIMIT	MAX(0,VALUE(Sheet2.GrossTotalIncome)-VALUE(Sheet2.IncChargeableTaxSplRates))																				0
+29				f	80CCF			f			IF(GTI_LIMIT > 1200000,0,MIN(VALUE(scvia.Section80CCG),25000))),GTI_LIMIT))																					HRA Sec 13A	0
+30				f	80D
+(Please fill schedule 80D. This field is auto-populated from schedule.)			f	0		0							0											0	0	0	HRA Sec 13A	0	Max Amount	0
+31					(A) Health Insurance Premium																								0	0	IF(MID(sheet1.Status,1,1)<>"I",MIN(VALUE(scvia.Section80DB),MIN(GTI_LIMIT,50000)),IF(AND(MID(sheet1.ResidentialStatus1,1,3)<>"NRI",age>=80),MIN(VALUE(scvia.Section80DB),MIN(GTI_LIMIT,AD31)),MIN(VALUE(scvia.Section80DB),MIN(GTI_LIMIT,AD31))))	HRA Sec 13A																							0
+32					(B) Medical expenditure						0				80DB	0	0	#VALUE!	#VALUE!	0									0	MIN(MIN(IF(AC32="1",5000,IF(AC32="2",5000,IF(AC32="3",5000,0))),GTI_LIMIT),IF(scvia.Section80DC="",0,scvia.Section80DC))	MIN(MIN(IF(AC32="1",5000,IF(AC32="2",5000,IF(AC32="3",5000,0))),GTI_LIMIT),IF(scvia.Section80DC="",0,scvia.Section80DC))	HRA Sec 13A
+33					(C) Preventive health check-up										80DC	0	0	0											IF( OR(MID(SELECT80DD,1,1) ="(", MID(SELECT80DD,1,1)=""),0,MID(SELECT80DD,1,1))	0		HRA Sec 13A
+34				g	80 DD - Maintenance including medical treatment of a dependant who is a person with disability.
+(Please fill 80DD Schedule. This field is auto-populated from schedule.)			g	0		0												OneFrthofTI						0	0		Total 17(1)	0																80DD	IF(MID(SELECT80DD,1,1)="1",1,IF(MID(SELECT80DD,1,1)="2",2,0))	0
+35				h	80 DDB - Medical treatment of specified disease	Name of specified disease		h	0		0												#VALUE!									Inc 89A	0																80DDB	0	0
+36					(Select)	(Select)
+37				i	80 E - Interest on loan taken for higher education			i	0		0						GG															Inc 89AOther	0
+38				j	80EE - Interest on loan taken for residential house property			j	0		0						0
+39				k	80EEA-Deduction in respect of interest on loan taken for certain house property			k	0		0
+40				l	80EEB-Deduction in respect of purchase of electric vehicle			l	0		0
+41				m	80 G - Donations to certain funds, charitable institutions, etc 
+(Please fill 80G Schedule. This field is auto-populated from schedule.)			m	0		0
+42				n	80 GG - Rent paid
+(Please furnish form 10BA to claim the deduction)			n	0		0															0
+43				Acknowledgement number of Form 10BA
+44				o	80GGA - Certain donations for scientific research or rural development (Please fill 80GGA Schedule. This field is auto-populated from schedule.)			o	0		0															0
+45				p	80 GGC - Donation to Political party
+(Please fill 80GGC Schedule. This field is auto-populated from schedule.)			p	0		0										10-11-13A-13B
+46				Total Deduction under Part B (total of a to o(i))					0		0										0
+47				Part C, CA and D- Deduction in respect of certain incomes/other deduction  
+48				p	80IA (b of Schedule 80-IA) - Profits and gains from industrial undertakings or enterprises engaged in infrastructure development, etc.			p	0		0
+49				q	80IAB - Profits and gains by an undertaking or enterprise engaged in development of Special Economic Zone			q	0		0												Tot Deductions Without 80GG				SUM of Individual Deductions
+50				r	80IB (F of Schedule 80-IB) - Profits and gains from certain industrial undertakings other than infrastructure development undertakings			r	0		0												0				dedPartB	0
+51				s	80-IBA - Profits and gains from housing projects			s	0		0
+52				t	80IC / 80IE  (e of Schedule 80-IC/ 80-IE) - Special provisions in respect of certain undertakings or enterprises in certain special category States/Special provisions in respect of certain undertakings in North-Eastern States
+
+Note: values in the latest statutory forms avaliable at the time of processing the return to be adopted 			t	0		0																dedPartCA	0
+53				t	80ID			t			0																dedPartC	0
+54				u	80JJA - Profits and gains from business of collecting and processing of bio-degradable waste.			u	0		0					0
+55				v	80JJAA - Employment of new employees			v	0		0
+56				q	80QQB - Royalty income of authors of certain books.
+Note: This deduction shall be allowed only if Form 10CCD and return is filed by the assessee within due date			q	0		0
+57				Acknowledgement number of Form 10CCD
+58				r	80RRB - Royalty on patents
+Note: This deduction shall be allowed only if the assessee has filed Form 10CCE and return within due date			r	0		0																DedViA
+59				Total Deduction under Part C (total of  p to x)				2	0		0																0
+60				Acknowledgement number of Form 10CCE
+61				s	80TTA - Interest on saving bank Accounts in case of other than Resident senior citizens			s	0		0																totInc
+62				t	80TTB - Interest on deposits in case of Resident senior citizens			t	0		0
+63				u	80 U - In case of a person with disability.
+(Please fill 80U Schedule. This field is auto-populated from schedule.)			u	0		0					New	Old										totInc																						80U	IF(MID(SELECT80U,1,1)="1",1,IF(MID(SELECT80U,1,1)="2",2,0))	0
+64				Total Deduction under Part CA and D (total of  I,ii and iii)				3	0		0
+65				ua	80CCH-Contribution to Agnipath Scheme			ua			0					0	0
+66				ub	Any other deductions			ub
+67				v	Deductions (Total of a to ua)			v	0		0

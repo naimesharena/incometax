@@ -1,0 +1,55 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W
+3		Section 80E	 Interest on loan taken for higher education
+4			Sl.No	Loan taken from               
+ (i)	Name of the bank/ Institution from which the loan is taken                    
+ (ii)	Loan Account number of the Bank/ Institution                 
+ (iii)	Date of sanction of loan                    
+(iv)	Total amount of loan                    
+ (v)	Loan outstanding as on on last date of financial year           
+(vi)	Interest u/s 80E                  
+(vii)
+5			1	(Select)
+6			2	(Select)
+7			3	(Select)													0
+9			Total Interest u/s 80E							0
+14		80EE	 Interest on loan taken for residential house property
+15			Sl.No	Loan taken from                
+(i)	Name of the bank/ Institution from which the loan is taken                    
+ (ii)	Loan Account number of the Bank/ Institution                 
+(iii)	Date of sanction of loan                      
+ (iv)	Total amount of loan                     
+(v)	Loan outstanding as on on last date of financial year           
+(vi)	Interest u/s 80EE                  
+(vii)
+16			1																				___
+17			2																				___
+18			3																				___
+20			Total Interest u/s 80EE							0
+25		Section 80EEA	 Deduction in respect of interest on loan taken for certain house property
+26			Stamp value of residential house property
+27			Sl.No	Loan taken from                    
+(i)	Name of the bank/ Institution from which the loan is taken                    
+ (ii)	Loan Account number of the Bank/ Institution                 
+(iii)	Date of sanction of loan                       
+ (iv)	Total amount of loan                   
+ (v)	Loan outstanding as on last date of financial year          
+ (vi)	Interest u/s 80EEA                 
+ (vii)
+28			1																			___
+29			2																			___
+30			3																			___
+32			Total Interest u/s 80EEA							0
+37		Schedule 80EEB	 Deduction in respect of interest Paid on purchase of electric vehicle
+38			Sl.No	Loan taken from                
+(i)	Name of the bank/ Institution from which the loan is taken                    
+ (ii)	Loan Account number of the Bank/ Institution                 
+(iii)	Date of sanction of loan                         
+(iv)	Total amount of loan                    
+(v)	Loan outstanding as on on last date of financial year           
+(vi)	Vehicle registration number                      
+(vii)	Interest u/s 80EEB                
+  (viii)
+39			1
+40			2
+41			3
+43			Total Interest u/s 80EEB								0

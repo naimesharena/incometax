@@ -1,0 +1,7 @@
+cell	formula	cached_value
+AD4	IF(MID(Naturedisability_80U,1,1)="1",1,IF(MID(Naturedisability_80U,1,1)="2",2,0))	0
+AC5	IF(AD4=1,75000,IF(AD4=2,125000,0))	0
+F6	IF(bacValue=1,0,MIN(IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,IF(MID(sheet1.Status,1,1)<>"I",0,Naturedisability_80U_v)),GTI_LIMIT))	0
+AD14	IF(MID(Naturedisability_80DD,1,1)="1",1,IF(MID(Naturedisability_80DD,1,1)="2",2,0))	0
+AC15	IF(AD14=1,75000,IF(AD14=2,125000,0))	0
+F16	IF(bacValue=1,0,MIN(IF(MID(sheet1.ResidentialStatus1,1,3)<>"NRI",Naturedisability_80DD_v,0),GTI_LIMIT))	0

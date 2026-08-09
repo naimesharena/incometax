@@ -1,0 +1,170 @@
+cell	formula	cached_value
+BB50	IF(UPPER(LEFT(sheet1.Status,1))="F","",IF(OR(UPPER(Sheet1.115BAC)=UPPER("(Select)"),UPPER(Sheet1.OptOutNewTaxRegime_New_Yes)="NO",UPPER(Sheet1.OptOutNewTaxRegime_New_No)="NO",UPPER(Sheet1.OptOutNewTaxRegime_New_NA)="NO"),1,IF(OR(UPPER(Sheet1.OptOutNewTaxRegime_New_Yes)="YES",UPPER(Sheet1.OptOutNewTaxRegime_New_No)="YES",UPPER(Sheet1.OptOutNewTaxRegime_New_NA)="YES"),2,"")))	1
+BB52	IF(UPPER(LEFT(sheet1.Status,1))="F","",IF(OR(UPPER(Sheet1.115BAC)=UPPER("(Select)"),UPPER(Sheet1.OptOutNewTaxRegime_New_Yes)="NO",UPPER(Sheet1.OptOutNewTaxRegime_New_No)="YES",UPPER(Sheet1.OptOutNewTaxRegime_New_NA)="NO"),1,IF(OR(UPPER(Sheet1.OptOutNewTaxRegime_New_Yes)="YES",UPPER(Sheet1.OptOutNewTaxRegime_New_No)="NO",UPPER(Sheet1.OptOutNewTaxRegime_New_NA)="YES"),2,"")))	1
+AO110	BP!I72	0
+AO111	IncD.IncomeFromSal_ii+IncD.IncomeFromSal_iii+IncD.IncomeFromSal_iv	0
+AY112	COUNTIF(Sheet1.Nature,"Sec 10(10B) First proviso - Compensation limit notified by CG in the Official Gazette ")	0
+AZ112	COUNTIF(Sheet1.Nature1,"Interest accrued on contributions to provident fund to the extent taxable as per first proviso to section 10(11)")	0
+BB112	SUM(IncD.IncomeFromSal_ii,IncD.IncomeFromSal_iii,IncD.IncomeFromSal_iv)	0
+AY113	COUNTIF(Sheet1.Nature,"Sec 10(10B) Second proviso - Compensation under scheme approved by the Central Government")	0
+AZ113	COUNTIF(Sheet1.Nature1,"Interest accrued on contributions to provident fund to the extent taxable as per second proviso to section 10(11)")	0
+AY114	COUNTIF(Sheet1.Nature,"Sec 10(10C)-Amount received/receivable on voluntary retirement or termination of service")	0
+AZ114	COUNTIF(Sheet1.Nature1,"Interest accrued on contributions to provident fund to the extent taxable as per first proviso to section 10(12)")	0
+BC114	Sheet1.HRA	0
+AO115	IncomeNotified89A_AmountUS+IncomeNotified89A_AmountUK+IncomeNotified89A_AmountCan	0
+AY115	SUM(AY112:AY114)	0
+AZ115	COUNTIF(Sheet1.Nature1,"Interest accrued on contributions to provident fund to the extent taxable as per second proviso to section 10(12)")	0
+BC115	SUMIF(Sheet1.Nature,"Sec 10(13A)-Allowance to meet expenditure incurred on house rent",Sheet1.Amount)	0
+AZ120	SUM(AZ112:AZ115)	0
+AO121	MAX(0,SUM(Sheet1.Amount,Sheet1.HRA))	0
+H124	H123+1	2
+H125	H124+1	3
+H126	H125+1	4
+AO128	Sch10of13A_ElgiblExmptAllwnce10of13A	0
+AO130	MAX(0,IncD.IncomeFromSal_i-MIN(IncD.IncomeFromSal_allow,IncD.IncomeFromSal_ii+IncD.IncomeFromSal_iii+IncD.IncomeFromSal_iv))	0
+BB130	IF(LEFT(Sheet1.OptOutNewTaxRegime,2)="Ne",1,IF(LEFT(Sheet1.OptOutNewTaxRegime,2)="Ol",2,0))	0
+AO131	MAX(0,IncD.IncomeFromSal_iva+IncD.IncomeFromSal_v+IncD.IncomeFromSal_ivc)	0
+BB131	IF(bacValue=1,1,IF(bacValue=2,2,0))	1
+AO132	IF(Return_Dropdown_Regime=1,MIN(IncD.IncomeFromSal_net,75000),IF(Return_Dropdown_Regime=2,MIN(IncD.IncomeFromSal_net,50000),0))	0
+AY132	IF(Return_Dropdown_Regime=1,MIN(IncD.IncomeFromSal_net,75000),IF(Return_Dropdown_Regime=2,MIN(IncD.IncomeFromSal_net,50000),0))	0
+BB132	IF(Return_Dropdown_Regime=1,MIN(IncD.IncomeFromSal_net,75000),IF(Return_Dropdown_Regime=2,MIN(IncD.IncomeFromSal_net,50000),0))	0
+AO135	MAX((IncD.IncomeFromSal_net-IncD.IncomeFromSal_va),0)	0
+AB141	IncD.IncomeFromHP_i-IncD.IncomeFromHP_ii	0
+AO141	MAX(0,IncD.IncomeFromHP_i-IncD.IncomeFromHP_ii)	0
+AB142	ROUND(IF(IncD.IncomeFromHP_iii>0,(0.3*IncD.IncomeFromHP_iii),0),0)	0
+AO142	ROUND(IF(IncD.IncomeFromHP_iii>0,(0.3*IncD.IncomeFromHP_iii),0),0)	0
+AO143	IF(AND(bacValue=1,MID(IncD.TypeOfHP,1,1)="S"),0,IF(AND(bacValue=2,MID(IncD.TypeOfHP,1,1)="S"),IF(TotAmt.24b>200000,200000,MIN(200000,TotAmt.24b)),IF(AND(MID(IncD.TypeOfHP,1,1)<>"S",IncD.IncomeFromHP_i=0),0,TotAmt.24b)))	0
+AZ143	IF(IncD.TypeOfHP="Self Occupied",MAX(IncD.IncomeFromHP_v,200000),IncD.IncomeFromHP_v)	0
+AO145	HP.TotalIncomeChargeableUnHP	0
+AZ145	IF(IncD.TypeOfHP="Self Occupied",IncD.IncomeFromHP,(IF(IncD.TypeOfHP="Let Out",MAX(IncD.IncomeFromHP,-200000),0)))	0
+BB145	IncD.IncomeFromHP_iii-IncD.IncomeFromHP_iv-IncD.IncomeFromHP_v	0
+AO146	MAX(0,(SUM(IncD_dqdiv,Sheet1.Amount2,SUM(Sheet1.Amount1))-IncD.LessDeduction57-OSIncreliefus89A))	0
+BB146	COUNTIF(Sheet1.Nature1,"Family pension")	0
+BC146	SUMIF(Sheet1.Nature1,"Family pension",Sheet1.Amount1)	0
+BB148	SUMIF(Sheet1.Nature1,"Family pension",Sheet1.Amount1)	0
+BC148	IF(MID(I148,1,1)="F",AO148,0)	0
+BD148	IF(MID(I148,1,1)="F",1,0)	0
+BE148	IF(MID(I148,1,15)="Interest from S",AO148,0)	0
+BF148	IF(MID(I148,1,15)="Interest from S",AO148,0)	0
+BG148	IF(MID(I148,1,15)="Interest from D",AO148,0)	0
+H149	H148+1	2
+BC149	IF(MID(I149,1,1)="F",AO149,0)	0
+BD149	IF(MID(I149,1,1)="F",1,0)	0
+BE149	IF(MID(I149,1,15)="Interest from S",AO149,0)	0
+BF149	IF(MID(I149,1,15)="Interest from S",AO149,0)	0
+BG149	IF(MID(I149,1,15)="Interest from D",AO149,0)	0
+AZ152	OSIncomeNotified89A-OSIncreliefus89A	0
+AO153	OSIncomeNotified89A_AmountUS+OSIncomeNotified89A_AmountUK+OSIncomeNotified89A_AmountCan	0
+AZ153	IncD_q1OS1+IncD_q2OS1+IncD_q3OS1+IncD_q4OS1+IncD_q5OS1	0
+BO163	IncD_q1div	0
+BQ163	MIN(IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA,IncD_dq1div)+MAX(0,IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA-IncD_dqdiv)	0
+BR163	IF(bacValue=1,NQ1Tax,OQ1Tax)	0
+BM164	IncD.TotalIncome	0
+BP164	IncD.TotalIncome	0
+BQ164	MIN(IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA-MAX(IncD_dq1div-IncD.TotalChapVIADeductions,0),IncD_dq2div)+MAX(0,MIN(IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA,IncD_dq1div))+MAX(0,IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA-IncD_dqdiv)	0
+BR164	IF(bacValue=1,NQ2Tax,OQ2Tax)	0
+BM165	BP_E2_PI	0
+BQ165	MIN(IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA-MAX(IncD_dq1div+IncD_dq2div-IncD.TotalChapVIADeductions,0),IncD_dq3div)+MAX(0,MIN(IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA,IncD_dq1div)+MIN(IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA-MAX(IncD_dq1div-IncD.TotalChapVIADeductions,0),IncD_dq2div))+MAX(0,IncD.TotalIncome-BP_E2_PI-BP_E4_PI44ADA-IncD_dqdiv)	0
+BR165	IF(bacValue=1,NQ3Tax,OQ3Tax)	0
+BM166	BP_E4_PI44ADA	0
+BQ166	MIN(IncD.TotalIncome-MAX(IncD_dq1div+IncD_dq2div+IncD_dq3div-IncD.TotalChapVIADeductions,0),IncD_dq4div)+ MAX(0,MIN(IncD.TotalIncome,IncD_dq1div)+MIN(IncD.TotalIncome-MAX(IncD_dq1div-IncD.TotalChapVIADeductions,0),IncD_dq2div)+MIN(IncD.TotalIncome-MAX(IncD_dq1div+IncD_dq2div-IncD.TotalChapVIADeductions,0),IncD_dq3div))+MAX(0,IncD.TotalIncome-IncD_dqdiv)	0
+BR166	IF(bacValue=1,NQ4Tax,OQ4Tax)	0
+BM167	IncD_dq1div	0
+BQ167	MIN(IncD.TotalIncome-MAX(IncD_dq1div+IncD_dq2div+IncD_dq3div+IncD_dq4div-IncD.TotalChapVIADeductions,0),IncD_dq5div)+ IncD.Q4Inc	0
+BR167	IF(bacValue=1,NQ5Tax,OQ5Tax)	0
+BO168	MIN(IncD.TotalIncome-MAX(IncD_dq1div+IncD_dq2div+IncD_dq3div-IncD.TotalChapVIADeductions,0),IncD_dq4div)	0
+BB169	IF(Return_Dropdown_Regime=1,ROUND(MIN(25000,((1/3)*TotFamilyPension)),0),IF(Return_Dropdown_Regime=2,ROUND(MIN(15000,((1/3)*TotFamilyPension)),0),0))	0
+AY170	IF(Return_Dropdown_Regime=1,ROUND(MIN(25000,((1/3)*TotFamilyPension)),0),IF(Return_Dropdown_Regime=2,ROUND(MIN(15000,((1/3)*TotFamilyPension)),0),0))	0
+BC170	SUM(Sheet1.Amount11)	0
+AO171	SUM(IncD.IncomeFromBP,IncD.IncomeFromSal,IF(bacValue=1,MAX(0,IncD.IncomeFromHP),IncD.IncomeFromHP),IncD.IncomeFromOS)	0
+AZ171	MAX(IncD.GrossTotIncome,0)	0
+BA171	IF(OR(MID(sheet1.NatureofEmployment,1,1)="S",MID(sheet1.NatureofEmployment,1,1)="C",MID(sheet1.NatureofEmployment,1,2)="Pu",MID(sheet1.NatureofEmployment,1,1)="O"),1,0)	0
+BC171	SUM(Sheet1.Amount22)	0
+AO172	SUM(IncD.IncomeFromBP,IncD.IncomeFromSal,IF(bacValue=1,MAX(0,IncD.IncomeFromHP),IncD.IncomeFromHP),IncD.IncomeFromOS,IncD.CG_LTCG)	0
+BA173	IF(OR(MID(sheet1.NatureofEmployment,1,2)="Pu",MID(sheet1.NatureofEmployment,1,1)="O"),1,IF(OR(MID(sheet1.NatureofEmployment,1,1)="C",MID(sheet1.NatureofEmployment,1,1)="S",MID(sheet1.NatureofEmployment,1,1)="J"),2,0))	0
+BB173	IF(OR(MID(sheet1.NatureofEmployment,1,2)="Pu",MID(sheet1.NatureofEmployment,1,1)="O"),1,IF(OR(MID(sheet1.NatureofEmployment,1,1)="C",MID(sheet1.NatureofEmployment,1,1)="S",MID(sheet1.NatureofEmployment,1,1)="J"),2,0))	0
+AN175	IF(IS_FIRM,0,MIN(MIN(VALUE(IncD.Section80C),150000),TOTAL_INCOME))	0
+AB176	IF(bacValue=1,0,sum_80CCC)	0
+AN176	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(MIN(VALUE(IncD.Section80CCC), MIN(150000,TOTAL_INCOME),MAX(0,MIN(150000,TOTAL_INCOME) - IncD.Section80C_Calc)),TOTAL_INCOME-IncD.Section80C_Calc)))	0
+BB176	IF(AND(MID(sheet1.Status,1,1)="I",BB181=1),1,0)	0
+BA178	SUM(Sec80CCC_Amount)	0
+H179	H178+1	2
+AN181	IF(IS_FIRM,0,IncdSection80CCD_1)	0
+AY181	SUM(IncD.IncomeFromSal_i,IncD.IncomeFromSal_ii,IncD.IncomeFromSal_iv)	0
+AZ181	IF(MID(sheet1.Status,1,1)="H",0,IF((MAX(0,MIN(MIN(VALUE(IncD.Section80CCD_SE), ROUND(IF(BA171>0,0.1*VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii),0.2*VALUE(IncD.GrossTotIncome)),0), 150000 - IncD.Section80C_Calc - IncD.Section80CCC_Calc ),TOTAL_INCOME)))>150000,150000,(MAX(0,MIN(MIN(VALUE(IncD.Section80CCD_SE), ROUND(IF(BA171>0,0.1*VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii),0.2*VALUE(IncD.GrossTotIncome)),0), 150000 - IncD.Section80C_Calc - IncD.Section80CCC_Calc ),TOTAL_INCOME-(IncD.Section80C_Calc+IncD.Section80CCC_Calc))))))	0
+BB181	IF(AND(BD186>59,MID(sheet1.ResidentialStatus1, 1, 2) = "NR"),1,0)	0
+BA183	SUM(Sec80CCC_1_Amount)	0
+H184	H183+1	2
+AN186	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(VALUE(IncD.Section80CCD1B_SE),50000,TOTAL_INCOME)))	0
+BB186	IF(OR(BD186 <= 59, MID(sheet1.ResidentialStatus1, 1, 2) = "NR"),1,0)	0
+BD186	calculateAge(sheet1.DOB)	2026
+BA188	SUM(Sec80CCC_1b_Amount)	0
+H189	H188+1	2
+H193	H192+1	2
+AN196	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,IF(Return_Dropdown_Regime=2,MIN(VALUE(IncD.Section80CCD), IF(BA173=1,ROUND(0.1*MAX(0,VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii)),0), IF(BA173=2,ROUND(0.14*MAX(0,VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii)),0),0)),TOTAL_INCOME),IF(Return_Dropdown_Regime=1,MIN(VALUE(IncD.Section80CCD), IF(OR(BA173=1,BA173=2),ROUND(0.14*MAX(0,VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii)),0),0),TOTAL_INCOME),0))))	0
+BB196	IF(AND(MID(sheet1.Status,1,1)="I",BB186=1),1,0)	0
+BD196	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,IF(Return_Dropdown_Regime=2,MIN(VALUE(IncD.Section80CCD), IF(BA173=1,ROUND(0.1*MAX(0,VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii-IncomeNotified89A-IncomeNotifiedOther89A+Increliefus89A)),0), IF(BA173=2,ROUND(0.14*MAX(0,VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii-IncomeNotified89A-IncomeNotifiedOther89A+Increliefus89A)),0),0)),TOTAL_INCOME),IF(Return_Dropdown_Regime=1,MIN(VALUE(IncD.Section80CCD), IF(OR(BA173=1,BA173=2),ROUND(0.14*MAX(0,VALUE(IncD.IncomeFromSal_net-IncD.IncomeFromSal_iii-IncomeNotified89A-IncomeNotifiedOther89A+Increliefus89A)),0),0),TOTAL_INCOME),0))))	0
+BB197	IF( OR(MID(SELECT80D,1,1) ="(", MID(SELECT80D,1,1)=""),0,MID(SELECT80D,1,1))	0
+AB199	IF(bacValue = 1,0,Eligible_Amount_80D)	0
+AN199	IF(IncD.GrossTotIncome<0,0,IncD.Section80DValue)	0
+AZ199	IF(MID(sheet1.Status,1,1)="H",MIN(50000,MIN(VALUE(IncD.Section80D),TOTAL_INCOME)),MIN(MIN(IF(INT(MID(sheet1.DOB,7,4))<1958,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",BB199,BB199),IF(INT(MID(sheet1.DOB,7,4))=1958, IF(INT(MID(sheet1.DOB,4,2))<4,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",BB199,BB199),BA199),BB199)),VALUE(IncD.Section80D)),TOTAL_INCOME))	#VALUE!
+BA199	IF(AND(INT(MID(sheet1.DOB,4,2))=4,INT(MID(sheet1.DOB,1,2))=1),IF(MID(sheet1.ResidentialStatus1,1,2)="NR",BB199,BB199),BB199)	#VALUE!
+BB199	IF(OR(BB197="1",BB197="3"),25000,IF(OR(BB197="2",BB197="4"),IF(AND(BB197="2",BB176=1),25000,50000),IF(BB197="5",50000,IF(BB197="6",75000,IF(BB197="7",IF(BB196=1,75000,100000),0)))))	0
+BC200	IF( OR(MID(SELECT80DB,1,1) ="(", MID(SELECT80DB,1,1)=""),0,MID(SELECT80DB,1,1))	0
+BI200	IF(IS_HUF,MIN(50000,SUM(IF(IS_FIRM,0,IF(ISERROR(IncdSection80D),0,IncdSection80D)),IF(IS_FIRM,0,IF(ISERROR(IncdSection80DB),0,IncdSection80DB)))),MIN(100000,SUM(IF(IS_FIRM,0,TempNew80D),IF(IS_FIRM,0,IF(ISERROR(IncdSection80DB),0,IncdSection80DB)))))	0
+AZ201	IF(MID(sheet1.Status,1,1)="H",MIN(50000,MIN(VALUE(IncD.Section80DB),TOTAL_INCOME)),MIN(MIN(IF(INT(MID(sheet1.DOB,7,4))<1938,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",BB201,BB201),IF(INT(MID(sheet1.DOB,7,4))=1938, IF(INT(MID(sheet1.DOB,4,2))<4,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",BB201,BB201),BA201),BB201)),VALUE(IncD.Section80DB)),TOTAL_INCOME))	#VALUE!
+BA201	IF(AND(INT(MID(sheet1.DOB,4,2))=4,INT(MID(sheet1.DOB,1,2))=1),IF(MID(sheet1.ResidentialStatus1,1,2)="NR",BB201,BB201),BB201)	#VALUE!
+BB201	IF(BC200="1",IF(MID(sheet1.ResidentialStatus1,1,2)="NR",50000,50000),IF(BC200="2",50000,IF(BC200="3",IF(MID(sheet1.ResidentialStatus1,1,2)="NR",100000,100000),0)))	0
+BF201	IF(BC200="1",IF(MID(sheet1.ResidentialStatus1,1,2)="NR",0,30000),IF(BC200="2",30000,IF(BC200="3",IF(MID(sheet1.ResidentialStatus1,1,2)="NR",0,60000),0)))	0
+BG201	IF(BC200="1",30000,IF(BC200="2",30000,IF(BC200="3",60000,0)))	0
+AZ202	IF(MID(SELECT80DC,1,1)="1",1,IF(MID(SELECT80DC,1,1)="2",2,IF(MID(SELECT80DC,1,1)="3",3,0)))	0
+BA202	IF(AZ202=1,5000,IF(AZ202=2,5000,IF(AZ202=3,5000,0)))	0
+BB202	MIN(BA202,VALUE(IncD.Section80DC),TOTAL_INCOME)	0
+BJ202	IF(AND(BB197="1",BB197="1"),MIN(25000,IncD.Section80DC_Calc+IncdSection80D),0)	0
+AB203	IF(IS_FIRM,0,MIN(IF(MID(sheet1.ResidentialStatus1,1,2)<>"NR",VALUE(AmtDeduction_80DD),0)))	0
+AN203	IF(IS_FIRM,0,MIN(IF(MID(sheet1.ResidentialStatus1,1,2)<>"NR",MIN(Sec80DDref_New,VALUE(IncD.Section80DD)))))	0
+AZ203	IF(MID(SELECT80DD,1,1)="1",1,IF(MID(SELECT80DD,1,1)="2",2,0))	0
+BA203	IF(AZ203=1,75000,IF(AZ203=2,125000,0))	0
+BE203	IF(ISERROR(BE204),0,BE204)	0
+AN204	IF(IS_FIRM,0,MIN(IF(MID(sheet1.ResidentialStatus1,1,2)<>"NR",MIN(Sec80DDBref,VALUE(IncD.Section80DDB)),0),TOTAL_INCOME))	0
+AZ204	IF(MID(SELECT80DDB,1,1)="1",1,IF(MID(SELECT80DDB,1,1)="2",2,IF(MID(SELECT80DDB,1,1)="3",3,0)))	0
+BA204	IF(AZ204=1,40000,IF(AZ204=2,100000,0))	0
+BE204	IF(AND(BB197="1",AZ202=1),MIN(25000,(IncD.Section80DC_Calc+IncdSection80D)),IF(AND(BB197="3",AZ202=2),MIN(25000,IncD.Section80DC_Calc+IncdSection80D),IF(AND(BB197="5",AZ202=3),MIN(50000,IncD.Section80DC_Calc+IncdSection80D),IF(AND(BB197="6",OR(AZ202=1,AZ202=2,AZ202=3)),MIN(75000,IncD.Section80DC_Calc+IncdSection80D),(IncD.Section80DC_Calc+IncdSection80D)))))	#VALUE!
+AN206	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(VALUE(IncD.Section80E),TOTAL_INCOME)))	0
+AN207	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(MIN(VALUE(IncD.Section80EE),TOTAL_INCOME),50000)))	0
+AN208	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(MIN(VALUE(IncD.Section80EEA),TOTAL_INCOME),150000)))	0
+AN209	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(MIN(VALUE(IncD.Section80EEB),TOTAL_INCOME),150000)))	0
+AB210	IF(bacValue = 1,0,MIN(TOTAL_INCOME,Per5080G.TotalEligibleDonationsUs80G))	0
+AN210	IF(bacValue = 1,0,MIN(TOTAL_INCOME,Per5080G.TotalEligibleDonationsUs80G))	0
+AN211	IF(IS_FIRM,0,MIN(MIN(ROUND(IF(MID(sheet1.Status,1,1)="H",0,MIN(IF(HRA>0,55000,60000), 0.25*(MAX(0,TOTAL_INCOME-(SUM(AN175:AV210)+SUM(AN214:AV220)+0))))),0),VALUE(IncD.Section80GG)),TOTAL_INCOME))	0
+AN212	MIN(VALUE(IncD.Section80GGA),TOTAL_INCOME)	0
+AB214	IF(bacValue=1,0,SCH_80GGC_TotalDonationsUs80GGC)	0
+AN214	IF(bacValue=1,0,SCH_80GGC_TotalEligibleDonationAmt80GGC)	0
+AN215	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",0,MIN(MIN(VALUE(IncD.Section80QQB),300000),MAX(0,MIN(TOTAL_INCOME,MAX(0,IncD.IncomeFromOS)))))))	0
+AN216	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",0,MIN(MIN(VALUE(IncD.Section80RRB),300000),MAX(0,MIN(TOTAL_INCOME,MAX(0,IncD.IncomeFromOS)))))))	0
+AN217	IF(IS_FIRM,0,MIN(MIN(VALUE(IncD.Section80TTA),10000),MAX(0,MIN(TOTAL_INCOME,MAX(0,tta)))))	0
+BD217	SUM(Sheet1.Amount23)	0
+AN218	IF(IS_FIRM,0,MIN(MIN(VALUE(IncD.Section80TTB),50000),MAX(0,MIN(TOTAL_INCOME,MAX(0,ttb)))))	0
+BD218	SUM(Sheet1.Amount24,Sheet1.Amount25)	0
+AB219	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(IF(MID(sheet1.ResidentialStatus1,1,2)="NR",0,IF(MID(sheet1.Status,1,1)<>"I",0,MIN(VALUE(AmountDeduction_80U)))))))	0
+AN219	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(IF(MID(sheet1.ResidentialStatus1,1,2)="NR",0,IF(MID(sheet1.Status,1,1)<>"I",0,MIN(VALUE(IncD.Section80U)))))))	0
+AZ219	IF(MID(SELECT80U,1,1)="1",1,IF(MID(SELECT80U,1,1)="2",2,0))	0
+BA219	IF(AZ219=1,75000,IF(AZ219=2,125000,0))	0
+AN220	IF(IncD.GrossTotIncome>0,IF(IncD.AnyOtherDeductions>0,MIN(IncD.AnyOtherDeductions,MIN((ROUND(IncD.IncomeFromSal_ii*46.2/100,0)),288000)),0),0)	0
+AB222	SUM(AB175:AM176,IncD.Section80CCD_SE,IncD.Section80CCD1B_SE,AB196:AM211,AB214:AM220)	0
+AO222	ROUND(MIN(MIN(AB222,SUM(AN175:AV176,IncD.Section80CCD_Calc_SE,IncD.Section80CCD1B_Calc_SE,AN196:AV211,AN214:AV221)),TOTAL_INCOME),0)	0
+AZ222	SUM(IncD.Section80C,IncD.Section80CCC,IncD.Section80CCD_SE,IncD.Section80CCD1B_SE,IncD.Section80CCD,IncD.Section80DValue,IncD.Section80DD,IncD.Section80DDB,IncD.Section80EE,IncD.Section80E,IncD.Section80EEA,IncD.Section80EEB,IncD.Section80G,IncD.Section80GG,IncD.Section80GGC)	0
+AO223	ROUND(MAX(0,IncD.GrossTotIncome-IncD.TotalChapVIADeductions),-1)	0
+BB223	ROUND(MAX(0,IncD.GrossTotIncome-IncD.TotalChapVIADeductions),-1)	0
+AO224	ROUND(MAX(0,IncD.GrossTotIncome_New-IncD.TotalChapVIADeductions),-1)	0
+AO226	ROUND(TaxCalc!D26,0)	0
+AO227	IF(MID(sheet1.Status,1,1)="I",IF(bacValue=2,IF((IncD.TotalIncome_New)<=500000,MIN(IncD.TotalTaxPayable,12500),0),IF(bacValue=1,IF((IncD.TotalIncome)<=1200000,MIN(IncD.TotalTaxPayable,60000),IF((IncD.TotalTaxPayable>(IncD.TotalIncome-1200000)),(IncD.TotalTaxPayable-(IncD.TotalIncome-1200000)),0)),0)),0)	0
+BB227	IF(MID(sheet1.Status,1,1)="I",IF(bacValue=2,IF((IncD.TotalIncome)<=500000,MIN(IncD.TotalTaxPayable,12500),0),IF(bacValue=1,IF((IncD.TotalIncome)<=700000,MIN(IncD.TotalTaxPayable,25000),IF((IncD.TotalTaxPayable>(IncD.TotalIncome-700000)),(IncD.TotalTaxPayable-(IncD.TotalIncome-700000)),0)),0)),0)	0
+AO228	ROUND(IncD.TotalTaxPayable-IncD.Rebate87A,0)	0
+AO230	ROUND((IncD.TaxPayableOnRebate)*0.04,0)	0
+AO231	ROUND(IncD.TaxPayableOnRebate+IncD.SurchargeOnTaxPayable+IncD.EducationCess,0)	0
+AZ232	IF(IncD.TotalTaxPayable<=0,0,ROUND(((IncD.IncomeFromSal-IncomeNotified89A-IncomeNotifiedOther89A+TotFamilyPension-IncD.LessDeduction57)/(IncD.TotalIncome))*IncD.TotalTaxPayable,0))	0
+AZ233	IF(IncD.TotalTaxPayable<=0,0,ROUND(((IncomeNotified89A)/(IncD.TotalIncome))*IncD.TotalTaxPayable,0))	0
+AO234	ROUND(MAX(IncD.GrossTaxLiability-IncD.Section89-IncD.Section89A,0),0)	0
+AO239	SUM(IncD.IntrstPayUs234A,IncD.IntrstPayUs234B,IncD.IntrstPayUs234C,IncD.IntrstPayUs234F)	0
+AO241	SUM(IncD.NetTaxLiability,IncD.IntrstPayUs234A,IncD.IntrstPayUs234B,IncD.IntrstPayUs234C,IncD.IntrstPayUs234F,IncD.IntrstPayUs234I)	0

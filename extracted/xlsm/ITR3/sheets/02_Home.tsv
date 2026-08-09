@@ -1,0 +1,55 @@
+row	A	B	C	D	E	F	G	H
+3					Assessment Year 2026-27
+4			S.NO	Schedule Name	Schedules for filing Income Tax Return	Description
+Click on applicable links to navigate to the respective sheet / schedule.	Select Applicable sheets  below by choosing Y/N and click on apply	Select Sheets to print and click on apply
+5			1	PART A - General	Personal Info., Filing Status, Audit Info	Details of Personal Information and filing status	Y	Y
+6			2	Nature Of Business	Nature Of Business	Nature of business or profession, if more than one tradenames please specify upto 3 tradenames 	Y	Y
+7			3	Part A - BS	Part A-BS	BALANCE SHEET AS ON 31ST DAY OF MARCH, 2026(fill items 1 to 5 in a case where regular books of accounts are maintained, otherwise fill item 6)	Y	Y
+8			4	Manufacturing Account	Schedule Manufacturing Account	Manufacturing Account  for the financial year   2025-26 (fill items 1 to 3 in a case where regular books of accounts are maintained, otherwise fill items 61 to 64 as applicable)	Y	Y
+9			5	Trading Account	Schedule Trading Account	Part A-Trading Account -Trading Account  for the financial year 2025-26(fill items 4 to 12 in a case where regular books of accounts are maintained, otherwise fill items 61 to 64 as applicable)	Y	Y
+10			6	Profit and Loss	Part A-P & L	Profit and Loss Account for the previous year 2025-26(fill items 1 to 52 in a case where regular books of accounts are maintained, otherwise fill item 53)	Y	Y
+11			7	Part A - OI	Part A -OI	Other Information (optional in a case not liable for audit under section 44AB)	Y	Y
+12			8	Quantitative Details	Part A-QD	Quantitative details (optional in a case not liable for audit under section 44AB)	Y	Y
+13			9	Schedule S	Schedule S	Details of Salary	Y	Y
+14			10	House Property	Schedule HP	Details of Income from House Property	Y	Y
+15			11	BP	Schedule BP	Computation of income from business or profession	Y	Y
+16			12	DPM - DOA	Schedule DPM, Schedule DOA	Depreciation on Plant and Machinery , Depreciation on other assets 	Y	Y
+17			13	DEP_DCG	Schedule DEP, Schedule DCG	Summary of depreciation on assets, Deemed Capital Gains on sale of depreciable assets	Y	Y
+18			14	ESR	Schedule ESR	Deduction under section 35	Y	Y
+19			15	CG	Schedule CG	Capital Gains	Y	Y
+20			16	Schedule 112A	Schedule 112A	112A	Y	Y
+21			17	Schedule 115AD(1)(iii) proviso	Schedule 115AD(1)(iii)Proviso	115AD(1)(iii)Proviso	Y	Y
+22			18	OS	Schedule OS	Income from other sources	Y	Y
+23			19	CYLA - BFLA	Schedule CYLA, Schedule BFLA	Details of Income after set-off of current years losses, Details of Income after Set off of Brought Forward Losses of earlier years	Y	Y
+24			20	CFL	Schedule CFL	Details of Losses to be carried forward to future Years	Y	Y
+25			21	Unabsorbed Depreciation	Schedule UD	Unabsorbed depreciation and allowance under section 35(4)	Y	Y
+26			22	80GGC	Schedule 80GGC	Details of contribution made to political parties	Y	Y
+27			23	VDA	Schedule VDA	Income from transfer of Virtual Digital Assets	Y	Y
+28			24	80U-80DD	Schedule 80U-80DD	Details of deduction in case of a person with disability
+Details of deduction in respect of maintenance including medical treatment of a dependent who is a person with disability.	Y	Y
+29			25	ICDS	Schedule ICDS	Effect of Income Computation Disclosure Standards on profit	Y	Y
+30			26	10AA	Schedule 10A, 10AA, 10B,10BA	Deduction under section 10A, Deduction under section 10AA	Y	Y
+31			27	80G	Schedule 80G	Details of donations entitled for deduction under section 80G	Y	Y
+32			28	80C	Schedule80C	Deduction in respect of life insurance premia, deferred annuity, contributions to provident fund etc. under section 80C	Y	Y
+33			29	80D	Schedule 80D	Details of health insurance for deduction under Section 80D	Y	Y
+34			30	RA	Schedule 80RA	Details of donations to research associations etc.	Y	Y
+35			31	80GGA	Schedule 80GGA	Details of donations for scientific research or rural development 	Y	Y
+36			32	80	Schedule80-IA,IB,IC 	Deductions under section 80-IA, Deductions under section 80-IB, Deductions under section 80-IC	Y	Y
+37			33	80E_80EE_80EEA_80EEB	Schedule80E,80EE,80EEA,80EEB	Interest on loan taken for higher education, Interest on loan taken for residential house property, Deduction in respect of interest on loan taken for certain house property, Deduction in respect of interest Paid on purchase of electric vehicle	Y	Y
+38			34	VI-A	Schedule VIA	Deductions under Chapter VI-A	Y	Y
+39			35	SPI - SI - IF	Schedule SPI, Schedule SI, Schedule IF	Income of specified persons(spouse, minor child etc.) includable in income of the assessee , Income chargeable to Income tax at special rates IB, Information regarding partnership firms in which you are partner	Y	Y
+40			36	AMT	Schedule AMT	Computation of Alternate Minimum  Tax payable under section 115JC 	Y	Y
+41			37	AMTC	Schedule AMTC	Computation of tax credit under section 115JD 	Y	Y
+42			38	EI	Schedule EI	Details of Exempt Income (Income not to be included in Total Income)	Y	Y
+43			39	PTI	Schedule PTI	Pass Through Income details from business trust or investment fund as per section 115UA, 115UB	Y	Y
+44			40	TPSA	Schedule TPSA	Schedule for  Transfer Pricing Secondary Adjustment	Y	Y
+45			41	FSI	Schedule FSI	Details of Income from outside India and tax relief	Y	Y
+46			42	TR_FA	Schedule TR, Schedule FA	Summary of tax relief claimed for taxes paid outside India, Schedule FA Details of foreign assets	Y	Y
+47			43	Sch 5A	Schedule 5A	Information regarding apportionment of income between spouses governed by Portuguese Civil Code	Y	Y
+48			44	AL	Schedule AL	Asset and Liability at the end of the year (other than those included in Part A – BS)	Y	Y
+49			45	GST	Schedule GST	INFORMATION REGARDING TURNOVER/GROSS RECEIPT REPORTED FOR GST	Y	Y
+50			46	Part B - TI TTI	Part B-TI, Part B-TTI	Computation of total income	Y	Y
+51			47	IT	Tax Payments	Details of payments of Advance Tax and Self-Assessment Tax	Y	Y
+52			48	ESOP	Tax deferred on ESOP	Information related to Tax deferred - relatable to income on perquisites referred in section 17(2)(vi) received from employer, being an eligible start-up referred to in section 80-IAC	Y	Y
+53			49	TDS	Tax Payments(TDS1, TDS2, TDS3)	Details of Tax Deducted at Source from SALARY, Details of Tax Collected at Source 	Y	Y
+54			50	Verification	Verification	Verification	Y	Y

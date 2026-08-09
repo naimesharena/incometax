@@ -1,0 +1,4 @@
+cell	formula	cached_value
+J4	IF(OR(ICDS.AccPolicies<>"",ICDS.ValuationInv<>"",ICDS.ConsContracts<>"",ICDS.RevenueRecog<>"",ICDS.TangibleFixAssests<>"",ICDS.ChngRates<>"",ICDS.Govgrants<>"",ICDS.Securities<>"",ICDS.BorrowingCosts<>"",ICDS.ProvLiability<>""),TRUE,FALSE)	FALSE
+F16	MAX(0,SUM(F6:F15))	0
+F17	(MIN(0,SUM(F6:F15))*-1)	0

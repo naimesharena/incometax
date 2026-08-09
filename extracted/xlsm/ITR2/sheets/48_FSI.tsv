@@ -1,0 +1,46 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S
+3			FSI	Details of Income from outside India and tax relief (available only in case of resident)
+4				Details of Income included in Total Income in Part-B-TI above
+5				Sl No	Country Code
+(Note : If no entry is made in this column, then other columns will not be considered for that row)	Taxpayer Identification number	Sl No	Head of Income
+
+
+
+
+
+(a)	Income from outside India  (included in PART B-TI) 
+
+
+(b)	Tax paid outside India
+
+
+
+
+(c)	Tax payable on such income under normal provisions in India
+
+(d)	Tax relief available in India
+(e)= (c) or (d) whichever is lower
+(e )	Relevant article of DTAA if relief claimed u/s 90 or 90A
+
+
+(f)
+7				1			i	Salary				0						Block Count	4
+8							ii	House Property 				0
+9							iii	Capital Gains 				0
+10							iv	Other Sources 				0
+11							Total		0	0	0	0
+12				2			i	Salary				0
+13							ii	House Property 				0
+14							iii	Capital Gains 				0
+15							iv	Other Sources 				0
+16							Total		0	0	0	0
+17				3			i	Salary				0
+18							ii	House Property 				0
+19							iii	Capital Gains 				0
+20							iv	Other Sources 				0
+21							Total		0	0	0	0
+22				4			i	Salary				0
+23							ii	House Property 				0
+24							iii	Capital Gains 				0
+25							iv	Other Sources 				0
+26							Total		0	0	0	0

@@ -1,0 +1,101 @@
+cell	formula	cached_value
+P2	F12+F15-F10-F11-F14	0
+Q2	G12+G15-G10-G11-G14	0
+R2	H12+H15-H10-H11-H14	0
+S2	I12+I15-I10-I11-I14	0
+P3	G38+G41-G36-G37-G40	0
+G10	0+DPM30.WDVFirstDayBAC	0
+H10	0+DPM40.WDVFirstDayBAC	0
+T11	(F12+F15-F7-F11-F14-F26)	0
+U11	(G12+G15-G7-G11-G14-G26)	0
+V11	(H12+H15-H7-H11-H14-H26)	0
+W11	(AS13+AS16-AS11-AS12-AS15-AS27)	0
+X11	(AT13+AT16-AT11-AT12-AT15-AT27)	0
+Y11	(AU13+AU16-AU11-AU12-AU15-AU27)	0
+Z11	(AV13+AV16-AV11-AV12-AV15-AV27)	0
+F13	MAX(0,DPM15.WDVFirstDay+DPM15.AdditionsGrThan180Days-DPM15.RealizationTotalPeriod)	0
+G13	MAX(0,DPM30.WDVFirstDay+DPM30.AdditionsGrThan180Days-DPM30.RealizationTotalPeriod)	0
+H13	MAX(0,DPM40.WDVFirstDay+DPM40.AdditionsGrThan180Days-DPM40.RealizationTotalPeriod)	0
+I13	MAX(0,DPM45.WDVFirstDay3+DPM45.AdditionsGrThan180Days-DPM45.RealizationTotalPeriod)	0
+AS14	MAX(0,AS11+AS12-AS13)	0
+AT14	MAX(0,AT11+AT12-AT13)	0
+AU14	MAX(0,AU11+AU12-AU13)	0
+AV14	MAX(0,AV11+AV12-AV13)	0
+F16	MAX(0,F14-F15+MIN(0,F7+F11-F12))	0
+G16	MAX(0,G14-G15+MIN(0,G7+G11-G12))	0
+H16	MAX(0,H14-H15+MIN(0,H7+H11-H12))	0
+I16	MAX(0,I14-I15+MIN(0,I7+I11-I12))	0
+T16	(G38+G41-G36-G37-G40-G51)	0
+F17	ROUND(DPM15.FullRateDeprAmt*DPM15.RATE/100,0)	0
+G17	ROUND(DPM30.FullRateDeprAmt*DPM30.RATE/100,0)	0
+H17	ROUND(DPM40.FullRateDeprAmt*DPM40.RATE/100,0)	0
+I17	ROUND(DPM45.FullRateDeprAmt*DPM45.RATE/100,0)	0
+AS17	MAX(0,AS15-AS16+MIN(0,AS11+AS12-AS13))	0
+AT17	MAX(0,AT15-AT16+MIN(0,AT11+AT12-AT13))	0
+AU17	MAX(0,AU15-AU16+MIN(0,AU11+AU12-AU13))	0
+AV17	MAX(0,AV15-AV16+MIN(0,AV11+AV12-AV13))	0
+F18	ROUND(DPM15.HalfRateDeprAmt*DPM15.RATE/200,0)	0
+G18	ROUND(DPM30.HalfRateDeprAmt*DPM30.RATE/200,0)	0
+H18	ROUND(DPM40.HalfRateDeprAmt*DPM40.RATE/200,0)	0
+I18	ROUND(DPM45.HalfRateDeprAmt*DPM45.RATE/200,0)	0
+AS18	ROUND(DPM50.FullRateDeprAmt*DPM50.RATE/100,0)	0
+AT18	ROUND(DPM60.FullRateDeprAmt*DPM60.RATE/100,0)	0
+AU18	ROUND(DPM80.FullRateDeprAmt*DPM80.RATE/100,0)	0
+AV18	ROUND(DPM100.FullRateDeprAmt*DPM100.RATE/100,0)	0
+AS19	ROUND(DPM50.HalfRateDeprAmt*DPM50.RATE/200,0)	0
+AT19	ROUND(DPM60.HalfRateDeprAmt*DPM60.RATE/200,0)	0
+AU19	ROUND(DPM80.HalfRateDeprAmt*DPM80.RATE/200,0)	0
+AV19	ROUND(DPM100.HalfRateDeprAmt*DPM100.RATE/200,0)	0
+F22	DPM15.DepreciationAtHalfRate + DPM15.DepreciationAtFullRate + DPM15.AddlnDeprDuringYearAdditions + DPM15.AddlnDeprOnGT180DayAdditions  + DPM15.AddlnDeprlessthan180days	0
+G22	DPM30.DepreciationAtHalfRate + DPM30.DepreciationAtFullRate + DPM30.AddlnDeprDuringYearAdditions + DPM30.AddlnDeprOnGT180DayAdditions  + DPM30.AddlnDeprlessthan180days	0
+H22	DPM40.DepreciationAtHalfRate + DPM40.DepreciationAtFullRate + DPM40.AddlnDeprDuringYearAdditions + DPM40.AddlnDeprOnGT180DayAdditions  + DPM40.AddlnDeprlessthan180days	0
+I22	DPM45.DepreciationAtHalfRate + DPM45.DepreciationAtFullRate + DPM45.AddlnDeprDuringYearAdditions + DPM45.AddlnDeprOnGT180DayAdditions  + DPM45.AddlnDeprlessthan180days	0
+F24	MAX(0,F22-F23)	0
+G24	MAX(0,G22-G23)	0
+H24	MAX(0,H22-H23)	0
+I24	MAX(0,I22-I23)	0
+AS26	DPM50.DepreciationAtHalfRate + DPM50.DepreciationAtFullRate + DPM50.AddlnDeprDuringYearAdditions + DPM50.AddlnDeprOnGT180DayAdditions+DPM50.AddlnDeprlessthan180days	0
+AT26	DPM60.DepreciationAtHalfRate + DPM60.DepreciationAtFullRate + DPM60.AddlnDeprDuringYearAdditions + DPM60.AddlnDeprOnGT180DayAdditions+DPM60.AddlnDeprlessthan180days	0
+AU26	DPM80.DepreciationAtHalfRate + DPM80.DepreciationAtFullRate + DPM80.AddlnDeprDuringYearAdditions + DPM80.AddlnDeprOnGT180DayAdditions+DPM80.AddlnDeprlessthan180days	0
+AV26	DPM100.DepreciationAtHalfRate + DPM100.DepreciationAtFullRate + DPM100.AddlnDeprDuringYearAdditions + DPM100.AddlnDeprOnGT180DayAdditions+DPM100.AddlnDeprlessthan180days	0
+F28	MAX(DPM15.WDVFirstDay+DPM15.AdditionsGrThan180Days -DPM15.RealizationTotalPeriod + DPM15.AdditionsLessThan180Days - DPM15.RealizationPeriodDuringYear - DPM15.TotalDepreciation,0)	0
+G28	MAX(DPM30.WDVFirstDay+DPM30.AdditionsGrThan180Days -DPM30.RealizationTotalPeriod + DPM30.AdditionsLessThan180Days - DPM30.RealizationPeriodDuringYear - DPM30.TotalDepreciation,0)	0
+H28	MAX(DPM40.WDVFirstDay+DPM40.AdditionsGrThan180Days -DPM40.RealizationTotalPeriod + DPM40.AdditionsLessThan180Days - DPM40.RealizationPeriodDuringYear - DPM40.TotalDepreciation,0)	0
+I28	MAX(DPM45.WDVFirstDay+DPM45.AdditionsGrThan180Days -DPM45.RealizationTotalPeriod + DPM45.AdditionsLessThan180Days - DPM45.RealizationPeriodDuringYear - DPM45.TotalDepreciation,0)	0
+AS29	MAX(DPM50.WDVFirstDay+DPM50.AdditionsGrThan180Days -DPM50.RealizationTotalPeriod + DPM50.AdditionsLessThan180Days - DPM50.RealizationPeriodDuringYear - DPM50.TotalDepreciation,0)	0
+AT29	MAX(DPM60.WDVFirstDay+DPM60.AdditionsGrThan180Days -DPM60.RealizationTotalPeriod + DPM60.AdditionsLessThan180Days - DPM60.RealizationPeriodDuringYear - DPM60.TotalDepreciation,0)	0
+AU29	MAX(DPM80.WDVFirstDay+DPM80.AdditionsGrThan180Days -DPM80.RealizationTotalPeriod + DPM80.AdditionsLessThan180Days - DPM80.RealizationPeriodDuringYear - DPM80.TotalDepreciation,0)	0
+AV29	MAX(DPM100.WDVFirstDay+DPM100.AdditionsGrThan180Days -DPM100.RealizationTotalPeriod + DPM100.AdditionsLessThan180Days - DPM100.RealizationPeriodDuringYear - DPM100.TotalDepreciation,0)	0
+G39	MAX(0,G36+G37-G38)	0
+G42	MAX(0,G40-G41+MIN(0,G36+G37-G38))	0
+G43	ROUND(DAOB5.FullRateDeprAmt*DAOB5.RATE/100,0)	0
+H43	ROUND(DAOB10.FullRateDeprAmt*DAOB10.RATE/100,0)	0
+I43	ROUND(DAOB100.FullRateDeprAmt*DAOB100.RATE/100,0)	0
+J43	ROUND(DAOF10.FullRateDeprAmt*DAOF10.RATE/100,0)	0
+K43	ROUND(DAOI25.FullRateDeprAmt*DAOI25.RATE/100,0)	0
+L43	ROUND(DAOS20.FullRateDeprAmt*DAOS20.RATE/100,0)	0
+G44	ROUND(DAOB5.HalfRateDeprAmt*DAOB5.RATE/200,0)	0
+H44	ROUND(DAOB10.HalfRateDeprAmt*DAOB10.RATE/200,0)	0
+I44	ROUND(DAOB100.HalfRateDeprAmt*DAOB100.RATE/200,0)	0
+J44	ROUND(DAOF10.HalfRateDeprAmt*DAOF10.RATE/200,0)	0
+K44	ROUND(DAOI25.HalfRateDeprAmt*DAOI25.RATE/200,0)	0
+L44	ROUND(DAOS20.HalfRateDeprAmt*DAOS20.RATE/200,0)	0
+G47	DAOB5.DepreciationAtHalfRate + DAOB5.DepreciationAtFullRate + DAOB5.AddlnDeprDuringYearAdditions + DAOB5.AddlnDeprOnGT180DayAdditions	0
+H47	DAOB10.DepreciationAtHalfRate + DAOB10.DepreciationAtFullRate + DAOB10.AddlnDeprDuringYearAdditions + DAOB10.AddlnDeprOnGT180DayAdditions	0
+I47	DAOB100.DepreciationAtHalfRate + DAOB100.DepreciationAtFullRate + DAOB100.AddlnDeprDuringYearAdditions + DAOB100.AddlnDeprOnGT180DayAdditions	0
+J47	DAOF10.DepreciationAtHalfRate + DAOF10.DepreciationAtFullRate + DAOF10.AddlnDeprDuringYearAdditions + DAOF10.AddlnDeprOnGT180DayAdditions	0
+K47	DAOI25.DepreciationAtHalfRate + DAOI25.DepreciationAtFullRate + DAOI25.AddlnDeprDuringYearAdditions + DAOI25.AddlnDeprOnGT180DayAdditions	0
+L47	DAOS20.DepreciationAtHalfRate + DAOS20.DepreciationAtFullRate + DAOS20.AddlnDeprDuringYearAdditions + DAOS20.AddlnDeprOnGT180DayAdditions	0
+G49	MAX(0,DAOB5.TotalDepreciation-DAOB5.DepUnderSec38)	0
+H49	MAX(0,DAOB10.TotalDepreciation-DAOB10.DepUnderSec38)	0
+I49	MAX(0,DAOB100.TotalDepreciation-DAOB100.DepUnderSec38)	0
+J49	MAX(0,DAOF10.TotalDepreciation-DAOF10.DepUnderSec38)	0
+K49	MAX(0,DAOI25.TotalDepreciation-DAOI25.DepUnderSec38)	0
+L49	MAX(0,DAOS20.TotalDepreciation-DAOS20.DepUnderSec38)	0
+F53	MAX(0,F36)	0
+G53	MAX(DAOB5.WDVFirstDay+DAOB5.AdditionsGrThan180Days -DAOB5.RealizationTotalPeriod + DAOB5.AdditionsLessThan180Days - DAOB5.RealizationPeriodDuringYear - DAOB5.TotalDepreciation,0)	0
+H53	MAX(DAOB10.WDVFirstDay+DAOB10.AdditionsGrThan180Days -DAOB10.RealizationTotalPeriod + DAOB10.AdditionsLessThan180Days - DAOB10.RealizationPeriodDuringYear - DAOB10.TotalDepreciation,0)	0
+I53	MAX(DAOB100.WDVFirstDay+DAOB100.AdditionsGrThan180Days -DAOB100.RealizationTotalPeriod + DAOB100.AdditionsLessThan180Days - DAOB100.RealizationPeriodDuringYear - DAOB100.TotalDepreciation,0)	0
+J53	MAX(DAOF10.WDVFirstDay+DAOF10.AdditionsGrThan180Days -DAOF10.RealizationTotalPeriod + DAOF10.AdditionsLessThan180Days - DAOF10.RealizationPeriodDuringYear - DAOF10.TotalDepreciation,0)	0
+K53	MAX(DAOI25.WDVFirstDay+DAOI25.AdditionsGrThan180Days -DAOI25.RealizationTotalPeriod + DAOI25.AdditionsLessThan180Days - DAOI25.RealizationPeriodDuringYear - DAOI25.TotalDepreciation,0)	0
+L53	MAX(DAOS20.WDVFirstDay+DAOS20.AdditionsGrThan180Days -DAOS20.RealizationTotalPeriod + DAOS20.AdditionsLessThan180Days - DAOS20.RealizationPeriodDuringYear - DAOS20.TotalDepreciation,0)	0

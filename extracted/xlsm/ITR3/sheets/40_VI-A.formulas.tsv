@@ -1,0 +1,124 @@
+cell	formula	cached_value
+W3	MAX(0,ROUND((Sheet8b.GrossTotalIncome-Sheet8b.IncChargeableTaxSplRates),0))	0
+Y3	MAX(0,MIN(GTI_LIMIT))	0
+W5	IF(GTI_LIMIT>150000,150000,GTI_LIMIT)	0
+I6	IF(bacValue=1,0,TotAmount.80C)	0
+K6	MIN(MIN(VALUE(scvia.Section80C),150000),GTI_LIMIT)	0
+W6	SUM(scvia.Section80C,scvia.Section80CCC)	0
+BC6	IF(AND(MID(sheet1.Status,1,1)="I",BC7=1),1,0)	0
+I7	SUM(Amount_80CCC)	0
+K7	IF(MID(sheet1.Status,1,1)="H",0,MIN(MIN(VALUE(scvia.Section80CCC), 150000,150000 - scvia.Section80C_Calc),GTI_LIMIT))	0
+AH7	IF(SalarySectionCount=Temp_Null,Temp_Null,0)	2
+BC7	IF(AND(age>59,MID(sheet1.ResidentialStatus1, 1, 2) = "NR"),1,0)	0
+D10	D9+1	2
+D11	D10+1	3
+K13	IF(OR(Sum_80C>150000,Sum_80C>GTI_LIMIT),0,IF(MID(sheet1.Status,1,1)="H",0,IF(SAL.TotalGrossSalary=0,MIN(VALUE(scvia.Section80CCD_SE),MIN(150000,IF(OR(Temp_Pensioner>0,Temp_Null_1>0),ROUND(Sheet8b.GrossTotalIncome*0.2,0),ROUND(Temp_DA_BS*0.1,0))),Max_Amount-scvia.Section80C_Calc-scvia.Section80CCC_Calc),MIN(VALUE(scvia.Section80CCD_SE),Max_Amount-scvia.Section80C_Calc-scvia.Section80CCC_Calc,MIN(150000,MAX(0,,IF(OR(Temp_Pensioner>0,Temp_Null_1>0),ROUND(Sheet8b.GrossTotalIncome*0.2,0),ROUND(Temp_DA_BS*0.1,0))))))))	0
+AD13	IF(AND(MID(sheet1.Status,1,1)="I",AD18=1),1,0)	0
+BC13	IF(OR(age<= 59,MID(sheet1.ResidentialStatus1, 1, 2) = "NR"),1,0)	0
+D16	D15+1	2
+K18	IF(MID(sheet1.Status,1,1)="I",MIN(VALUE(scvia.Section80CCD1B_SE),50000,GTI_LIMIT),0)	0
+AD18	IF(AND(age>59,MID(sheet1.ResidentialStatus1, 1, 2) = "NR"),1,0)	0
+AG18	IF(MID(sheet1.Status,1,1)="H",0,IF(SAL.TotalGrossSalary=0,MIN(VALUE(scvia.Section80CCD_SE),MIN(150000,ROUND(Sheet8b.GrossTotalIncome*0.2,0)),Max_Amount-scvia.Section80C_Calc-scvia.Section80CCC_Calc),MIN(VALUE(scvia.Section80CCD_SE),Max_Amount-scvia.Section80C_Calc-scvia.Section80CCC_Calc,MIN(150000,MAX(0,ROUND(Sheet11.Salaries80CCD2*0.1,0))))))	0
+BC18	IF(AND(MID(sheet1.Status,1,1)="I",BC13=1),1,0)	0
+D21	D20+1	2
+D25	D24+1	2
+D26	D25+1	3
+K29	ROUND(IF(MID(sheet1.Status,1,1)="H",0,IF(bacValue=2,MIN(MIN(VALUE(scvia.Section80CCD), MAX(0,IF(OR(Temp_CG>0,Temp_SG>0),0.14*(Temp_DA_BS),IF(OR(Temp_SG>0,Temp_PSU>0,Temp_OTH>0),0.1*(Temp_DA_BS),0)))),GTI_LIMIT),IF(bacValue=1,MIN(MIN(VALUE(scvia.Section80CCD), MAX(0,IF(OR(Temp_CG>0,Temp_SG>0,Temp_PSU>0,Temp_OTH>0),0.14*(Temp_DA_BS),0)))),GTI_LIMIT))),0)	0
+AD29	IF(OR(age<=59,MID(sheet1.ResidentialStatus1, 1, 2) = "NR"),1,0)	0
+BC29	IF(OR(MID(SELECT80D,1,1) ="(", MID(SELECT80D,1,1)=""),0,MID(SELECT80D,1,1))	0
+K30	IF(MID(sheet1.Status,1,1)="H",0,MIN(IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,IF((GTI_LIMIT +Sheet8b.IncChargeableTaxSplRates)> 1200000,0,MIN(VALUE(scvia.Section80CCG),25000))),GTI_LIMIT))	0
+Q30	IF(AND(BC29="1",P35=1),1,IF(AND(BC29="3",P35=2),2,IF(AND(BC29="5",P35=3),3,IF(AND(BC29="6",OR(P35=1,P35=2,P35=3)),4,0))))	0
+R30	IF(Q30=1,MIN(25000,(IncD.Section80DC_Calc+BC33)),IF(Q30=2,MIN(25000,(IncD.Section80DC_Calc+BC33)),IF(Q30=3,MIN(50000,(IncD.Section80DC_Calc+BC33)),IF(Q30=4,MIN(75000,(IncD.Section80DC_Calc+BC33)),(IncD.Section80DC_Calc+BC33)))))	0
+W30	ROUND(Sheet8b.TotalIncome,0)	0
+AD30	IF(AND(MID(sheet1.Status,1,1)="I",AD29=1),1,0)	0
+AI30	MAX(0,VALUE(Sheet2.GrossTotalIncome)-VALUE(Sheet2.IncChargeableTaxSplRates))	#NAME?
+BC30	IF(OR(BC29="1",BC29="3"),25000,IF(OR(BC29="2",BC29="4"),IF(AND(BC29="2",BC6=1),25000,50000),IF(BC29="5",50000,IF(BC29="6",75000,IF(BC29="7",IF(BC18=1,75000,100000),0)))))	0
+I32	Eligible_Amount_80D	0
+K32	scvia.Section80DValue	0
+R32	IF(ISERROR(R30),0,R30)	0
+AC32	IF( OR(MID(SELECT80D,1,1) ="(", MID(SELECT80D,1,1)=""),0,MID(SELECT80D,1,1))	0
+AD32	IF(OR(AC32="1",AC32="3"),25000,IF(OR(AC32="2",AC32="4"),IF(AND(AC32="2",AD13=1),25000,50000),IF(AC32="5",50000,IF(AC32="6",75000,IF(AC32="7",IF(AD30=1,75000,100000),0)))))	0
+AE32	MIN(VALUE(scvia.Section80D),MIN(GTI_LIMIT,AD32))	0
+AI32	IF(GTI_LIMIT>150000,150000,GTI_LIMIT)	0
+AC33	IF( OR(MID(SELECT80DB,1,1) ="(", MID(SELECT80DB,1,1)=""),0,MID(SELECT80DB,1,1))	0
+AD33	IF(AC33="1",50000,IF(AC33="2",50000,IF(AC33="3",100000,0)))	0
+AE33	IF(MID(sheet1.Status,1,1)<>"I",MIN(VALUE(scvia.Section80DB),MIN(GTI_LIMIT,50000)),IF(AND(MID(sheet1.ResidentialStatus1,1,3)<>"NRI",age>=80),MIN(VALUE(scvia.Section80DB),MIN(GTI_LIMIT,AD33)),MIN(VALUE(scvia.Section80DB),MIN(GTI_LIMIT,AD33))))	#NAME?
+BC33	IF(MID(sheet1.Status,1,1)<>"I",MIN(VALUE(scvia.Section80D),MIN(GTI_LIMIT,50000)),IF(AND(MID(sheet1.ResidentialStatus1,1,3)<>"NRI",age>59),MIN(VALUE(scvia.Section80D),MIN(GTI_LIMIT,BC30)),MIN(VALUE(scvia.Section80D),MIN(GTI_LIMIT,BC30))))	0
+K34	T34	0
+P34	IF( OR(MID(SELECT80DB,1,1) ="(", MID(SELECT80DB,1,1)=""),0,MID(SELECT80DB,1,1))	0
+Q34	IF(P34="1",50000,IF(P34="2",50000,IF(P34="3",100000,0)))	0
+R34	IF(AND(INT(MID(sheet1.DOB,4,2))=4,INT(MID(sheet1.DOB,1,2))=1),IF(MID(sheet1.ResidentialStatus1,1,2)="NR",Q34,Q34),Q34)	#VALUE!
+S34	IF(MID(sheet1.Status,1,1)="H",MIN(50000,MIN(VALUE(IncD.Section80DB),GTI_LIMIT)),MIN(MIN(IF(INT(MID(sheet1.DOB,7,4))<1939,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",Q34,Q34),IF(INT(MID(sheet1.DOB,7,4))=1939, IF(INT(MID(sheet1.DOB,4,2))<4,IF(MID(sheet1.ResidentialStatus1,1,2)="NR",Q34,Q34),R34),Q34)),VALUE(IncD.Section80DB)),GTI_LIMIT))	#VALUE!
+T34	IF(MID(sheet1.Status,1,1)="H",MIN(50000,SUM(R32,IF(ISERROR(IncD.Section80DB_Calc),0,IncD.Section80DB_Calc))),MIN(100000,SUM(R32,IF(ISERROR(IncD.Section80DB_Calc),0,IncD.Section80DB_Calc))))	0
+AC34	IF( OR(MID(SELECT80DC,1,1) ="(", MID(SELECT80DC,1,1)=""),0,MID(SELECT80DC,1,1))	0
+AD34	MIN(MIN(IF(AC34="1",5000,IF(AC34="2",5000,IF(AC34="3",5000,0))),GTI_LIMIT),IF(scvia.Section80DC="",0,scvia.Section80DC))	#NAME?
+AE34	AD34	#NAME?
+P35	IF(MID(SELECT80DC,1,1)="1",1,IF(MID(SELECT80DC,1,1)="2",2,IF(MID(SELECT80DC,1,1)="3",3,0)))	0
+Q35	IF(P35=1,5000,IF(P35=2,5000,IF(P35=3,5000,0)))	0
+R35	MIN(Q35,VALUE(IF(IncD.Section80DC="",0,IncD.Section80DC)),GTI_LIMIT)	0
+AC35	IF( OR(MID(SELECT80DD,1,1) ="(", MID(SELECT80DD,1,1)=""),0,MID(SELECT80DD,1,1))	0
+AD35	IF(AC35="1",75000,IF(AC35="2",125000,0))	0
+I36	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,Amtdeduction_80DD)	0
+K36	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,Amtdeduction_80DD)	0
+AC36	IF( OR(MID(SELECT80DDB,1,1) ="(", MID(SELECT80DDB,1,1)=""),0,MID(SELECT80DDB,1,1))	0
+AD36	IF(AC36="1",40000,IF(AC36="2",100000,0))	0
+AX36	IF(MID(SELECT80DD,1,1)="1",1,IF(MID(SELECT80DD,1,1)="2",2,0))	0
+AY36	IF(VALUE(scvia.Section80DD)>0,IF(AX36=1,75000,IF(AX36=2,125000,0)),0)	0
+K37	MIN(IF(MID(sheet1.ResidentialStatus1,1,3)<>"NRI",MIN(Sec80DDBref,VALUE(scvia.Section80DDB)),0),GTI_LIMIT)	0
+W37	ROUND(0.25*totInc_temp,0)	#VALUE!
+AX37	IF(MID(SELECT80DDB,1,1)="1",1,IF(MID(SELECT80DDB,1,1)="2",2,IF(MID(SELECT80DDB,1,1)="3",3,0)))	0
+AY37	IF(AX37=1,40000,IF(AX37=2,100000,0))	0
+I39	IF(OR(bacValue=1,sheet1.Status="H-HUF"),0,TotAmt.80E)	0
+K39	IF(MID(sheet1.Status,1,1)="H",0,MIN(VALUE(scvia.Section80E),GTI_LIMIT))	0
+I40	IF(OR(bacValue=1,sheet1.Status="H-HUF"),0,TotAmt.80EE)	0
+K40	MIN(IF(MID(sheet1.Status,1,1)="H",0,MIN(VALUE(scvia.Section80EE),GTI_LIMIT)),50000)	0
+Q40	SUM(K6:K43)+SUM(K47:K47)+SUM(K50:K60)+SUM(K64:K66)	0
+I41	IF(OR(bacValue=1,sheet1.Status="H-HUF"),0,TotAmt.80EEA)	0
+K41	MAX(0,IF(MID(sheet1.Status,1,1)="H",0,MIN(MIN(VALUE(scvia.Section80EEA),GTI_LIMIT),150000)))	0
+I42	IF(OR(bacValue=1,sheet1.Status="H-HUF"),0,TotAmt.80EEB)	0
+K42	MAX(0,IF(MID(sheet1.Status,1,1)="H",0,MIN(MIN(VALUE(scvia.Section80EEB),GTI_LIMIT),150000)))	0
+I43	Per5080G.TotalEligibleDonationsUs80G	0
+K43	Per5080G.TotalEligibleDonationsUs80G	0
+K44	MIN(MIN(ROUND(IF(MID(sheet1.Status,1,1)="H",0,MIN(60000, 0.25*(MAX(0,GTI_LIMIT-Q40)))),0),VALUE(scvia.Section80GG)),GTI_LIMIT)	0
+Z44	ROUND(Sheet8b.GrossTotalIncome*0.2,0)	0
+I46	Total_Donation_Total_80GGANew	0
+K46	IF(bacValue=1,0,IF(Sheet8b.TotProfBusGain>0,0,Total_Donation_Eligible_80GGANew))	0
+Z46	Max_Amount-scvia.Section80C_Calc-scvia.Section80CCC_Calc	0
+I47	IF(bacValue=1,0,Total_Donation_80GGC)	0
+K47	IF(bacValue=1,0,Total_Donation_Eligible_80GGC)	0
+I48	SUM(I6:I47)	0
+K48	MIN(SUM(K6:K47),Sheet8b.GrossTotalIncome-Sheet8b.IncChargeableTaxSplRates)	0
+U48	(Sheet8b.GrossTotalIncome-Sheet8b.IncChargeableTaxSplRates-Sheet8b.PartCchapterVIA)	0
+I50	IA80.TotSchedule80_IA	0
+K50	scvia.Section80IA	0
+K51	scvia.Section80IAB	0
+I52	IB80.TotSchedule80_IB	0
+K52	scvia.Section80IB	0
+W52	SUM('VI-A'!K6:K43,'VI-A'!K47,'VI-A'!K50:K60,'VI-A'!K64:K69)	0
+AB52	MIN(GTI_LIMIT,SUM(K6:K43,scvia.Section80GGC_Calc))	0
+K53	IF(bacValue=1,0,IF(scvia.Section80IBA>Sheet8b.GrossTotalIncome,Sheet8b.GrossTotalIncome,scvia.Section80IBA))	0
+I54	IC80.TotSchedule80_IC	0
+K54	scvia.Section80IC	0
+AB54	MIN(GTI_LIMIT,SUM(K64:K66))	0
+K55	MIN(VALUE(scvia.Section80ID),GTI_LIMIT_PartC)*1	0
+AB55	MIN(GTI_LIMIT_PartC,SUM(K50:K60))	0
+K56	IF(bacValue=1,0,IF(scvia.Section80JJA>Sheet8b.GrossTotalIncome,Sheet8b.GrossTotalIncome,scvia.Section80JJA))	0
+P56	MIN(MIN(scvia.Section80GG,0),MIN(24000,0.25*MAX(0,(Sheet8b.GrossTotalIncome-SUM(K6:K43,K47,K50:K60,K64:K66)))))	0
+K57	scvia.Section80JJAA	0
+K58	MIN(IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,IF(MID(sheet1.Status,1,1)<>"I",0,MIN(MIN(VALUE(scvia.Section80QQB),300000),MAX(0,MIN(GTI_LIMIT,MAX(0,os.GrossIncomeChargeableToTax+PL_TotalOfCreditsToProfit)))))))	0
+K60	MIN(IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,IF(MID(sheet1.Status,1,1)<>"I",0,MIN(MIN(VALUE(scvia.Section80RRB),300000),MAX(0,MIN(GTI_LIMIT,MAX(0,os.GrossIncomeChargeableToTax+PL_TotalOfCreditsToProfit)))))))	0
+I62	SUM(I50:I54,I56:I60)	0
+K62	MAX(0,MIN(SUM(scvia.Section80IA_Calc,scvia.Section80IAB_Calc,scvia.Section80IB_Calc,scvia.Section80IC_Calc,scvia.Section80JJA_Calc,scvia.Section80JJAA_Calc,scvia.Section80IBA_Calc,scvia.Section80QQB_Calc,scvia.Section80RRB_Calc),((busipofincl.IncOfCurYrAfterSetOffBFLosses2-sheet11.Section44AD-Section44ADA2-sheet11.Section44AE)+MIN(os.TotalAnyOtherIncome,(scvia.Section80QQB_Calc+scvia.Section80RRB_Calc))),Sheet8b.GrossTotalIncome-Sheet8b.IncChargeableTaxSplRates))	0
+O62	IF((scvia.Section80QQB+scvia.Section80RRB)>0,0,sheet11.Section44ADA)	0
+AA62	IF(Sheet8b.GrossTotalIncome>0,IF(Tot_Inc_Without_80GG>GTI_LIMIT,GTI_LIMIT,Tot_Inc_Without_80GG),Tot_Inc_Without_80GG)	0
+K64	MIN(othsrcincl.IncOfCurYrAfterSetOffBFLosses5,MIN(MIN(VALUE(scvia.Section80TTA),10000),MAX(0,MIN(GTI_LIMIT,MAX(0,os.SavingBank)))))	0
+K65	MIN(othsrcincl.IncOfCurYrAfterSetOffBFLosses5,MIN(MIN(VALUE(scvia.Section80TTB),50000),MAX(0,MIN(GTI_LIMIT,MAX(0,os.SavingBank+os.TermDeposit)))))	0
+I66	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,Amtdeduction_80U)	0
+K66	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",0,Amtdeduction_80U)	0
+AX66	IF(MID(SELECT80U,1,1)="1",1,IF(MID(SELECT80U,1,1)="2",2,0))	0
+AY66	IF(AX66=1,75000,IF(AX66=2,125000,0))	0
+K67	MAX(0,IF(bacValue=2,MIN(MIN(IF(ISBLANK(Anyother80CCH),0,Anyother80CCH),Anyother80CCH_PreCalc),288000),IF(bacValue=1,MIN(MIN(IF(ISBLANK(Anyother80CCH),0,Anyother80CCH),Anyother80CCH_PreCalc_Newreg),288000))))	0
+I69	SUM(scvia.Section80TTA,scvia.Section80TTB,scvia.Section80U,Anyother80CCH)	0
+K69	MAX(0,MIN(SUM(K64:K67),Sheet8b.GrossTotalIncome-Sheet8b.IncChargeableTaxSplRates))	0
+I70	(scvia.TotPartBchapterVIA+scvia.TotPartCchapterVIA+scvia.TotPartCAandDchapterVIA)	0
+K70	ROUND(MAX(0,MIN((scvia.TotPartBchapterVIA_Calc+scvia.TotPartCchapterVIA_Calc+scvia.TotPartCAandDchapterVIA_Calc),Sheet8b.GrossTotalIncome-Sheet8b.IncChargeableTaxSplRates)),0)	0

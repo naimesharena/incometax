@@ -1,0 +1,166 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P
+3			Schedule BP			Computation of income from business or profession
+4			INCOME FROM BUSINESS OR PROFESSION	A	From business or profession other than speculative business and specified business
+5					1	Profit before tax as per profit and loss account ((item  53 ,61(ii)), 62(ii), 63(ii), 64(iii), 65(iv) and 66(ii)  of P&L)(in case of no account case)]				1	0
+6					2a	Net profit or loss from speculative business included in 1 (enter –ve sign in case of loss) [Sl.no 12b of Trading account + Sl.no 65iv of Schedule P&L]		2a	0					FINALPBT	0
+7					2b	Net profit or Loss from Specified Business u/s 35AD included in 1 (enter –ve sign in case of loss)		2b
+8					3	Income/ receipts credited to profit and loss account considered under other heads of income or chargeable u/s 115BBF or chargeable u/s 1115BBG or chargeable u/s 1115BBH
+9						a	Salaries	3a
+10						b	House Property	3b
+11						c	Capital Gains	3c
+12						d	Other Sources	3d	0
+13						i	Dividend Income	3di
+14						ii	Other than Dividend Income	3dii
+15						e	u/s 115BBF	3e
+16						f	u/s 115BBG	3f
+17						g	u/s 115BBH (net of  Cost of Acquisition)	3g	0
+18					4a	Profit or loss included in 1, which is referred to in section 44AD/44ADA/44AE/44B/44BB/44BBA/44BBC/44BBD/44DA		4	0
+19						Sl no	Section		Amount
+20						a	44AD	4a	0
+21						b	44ADA	4b	0
+22						c	44AE	4c	0
+23						d	44B	4d	0
+24						e	44BB	4e	0
+25						f	44BBA	4f	0
+26						g	44BBC	4g	0
+27						h	44BBD	4h	0
+28						i	44DA	4i	0
+29					4b	Profit from activities covered under rule 7, 7A, 7B(1), 7B(1A) and 8			0
+30						Sl no	Section		Amount
+31						(i)	Profit from activities covered under rule 7 	4ba
+32						(ii)	Profit from activities covered under rule 7A 	4bb
+33						(iii)	Profit from activities covered under rule 7B(1) 	4bc
+34						(iv)	Profit from activities covered under rule 7B(1A)	4bd
+35						(v)	Profit from activities covered under rule 8	4be
+36					5	Income credited to Profit and Loss account (included in 1) which is exempt
+37						a	share of income from firm(s)	5a
+38						b	Share of income from AOP/ BOI	5b
+39						c	Any other exempt Income (specify nature and amount)
+40						i	Nature	ii	Amount
+41						1	Dividend Income	1
+42						2		2
+43						3		3
+44						4		4
+46						iii	Total	5c	0
+47						d	Total exempt income (5a+5b+5ciii)	5d	0
+48					5A	Income or receipts credited to Profit and Loss account but not chargeable to tax under the Act 
+49					6	Balance (1– 2a – 2b – 3a - 3b – 3c - 3d -3e-3f –3g- 4a-4b– 5d-5A)				6	0
+50					7	Expenses debited to profit and loss account considered under other heads of income/related to income chargeable u/s 115BBF/ 115BBG/115BBH
+51						a	Salaries	7a
+52						b	House Property	7b
+53						c	Capital Gains	7c
+54						d	Other Sources	7d
+55						e	u/s 115BBF	7e
+56						f	u/s 115BBG	7f
+57						g	u/s 115BBH (other than Cost of Acquisition)	7g
+58					8a	Expenses debited to profit and loss account which relate to exempt income		8a
+59					8b	Expenses debited to profit and loss account  which relate  to exempt income and disallowed u/s 14A (16 of Part A-OI)		8b	0
+60					9	Total (7a + 7b + 7c + 7d + 7e +7f+7g+ 8a+8b)		9	0
+61					10	Adjusted profit or loss (6+9)				10	0
+62					11	Depreciation and amortization debited to profit and loss account 				11	0
+63					12	Depreciation allowable under Income-tax Act
+64						i	Depreciation allowable under section 32(1)(ii) and 32(1)(iia)  (column 6 of Schedule-DEP)	12i	0
+65						ii	Depreciation allowable under section 32(1)(i) (Make your own computation and enter) (Refer Appendix-IA of IT Rules	12ii
+66						iii	Total (12i + 12ii)			12iii	0
+67					13	Profit or loss after adjustment for depreciation (10 +11 - 12iii)				13	0
+68					14	Amounts debited to the profit and loss account, to the extent 
+disallowable under section 36 (6s of Part A-OI)		14	0
+69					15	Amounts debited to the profit and loss account, to the extent disallowable under section 37 (7J of Part-OI)		15	0
+70					16	Amounts debited to the profit and loss account, to the extent disallowable under section 40 (8Aj of Part-OI)		16	0
+71					17	Amounts debited to the profit and loss account, to the extent disallowable under section 40A (9F of Part-OI)		17	0
+72					18	Any amount debited to profit and loss account of the previous year but disallowable under section 43B (11i of Part-OI)		18	0
+73					19	Interest disallowable under section 23 of the Micro, Small and Medium Enterprises Development Act,2006 (17 of Part A-OI)		19	0
+74					20	Deemed income under section 41		20
+75					21	Deemed income under section 32AD/33AB/33ABA/35ABA/35ABB/40A(3A)/ 72A/80HHD/80-IA		21	0
+76						Sl.No.	Section		Amount
+77						a	32AD	21a
+78						b	33AB	21b
+79						c	33ABA	21c
+80						d	35ABA	21d
+81						e	35ABB	21e
+82						f	40A(3A)	21f
+83						g	72A	21g
+84						h	80HHD	21h
+85						i	80-IA	21i
+86					22	Deemed income under section 43CA		22
+87					23	Any other item or items of addition under section 28 to 44DA		23
+88					24	Any other income not included in profit and loss account/any other expense not allowable (including income from salary, commission, bonus and interest from firms in which individual/HUF/prop. concern is a partner)		24	0
+89						a	Salary	24a
+90						b	Bonus	24b
+91						c	Commission	24c
+92						d	Interest	24d
+93						e	Others	24e
+94					25	Increase in profit or decrease in loss on account of ICDS adjustments and deviation in method of valuation of stock (Column 3a + 4d of Part A - OI) 				25	0
+95					26	Total (14 + 15 +16 +17 +18 +19 + 20 +21 + 22 + 23 + 24+25)				26	0
+96					27	Deduction allowable under section 32(1)(iii)		27
+97					28	Deduction allowable under section 32AD 		28	0
+98					28	Amount of deduction under section 35 or 35CCC or 35CCD in excess of the amount debited to profit and loss account (item X(4) of Schedule ESR) (if amount deductible under section 35 or 35CCC or 35CCD is lower than amount debited to P&L account, it will go to item 24)		28	0
+99					29	Any amount disallowed under section 40 in any preceding previous year but allowable during the previous year(8B of Part A-OI)		29	0
+100					30	Any amount disallowed under section 43B in any preceding previous year but allowable during the previous year  (10i of Part A-OI)		30	0
+101					31	Deduction under section 35AC
+102						a	Amount, if any, debited to profit and loss account	31a
+103						b	Amount allowable as deduction	31b
+104						c	Excess amount allowable as deduction (31b – 31a)	31c	0
+105					31	Any other amount allowable as deduction		31
+106					32	Decrease in profit or increase in loss on account of ICDS adjustments and deviation in method of valuation of stock (Column 3b + 4e of Part A- OI)				32	0
+107					33	Total (27+28+29+30+31+32)				33	0
+108					34	Income (13 + 26 - 33)				34	0
+109					35	Profits and gains of business or profession deemed to be under -
+110						i	Section 44AD (61(ii) of schedule P&L)	35i	0
+111						ii	Section 44ADA (62(ii) of schedule P&L)	35ii	0
+112						iii	Section 44AE (63(ii) of schedule P&L)	35iii	0
+113						iv	Section 44B	35iv	0
+114						v	Section 44BB	35v	0
+115						via	Section 44BBA	35via	0
+116						vii	Section 44BBB	36vii
+117						viii	Section 44D	36viii
+118						vib	Section44BBC	35vib	0
+119						vic	Section 44BBD	35v	0
+120						vii	Section 44DA	35vii
+121						ix	Chapter-XII-G	x
+122						viii	Total (35i to 35vii)			35viii	0
+123					34	Profit or loss before deduction under section 10A/10AA (32 + 33xii)				34	0
+124					35	Deductions under section
+125						i	10A (6 of Schedule-10A)	35i	0
+126						ii	10AA (d of Schedule-10AA)	35ii	0
+127						iii	10B (f of Schedule-10B)	35iii	0
+128						iv	10BA (f of Schedule-10BA)	35iv	0
+129						iii	Total (35i + 35ii)			35iii	0
+130					36	Net profit or loss from business or profession other than speculative business and specified business (34 + 35viii) 				36	0
+131					37	Net Profit or loss from business or profession other than speculative business and specified business, after applying rule 7A,7B or 8, if applicable (if rule 7A, 7B or 8 is not applicable, enter same figure as in 40) (if loss take the figure to 2i of item E) (37a+ 37b + 37c + 37d + 37e + 37f)				A37	0
+132						a	Chargeable income under Rule 7	37a
+133						b	Deemed chargeable Income under Rule 7A	37b
+134						c	Deemed chargeable Income under Rule 7B(1)	37c
+135						d	Deemed chargeable Income under Rule 7B(1A)	37d
+136						e	Deemed chargeable Income under Rule 8	37e
+137						f	Income other than Rule7, 7A, 7B & 8 (Item No. 36)	37f	0
+138					38	Balance of income deemed to be from Agriculture, after applying Rule 7, 7A, 7B(1), 7B(1A) and Rule 8 for aggregation of income purposes as per Finance Act.				38	0
+139				B	Computation of income from speculative business
+140					39	Net profit or loss from speculative business as per profit or loss account (Item No.2a)				39	0
+141					40	Additions in accordance with section 28 to 44DA				40
+142					41	Deductions in accordance with section 28 to 44DA				41
+143					42	Income from speculative business(39+40-41 ) (if loss, take the figure to 6ix of schedule CFL)				B42	0
+144				C	Computation of income from specified business under section 35AD
+145					43	Net profit or loss from specified business as per profit or loss account 				43	0
+146					44	Additions in accordance with section 28 to 44DA				44
+147					45	Deductions in accordance with section 28 to 44DA (other than deduction under section,- (i) 35AD, (ii)32 or 35 on which deduction u/s 35AD is claimed) 				45
+148					46	Profit or loss from specified business (43+44-45)				46	0
+149					47	Deductions in accordance with section 35AD(1) 				47	0
+150						a	35AD(1) 			46a
+151						b	35AD(1A)			46b
+152					48	Income from Specified Business (46-47) (if loss, take the figure to 7ix of schedule CFL) 				C48	0
+153					49	Relevant clause of sub-section (5) of section 35AD which covers the specified business (to be selected from drop down menu)
+154						1	(Select)							#VALUE!
+155						2	(Select)							(Sel
+156														(Sel
+157				D	Income chargeable under the head ‘Profits and gains from Business or profession’ (A37+B42+C48)					D	0
+158				Please include the income of the specified persons referred to in Schedule SPI while computing the income under this head
+163				E	Intra head set off of business loss of current year
+164																TempBusLoss
+165				Type of business income			Income of current year (Fill this column only if figure is zero or positive)                                             (1)		Business loss set off       (2)		Business income remaining after set off  (3) = (1)-(2)				Normal Bus loss	0
+166				(i) Loss to be set off (Fill this row only if figure is negative)					0						After Speculative loss Set off	0
+167				(ii) Income from speculative business			0		0		0				After Specified loss Setoff	0
+168				(iii) Income from specified business			0		0		0
+169				(iv) Total loss set off (ii + iii)					0
+170				(v) Loss remaining after set off (i – iv)					0
+171				Note : Please include the income of the specified persons referred to in Schedule SPI while computing the income under this head 

@@ -1,0 +1,61 @@
+row	A	B	C	D	E	F
+1		Different Section value after setoff		Different Section value after setoff after CYLA		Different Section value after setoff after BFLA
+2	20sec112	0		0		0
+3	20Sec11EA	0		0		0
+4	15Sec111a	0		0		0
+5	15Sec115ad1bii	0		0		0
+6	10SecPro	0		0		0
+7	10Sec115ACA1	0		0		0
+8	10Sec115Eb	0		0		0
+9	10Sec1121c2	0		0		0
+10	10Sec115AC1	0		0		0
+11	10Sec115AD3	0		0		0
+12	125Sec115AD3	0		0		0
+13	10Sec115AD3_Proviso	0		0		0
+14	10sec112A	0		0		0
+15	PTI10	0		0		0
+16	PTI10_112	0		0		0
+17	PTI15	0		0		0
+18	PTI20	0		0		0
+19	PTI30	0		0		0
+20	PTIAR
+21	115AD30	0		0		0
+22	AR
+24	20Sec111a	0		0		0
+25	20Sec115ad1bii	0		0		0
+26	PTI20_STCG	0		0		0
+27	125_112(1)c(iii)	0	112(1)c(iii)
+B7ieii	0		0
+28	125_115AC(1)	0	115AC(1)
+B7iieii	0		0
+29	125_115ACA(1)	0	115ACA(1)
+B4iieii	0		0
+30	125_115E(a)_B9dii	0	115E(a)_B9dii	0		0
+31	125_115E(b)_B9cii	0	115E(b)_B9cii	0		0
+32	125_112 sec48	0		0		0
+33	125_112	0	112
+B1gb
+B10eii
+B11ii
+B6ciii	0		0
+34	125_PTI_112	0	PTI_112
+12a1ii	0		0
+35	125_PTI	0	PTI
+12a2ii	0		0
+36	125_115AD(iii)_Proviso	0	115AD(iii)_Proviso
+B8cii	0		0
+37	125_112A	0	112A
+B5cii	0		0
+38	20SecPro_112Proviso	0	B4iei_20_112proviso	0		0
+39	125SecPro_112Proviso	0	B4ieii_125_112proviso	0		0
+40	B1g	0	B1g	0		0
+41	B2e	0	B2e	0		0
+42	B5c	0	B5c	0		0
+43	B9e	0	B9e	0		0
+44	B10	0	B10	0		0
+51	Full Name	  
+53	Exemption=	0
+54	Age=	2026
+58	Current Date	17-07-2026
+60						2026-07-17
+61		17-07-2026

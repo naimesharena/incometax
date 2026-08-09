@@ -1,0 +1,601 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T
+3			(Note : If no entry is made in the Country Code column, then other columns will not be considered for that row)
+4			Schedule TR	Summary of tax relief claimed for taxes paid outside India (Available in case of resident)
+5			1	Summary  of  Tax relief claimed
+6				SrNo	Country Code
+
+
+(a)	Taxpayer Identification Number
+
+
+(b)	Total taxes paid outside India
+(total of (c) of Schedule FSI in
+respect of each country)
+ (c)	Total tax relief available
+(total of (e) of Schedule FSI in
+respect of each country)
+
+(d)	
+Tax Relief Claimed under section
+(specify 90, 90A or 91)
+
+(e)
+7				1			0	0	(Select)
+8				2			0	0	(Select)
+9				3			0	0	(Select)
+10				4			0	0	(Select)
+11				Total			0	0
+13				2	Total Tax relief available in respect of country where DTAA is applicable (section 90/90A) (Part of total of 1(d))					0
+14				3	Total Tax relief available in respect of country where DTAA is not applicable (section 91) (Part of total of 1(d))					0
+15				4	Whether any tax paid outside India, on which tax relief was allowed in India, has been refunded/credited by the foreign tax authority during the year? If yes, provide the details below
+16				a	Amount of tax refunded 		  b) Assessment year in which tax relief allowed in India
+19			Schedule FA	Details of Foreign Assets and Income from any source outside India 
+20				NOTE : This Schedule is not Applicable for NRI \(Non Resident Indians) as per Residential Status
+21			A1	Details of Foreign Depository Accounts held (including any beneficial interest) at any time during the calendar year ending as on 31st December, 2025) 
+22				Sl.No.
+
+
+
+
+1	Country Name and Code
+
+
+
+
+2	Name of  financial institution
+
+
+
+3	Address of  financial institution
+
+
+
+4	ZIP Code
+
+
+
+
+5	Account Number
+
+
+
+
+6	Status
+
+
+
+
+7	Account opening date
+
+
+
+8	Peak Balance During the  Period  (in rupees)
+
+
+9	Closing balance 
+
+
+
+
+10	Gross interest paid/credited to the account during the period
+
+11
+24				1	(Select)					(Select)
+25				2	(Select)					(Select)
+26				3	(Select)					(Select)
+27				4	(Select)					(Select)
+28				5	(Select)					(Select)
+29				6	(Select)					(Select)
+31			Total:									0
+35			A2	Details of Foreign Custodial Accounts held (including any beneficial interest) at any time during the calendar year ending as on 31st December, 2025
+36				Sl.No.
+
+
+
+
+1	Country Name and Code
+
+
+
+
+2	Name of  financial institution
+
+
+
+3	Address of  financial institution
+
+
+
+4	ZIP Code
+
+
+
+
+5	Account Number
+
+
+
+
+6	Status
+
+
+
+
+7	Account opening date
+
+
+
+8	Peak Balance During the Period 
+
+
+
+9	Closing balance 
+
+
+
+
+10	Gross amount paid/credited to the account during the period
+
+37														Nature of Amount
+
+
+11a	Amount
+
+
+11b
+38				1	(Select)					(Select)
+39				2	(Select)					(Select)
+40				3	(Select)					(Select)
+41				4	(Select)					(Select)
+42				5	(Select)					(Select)
+43				6	(Select)					(Select)
+45			Total:									0
+49			A3	Details of Foreign Equity and Debt Interest held (including any beneficial interest) in any entity at any time during the calendar year ending as on 31st December, 2025
+50				Sl.No.
+
+
+
+
+1	Country Name and Code
+
+
+
+
+2	Name of entity
+
+
+
+
+3	Address of entity
+
+
+
+
+4	ZIP Code
+
+
+
+
+5	Nature of entity
+
+
+
+
+6	Date of acquiring the interest
+
+
+
+7	Initial value of the investment
+
+
+
+8	Peak value of investment during the Period
+
+
+9	Closing balance 
+
+
+
+
+10	Total gross amount paid/credited with respect to the holding during the period
+
+11	Total gross proceeds from sale or redemption of investment during the period
+
+12
+52				1	(Select)
+53				2	(Select)
+54				3	(Select)
+55				4	(Select)
+56				5	(Select)
+57				6	(Select)
+59			Total:									0
+63			A4	Details of Foreign Cash Value Insurance Contract or Annuity Contract held (including any beneficial interest) at any time during the calendar year ending as on 31st December, 2025
+64				Sl.No.
+
+
+
+
+1	Country Name and Code
+
+
+
+
+2	Name of financial institution in which insurance contract held
+
+3	Address of financial institution
+
+
+
+4	ZIP Code
+
+
+
+
+5	Date of contract
+
+
+
+
+6	The cash value or surrender value of the contract
+
+
+7	Total gross amount paid/credited with respect to the contract during the period.
+8
+66				1	(Select)
+67				2	(Select)
+68				3	(Select)
+69				4	(Select)
+70				5	(Select)
+71				6	(Select)
+78			B	Details of Financial Interest in any Entity held (including any beneficial interest) at any time during the calendar year ending as on 31st December, 2025
+79				Sl.No.
+
+
+
+1	Country Name and Code
+
+
+
+2(a)	Zip Code
+
+
+
+2(b)	Nature of entity
+
+
+
+3	Name of the Entity
+
+
+
+4(a)	Address of the Entity
+
+
+
+4(b)	Nature of Interest
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     5
+	Date since held
+
+
+
+6	Total Investment (at cost) (in rupees)
+
+7	Income accrued from such Interest
+
+8	Nature of Income
+
+
+9	Income taxable and offered in this return
+80															Amount
+
+
+10	Schedule where offered
+
+11	Item number of schedule
+
+12
+81				1	(Select)					(Select)						(Select)
+82				2	(Select)					(Select)						(Select)
+83				3	(Select)					(Select)						(Select)
+84				4	(Select)					(Select)						(Select)
+85				5	(Select)					(Select)						(Select)
+86				6	(Select)					(Select)						(Select)
+88			Total:						0
+93			C	Details of Immovable Property held (including any beneficial interest) at any time during the calendar year ending as on 31st December, 2025
+94				Sl.No.
+
+
+
+1	Country name and code
+
+
+
+2(a)	Zip Code
+
+
+
+2(b)	Address of the Property
+
+
+3	Ownership
+
+                                                                                                                                                                                                                                                                                                                      4
+	Date of acquisition
+
+
+
+5	Total Investment (at cost) (in rupees)
+
+
+6	Income derived from the property
+
+
+7	Nature of Income
+
+
+
+8	Income taxable and offered in this return
+95													Amount
+
+
+9	Schedule where offered
+
+10	Item number of schedule
+
+11
+96				1	(Select)			(Select)						(Select)
+97				2	(Select)			(Select)						(Select)
+98				3	(Select)			(Select)						(Select)
+99				4	(Select)			(Select)						(Select)
+100				5	(Select)			(Select)						(Select)
+101				6	(Select)			(Select)						(Select)
+103			Total:				0
+108			D	Details of any other Capital Asset held (including any beneficial interest) at any time during the calendar year ending as on 31st December, 2025
+109				Sl.No.
+
+
+
+1	Country name and code
+
+
+
+2(a)	Zip Code
+
+
+
+2(b)	Nature of Asset
+
+
+
+3	Ownership
+
+                                                                                                                                                                                                                                                                                                                   4
+	Date of acquisition
+
+
+
+5	Total Investment (at cost) (in rupees)
+
+
+6	Income derived from the asset
+
+
+7	Nature of Income
+
+
+
+8	Income taxable and offered in this return
+110													Amount
+
+
+9	Schedule where offered
+
+10	Item number of schedule
+
+11
+111				1	(Select)			(Select)						(Select)
+112				2	(Select)			(Select)						(Select)
+113				3	(Select)			(Select)						(Select)
+114				4	(Select)			(Select)						(Select)
+115				5	(Select)			(Select)						(Select)
+116				6	(Select)			(Select)						(Select)
+118			Total:				0
+124			E	Details of account(s) in which you have signing authority held (including any beneficial interest) at any time during the calendar year ending as on 31st December, 2025 and which has not been included in A to D above.
+125				Sl.No.
+
+
+
+
+
+
+1	Name of the Institution in which the account is held
+2	Address of the Institution
+
+
+
+
+
+3(a)	 Country name and code
+
+
+
+
+3(b)	Zip Code
+
+
+
+
+
+
+3(c)	Name of the Account Holder 
+
+
+
+
+
+
+4	Account Number
+
+
+
+
+
+
+5	Peak Balance/Investment during the year (in rupees)
+
+
+
+6	Whether income accrued is taxable in your hands?
+
+
+
+7	If (7) is yes, Income accrued in the account
+
+
+
+
+8	If (8) is yes, Income derived in the account
+126														Amount
+
+
+
+
+
+9	Schedule where offered
+
+
+
+
+10	Item number of schedule
+
+
+
+
+11
+127				1	(Select)										(Select)
+128				2	(Select)										(Select)
+129				3	(Select)										(Select)
+130				4	(Select)										(Select)
+131				5	(Select)										(Select)
+132				6	(Select)										(Select)
+134			Total:						0
+139			F	Details of trusts, created under the laws of a country outside India, in which you are a trustee, beneficiary or settlor
+140				Sl.No.
+
+
+
+1	country name and code
+
+
+
+
+2(a)	Zip Code
+
+
+
+
+2(b)	Name of the trust
+
+
+
+
+3	Address of the trust
+
+
+
+
+3(a)	Name of  trustees
+
+
+
+
+4	Address of trustees
+
+
+
+4(a)	Name of Settlor
+
+
+
+
+5	Address of Settlor
+
+
+
+5(a)	Name of Beneficiaries
+
+
+
+6	Address of Beneficiaries
+
+
+
+6(a)	Date since position held
+
+
+
+7	Whether income derived is taxable in your hands?
+
+8	If (8) is yes, Income derived in the account
+
+
+9	If (8) is yes, Income offered in this return
+141																		Amount
+                   
+10	Schedule where offered
+11	Item number of schedule
+12
+142				1	(Select)														(Select)
+143				2	(Select)														(Select)
+144				3	(Select)														(Select)
+145				4	(Select)														(Select)
+146				5	(Select)														(Select)
+147				6	(Select)														(Select)
+151			G	Details of any other income derived from any source outside India which is not included in,- (i) items A to F above and, (ii) income under the head business or profession
+152				Sl.No.
+
+
+
+1	Country name and code
+
+
+
+2(a)	Zip Code
+
+
+
+2(b)	Name  of the person from whom derived
+
+
+
+3(a)	Address of the person from whom derived
+
+
+
+3(b)	Income derived
+
+
+
+4	Nature of income
+
+
+
+5	Whether taxable in your hands?
+
+
+6	If (6) is yes, Income offered in this return
+153												Amount
+
+
+7	Schedule where offered
+
+8	Item number of schedule
+
+9
+154				1	(Select)								(Select)
+155				2	(Select)								(Select)
+156				3	(Select)								(Select)
+157				4	(Select)								(Select)
+158				5	(Select)								(Select)
+159				6	(Select)								(Select)
+163			NOTE	Please refer to instructions for filling out this schedule. In case of an individual, not being an Indian citizen, who is in India on a business, employment or student visa, an asset acquired during any previous year in which he was non-resident is not mandatory to be reported in this schedule if no income is derived from that asset during the current previous year.

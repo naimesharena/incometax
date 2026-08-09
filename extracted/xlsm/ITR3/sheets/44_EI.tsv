@@ -1,0 +1,38 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N
+3			Schedule EI			Details of Exempt Income (Income not to be included in total income or not chargeable to tax)
+4			EXEMPT  INCOME	1	Interest income 				1
+5				2	Dividend income from domestic company (amount not exceeding Rs. 10 lakhs)				2	0
+6				3	Long-term capital gains from transactions on which Securities Transaction Tax is paid				3
+7				2	i	Gross Agricultural receipts (other than income to be excluded under rule 7A, 7B or 8 of I.T. Rules)		i
+8					ii	Expenditure incurred on agriculture		ii
+9					iii	Unabsorbed agricultural loss of previous eight assessment years		iii
+10					iv	Agricultural income portion relating to Rule 7, 7A, 7B(1), 7B(1A) and 8 (from Sl. No. 38 of Sch. BP)			2iv	0
+11					v	Net Agricultural income for the year (i – ii – iii+iv) (enter nil if loss)			2v	0
+12					Share in the profit of firm/AOP/BOI etc. 				5
+13					vi	In case the net agricultural income for the year exceeds Rs.5 lakhs, please furnish the following details (Fill up details separately for each agricultural land) 
+14					Sl. No.	Name of district along with pin code in which agricultural land is located 
+a		Measurement of agricultural land in Acre
+b	Whether the agricultural land is owned or held on lease
+c	Whether the agricultural land is irrigated or rain-fed
+d
+15						Name of district	Pin code
+16					1				(Select)	(Select)
+17					2				(Select)	(Select)
+18					3				(Select)	(Select)
+19					4				(Select)	(Select)
+21				3	Other exempt income, (including exempt income of minor child) (please specify)
+22					Sl.No.	Category	Sub-Category	Description	Amount
+23					1	(Select)
+24					2	(Select)
+25					3	(Select)
+26					4	(Select)
+27					Total				0
+30				4	Income claimed as not chargeable to tax as per DTAA (Applicable for Non-residents only)
+31				Sl. No.	Amount of Income	Nature of Income	Country name & code	Article of DTAA	Head of Income	Whether TRC obtained
+32				1
+33				2
+34				3
+35				4
+37					Total Income from DTAA claimed  as not chargeable to tax				4	0
+38				5	Pass through income claimed as not chargeable to tax (Schedule PTI)				5	0				0
+39				6	Total (1 + 2(v) + 3 + 4 + 5)				6	0

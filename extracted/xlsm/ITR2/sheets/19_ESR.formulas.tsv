@@ -1,0 +1,6 @@
+cell	formula	cached_value
+G5	IF((F5-E5) <0,0,(F5-E5))	0
+G6	IF((F6-E6) <0,0,(F6-E6))	0
+E14	SUM(E5:E13)	0
+F14	SUM(F5:F13)	0
+G14	SUM(G5:G13)	0

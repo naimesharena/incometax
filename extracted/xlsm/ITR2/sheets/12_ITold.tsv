@@ -1,0 +1,27 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U
+1	18A	Tax Payments
+2	A	Details of payments of Advance Tax and Self-Assessment Tax
+3		Sl
+No	BSR Code
+Must be filled to include the payment in the Total	Date of Deposit
+(DD/MM/YYYY)	Serial Number of
+Challan	Amount (Rs)													ExSAT	0
+4		1	2	3	4	5
+5		1													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+6		2													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+7		3													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+8		4													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+10			Total			0
+11	NOTE		Enter the totals of Advance tax and Self-Assessment tax in Sl No. 10a & 10d of Part B-TTI
+13																				0	0
+14																				0	0
+15																				0	0
+16																				0	0
+17																				0	0
+18																				0	0
+19																				0	0
+20																		Quarter Income Break up	0	0	0
+21																			0	0	0
+22																			0	0	0
+23																			0	0	0
+24															Self Assesment	0	Advance Tax	0	0	0	0

@@ -1,0 +1,92 @@
+row	A	B	C	D	E	F	G	H
+3			 (Note: If no entry is made in first row then other rows will not be considered)
+4			Schedule 80-IA			Deductions under section 80-IA
+6				a	Deduction in respect of profits of an undertaking referred to in section 80-IA(4)(ii) [Telecommunication services]
+7					1	Undertaking 1
+8					2	Undertaking 2
+9					3	Undertaking 3
+11				b	Deduction in respect of profits of an undertaking referred to in section 80-IA(4)(iii) [Industrial park and SEZs]
+12					1	Undertaking 1
+13					2	Undertaking 2
+15				a	Deduction in respect of profits of an undertaking referred to in section 80-IA(4)(iv) [Power]
+16					1	Undertaking 1
+17					2	Undertaking 2
+19				d	Deduction in respect of profits of an undertaking referred to in section 80-IA(4)(v) [Revival of power generating plant] and deduction in respect of  profits of an undertaking referred to in section 80-IA(4)(vi) [Cross-country natural gas distribution network]
+20					1	Undertaking 1
+21					2	Undertaking 2
+23			b	Total deductions under section  80-IA              
+(a1 + a2 )				0
+25			Schedule 80-IB			Deductions under section 80-IB
+27				A	Deduction in respect of industrial undertaking located in Jammu & Kashmir or Ladakh [Section 80-IB(4)] 
+28					1	Undertaking 1
+29					2	Undertaking 2
+31				b	Deduction in respect of industrial undertaking located in industrially backward states specified in Eighth Schedule [Section 80-IB(4)] 
+32					1	Undertaking 1
+33					2	Undertaking 2
+35				c	Deduction in respect of industrial undertaking located in industrially backward districts [Section 80-IB(5)]  
+36					1	Undertaking 1
+37					2	Undertaking 2
+39				b	Deduction in the case of multiplex theatre [Section 80-IB(7A)] 
+40					1	Undertaking 1
+41					2	Undertaking 2
+43				c	Deduction in the case of convention centre [Section 80-IB(7B)]
+44					1	Undertaking 1
+45					2	Undertaking 2
+47				B	Deduction in the case of undertaking which begins commercial production or refining of mineral oil [Section 80-IB(9)]    
+48					1	Undertaking 1
+49					2	Undertaking 2
+51				C	Deduction in the case of an undertaking developing and building housing projects
+[Section 80-IB(10)]  
+52					1	Undertaking 1
+53					2	Undertaking 2
+55				h	Deduction in the case of an undertaking operating a cold chain facility [Section 80-IB(11)]  
+56					1	Undertaking 1
+57					2	Undertaking 2
+59				D	Deduction in the case of an undertaking engaged in processing, preservation and packaging of fruits and vegetables , meat, meat products, poultry, marine or dairy products [Section 80-IB(11A)]   
+60					1	Undertaking 1
+61					2	Undertaking 2
+63				E	Deduction in the case of an undertaking engaged in integrated business of handling, storage and transportation of food grains [Section 80-IB(11A)] 
+64					1	Undertaking 1
+65					2	Undertaking 2
+67				h	Deduction in the case of an undertaking engaged in operating and maintaining a rural hospital [Section 80-IB(11B)] 
+68					1	Undertaking 1
+69					2	Undertaking 2
+71				i	Deduction in the case of an undertaking engaged in operating and maintaining a hospital in any area, other than excluded area [Section 80-IB(11C)
+72					1	Undertaking 1
+73					2	Undertaking 2
+75			F	Total deduction under section 80-IB (Total of A1 to E2) 				0
+77			Schedule 80-IC or 80-IE			Deductions under section 80-IC or 80-IE
+79				a	Deduction in respect of industrial undertaking located in Sikkim   
+80					1	Undertaking 1
+81					2	Undertaking 2
+83				b	Deduction in respect of industrial undertaking located in 
+Himachal Pradesh
+84					1	Undertaking 1
+85					2	Undertaking 2
+87				c	Deduction in respect of industrial undertaking located in Uttaranchal
+88					1	Undertaking 1
+89					2	Undertaking 2
+91				d	Deduction in respect of industrial undertaking located in  North-East 
+92					da	Assam 
+93						1	Undertaking 1
+94						2	Undertaking 2
+96					db	Arunachal Pradesh 
+97						1	Undertaking 1
+98						2	Undertaking 2
+100					dc	Manipur 
+101						1	Undertaking 1
+102						2	Undertaking 2
+104					dd	Mizoram 
+105						1	Undertaking 1
+106						2	Undertaking 2
+108					de	Meghalaya 
+109						1	Undertaking 1
+110						2	Undertaking 2
+112					df	Nagaland 
+113						1	Undertaking 1
+114						2	Undertaking 2
+116					dg	Tripura 
+117						1	Undertaking 1
+118						2	Undertaking 2
+120					dh	Total of deduction for undertakings located in North-east (Total of da 1  to dg 2 ) 		0
+122				e	Total deduction under section 80-IC or 80-IE   (a+b+c+dh)			0

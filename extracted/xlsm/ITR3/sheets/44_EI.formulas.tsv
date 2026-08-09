@@ -1,0 +1,16 @@
+cell	formula	cached_value
+J10	MAX(0,BP_BalanceOfIncome39)	0
+J11	MAX(0,Sheet20.scei.NetAgriIncOrOthrIncRule7-Sheet20.ExpenditureOnAgriculture-Sheet20.UnabsorbedAgriculturalloss+Sheet20.Agriculturalinc)	0
+E17	E16+1	2
+E18	E17+1	3
+E19	E18+1	4
+E24	E23+1	2
+E25	E24+1	3
+E26	E25+1	4
+I27	SUM(EI.Amount)	0
+D33	D32+1	2
+D34	D33+1	3
+D35	D34+1	4
+J37	SUM(SCHEI_DTAA_AmountOfIncome)	0
+N38	SUM(0,Sheet20.scei.InterestInc,Sheet20.scei.DividendInc,Sheet20.scei.NetAgriIncOrOthrIncRule7,Sheet20.scei.Others,SchEI_TotalIncomeDTAA,SCHEI_Pass_Through_Income)	0
+J39	MAX(0,SUM(Sheet20.scei.InterestInc,Sheet20.scei.DividendInc,Sheet20.NetAgriculturalIncome,Sheet20.scei.Others,SchEI_TotalIncomeDTAA,SCHEI_Pass_Through_Income))	0

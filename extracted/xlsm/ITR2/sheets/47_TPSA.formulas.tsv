@@ -1,0 +1,9 @@
+cell	formula	cached_value
+P8	TPSA_92CE_Amount*0.18	0
+P9	TPSA_Additional_Income*0.12	0
+P10	(TPSA_Additional_Income+TPSA_Surcharge)*0.04	0
+P11	TPSA_Additional_Income+TPSA_Surcharge+TPSA_Education_Cess	0
+P12	TPSC_Amount_Deposited	0
+P13	MAX(TPSA_AddtionalTax_Total-TPSA_Taxpaid,0)	0
+C18	C17+1	2
+H19	SUM(TPSC_Amt)	0

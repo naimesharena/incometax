@@ -1,0 +1,37 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L
+3			Schedule AMTC			Computation of tax credit under section 115JD 
+4			AMT CREDIT	1	Tax under section 115JC in assessment year 2026-27 (1d of Part-B-TTI)						1	0
+5				2	Tax under other provisions of the Act in assessment year  2026-27 (2i of Part-B-TTI)						2	0
+6				3	Amount of tax against which credit is available [enter (2 – 1) if 2 is greater than 1, otherwise enter 0]						3	0
+7				4	Utilisation of AMT credit Available (Sum of AMT credit utilized during the current year is subject to maximum of amount mentioned in 3 above and cannot exceed the sum of AMT Credit Brought Forward)
+8					Sl.No.	Assessment Year    
+   (A)
+	Gross
+(B1)
+	Set off in earlier assessment years 
+(B2)
+	 Balance brought forward to the current assessment year
+(B3) = (B1) – (B2)
+	AMT Credit Utilised during the Current Assessment Year 
+(C)
+	Balance AMT Credit
+Carried Forward
+(D) = (B3) – (C)
+
+9					i	2013-14			0
+10					ii	2014-15			0
+11					iii	2015-16			0
+12					iv	2016-17			0
+13					v	2017-18			0
+14					vi	2018-19			0
+15					vii	2019-20			0
+16					viii	2020-21			0
+17					ix	2021-22			0
+18					x	2022-23			0
+19					xi	2023-24			0
+20					xii	2024-25			0
+21					xiii	2025-26			0
+22					xiv	Current AY (enter 1 -2, if 1>2 else enter 0	0				0
+23					xv	Total	0	0	0	0	0
+24				5	Amount of tax credit under section 115JD utilised during the year [total of item no 4 (C)]					5	0
+25				6	Amount of AMT liability available for credit in subsequent assessment years [total of 4 (D)]					6	0

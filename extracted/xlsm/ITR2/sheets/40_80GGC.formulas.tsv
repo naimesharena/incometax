@@ -1,0 +1,13 @@
+cell	formula	cached_value
+H8	MAX(SUM(F8,G8),0)	0
+I8	MIN(SUM(IF(F8>0,0,F8),G8),GTI_LIMIT)	0
+D9	D8+1	2
+H9	MAX(SUM(F9,G9),0)	0
+I9	MIN(SUM(IF(F9>0,0,F9),G9),GTI_LIMIT)	0
+D10	D9+1	3
+I10	MIN(SUM(IF(F10>0,0,F10),G10),GTI_LIMIT)	0
+I11	MIN(SUM(IF(F11>0,0,F11),G11),GTI_LIMIT)	0
+F13	SUM(Donationincash_80GGC)	0
+G13	SUM(Donationinothermode_80GGC)	0
+H13	IF(bacValue=1,0,SUM(TotalDonation_80GGC))	0
+I13	IF(bacValue=1,0,SUM(EligibleAmountofDonation_80GGC))	0

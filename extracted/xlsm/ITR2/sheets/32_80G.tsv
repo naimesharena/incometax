@@ -1,0 +1,38 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF
+3			Schedule 80G	Details of donations entitled for deduction under section 80G (Please read NOTE below)
+4			A	Donations entitled for 100% deduction without qualifying limit 																	0	0	0	0	0
+5				SL.NO.	Name of donee	Address	City or Town or District	State Code	PinCode	PAN of the donee		Amount of donation			Eligible Amount of Donation	Transaction Reference number for UPI transfer or Cheque number/ IMPS/NEFT/RTGS	IFS code of Bank			0
+6												Donation in Cash	Donation in Other mode	Total Donation
+7				1				(SELECT)						0	0											NoData	_NoData	0				0
+8				2				(SELECT)						0	0											NoData	_NoData	0				0
+9				3				(SELECT)						0	0											NoData	_NoData	0				0
+10				4				(SELECT)						0	0											NoData	_NoData	0				0
+12				TOTAL  A								0	0	0	0
+16			B	Donations entitled for 50% deduction without qualifying limit
+17				SL.NO.	Name of donee	Address	City or Town or District	State Code	PinCode	PAN of the donee		Amount of donation			Eligible Amount of Donation	Transaction Reference number for UPI transfer or Cheque number/ IMPS/NEFT/RTGS	IFS code of Bank
+18												Donation in Cash	Donation in Other mode	Total Donation
+19				1				(SELECT)						0	0											NoData	_NoData	0				0
+20				2				(SELECT)						0	0							DeductionSystemTotal	0			NoData	_NoData	0				0
+21				3				(SELECT)						0	0							adjustGTI	0			NoData	_NoData	0				0
+22				4				(SELECT)						0	0							qualifyingLimit	0			NoData	_NoData	0				0
+23																					residue	0
+24				TOTAL  B :								0	0	0	0							residue50perc
+27																					ChapVIASumWithout80G80GG	0
+29			C	Donations entitled for 100% deduction subject to qualifying limit
+30				SL.NO.	Name of donee	Address	City Or Town Or District	State Code	PinCode	PAN of the donee		Amount of donation			Eligible Amount of Donation	Transaction Reference number for UPI transfer or Cheque number/ IMPS/NEFT/RTGS	IFS code of Bank
+31												Donation in Cash	Donation in Other mode	Total Donation
+32				1				(SELECT)						0	0											NoData	_NoData	0				0
+33				2				(SELECT)						0	0											NoData	_NoData	0				0
+34				3				(SELECT)						0	0											NoData	_NoData	0				0
+35				4				(SELECT)						0	0											NoData	_NoData	0				0
+37				TOTAL  C : 								0	0	0	0
+41			D	Donations entitled for 50% deduction subject to qualifying limit
+42				SL.NO.	Name of donee	Address	City Or Town Or District	State Code	PinCode	PAN of the donee	ARN (Donation Reference Number)	Amount of donation			Eligible Amount of Donation	Transaction Reference number for UPI transfer or Cheque number/ IMPS/NEFT/RTGS	IFS code of Bank
+43												Donation in Cash	Donation in Other mode	Total Donation
+44				1				(SELECT)						0	0					0						NoData	_NoData	0				0
+45				2				(SELECT)						0	0					0						NoData	_NoData	0				0
+46				3				(SELECT)						0	0					0						NoData	_NoData	0				0
+47				4				(SELECT)						0	0					0						NoData	_NoData	0				0
+49				TOTAL  D								0	0	0	0							0
+54			E	TOTAL ELIGIBLE AMOUNT OF DONATIONS (AIII + BIII + CIII + DIII)								0	0	0	0
+55			NOTE : ALSO, 80G IS NOT  ALLOWED FROM NEWLY ADDED TAX RATES BEING LTCG @12.5% AND STCG @20% AS WELL. SO, IMPACT OF THESE FIELDS ALSO NEED TO BE CONSIDERED WHILE COMPUTING ADJUSTED GTI. (MAY HAVE IMPACT DUE TO 112(1)(C) PROVISO - 12.5% AS 80G WILL NOT BE ALLOWED FROM THAT AS WELL)

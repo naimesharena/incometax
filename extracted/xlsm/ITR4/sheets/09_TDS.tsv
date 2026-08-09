@@ -1,0 +1,111 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA	BB
+3			 Sch TDS1	Details of Tax Deducted at Source from SALARY [As per FORM 16 issued by Employer(s)] 
+4				Sl.No.	Tax Deduction Account
+Number (TAN)	Name of the Employer	Income under Salary	Tax
+Deducted											0
+5					(1)	(2)	(3)	(4)
+6				1
+7				2
+8				3
+9				4
+10				5
+11			TOTAL					0																			0
+13			Enter the total of column 4 of Schedule-TDS1 and column 6 of Schedule-TDS2(i) and TDS 2(ii) in D15 
+15			20
+Sch TDS2(i)	Details of Tax Deducted at Source on Income Other than Salary [As per Form 16 A issued by Deductor(s)]
+16				SI.No	TDS credit in the name of	Tax Deduction Account
+Number (TAN) of the Deductor	Name of the Deductor	Unique TDS Certificate No.		Year of tax deduction 		Details of Receipt as mentioned in Form 26AS	Tax
+Deducted
+17													 in own hands 	in the hands of spouse as per section 5A or any other person as per rule 37BA(2)
+ Col (7) (if applicable)
+
+18					(1)	
+(1A)	(2)	(3)		(4)		(5)	(6)	(7)
+19														Income																																						in the hands of spouse as per section 5A or any other person as per rule 37BA(2) 
+
+20				1	(Select)					(Select)																																										(9)
+21				2	(Select)					(Select)																																										Income	TDS	PAN of spouse/PAN of  other person
+22				3	(Select)					(Select)
+23				4	(Select)					(Select)
+24				5	(Select)					(Select)
+25			TOTAL
+27			Sch TDS2(i)	Schedule TDS2(i)    Details of Tax Deducted at Source on Income Other than Salary [As per Form 16 A issued by Deductor(s)]
+28				Sl.No.
+(Col 1)	Tax Deduction Account Number (TAN) of the Deductor  (Col 2)	Section under which TDS deducted(Col 2a)	Unclaimed TDS brought forward (b/f)		TDS of the current Fin. Year (TDS deducted during the FY 2025-26)	TDS credit being claimed this Year (only if corresponding receipt is being offered for tax this year  not applicable if TDS is deducted u/s 194N)	Corresponding Receipt /Withdrawals offered		TDS credit being carried forward
+    
+
+
+
+(Col 9)
+29							Fin. Year in which TDS is deducted 
+ (Col 3)	TDS b/f  
+
+(Col 4)	TDS Deducted 
+
+( Col 5)	TDS Claimed 
+
+( Col 6)	Gross Amount 
+
+(Col 7)	Head of Income
+
+(Col 8)
+30				1		(Select)	(Select)						0
+31				2		(Select)	(Select)						0
+32				3		(Select)	(Select)						0
+33				4		(Select)	(Select)						0
+34				5		(Select)	(Select)						0
+35				TOTAL						0
+37			Enter the total of column 6 of Schedule TDS2(i) and TDS2(ii) and column 4 of Schedule-TDS1 in D15
+39			Sch TDS2(ii)	Sch TDS 2(ii)  Details of Tax Deducted at Source [As per Form 16C / 16D furnished by Payer(s)]
+40				Sl.No.         
+(Col 1)	
+PAN of the Tenant / Deductor.
+
+
+
+	
+
+Aadhaar No of the tenant / Deductor.
+
+
+
+
+	Section under which TDS deducted	Unclaimed TDS brought forward (b/f)		TDS of the current Fin. Year	TDS credit being claimed this Year (only if corresponding receipt is being offered for tax this year, not applicable if TDS is deducted u/s 194N)	Corresponding Receipt offered		TDS credit being carried forward
+
+
+
+
+(Col 9)
+41					(Col 2)		(Col 2a)	Fin. Year in which deducted 
+(Col 3)	TDS b/f  
+
+(Col 4)	TDS Deducted 
+
+( Col 5)	TDS Claimed 
+
+( Col 6)	Gross Amount 
+
+(Col 7)	Head of Income
+
+(Col 8)
+42				1			(Select)	(Select)						0
+43				2			(Select)	(Select)						0
+44				3			(Select)	(Select)						0
+45				4			(Select)	(Select)						0
+46				5			(Select)	(Select)						0
+47				TOTAL							0
+49			Enter the total of column 6 of Schedule TDS2(i) and TDS2(ii) and column 4 of Schedule-TDS1 in D15 
+51			20 
+Sch TDS2(ii)	Details of Tax Deducted at Source [As per Form 26QC furnished by Deductor(s)]
+52				SI.No	TDS credit in the name of	PAN of the Tenant	Name of the Tenant 	Unique TDS Certificate No.		Year of tax deduction		Details of Receipt as mentioned in Form 26AS	Tax
+Deducted
+53													 in own hands 	in the hands of spouse as per section 5A or any other person as per rule 37BA(2) 
+Col (7) (if applicable) 
+54					(1)	(1A)	(2)	(3)		(4)		(5)	(6)	(7)
+55														Income
+56				1	(Select)					(Select)
+57				2	(Select)					(Select)
+58				3	(Select)					(Select)
+59				4	(Select)					(Select)
+60				5	(Select)					(Select)
+61			TOTAL

@@ -1,0 +1,18 @@
+row	A	B	C	D	E	F	G	H	I	J
+1	Schedule AL		Asset and Liability at the end of the year (other than those included in Part A – BS) (Applicable in a case where total income exceeds Rs. 50 lakh)
+2	DETAILS OF ASSET AND LIABILTY	A	Particulars of Asset						Amount (Cost) (Rs.)
+3			1	Immovable Asset
+4				a 	Land				1a
+5				b	Building				1b
+6			2	Movable Asset
+7				a 	Financial Asset
+8					i 	Bank (including all deposits)			2ai
+9					ii 	Shares and securities			2aii
+10					iii 	Insurance policies			2aiii
+11					iv	Loans and Advances given			2aiv
+12					v	Cash in hand			2av
+13				b	Jewellery, bullion etc.				2b
+14				c	Archaeological collections, drawings, painting, sculpture or any work of art				2c
+15				d	Vehicles, yachts, boats and aircrafts				2d
+16			3		Total				3	0
+17		B	Liability in relation to Assets at A						B

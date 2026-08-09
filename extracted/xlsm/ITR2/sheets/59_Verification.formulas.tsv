@@ -1,0 +1,2 @@
+cell	formula	cached_value
+L9	CONCATENATE(IF(DAY(TODAY())<10,"0",""),DAY(TODAY()),"/",IF(MONTH(TODAY())<10,"0",""),MONTH(TODAY()),"/",YEAR(TODAY()))	30/07/2026

@@ -1,0 +1,78 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U
+1																					0
+3			Schedule S		Details of Income from Salary (Fields marked in RED must not be left Blank. Empty numeric values treated as zeroes)
+4				Name of Employer 				Nature of employer		(Select)	TAN of Employer (mandatory if tax is deducted)
+5				Address of employer						Town/City	Pincode	Zip code					26
+6				State				(Select)									2
+7				1	Gross Salary (1a + 1b + 1c + 1d + 1e + 1f)						1	0					0
+8					a	Salary as per section 17(1)			1a	0							0
+9						Sl no	Nature of salary	Description		Amount							0
+10						1											0
+11						2											0
+12						3
+13					b	Value of perquisites as per section 17(2)			1b	0
+14						Sl no	Nature of  perquisites	Description		Amount
+15						1
+16						2
+17						3
+18					c	Profit in lieu of salary as per section 17(3)			1c	0
+19						Sl no	Nature of Profit in lieu of Salary	Description		Amount
+20						1
+21						2
+22					d	Income from retirement benefit account maintained in a notified country u/s 89A			1d	0
+23						Sl no	Country			Amount
+24						1	United States of America
+25						2	United Kingdom of Great Britain and Northern Ireland
+26						3	Canada
+27					e	Income from retirement benefit account maintained in a Country other than notified country u/s 89A"			1e
+28					f	Income taxable during the previous year on which relief u/s 89A was claimed in any earlier previous year 			1f
+30				Name of Employer 				Nature of employer			TAN of Employer (mandatory if tax is deducted)
+31				Address of employer						Town/City	Pin code	Zip code
+32				State
+33				1	Gross Salary (1a + 1b + 1c + 1d + 1e + 1f)						1	0					0
+34					a	Salary as per section 17(1)			1a	0
+35						Sl no	Nature of salary	Description		Amount
+36						1
+37						2
+38						3
+39					b	Value of perquisites as per section 17(2)			1b	0
+40						Sl no	Nature of  perquisites	Description		Amount
+41						1
+42						2
+43						3
+44					c	Profit in lieu of salary as per section 17(3)			1c	0
+45						Sl no	Nature of Profit in lieu of Salary	Description		Amount
+46						1
+47						2
+48					d	Income from retirement benefit account maintained in a notified country u/s 89A			1d	0
+49						Sl no	Country			Amount
+50						1	United States of America
+51						2	United Kingdom of Great Britain and Northern Ireland
+52						3	Canada
+53					e	income from retirement benefit account maintained in a Country other than notified country u/s 89A"			1e
+54					f	Income taxable during the previous year on which relief u/s 89A was claimed in any earlier previous year 			1f
+57				2	Total gross salary from all employers						2	0
+58				3a	Income claimed for relief from taxation u/s 89A						3a
+59				3	Less : allowances to the extent exempt u/s 10 (Note: Ensure that it is included in salary income u/s 17(1)/17(2)/17(3))						3	0
+60						Sl.No	Nature of Exempt Allowance	Description		Amount
+61						1	(Select)		1
+62						2	(Select)		2
+63						3	(Select)		3
+64						4	(Select)		4
+66					Sec 10(13A)-Allowance to meet expenditure incurred on house rent					0
+67				Section 10(13A)	House rent allowance(HRA)
+68				1	Place of Residence
+69				2	Actual HRA received (A)					0
+70				3	Actual Rent paid
+71				4	Details of Salary as per Section 17(1)
+72				5	Actual rent paid-10% of salary (B)
+(3-10% of 4)					0
+73				6	50% /40% of salary (C)
+74				7	Eligible Exempt Allowance u/s 10(13A)					0
+75				4	Net Salary (2– 2a - 3)			0		0	4	0
+76				5	Deduction u/s 16   (5a + 5b + 5c)						5	0
+77					a	Standard deduction u/s 16(ia) 			5a	0
+78					b	Entertainment allowance u/s 16(ii)			5b									0
+79					c	Professional tax u/s 16(iii)			5c	0
+80				6	Income chargeable under the Head ‘Salaries’ (4 - 5)						6	0
+104							aaa

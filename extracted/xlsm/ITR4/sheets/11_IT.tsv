@@ -1,0 +1,28 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z
+4				Sch  IT	Details of Advance Tax and Self Assessment Tax Payments
+5				Sl.No.	BSR Code 
+	Date of Deposit
+(DD/MM/YYYY)	Serial Number of Challan	Amount (Rs) 						SELF ASSESSMENT	0	Advance Tax	0			(S			Exsat	0
+6					(1)	(2)	(3)	(4)						Year	Day	Month				FALSE				Malli_AY_2025_26_27-10-2025
+7				1										#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+8				2										#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!		#VALUE!
+9				3										#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!		#VALUE!
+10				4										#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!		#VALUE!
+11				5										#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!		#VALUE!
+12				TOTAL				0
+13				                                                                   
+14				Note: Enter the totals of Advance tax and Self-Assessment tax in D13 & D14 
+21																								0	0
+24																0	0
+25																0	0
+27																					0	0
+29																							0	0
+30																			#REF!				0	0
+31																							0	0
+32																					Quarter Income Break up	0	0	0
+35																								0	0	0
+36																							0	0	0
+41																		#REF!
+73																					TN Case	FALSE	0	0	0
+74																							0	0	0
+75																									NORMAL	TN

@@ -1,0 +1,128 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA	BB	BC	BD	BE	BF	BG	BH	BI	BJ	BK	BL	BM	BN	BO	BP	BQ	BR	BS	BT	BU	BV	BW	BX	BY	BZ	CA	CB	CC	CD	CE	CF	CG	CH
+1	01/08/2024	Date of Filing for Revised Return
+ only when 17 is yes	2026-06-29								Due Date -Bindu	Due Date +1 - Bindu
+2	2026-06-29	Date Of  interest calculation		Interest u/s 234A	0			Point No.15 of Income Details :  Net Tax liability	0		31/08/2026	01/09/2026																																																																			234F	5000	234C	0		234A	0
+3	01/01/2027	Date of filing	2025-26	Interest u/s 234B	0			TDS	0
+4	22/09/2025	Due date for filing of returns		Interest u/s 234C	0			TCS	0																																																																					Months	Balance Prin Amount	234B Month calculation	Tax amount	Carry foreard Interest	IT amount	Exsat Amount	234A	Due date carry forward
+5	BASIC TAX CALCULATION PART							Assessed Tax	0																																																																					Apr	0	976	0	0
+6								Section 89	0																																																																					May	0	976	0	7548	300
+7	Reference Of Tax Head	IsSenior	Tax Head	Value	ISSuperSenior	IsNormal	Age	IS NRI	For Group A,C,D																																																																					Jun	0	976	0	8224	0
+8	Point 7 of Income Detail	TRUE	Taxable Income	0	FALSE	TRUE	2026	FALSE	Due date	Due date	Cumulative tax to be paid	12 & 36 % for 
+Qtr 1 & 2	Tax paid	Cumulative Tax paid	Amount on which interst is payable	Interest u/s 234C					Q1	Q2	Q3	Q4	Q5	NQ1	NQ2	NQ3	NQ4	NQ5										Print Area																																						Jul	0	976	0	9200	0
+9							IS HUF	FALSE	On or before 15th Jun	15/06/2016	0	0	0	0	0	0					0	0	0	0	0	0	0	0	0	0											1	Income Details	Y																																			Aug	0	976	0	15176	0
+10	GrpA(Normal Citizen)	250000		0	0	250000		0	On or before 15th Sept	15/09/2016	0	0	0	0	0	0					0	0	0	0	0	0	0	0	0	0											2	44AE	Y																																			Sep	0			17128	0	0		0
+11		500000		0	0	500000		0	On or before 15th Dec	15/12/2016	0		0	0	0	0					0	0	0	0	0	0	0	0	0	0											3	NOB BP	Y																																			Oct
+12		1000000	750000	0	0	1000000		0	On or before 15th Mar	15/03/2017	0		0	0	0	0					0	0	0	0	0	0	0	0	0	0											4	TDS	Y																																			Nov
+13		1000001	1250000	0	0	1000001		0			0		0	0	0	0					0	0	0	0	0	0	0	0	0	0											5	Taxes Paid and Verification	Y																																			Dec
+14			1500000		0		TOTAL	0								0					0	0	0	0	0	0	0	0	0	0										6	80G	Y																																				Jan
+15	GrpB(Senior Citizen)	300000	1500001	0	0			44AD Part													0	0	0	0	0	0	0	0	0	0										7	BA	Y																																				Feb
+16		500000		0	0				44AD Income	0	Total Taxable Income	0	Total Taxable Income Post 44AD deduction	0					44AE income	0	0	0	0	0	0	0	0	0	0	0																																																Mar
+17		1000000		0			IS FIRM	0			TaxableIncome_1	0	Rebate	0					44AD +44ADA Income	0	0	0	0	0	0																																																					Apr
+18		1000001		0					GrpA(Normal Citizen)	250000		0	Tax Payable post rebate	0					Salary & Interest Paid	0	0	0	0	0	0																																																					May
+19							IS_FIRM	FALSE		500000		0	EC	0					Final 44AD	0	0	0	0	0	0																																																					Jun
+20	GrpC(Super Senior Citizen)						IS_IND	FALSE		1000000		0	Tota Tax	0							0	0	0	0	0																																																					Jul
+21										1000001		0		HUF Case							0	0	0	0	0																																																					Aug
+22		500000		0												0					0	0	0	0	0																																																					Sep
+23		1000000		0	0				GrpB(Senior Citizen)	300000		0		250000		0					0	0	0	0	0																																																					Oct
+24		1000001		0	0					500000		0		500000		0					0	0	0	0	0																																																					Nov
+25										1000000		0		1000000		0					0	0	0	0	0																																																					Dec
+26	Tax on Taxable Income			0						1000001		0		1000001		0					0	0	0	0	0	0	0	0	0	0																																																Jan
+27														TOTAL																																																																Feb
+28									GrpC(Super Senior Citizen)												0	0	0	0	0	0	0	0	0	0																																																Mar
+29	SURCHARGE CALCULATION PART																																																																													Apr
+30	Taxable Income	0	0			GRP A	GRP B	GRP C			500000		0		IS FIRM	0																																																														May
+31	Surcharge Applicable	FALSE	FALSE	0	inDUVIDUAL	0	0	3080000.0000000005			1000000		0																																																																	Jun
+32	Tax Payble After Surcharge  (A)	0	0	0	HUF	3093750.0000000005					1000001		0																																																																	Jul
+33	Tax Payble On  50 Lakhs/ 1Crore as the case may be. (B)	1300000	-6920000	0	FIRM	-7000000																																																																								Aug
+34	Marginal Relief Applicable	FALSE	6920000	-10000000				-10000000		Tax on Taxable Income			0																																																																	Sep
+35	Marginal Relief	0	6920000	-10000000	Total2	-10000000																																																																								Oct
+36	Final Surcharge	0	0	10000000		-10000000				SURCHARGE CALCULATION PART																																																																				Nov
+37			0						Taxable Income	0	0		GRP A	GRP B	GRP C																																																															Dec
+38						GRP A	GRP B	GRP C	Surcharge Applicable	FALSE	FALSE		0	0	2800000																																																															Jan
+39	Tax on Taxable Income after Surcharge if applicable			0	inDUVIDUAL	0	0	1300000	Tax Payble After Surcharge	0	0																																																																			Feb
+40					HUF	1312500			Tax Payble On 1Cr.	2800000	2800000		2812500																																																																	Mar
+41					Firm	0			Marginal Relief Applicable	FALSE	FALSE		3000000																																																																	Apr
+42									Marginal Relief	0	0																																																																			May
+43		0		0					Final Surcharge	0	0																																																																			Jun
+44		0							AssessedTax_1	0	AssessedTax_2	0	Tax on 44AD income	0																																																																Jul
+45	-10000000								Due date	Due date	Cumulative tax to be paid	12 & 36 % for 
+Qtr 1 & 2	Tax paid	Cumulative Tax paid	Amount on which interst is payable	Interest u/s 234C																																																														Aug
+46			10100000						On or before 15th June	15/06/2018	0	0	0	0	0	0																																																														Sep
+47									On or before 15th Sept	15/09/2018	0	0	0	0	0	0																																																														Oct
+48		3030000		3000000					On or before 15th Dec	15/12/2018	0		0	0	0	0																																																														Nov
+49		363600		100000					On or before 15th Mar	15/03/2019	0		0	0	0	0																																																														Dec
+50		3393600		3100000							0		0	0	0	0																																																														Jan
+51			293600													0																																																														Feb
+52			70000																																																																											Mar
+53		2840000		3091000.0000000005					FALSE		final surcharge 44AD	0																																																																		Apr
+54		426000		100000								not used																																																																		May
+55		3266000		3191000.0000000005					FALSE																																																																					Jun
+56			74999.999999999534						FALSE																																																																					Jul
+57			351000.00000000047																																																																											Aug
+58									0																																																																					Sep
+59																																																																														Oct
+60																																																																														Nov
+61																																																																														Dec
+62																																																																														Jan
+63																																																																														Feb
+64																																																																														Mar
+65																																																																														Apr
+66																																																																														May
+67																																																																														Jun
+68																																																																														Jul
+69																																																																														Aug
+70																																																																														Sep
+71																																																																														Oct
+72																																																																														Nov
+73																																																																														Dec
+74																																																																														Jan
+75																																																																														Feb
+76																																																																														Mar
+77																																																																														Apr
+78																																																																														May
+79																																																																														Jun
+80																																																																														Jul
+81																																																																														Aug
+82																																																																														Sep
+83																																																																														Oct
+84																																																																														Nov
+85																																																																														Dec
+86																																																																														Jan
+87																																																																														Feb
+88																																																																														Mar
+89																																																																														Apr
+90																																																																														May
+91																																																																														Jun
+92																																																																														Jul
+93																																																																														Aug
+94																																																																														Sep
+95																																																																														Oct
+96																																																																														Nov
+97																																																																														Dec
+98																																																																														Jan
+99																																																																														Feb
+100																																																																														Mar
+101																																																																														Apr
+102																																																																														May
+103																																																																														Jun
+104																																																																														Jul
+105																																																																														Aug
+106																																																																														Sep
+107																																																																														Oct
+108																																																																														Nov
+109																																																																														Dec
+110																																																																														Jan
+111																																																																														Feb
+112																																																																														Mar
+113																																																																														Apr
+114																																																																														May
+115																																																																														Jun
+116																																																																														Jul
+117																																																																														Aug
+118																																																																														Sep
+119																																																																														Oct
+120																																																																														Nov
+121																																																																														Dec
+122																																																																														Jan
+123																																																																														Feb
+124																																																																														Mar

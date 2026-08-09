@@ -1,0 +1,11 @@
+cell	formula	cached_value
+DF1	VALUE(IF(LTCG.B_AcqDate1="",2001,VALUE(MID(LTCG.B_AcqDate1,7,4))))	2001
+DF2	VALUE(IF(LTCG.B_SaleTrfDate1="",2001,VALUE(MID(LTCG.B_SaleTrfDate1,7,4))))	2001
+EM2	_xlfn.CONCAT(EK2,":",EL2)	ALBANIA:355
+EX2	Deduction.54.AcctNum	0
+EY2	Deduction.54.IFSC	0
+DD3	SUMIF(os.NatureOfIncome,"1ai",os.Amount_income)	0
+DF3	VLOOKUP(DF2,DG2:DH22,2)	100
+EM3	_xlfn.CONCAT(EK3,":",EL3)	ARMENIA:374
+DF4	VLOOKUP(DF1,DG2:DH22,2)	100
+EM67	_xlfn.CONCAT(EK67,":",EL67)	QATAR:974

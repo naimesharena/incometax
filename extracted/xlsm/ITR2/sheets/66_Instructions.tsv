@@ -1,0 +1,127 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L
+1										How to use this Excel Utility 
+2	Instructions to fill up Excel Utility									i	Overview
+3	i	Overview								ii	Before you begin
+4	ii	Before you begin								iii	Structure of the ITR utility
+5	iii	Structure of the utility for ITR4								iv	Filing and Using the Excel utility 
+6	iv	Customisation of the utility								v	Validating the sheets
+7	v	Filling up the sections of the form using the utility								vi	Navigation
+8	vi	Validating the sheets								vii	Calculate Tax
+9	vii	Generating the JSON								viii	Generating the JSON
+10	viii	Printing								ix	Printing
+11	ix	Importing								x	Importing
+12										xi	How to submit an ITR using Excel utility?
+13		Configure the utility
+14		Fill up applicable schedules								i	Overview :
+15		Validate each sheet									Fill up applicable schedules	Navigate to each schedule applicable and fill the data.
+16		Generate JSON									Validate each sheet	Click on the 'Validate' Button on each filled sheet .Correct errors (if any) identified by the validate feature.
+17		Validate Summary									Click on Calculate Tax	Fill the necessary details in applicable schedules and click on 'Calculate Tax' for computation of tax. 
+Please make sure you click the 'Calculate Tax' button before generation of JSON.  
+18		Upload the JSON									Generate JSON	After all required schedules have been filled ,validated and tax has been calculated (using 'Calculate Tax' buttton), click on Generate JSON which will recheck all sheets.
+19											Save JSON	To save the JSON in the desired path, click on the 'Save JSON' button.
+20											Upload the JSON	To upload the saved JSON, Go to https://incometaxindiaefiling.gov.in -> Login -> e-File -> Upload Return.
+22										ii	Before you begin :
+23											Read the instructions for filling up the form available in the following website:  http://www.incometaxindia.gov.in
+24											The ITR Utility is an Excel Workbook that consists of a number of individual, integrated worksheets. Each of the sheets contains one or more schedules for data entry. Initially, all the sheets are visible to the user. A number of these sheets are optional. The user can decide which sheets are applicable to their case and accordingly select Y or N to hide or show the sheets. Similarly , by selecting the sheets which the user needs for printing, it is possible to control how many sheets should be printed (in case all sheets are not required to be printed). Later on, these settings can always be changed.      
+25	i	Overview
+26		The excel utility can be used for creating the JSON file for efiling of your returns.								iii	Structure of the ITR utility :
+27		The excel utility provides all the sections and schedules required to be submitted as a part of the eFiling process.									Various sheets and schedules per sheet form part of the Utility.Each sheet includes a number of distinct, titled sections/schedules. 
+28		Once, the data to be submitted for filing your returns is entered into the utility, the Generate JSON button will take you to a validation page.									Each sheet is identified by the sheet tabs located at the bottom of the Excel window. These tabs are labeled with abbreviation forms of the schedules of the sheet.
+29		The validation page shows the error free entries that the utility will convert into JSON format when the user clicks on Publish JSON button.
+30		The JSON file generated will be placed in the same folder as the Excel utility, and will carry a name ending with your PAN number followed by the file extension.								iv	Filing and Using the Excel utility :
+31											Every section/schedule is color coded to facilitate the user. The different types of cells in the sheets are as follows:
+32	ii	Before you begin									a) The mandatory fields are marked in red. The data entered will have a  green background color (Certain fields are mandatory under specific conditions only).
+33		Read the general instructions for filling up the form.									b) Data entry cells for optional/non-mandatory fields have a black font and a green background color. 
+34		The ITR5 Excel Utility is an Excel Workbook that consists of a number of individual, integrated worksheets. Each of the sheets contains one or more schedules for data entry. Initially, all the sheets are visible to the user. A number of these sheets are o									c) Fields whose values are autocalculated /autopopulated by the utility  have a blue font and a white background color. Linked fields, where no data entry is done by the user, but a value is picked up from an existing cell elsewhere in the sheet, these have  a blue font for the labels and a white background.      
+35		The following elements are available on every sheet									All amounts are in Indian Rupee.
+36		a) The navigate buttons for navigating to the various schedules.									All date fields must be entered in dd/mm/yyyy format.
+37		b) Home Button which allows a user to navigate to the customisation home page.									For percentage fields, only enter the the value upto two decimal places. (percentage symbol is not required).
+38		c) Validate Sheet button , which allows the user to check for errors / omissions if any, per sheet.									Adding more rows : Schedules such as TDS, TCS, IT etc  allow users to enter data in tabular format. Using the 'Add rows' button provided below these tables, the assessee can add as many rows as required.
+Note: Rows once added and not required (or empty rows) should not be deleted, even if they are blank. The utility does not generate JSON for rows left blank.
+39		d) Generate JSON button, which will be clicked by the user to generate the JSON and validate all the sheets. The validation results are shown on the validate page. If found OK, user may click on Save JSON button which will save the file required for uploadin
+40		e) Print button which will print all the sheets selected for printing on the Customization page.								v	Validating the sheets :
+41											Validate the filled sheet using the 'Validate' button. Correct errors (if any) identified by the validate feature.
+42		f) Help button providing context specific help.
+43										vi	Navigation :  
+44	iii	Structure of the utility for ITR5									There are two navigation buttons in the utility : 'Next' and 'Previous'. The user can navigate between the sheets by either clicking on next or previous buttons as required.    
+45		The various sheets and the schedules covered per sheet is as below.
+46		The name of each sheet displays in the tab at the bottom of the workbook.								vii	Calculate Tax :  
+47		Each sheet includes a number of distinct, titled sections / schedules. These titles are displayed in black color background with white text. 									For the Tax to be computed the user must click on the 'Calculate Tax' button after filling the necessary details in applicable schedules. 
+48		Each sheet is identified by the sheet tabs located at the bottom of the Excel window. These tabs are labeled with abbreviation forms of the schedules of the sheet.
+49		You can move to a specific sheet by either choosing the sheet tab from the bottom, or by navigating to the required schedule (and sheet) using the right panel.								viii	Generating the JSON :
+50											Verify all the information entered in the ITR Utility.
+51	iv	Customisation of the utility by clicking on the Home button shown here ---->									Click on the 'Generate JSON' button. This will revalidate all the sheets, and direct the user to the confirmation page which shows the various schedules (and the no of rows per schedule) being generated. 
+52		Depending on the various optional schedules that you need to leave out of the filing, you can customize the utility to show you only relevant sheets.									Once verified, the assessee can then click on 'Save JSON' option to generate and save the JSON. 
+53		To customize the utility, one needs to go to the Home page / Customization sheet by clicking on the Home button.									After successfully generating, a message will be displayed with the name and location of the saved JSON.
+54		This sheet has embedded in it the Version number, buttons to access the "General instructions to fill the utility and form". "Customize" button which when clicked will apply the customization inputs for hiding unnecessary sheets, to the utility.									This JSON can then be uploaded in the efiling portal.
+55		The print options are also stored on clicking Customize button. These options include user selected list of sheets that need to be printed.
+56		Note : If, on a sheet, there are more than one schedules, you should disable the sheet by selecting "N" only if all the schedules on that sheet are not relevant to you. 								ix	Printing : 
+57	v										The print button in the utility provides an option to print  after previewing.
+58		Filling up the sections of the form using the utility.
+59		Every section / schedule is color coded to facilitate the user to enter data.								x	Importing :
+60		There are following different types of cells in the sheet.									a) Import Previous Version
+61		a)    Data entry cells for mandatory fields which are required to be compulsorily entered by the user. These have a red font and a green background color.									If the user has a filled ITR in a previous version, the user can import the data from the previous version to the current version.To import click on the  'Import Previous Version' button in the utility and browse the path of the previous version of  filled ITR. 
+62		b)    Data entry cells for mandatory fields which , if left empty by the user, will default to a predefined value. These have a red font and a green background color.									b) Import Personal and Tax Details
+63		c)    Data entry cells for fields which may be mandatory based on the value of some other field. Ex : Only in the case of revised return are the dates of original return and receipt no to be filled in. Such labels are either partially red, or , if they ha									The user can  import the personal and Tax details into ITR1 excel utility by following the given steps.
+64		d) Data entry cells for optional fields have a black font and a green background color.									Step 1 : Login into the e-Filing portal using valid login credentials.
+65		e) Formula fields where no data entry is done by the user but a value is calculated based on already available values. These have a blue font for the labels and a white background color. The formulas are not changeable by the user but are calculated by th									Step 2 : Go to the 'Downloads' menu and click the 'Download Prefilled JSON' link. Select the 'Assessment Year' and download the Prefilled JSON in the desired location.
+66		f) Linked fields, where no data entry is done by the user, but a value is picked up from an existing cell elsewhere in the sheet. These have  a blue font for the labels and a white background. 									Step 3 : Open the utility and click on the 'Import Personal/Tax Details from JSON' button. 
+67		All green cells are areas where the user input is expected.
+68		Refer to the navigation buttons shown on the left for Next, Previous and Index. The user can navigate the various sheets and schedules by either clicking on next or previous buttons to move to the next or the previous tab, or by clicking on Index to move 
+69		Moving through the cells : After the user has reached the desired schedule, the user can click on the tab keyboard button. On clicking tab, the user is taken to the next green cell of the schedule.								xi	How to submit an ITR using Excel utility?
+70		Adding more rows : Schedules such as Subsidiary Details, 10A, TDS2, TCS etc allow users to enter data in tabular format.									1.Download the ITR preparation utility for the assessment year under 'Downloads'.
+71		The utility provides an option to add more rows in these schedules than provided in the base utility.									2.Prepare the Income Tax  return using the utility. Validate, Generate and Save the JSON in the desired path.
+72		IMPORTANT : To add more rows, the user must place the cursor in the last row that is already filled up in the schedule. Thereafter, the user can click on the button provided to add more rows. The user can enter a number greater than or equal to 1. On clic									3. Login to e-Filing portal (https://incometaxindiaefiling.gov.in) and go to e-File --> Upload Return.
+73		Warning : Rows once added, cannot be deleted. However, if rows are not filled up, they will not be reflected in the generated JSON.									4.Select the appropriate ITR, Assessment Year and JSON (using browse button).
+74		Note while filling tabular data  : When filling tabular data, ensure that all rows are filled one after another. Do not skip a row blank. Do not use 2 rows for entering value for a particular entry. Example : If address is longer than the available space,									5.Upload Digital Signature Certificate(DSC) if applicable. Please ensure the DSC is registered with e-Filing.
+75		After filling a row in the table, do not skip a blank row before filling the next row. The utility will stop generating JSON at the point it encounters a blank row. Also, every schedule has either red colored column headers, which must be filled up for a v									6.Click on 'SUBMIT' button.
+76		Caution to ensure correct generation of JSON as per expectations : For Schedules such as IT, FBT where the totals are being transferred to Part B, ensure that user does not enter data in the schedules which is incomplete. All rows where amounts are entered									7.On successful submission, ITR-V/Acknowledgement would be displayed. Click on the link and download the ITR-V/Acknowledgement.
+78	vi	Validating the sheets :									    On successful submission, ITR-V/Acknowledgement would be displayed. Click on the link and download the ITR-V/Acknowledgement.
+79		After the required schedules in a sheet are filled up, the user must click the Validate sheet button to confirm that the sheet has no obvious errors or data entry validation errors that are checked by the utility. Though the utility attempts to check most									    If ITR is uploaded with DSC, the Return Filing process is complete. The return will be further processed and the Assessee will be notified accordingly. Please check your emails on these notifications.
+80											If ITR is uploaded with DSC, the Return Filing process is complete. The return will be further processed and the Assessee will be notified accordingly. Please check your emails on these notifications.
+81	vii	Generating the JSON and Verification :									Note:
+If ITR is uploaded with DSC, the Return Filing process is complete. The return will be further processed and the Assessee will be notified accordingly. Please check your emails on these notifications.
+OR
+The return is not uploaded with a DSC, an ITR-V Form should be printed, signed and submitted to CPC, Bangalore using Ordinary Post or Speed Post ONLY within 120 days from the date of e-Filing. On receipt of the ITR-V at CPC, the return will be further processed and the Assessee will be notified accordingly. Please check your emails on these notifications.
+82		Once all relevant sheets have been filled up, the user can then click on the "Generate JSON" button. This will validate once again all the sheets, and direct the user to the confirmation page which shows the various schedules listed showing which have been
+83		The user can then confirm the same with their actual data, and if ok, click on Save JSON option to finally save the generated JSON to the file system. The system will prompt the user with the name and location of the file saved.
+84		This file can then be uploaded towards efiling your return and an acknowledgement can be hence generated.
+86	viii	Printing.
+87		The filled up sheets can be printed. The user can decide which sheets to print by selecting from the homepage, the sheets desired to be printed from the last column.
+88		On clicking Print, the selected sheets will be printed out.
+90	ix	Importing
+91		If a taxpayer has already filled up ITR5 on a previous version, the tax payer can transfer all of the data from the previous version to the current version by following the given steps.
+92		Step 1 : Ensure that the previous version is kept in a specific folder (any folder) and the taxpayer is aware of the location of this file. If this file is open, please close it / save and close before proceeding.
+93		Step 2 : Open the latest version of the ITR5 utility after downloading from the site, unzipping if the downloaded utility is in an archived (zip) format . 
+94		Step 3 : Go to the General sheet and click on the import button on the top right. Follow the messages thereafter
+98	Click here to go back to Sch SI
+99	\
+100	Serial No.	Section Code	Rate in %.	Section Code (only for JSON purposes)
+101	1	111A - STCG on shares where STT paid	0.15	1A
+102	2	112 - LTCG on listed securities/ units without indexation	0.1	22
+103	3	112(1)(c)(iii) - LTCG on unlisted securities in case of non-residents	0.1	21ciii
+104	4	112 - LTCG on others	0.2	21
+105	5	115BB - Winnings from lotteries, puzzles, races, games etc	0.3	5BB
+106	6	DTAA - Double Taxation Avoidance Agreement	Rate to be left blank	DTAA
+107	7	111 - Tax on accumulated balance of recognised PF	0.1	1
+108	8	Drop Down
+109		115A(1)(a)(i)- Dividends, interest and income from units purchase in foreign currency	0.2	5A1ai
+110		115A(1)(a)(ii)- Interest received from govt/Indian Concerns recived in Foreign Currency	0.2	5A1aii
+111		Para E II of Part I of Ist Sch of FA - Income from royalty or technical services - Non-domestic company	0.5	FA
+112		115A(1) (a)(iia) - Interest from Infrastructure Debt Fund	0.05	5A1aiia
+113		115A(1) (a)(iiaa) - Interest as per Sec. 194LC	0.05	5A1aiiaa
+114		115A(1) (a)(iii) - Income received in respect of units of UTI purchased in Foreign Currency	0.2	5A1aiii
+115		115A(1)(b)-1 - Income from royalty & technical services	0.3	5A1b1
+116		115A(1)(b)-2 - Income from royalty & technical services	0.2	5A1b2
+117		115A(1)(b)-3 - Income from royalty & technical services	0.1	5A1b3
+118		115AB(1)(a) - Income in respect of units - off -shore fund	0.1	5AB1a
+119		115AB(1)(b) - LTCG on units - off-shore fund	0.1	5AB 1b
+120		115AC(1) - Income from bonds or GDR purchases or capital gains  -  non-resident	0.1	5AC
+121		115ACA(1) - Income from  GDR purchases or capital gains  - resident	0.1	5ACA
+122		115B - Profits and gains of life insurance business	0.125	5B
+123		115BBA - Tax on non-residents sportsmen or sports associations	0.2	5BBA
+124		115BBB - Tax on income from units  	0.1	5BBB
+125		115BBC - Anonymous donations	0.3	5BBC
+126		115BBE - Tax on income referred to in sections 68 or 69 or 69A or  69B or  69C or  69D	0.3	5BBE
+127		115E(a) - Investment income	0.2	5Ea
+128		115E(b) - Income by way of long term capital gains	0.1	5Eb

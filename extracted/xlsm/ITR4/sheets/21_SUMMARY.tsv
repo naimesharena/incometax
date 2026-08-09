@@ -1,0 +1,21 @@
+row	A	B	C	D
+2		SUMMARY
+3		Verification Details
+4		Full Name
+5		Son/daughter of
+6		Place	0
+7		Filing Date	29/06/2026
+8		PAN	0
+9		Verification PAN	0
+11		Validate data before generating XML	No of entries	Amount
+12		TDS on Salary	0	0
+13		TDS on Other than Salary	0	0
+14		TDS on Rent	0	0
+15		Tax Payments	0	0
+16		TCS	0	0
+18		Instructions
+19		1. Verify the count of number of entries against each schedule.
+2. Ensure the total number of entries entered per schedule is valid and being reflected in the preview sheet.   
+3. In case this count does not match the number of entries, you may check and update the schedules. 
+4. Click on ‘Save XML’ to generate the XML file if all the details are verified.
+

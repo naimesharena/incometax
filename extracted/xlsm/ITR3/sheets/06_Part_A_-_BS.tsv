@@ -1,0 +1,96 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N
+3			Part A-BS			BALANCE SHEET AS ON 31ST DAY OF MARCH, 2026 OR AS ON THE DATE OF CLOSURE OF BUSINESS AS APPLICABLE OF THE PROPRIETORY BUSINESS  OR PROFESSION
+4			SOURCES OF FUNDS	1	Proprietor’s fund
+5					a	Proprietor’s capital					a
+6					b	Reserves and Surplus
+7						i	Revaluation Reserve		bi
+8						ii	Capital Reserve		bii
+9						iii	Statutory Reserve		biii
+10						iv	Any other Reserve		biv					 
+11						v	Total (bi + bii + biii + biv)				bv	0
+12					c	Total proprietor’s fund (a + bv)					1c	0
+13				2	Loan funds
+14					a	Secured loans
+15						i	Foreign Currency Loans		ai
+16						ii	Rupee Loans
+17							A	From Banks	iiA
+18							B	From others	iiB
+19							C	Total ( iiA + iiB)	iiC	0
+20						iii	Total (ai + iiC)				aiii	0
+21					b	Unsecured loans (including deposits)
+22						i	From Banks		bi
+23						ii	From others		bii
+24						iii	Total (bi + bii)				biii	0
+25					c	Total Loan Funds (aiii + biii)					2c	0
+26				3	Deferred tax liability						3
+27				4	Advances
+28					i	From persons specified in section 40A(2)(b) of the I. T. Act					4i
+29					ii	From others 					4ii
+30					iii	Total Advances (i + ii)					4iii	0
+31				5	Sources of funds (1c + 2c +3+4iii)						5	0
+32			APPLICATION OF FUNDS	1	Fixed assets
+33					a	Gross: Block			1a
+34					b	Depreciation			1b
+35					c	Net Block (1a – 1b)			1c	0
+36					d	Capital work-in-progress			1d
+37					e	Total (1c + 1d)					1e	0
+38				2	Investments
+39					a	Long-term investments
+40						i	Government and other Securities - Quoted		ai
+41						ii	Government and other Securities – Unquoted		aii
+42						iii	Total (ai + aii)				aiii	0
+43					b	Short-Term investments
+44						i	Equity Shares, including share application money		bi
+45						ii	Preference Shares		bii
+46						iii	Debenture		biii
+47						iv	Total (bi + bii + biii)				biv	0
+48					c	Total investments (aiii + biv)					2c	0
+49				3	Current assets, loans and advances
+50					a	Current assets
+51						i	Inventories
+52							A	Stores/consumables including packing material	iA
+53							B	Raw materials	iB
+54							C	Stock-in-process	iC
+55							D	Finished Goods/Traded Goods	iD
+56							E	Total (iA + iB + iC + iD)			iE	0
+57						ii	Sundry Debtors				aii
+58						iii	Cash and Bank Balances
+59							A	Cash-in-hand	iiiA
+60							B	Balance with bank	iiiB
+61							C	Total (iiiA + iiiB)			iiiC	0
+62						iv	Other Current Assets				aiv
+63						v	Total current assets (iE + aii + iiiC + aiv)				av	0
+64					b	Loans and advances
+65						i	Advances recoverable in cash or in kind or for value to be received		bi
+66						ii	Deposits, loans and advances to corporates and others		bii
+67						iii	Balance with Revenue Authorities		biii
+68						iv	Total (bi + bii + biii)				biv	0
+69					c	Total of current assets, loans and advances (av + biv)					3c	0
+70					d	Current liabilities and provisions
+71						i	Current liabilities
+72							A	Sundry Creditors	iA
+73							B	Liability for Leased Assets	iB
+74							C	Interest Accrued on above	iC
+75							D	Interest accrued but not due on loans	iD
+76							E	Total (iA + iB + iC + iD)			iE	0
+77						ii	Provisions
+78							A	Provision for Income Tax	iiA
+79							B	Provision for Wealth Tax	iiB
+80							B	Provision for Leave
+encashment/Superannuation/Gratuity	iiB
+81							C	Other Provisions	iiC
+82							D	Total (iiA + iiB + iiC )			iiD	0
+83						iii	Total (iE + iiD)				diii	0
+84					e	Net current assets (3c – diii)					3e	0
+85				4	a	Miscellaneous expenditure not written off or adjusted			4a
+86					b	Deferred tax asset			4b
+87					c	Profit and loss account / Accumulated balance			4c
+88					d	Total (4a + 4b + 4c)					4d	0
+89				5	Total, application of funds (1e + 2c + 3e +4d)						5	0
+90			NO ACCOUNT
+CASE	6	In a case where regular books of account of business or profession are not maintained -
+(furnish the following information as on 31st day of March, 2026, in respect of business or profession)
+91					a	Amount of total sundry debtors					6a
+92					b	Amount of total sundry creditors					6b
+93					c	Amount of total stock-in-trade					6c
+94					d	Amount of the cash balance					6d

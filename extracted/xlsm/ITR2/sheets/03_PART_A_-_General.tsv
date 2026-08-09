@@ -1,0 +1,99 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA	BB	BC	BD	BE	BF	BG
+3			FORM		ITR-2									INDIAN INCOME TAX RETURN																										Assessment Year
+4														[For Individuals and HUFs not having income from profits and gains of business or profession]																										2026-27
+5														(Please see Rule 12 of the Income Tax-Rules,1962)
+(Please Refer instructions)
+7			PERSONAL INFORMATION		First Name										Middle Name								Last Name														PAN										 
+8																																																											No
+9					Status (I-Individual,H-HUF)																									Date of Birth/Formation (DD/MM/YYYY)
+10					(Select)
+11					Addresses to be provided for communication purposes: 
+12					Primary Address 
+13					Flat / Door / Block No																									Name of Premises / Building / Village																								(Select)
+14																																																						I-INDIVIDUAL			I	H
+15					Road / Street / Post Office																									Area / Locality																								H-HUF		(Select)	(Select)	(Select)
+16																																																								Male	M-Male	Not applicable
+17																																																								Female	F-Female
+18					Town/City/District																		State								Country/Region										Pin Code															Transgender	Transgender
+19																							(Select)								(Select)																									Not applicable
+20																													No Zip Code?					Zip Code
+21					Is the secondary address same as primary address?																																	(Select)
+22					Secondary Address
+23					Flat / Door / Block No																									Name of Premises / Building / Village
+25					Road / Street / Post Office																									Area / Locality
+27					Town/City/District																		State								Country/Region										Pin Code
+28																							(Select)								(Select)
+29																														No Zip Code?				Zip Code
+30					Details to be provided for communication purposes: 
+31					Primary Email ID of the taxpayer									Secondary Email ID 									Primary Mobile no of the taxpayer				STD/ISD code				Residential/Office Phone Number with STD/ISD code						Secondary Mobile No
+32																																																								(Select)
+33														Filed u/s       			Filed in response to notice u/s  							139(1)- On or Before due date							Residential Status in India						(Select)																	11-
+34					"Tax payer is required to select section as "139(8A) in Part A General" while filing corrected return in response to notice u/s 139(9) issued against the ITR filed u/s 139(8A) and it is not mandatory to provide DIN and Date of Notice details.  Please refer FAQs in below path : "https://www.incometax.gov.in/iec/foportal/help/response-to-defective-notice%20-against-updated-return/faqs"
+35					If revised/defective/Modified, enter Receipt no																											Date of filing of Original Return (DD/MM/YYYY)																						1
+37					If filed, in response to a notice u/s 139(9)/142(1)/148/153C  or order u/s 119(2)(b) enter unique number/ Document Identification Number (DIN) and date of such notice/order, or if filed u/s 92CD, enter date of advance pricing agreement
+38					Unique Number/ Document Identification Number																											Date or if filed u/s 92CD enter date of advance pricing agreement
+39					Conditions for Residential Status
+(Applicable for Individual only)																		(Select)
+40					(i) Please specify the jurisdiction(s) of residence during the previous year -
+41					Sl.No.	Jurisdiction(s) of residence																					Taxpayer Identification Number(s)
+42					1	93-AFGHANISTAN																					444
+43					2	(Select)
+45					(ii) In case you are a Citizen of India or a Person of Indian Origin (POI), please specify -
+46					Total period of stay in India during the previous year (in days)																													0
+47					Total period of stay in India during the 4 preceding years (in days)																													0
+48					Aadhaar
+49					Do you wish to exercise the option u/s 115BAC(6) of Opting out of new tax regime ? (default is “No”)
+Note- For Opting out, option should be exercised along with the return of income filed u/s 139(1)																																																	2
+50					
+Option for current assessment year																																(Select)
+51					For other than not opting, please furnish date of filing of form 10-IE along with Acknowledgment number
+52					Date of filing of Form 10IE (DD/MM/YYYY)
+53					Acknowledgment number  
+54					Are you filing return of income under Seventh proviso to section 139(1) but otherwise not required to furnish return of income? 
+If yes, please furnish following information
+[Note: To be filled only if a person is not required to furnish a return of income under section 139(1) but filing return of income due to fulfilling one or more conditions mentioned in the seventh proviso to section 139(1)]																																(Select)
+55					Have you deposited amount or aggregate of amounts exceeding Rs. 1 Crore in one or more current account during the previous year? (Yes/No)
+56					Have you incurred expenditure of an amount or aggregate of amount exceeding Rs. 2 lakhs for travel to a foreign country for yourself or for any other person? (Yes/ No)
+57					Have you incurred expenditure of amount or aggregate of amount exceeding Rs. 1 lakh on consumption of electricity during the previous year? (Yes/No)
+58					Are you required to file a return as per other conditions  prescribed under clause (iv) of seventh proviso to section 139(1) (If yes, please select the relevant condition from the drop down menu)
+59					(i) if his total sales, turnover or gross receipts, as the case may be in the business exceeds sixty lakh rupees during the previous year; or 
+60					(ii) if his total gross receipts in profession exceeds ten lakh rupees during the previous year; or
+61					(i) The aggregate of tax deducted at source and tax collected at source during the previous year, in the case of the person, is twenty-five thousand rupees (fifty-thousand for resident senior citizen) or more; or
+62					(ii) The deposits in one or more savings bank account of the person, in aggregate, is rupees fifty lakh or more, during the previous year. 
+63					Aadhaar Number 
+[Please enter the Aadhaar Number. Applicable to Individual only]																																																	(Select)	(Select)
+64					Aadhaar Enrolment Id 
+[Note: If Aadhaar Number is not yet allotted, then Aadhaar Enrolment Id is required. All the digits in enrolment ID & Date and time of enrolment to be entered continuously. For example Enrolment ID: 1234/12345/12345 & Date/Time of enrolment: 01/12/2016 11:50:22 to be entered as 1234123451234501122016115022]
+65					Do you want to claim the benefit u/s 115H (Applicable in case of  Resident)?																											Are you governed by Portuguese Civil Code as per section 5A ? (If “YES” please fill Schedule 5A)    												(Select)
+66					Passport No. (Individual) (If available)																																																	No
+67					Whether you are an FPI?																					(Select)						If yes, provide SEBI Registration Number
+68					Whether this return is being filed by a representative assessee,(if any)? If yes, please furnish following information																																		(Select)
+69					a		Name of the representative assessee
+70					b									E-mail  id of the Representative assessee
+71					c									Contact number of the representative assessee
+72					b									Capacity of representative
+73					c		Address of the representative
+74					d		Permanent Account Number (PAN) of the Representative
+75					e									Aadhaar Number of the representative
+76					Whether you are Director in a company at any time during the previous year? 
+If yes, please furnish following information -
+77					Sl. No.	Name of company									Type of Company									PAN									Whether its shares are listed or unlisted				Director Identification Number (DIN)
+78					1
+79					2
+80					3
+82					Whether you are a Partner in a Firm?
+If yes, please furnish following information -																																		(Select)
+83					Sl. No.	Name of Firm																	PAN
+84					1
+86					Legal Entity Identifier (LEI) details (mandatory if refund is 50 Crores or more) 
+87					LEI Number																								Valid upto date
+88					Due date u/s 139(1)																		31/07/2026
+89					Whether you have held unlisted equity shares at any time during the previous year? 
+If yes, please furnish following information in respect of equity shares 																																		(Select)
+90					Sl. No.	Name of company								Type of Company	PAN	Opening Balance								Shares acquired during the year												Shares transferred during the year				Closing Balance
+91																No. of shares				Cost of acquisition				No. of shares		Date of subscription  / purchase			Face value per share		Issue price per share (in case of fresh issue)			Purchase price per share (in case of purchase from existing shareholder)		No. of shares		Sale consideration		No. of shares				Cost of acquisition
+92					1
+93					2
+94					3
+95					4
+97					In case of non-resident, is there a permanent establishment (PE) in India? 

@@ -1,0 +1,13 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y
+3			Schedule AMT			Computation of Alternate Minimum  Tax payable under section 115JD							0	Condn 1	1	Condn 2	1	Condn 3	0	Condn 4	0	Condn 5	1	Condn 6	1
+4			ALTERNATE MINIMUM  TAX	1	Total Income as per item 12 of PART-B-TI					0
+5				2	Adjustment as per section 115JC(2)
+6					a 	Deduction claimed under any section included in Chapter VI-A under the heading “C.—Deductions in respect of certain incomes” 	2a	0
+7					b 	Deduction claimed u/s 10AA	2b	0						0	5000000	0
+8					c 	Deduction claimed u/s 35AD as reduced by the amount of depreciation on assets on which such deduction is claimed	2c	0						0	925000
+9					d	Total Adjustment (2a+ 2b+2c)	2d	0					0	0	50000000	0
+10				3	Adjusted Total Income under section 115JC(1) (1+2a)				3	0			0	0	9250000
+11				3a	Adjusted Total Income u/s 115JC from units located in IFSC, if any				3a	0				0	20000000	0
+12				3b	Adjusted Total Income u/s 115JC from other Units (3-3a)				3b	0				0	3700000
+13				4	Tax payable under section 115JC  [18.5%  of (3),](if 3 is greater than Rs. 20 lakhs)				4	0			0	0	10000000	0
+14														0	1850000

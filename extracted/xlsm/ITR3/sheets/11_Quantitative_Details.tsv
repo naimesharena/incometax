@@ -1,0 +1,23 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M
+3				Part A – QD	 Quantitative details (mandatory  if liable for audit under section 44AB) (Note : Numeric values not filled will default to zero)  
+4				(a) In the case of a trading concern 
+5				Item Name	Unit	Opening stock	Purchase during the previous year	Sales during the previous year	Closing stock	Shortage/ excess, if any
+6				1	2	3	4	5	6	7
+7					(Select)
+8					(Select)
+9					(Select)
+10					(Select)
+14				(b) In the case of a manufacturing concern - Raw Materials
+15				Item Name	Unit of measure	Opening stock	Purchase during the previous year	Consumption during the previous year	Sales during the previous year	Closing stock	Yield Finished Products	Percentage of yield	Shortage/ excess, if any
+16				1	2	3	4	5	6	7	8	9	10
+17					(Select)
+18					(Select)
+19					(Select)
+20					(Select)
+24				(C) In the case of a manufacturing concern -Finished Products/By-products
+25				Item Name	Unit	Opening stock	Purchase during the previous year	Quantity manufactured during the previous year 	Sales during the previous year	Closing stock	Shortage/ excess, if any
+26				1	2	3	4	5	6	7	8
+27					(Select)
+28					(Select)
+29					(Select)
+30					(Select)

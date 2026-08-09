@@ -1,0 +1,289 @@
+{
+  "personal": {
+    "first_name": "Aarav",
+    "middle_name": "Kumar",
+    "last_name": "Sharma",
+    "pan": "BQXPS1234F",
+    "dob": "1985-06-15",
+    "aadhaar": "987654321098",
+    "employer_category": "OTH",
+    "father_name": "Rajesh Sharma",
+    "address": {
+      "residence_no": "B-204",
+      "residence_name": "Shivalik Heights",
+      "road_or_street": "Ring Road",
+      "locality_or_area": "Adajan",
+      "city_or_town_or_district": "Surat",
+      "state_code": "06",
+      "country_code": "91",
+      "pin_code": 395009,
+      "country_code_mobile": 91,
+      "mobile_no": 9876543210,
+      "email_address": "aarav.sharma@example.com"
+    }
+  },
+  "filing": {
+    "return_section": 11,
+    "opt_out_new_regime": true,
+    "filing_date": "2026-07-20"
+  },
+  "salary": {
+    "employer": {
+      "name": "Acme Software Pvt Ltd",
+      "tan": "SRTE01234A",
+      "category": "OTH",
+      "address": "9th Floor, IT Tower, Vesu",
+      "city": "Surat",
+      "state_code": "06",
+      "pin_code": 395007
+    },
+    "components": [
+      {
+        "code": "BASIC",
+        "amount": 900000
+      },
+      {
+        "code": "DA",
+        "amount": 90000
+      },
+      {
+        "code": "HRA",
+        "amount": 360000
+      },
+      {
+        "code": "LTA",
+        "amount": 60000
+      },
+      {
+        "code": "CONVEY",
+        "amount": 19200
+      },
+      {
+        "code": "CEA",
+        "amount": 2400
+      },
+      {
+        "code": "SPECIAL",
+        "amount": 170000
+      },
+  {
+   "code": "ARREARS",
+   "amount": 150000,
+   "arrear_fy": "2024-25",
+   "income_that_fy": 950000
+  }
+    ],
+    "perquisites": [
+      {
+        "code": "RFA",
+        "amount": 24000
+      },
+      {
+        "code": "CAR",
+        "amount": 21600
+      }
+    ],
+    "professional_tax": 2400,
+    "terminal": {
+      "gratuity": {
+        "received": 600000,
+        "last_drawn_basic_da": 25000,
+        "years": 18,
+        "covered_act": true,
+        "govt": false
+      },
+      "leave_encashment": {
+        "received": 300000,
+        "avg_10m_salary": 20000,
+        "leave_months_standing": 5,
+        "years": 18,
+        "govt": false
+      }
+    }
+  },
+  "hra": {
+    "hra_received": 360000,
+    "rent_paid": 300000,
+    "basic_salary": 900000,
+    "da": 90000,
+    "place": "1"
+  },
+  "house_properties": [
+    {
+      "occupancy": "L",
+      "address_line": "C-12, Palm Residency, Piplod",
+      "city": "Surat",
+      "state_code": "06",
+      "country_code": "91",
+      "pin_code": 395007,
+      "annual_lettable_value": 360000,
+      "municipal_taxes": 12000,
+      "interest_on_borrowed_capital": 180000
+    }
+  ],
+  "capital_gains": {
+    "equity_st": [
+      {
+        "scrip": "INFY",
+        "isin": "INE009A01021",
+        "buy_date": "2025-05-10",
+        "sale_date": "2025-11-20",
+        "qty": 100,
+        "cost_of_acquisition": 150000,
+        "sale_consideration": 190000,
+        "expenses": 500
+      }
+    ],
+    "equity_lt": [
+      {
+        "scrip": "TCS",
+        "isin": "INE467B01029",
+        "buy_date": "2015-04-01",
+        "sale_date": "2025-12-15",
+        "qty": 50,
+        "cost_of_acquisition": 100000,
+        "fmv_31_01_2018": 155000,
+        "sale_consideration": 400000,
+        "expenses": 1000
+      },
+      {
+        "scrip": "HDFCBANK",
+        "isin": "INE040A01034",
+        "buy_date": "2021-08-10",
+        "sale_date": "2026-01-20",
+        "qty": 200,
+        "cost_of_acquisition": 280000,
+        "sale_consideration": 330000,
+        "expenses": 800
+      }
+    ],
+    "land_building": [
+      {
+        "description": "Plot at Bardoli",
+        "buy_date": "2019-03-15",
+        "sale_date": "2025-09-10",
+        "cost_of_acquisition": 2500000,
+        "cost_of_improvement": 100000,
+        "sale_consideration": 5200000,
+        "expenses": 52000
+      }
+    ],
+    "other_st": [
+      {
+        "description": "Gold jewellery",
+        "buy_date": "2025-01-15",
+        "sale_date": "2025-10-05",
+        "cost_of_acquisition": 200000,
+        "sale_consideration": 250000,
+        "expenses": 1000
+      }
+    ],
+    "exemptions": [
+      {
+        "section": "54EC",
+        "amount": 500000
+      }
+    ]
+  },
+  "other_sources": [
+    {
+      "nature": "SAV",
+      "amount": 35000,
+      "description": "Savings interest"
+    },
+    {
+      "nature": "IFD",
+      "amount": 85000,
+      "description": "FD interest"
+    },
+    {
+      "nature": "DIV",
+      "amount": 42000,
+      "description": "Dividend"
+    },
+    {
+      "nature": "FAP",
+      "amount": 60000,
+      "description": "Family pension"
+    }
+  ],
+  "deductions": {
+    "80c": {
+      "amount": 150000,
+      "items": [
+        {
+          "identification_no": "ELSS-MIRAE-77",
+          "amount": 150000
+        }
+      ]
+    },
+    "80ccd1b": 50000,
+    "80d": {
+      "self_family_senior_citizen": "N",
+      "self_family": {
+        "premium": 25000
+      },
+      "parents_senior_citizen": "Y",
+      "parents": {
+        "premium": 50000
+      }
+    },
+    "80tta": 10000
+  },
+  "tax_paid": {
+    "tds_on_salary": [
+      {
+        "tan": "SRTE01234A",
+        "employer_name": "Acme Software Pvt Ltd",
+        "salary_income": 2200000,
+        "tds": 240000
+      }
+    ],
+    "tds_others": [
+      {
+        "tan": "MUMB09876B",
+        "deductor_name": "HDFC Bank",
+        "section": "94A",
+        "amount_paid": 850000,
+        "tds_deducted": 8500,
+        "tds_claimed": 8500,
+        "deduction_year": "2025"
+      }
+    ],
+    "tcs": [
+      {
+        "tan": "MUMC12345C",
+        "collector_name": "Forex Dealer",
+        "amount_subject": 800000,
+        "tcs_collected": 4000,
+        "tcs_claimed": 4000,
+        "collection_year": "2025"
+      }
+    ],
+    "challans": [
+      {
+        "bsr_code": "0004321",
+        "date": "2026-03-14",
+        "challan_no": 101,
+        "amount": 60000
+      }
+    ]
+  },
+  "bank_accounts": [
+    {
+      "ifsc": "HDFC0001234",
+      "bank_name": "HDFC Bank",
+      "account_no": "50100123456789",
+      "account_type": "SB",
+      "use_for_refund": true
+    }
+  ],
+  "verification": {
+    "name": "Aarav Kumar Sharma",
+    "father_name": "Rajesh Sharma",
+    "pan": "BQXPS1234F",
+    "capacity": "S",
+    "place": "Surat",
+    "date": "2026-07-20"
+  }
+}

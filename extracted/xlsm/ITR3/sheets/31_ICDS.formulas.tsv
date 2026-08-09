@@ -1,0 +1,16 @@
+cell	formula	cached_value
+L4	IF(OR(ICDS.InAccPolicies<>"",ICDS.InValuationInv<>"",ICDS.InConsContracts<>"",ICDS.InRevenueRecog<>"",ICDS.InTangibleFixAssests<>"",ICDS.InChngRates<>"",ICDS.InGovgrants<>"",ICDS.InSecurities<>"",ICDS.InBorrowingCosts<>"",ICDS.InProvLiability<>""),TRUE,FALSE)	FALSE
+H6	ICDS.InAccPolicies-ICDS.DeAccPolicies	0
+H7	ICDS.InValuationInv-ICDS.DeValuationInv	0
+H8	ICDS.InConsContracts-ICDS.DeConsContracts	0
+H9	ICDS.InRevenueRecog-ICDS.DeRevenueRecog	0
+H10	ICDS.InTangibleFixAssests-ICDS.DeTangibleFixAssests	0
+H11	ICDS.InChngRates-ICDS.DeChngRates	0
+H12	ICDS.InGovgrants-ICDS.DeGovgrants	0
+H13	ICDS.InSecurities-ICDS.DeSecurities	0
+H14	ICDS.InBorrowingCosts-ICDS.DeBorrowingCosts	0
+H15	ICDS.InProvLiability-ICDS.DeProvLiability	0
+F16	MAX(0,SUM(F6:F15))	0
+G16	MAX(0,SUM(G6:G15))	0
+H16	SUM(H6:H15)	0
+F17	(MIN(0,SUM(F6:F15))*-1)	0

@@ -1,0 +1,4 @@
+cell	formula	cached_value
+C6	C5+1	2
+C7	C6+1	3
+F10	SUM(Amount.80C)	0

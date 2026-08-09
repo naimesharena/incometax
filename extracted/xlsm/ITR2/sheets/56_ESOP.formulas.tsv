@@ -1,0 +1,17 @@
+cell	formula	cached_value
+H9	IF(OR(ESOP.SecType = "Fully Sold", ESOP.CeasedEmployee = "Yes"),ESOP.TaxPrevAY,SUMIF(ESOPCurrAY,"=2021-22", (ESOP.AttributedTax)))	0
+L9	ESOP.TaxPrevAY	0
+M9	MAX(0,F9-L9)	0
+H10	SUMIF(ESOPCurrAY,"=2022-23", (ESOP.AttributedTax))	0
+L10	IF(AND(I10="Yes",G10="Fully Sold"),F10,IF(AND(I10="No",G10="Fully Sold"),F10,IF(AND(I10="Yes",G10="Partly Sold"),F10,IF(OR(G10="Fully Sold",G10="Partly Sold"),H10,IF(AND(G10="Not sold",I10="No"),0,IF(H10>0,H10,F10))))))	0
+M10	MAX(0,F10-L10)	0
+H11	SUMIF(ESOPCurrAY,"=2023-24", (ESOP.AttributedTax))	0
+M11	MAX(0,F11-L11)	0
+H12	SUMIF(ESOPCurrAY,"=2024-25", (ESOP.AttributedTax))	0
+M12	MAX(0,F12-L12)	0
+H13	SUMIF(ESOPCurrAY,"=2025-26", (ESOP.AttributedTax))	0
+L13	IF(AND(I13="Yes",G13="Fully Sold"),F13,IF(AND(I13="No",G13="Fully Sold"),F13,IF(AND(I13="Yes",G13="Partly Sold"),F13,IF(OR(G13="Fully Sold",G13="Partly Sold"),H13,IF(AND(G13="Not sold",I13="No"),0,IF(H13>0,H13,F13))))))	0
+M13	MAX(0,F13-L13)	0
+M14	sheet9.GrossTaxPayable_3b	0
+D21	D20+1	2
+D22	D21+1	3

@@ -1,0 +1,69 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ
+3			Schedule CYLA			Details of Income after set-off of current years losses
+4			CURRENT YEAR LOSS ADJUSTMENT	Sl.No	Head/ Source of Income	Income of current year (Fill this column only if income is zero or positive)	House property loss of the current year set off	Business Loss
+(other than speculation
+loss or specified business loss) of the current year
+set off	Net loss from Other sources chargeable at normal applicable rates (other than loss from race horses) of the current year set off.	Current year’s
+Income remaining
+after set off							tothpincome
+5				i	Loss to be set off 
+(Fill this row only if computed figure is negative)		Total loss
+(4 of Schedule – HP)	Total loss
+(2v of item E of Schedule BP)	Total loss
+(6  of Schedule-OS)						HP	BP	OS		Remaining Set offHP Loss	Remaining Set off BP	Remaining Setoff OS
+6							0	0	0						0				0	0	0																														OS_Total_Loss
+7						1	2	3	3	4=1-2-3																																									0
+8				ii	Salaries	0	0	0	0	0					0		0	i	0		0																		0
+9				iii	House property	0		0	0	0						0	0	ii		0	0																		0
+10				iv	Business  Income (excluding speculation profit and income  from specified business)	0	0		0	0					0		0	iii	0		0
+11				v	Speculative Income	0	0		0	0					0		0	iv	0		0
+12				vi	Specified Business Income	0	0		0	0					0		0	v	0		0
+13				iva	Short-term capital gain taxable @ 15%	0	0	0	0	0					0	0	0	vi	0	0	0																		0
+14				iv	Short-term capital gain taxable @ 20%	0	0	0	0	0																													0
+15				v	Short-term capital gain taxable @ 30%	0	0	0	0	0					0	0	0	vii	0	0	0																		0
+16				vi	Short-term capital gain taxable @ applicable rates	0	0	0	0	0					0	0	0	viii	0	0	0																		0
+17				vii	Short-term capital gain taxable at special rates in india applicable as per DTAA	0	0	0	0	0																													0
+18				viiia	Long term capital gain taxable @ 10%	0	0	0	0	0					0	0	0	ix	0	0	0																		0
+19				viii	Long term capital gain taxable @ 12.5%	0	0	0	0	0																													0
+20				ix	Long term capital gain taxable @ 20%	0	0	0	0	0					0	0	0	x	0	0	0																		0
+21				ix	Long-term capital gain taxable at special rates in India as per DTAA	0	0	0	0	0																													0
+22				x	Net Income From Other sources chargeable at Normal Applicable rates 	0	0	0		0					0	0		xi	0	0																			0
+23				xi	Profit from activity of owning and maintaining race horse	0	0	0	0	0					0	0	0	xii	0	0	0																		0
+24				xii	Income from Other sources taxable at special rates in India as per DTAA	0	0	0	0	0
+25				xiii	Total loss set-off(ii + iii + iv + v + vi + vii + viii + ix + x+xi+xii)		0	0	0
+26				xiv	Loss remaining after set-off (i –xiii)		0	0	0																														0	0
+27																																							Col 2	Col4							Yes
+28				Do you want to edit the details auto-populated in table above ?						No																																					No
+30			Schedule BFLA			Details of Income after Set off of Brought Forward Losses of earlier years
+31			BROUGHT FORWARD LOSS ADJUSTMENT	Sl.
+No.	Head/ Source of Income	Income after set off, if
+any, of current year’s
+losses as per 5 of
+Schedule CYLA)	Brought forward loss
+set off	Brought forward
+depreciation set off	Current year’s
+income remaining
+after set off										From CFL				Remaining Set off						Depriciation						Tot CY LTCG Income		Tot Pys LTCG Loss
+32																																		0.2	0		0
+33						1	2	3	3																			From UD	0					0.1	0
+34				i	Salaries	0			0													i							Remaining
+35				ii	House property	0	0	0	0				0		0	0		HP	0			ii	0						0
+36				iii	Business  Income (excluding speculation profit and income  from specified business)	0	0	0	0				0		0	0		BP	0			iii	0						0							Remaining LTCG set off Remaining
+37				iv	Speculative Income	0	0	0	0				0		0	0		Spec BP	0			iv	0						0							0
+38				v	Specified Business Income	0	0	0	0				0		0	0		Spcif BP	0			v	0						0														When only LTCG set off Exists
+39				iiia	Short-term capital gain taxable @ 15%	0	0	0	0				0		0							vi	0	0												After LTCG  setoff at	Remaining Amt to set off		0		Set off	0.2	0					BF-Loss Total	STCG Total	LTCG Total
+40				iii	Short-term capital gain taxable @ 20%	0	0	0	0				0																										0
+41				iv	Short-term capital gain taxable @ 30%	0	0	0	0				0		0			sTCG 	0			vii	0												0.2	0	0		0			0.1	0					0	0	0
+42				v	Short-term capital gain taxable @ applicable rates	0	0	0	0				0		0							viii	0												0.1	0	0		0									CFL Total	Longterm Income	CFL_Short Term	Short and Long term Total	CFL Long Term
+43				vi	Short-term capital gain taxable at special rates in India as per DTAA	0	0	0	0				0																										0									0	0	0	0	0
+44				viia	Long term capital gain taxable @ 10%	0	0	0	0				0		0			LTCG	0			ix	0																0									BFLA_Colum 3 Total	LTCG_Col3_Total
+45				vii	Long term capital gain taxable @ 12.5%	0	0	0	0				0																										0
+46				viii	Long term capital gain taxable @ 20%	0	0	0	0				0		0							x	0	0											Amt to be set off at 20%
+LTCG		Amt to be Set off at 10% wen STCG has income		0									0	0
+47				viii	Long term capital gains taxable at special rates in India as per DTAA	0	0	0	0				0																										0
+48				ix	Net Income from Other sources income chargeable at Normal Applicable Rates	0		0	0				0			0						xi	LTCG	STCG					0						0		0		0
+49				x	Profit from owning and maintaining race horses	0	0	0	0				0		0			Maintain Horse	0			xii																	0
+50				xi	Income from other sources income taxable at special rates in India as per DTAA 	0		0	0				0
+51				xii	Total of brought forward loss set off (2ii + 2iii + 2iv + 2v+ 2vi + 2vii+ 2viii + 2ix)		0	0					0
+52				xiii	Current year’s income remaining after set off  Total of (3i + 3ii + 3iii + 3iv + 3v+ 3vi + 3vii +3viii+ 3ix + 3x + 3xi)				0
+54				Do you want to edit the details auto-populated in table above ?						No
