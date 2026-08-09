@@ -1,0 +1,45 @@
+row	A	B	C	D	E	F	G	H	I
+2		SUMMARY
+4		VERIFICATION DETAILS
+5		Name	0
+6		Son / daughter of	0
+7		Filing Date	30/07/2026
+8		PAN	0
+9		Verification PAN	0
+11		Validate data before generating XML
+12		Schedule	No of entries	Amount
+13		QUANTITATIVE_DETAILS-a	0	NA
+14		QUANTITATIVE_DETAILS-b	0	NA
+15		QUANTITATIVE_DETAILS-c	0	NA
+16		SCHEDULE S	0	NA
+17		HOUSE_PROPERTY	0	NA
+18		10A	0	NA
+19		10AA	0	NA
+20		TDS1	0	0
+21		TDS2	0	0
+22		TDS3	0	0
+23		80G-A	0	NA
+24		80G-B	0	NA
+25		80G-C	0	NA
+26		80G-D	0	NA
+27		SI	0	NA
+28		IF	0	NA
+29		IT	0	0
+30		TCS	0	0
+31		SPI	0	NA
+33		Please verify the following schedules / sheets whichever showing up as empty, whether they are optional, not filled, or are they actually empty
+34		Nature of Business	Empty					0	0
+35		Schedule DPM	Empty					0	0
+36		Schedule DOA	Empty					0	0
+37		Schedule ESR	Empty					0	0
+38		Schedule CFL	Empty						0
+39		Schedule 80 IA	Empty
+40		Schedule 80 IB	Empty
+41		Schedule 80 IC	Empty
+42		Schedule EI	Empty
+44		Instructions
+45		1. Verify the count of number of entries against each schedule.
+2. Ensure the total number of entries entered per schedule is valid and being reflected in the preview sheet.   
+3. In case this count does not match the number of entries, you may check and update the schedules. 
+4. Click on ‘Save XML’ to generate the XML file if all the details are verified.
+5. All Schedules which are optional and not filled are reported as ‘Empty’ in Preview.

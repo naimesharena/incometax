@@ -1,0 +1,11 @@
+row	A	B	C	D	E	F	G	H	I	J
+3			Sch TCS	Details of Tax Collected at Source [As per Form 27D issued by the Collector(s)]
+4				Sl.No,	Tax Collection Account Number of the Collector	Name of the Collector	Details of amount paid as mentioned in Form 26AS 	Tax Collected	Amount out of Col (4) being claimed (Col(5))	Amount out of (4) being claimed in the hands of spouse, if section 5A is applicable 
+5					(1)	(2)	(3)	(4)	(5)	(6)
+6				1
+7				2
+8				3
+9				4
+10				5
+11			TOTAL						0
+13			Note: Please enter total of column (5) of Schedule-TCS in  D16 

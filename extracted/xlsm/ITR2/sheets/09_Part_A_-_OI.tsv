@@ -1,0 +1,108 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L
+3			Part A- OI			Other Information (mandatory if liable for audit under section 44AB, for other fill, if applicable). 
+4			OTHER INFORMATION	1	Method of accounting employed in the previous year						1	Mercantile
+5				2	Is there any change in method of accounting    						2	No
+6				3a	  Increase in the profit or decrease in loss because of deviation, if any, as per Income Computation Disclosure Standards notified under section 145(2) [column 11a(iii) of Schedule ICDS]						3a	0
+7				3b	Decrease in the profit or increase in loss because of deviation, if any,  as per Income Computation Disclosure Standards notified under section 145(2) [column 11b(iii) of Schedule ICDS]						3b	0
+8				4	Method of valuation of closing stock employed in the previous year
+9					a	Raw Material (if at cost or market rates whichever is less write 1, if at cost write 2, if at market rate write 3)					4a	(Select)
+10					b	Finished goods (if at cost or market rates whichever is less write 1, if at cost write 2, if at market rate write 3)					4b	(Select)
+11					c	Is there any change in stock valuation method (Select)					4c	(Select)
+12					d	Increase in  the profit or loss because of deviation, if any, from the method of valuation specified under section 145A					4d
+13					e	Decrease in the profit or increase in loss because of deviation, if any, from the method of valuation specified under section 145A					4e
+14				5	Amounts not credited to the profit and loss account, being
+15					a	the items falling within the scope of section 28			5a
+16					b	The proforma credits, drawbacks, refund of duty of customs or excise or service tax, or refund of sales tax or value added tax, or refund of GST, where such credits, drawbacks or refunds are admitted as due by the authorities concerned			5b
+17					c	escalation claims accepted during the previous year			5c
+18					d	Any other item of income			5d
+19					e	Capital receipt, if any			5e
+20					f	Total of amounts not credited to profit and loss account (5a+5b+5c+5d+5e)					5f	0
+21				6	Amounts debited to the profit and loss account, to the extent disallowable under section 36 due to non-fulfilment of conditions specified in relevant clauses:-
+22					a	Premium paid for insurance against risk of damage or destruction of stocks or store [36(1)(i)]			6a
+23					b	Premium paid for insurance on the health of employees [36(1)(ib)]			6b
+24					c	Any sum paid to an employee as bonus or commission for services rendered, where such sum was otherwise payable to him as profits or dividend. [36(1)(ii)]			6c
+25					d	Any amount of interest paid in respect of borrowed capital [36(1)(iii)]			6d
+26					e	Amount of discount on a zero-coupon bond [36(1)(iiia)]			6e
+27					f	Amount of contributions to a recognised provident fund [36(1)(iv)]			6f
+28					g	Amount of contributions to an approved superannuation fund [36(1)(iv)]			6g
+29					h	Amount of contribution to a pension scheme referred to in section 80CCD [36(1)(iva)]			6h
+30					i	Amount of contributions to an approved gratuity [36(1)(v)]			6i
+31					j	Amount of contributions to any other fund 			6j
+32					k	Any sum received from employees as contribution to any provident fund or superannuation fund or any fund set up under ESI Act or any other fund for the welfare of employees to the extent not credited to the employees account on or before the due date [36(1)(va)]			6k
+33					l	Amount of bad and doubtful debts [36(1)(vii)]			6l
+34					m	Provision for bad and doubtful debts [36(1)(viia)]			6m
+35					n	Amount transferred to any special reserve [36(1)(viii)]			6n
+36					o	Expenditure for the purposes of promoting family planning amongst employees [36(1)(ix)]			6o
+37					p	Amount of securities transaction paid in respect of transaction in securities if such income is not included in business income [36(1)(xv)]			6p
+38					q	Marked to market loss or other expected loss as computed in accordance with the ICDS notified u/s 145(2) [36(1)(xviii)]			6q
+39					r	Any other disallowance			6r
+40					s	Total amount disallowable under section 36 (total of 6a to 6r)					6s	0
+41				7	Amounts debited to the profit and loss account, to the extent disallowable under section 37
+42					a	Expenditure of capital nature [37(1)]			7a
+43					b	Expenditure of personal nature [37(1)]			7b
+44					c	Expenditure laid out or expended wholly and exclusively NOT for the purpose of business or profession [37(1)]			7c
+45					d	Expenditure on advertisement in any souvenir, brochure, tract, pamphlet or the like, published by a political party [37(2B)]			7d
+46					e	Expenditure by way of penalty or fine for violation of any law for the time being in force 			7e
+47					f	Any other penalty or fine			7f
+48					g	Expenditure incurred for any purpose which is an offence or which is prohibited by law;			7g
+49					h	Amount of any liability of a contingent nature			7h
+50					i	Any other amount not allowable under section 37			7i
+51					j	Total amount disallowable under section 37(total of 7a to 7i)					7j	0
+52				8	A	Amounts debited to the profit and loss account, to the extent disallowable under section 40
+53						a	Amount disallowable under section 40 (a)(i), on account of non-compliance with the provisions of Chapter XVII-B		Aa
+54						b	Amount disallowable under section 40(a)(ia) on account of non-compliance with the provisions of Chapter XVII-B		Ab
+55						c	Amount disallowable under section 40 (a)(ib), on account of non-compliance with the provisions of Chapter VIII of the Finance Act, 2016		Ac
+56						d	Amount disallowable under section 40(a)(iii) on account of non-compliance with the provisions of Chapter XVII-B		Ad
+57						e	Amount of tax or rate levied or assessed on the basis of profits [40(a)(ii)]		Ae
+58						f	Amount paid as wealth tax [40(a)(iia)]		Af
+59						g	Amount paid by way of royalty, license fee, service fee etc. as per section 40(a)(iib)		Ag
+60						h	Amount of interest, salary, bonus, commission or remuneration paid to any partner or member inadmissible under section [40(b)/40(ba)]		Ah
+61						i	Any other disallowance		Ai
+62						j	Total amount disallowable under section 40(total of Aa to Ai)				8Aj	0
+63					B	Any amount disallowed under section 40 in any preceding previous year but allowable during the previous year					8B
+64				9	Amounts debited to the profit and loss account, to the extent disallowable under section 40A
+65					a	Amounts paid to persons specified in section 40A(2)(b)			9a
+66					b	Amount paid, otherwise than by account payee cheque or account payee bank draft or use of electronic clearing system through a bank account or through such electronic mode as may be prescribed, , disallowable under section 40A(3)			9b
+67					c	Provision for payment of gratuity [40A(7)]			9c
+68					d	any sum paid by the assessee as an employer for setting up or as contribution to any fund, trust, company, AOP, or BOI or society or any other institution;[40A(9)]			9d
+69					e	Any other disallowance			9e
+70					f	Total amount disallowable under section 40A (total of 9a to 9e)					9f	0
+71				10	Any amount disallowed under section 43B in any preceding previous year but allowable during the previous year
+72					a	Any sum in the nature of tax, duty, cess or fee under any law			10a
+73					b	Any sum payable by way of contribution to any provident fund or superannuation fund or gratuity fund or any other fund for the welfare of employees			10b
+74					c	Any sum payable to an employee as bonus or commission for services rendered			10c
+75					d	Any sum payable as interest on any loan or borrowing from any public financial institution or a State financial corporation or a State Industrial investment corporation			10d
+76					da	Any sum payable as interest on any loan or borrowing from a deposit taking non-banking financial company or systemically important non-deposit taking non-banking financial company, in accordance with the terms and conditions of the agreement governing such loan or borrowing			10da
+77					e	Any sum payable as interest on any loan or borrowing from any scheduled bank or a co-operative bank other than a primary agricultural credit society or a primary co-operative agricultural and rural development bank			10e
+78					f	Any sum payable towards leave encashment			10f
+79					g	Any sum payable to the Indian Railways for the use of railway assets			10g
+80					h	Total amount allowable under section 43B (total of 10a to 10g)					10h	0
+81				11	Any amount debited to profit and loss account of the previous year but disallowable under section 43B:-
+82					a	Any sum in the nature of tax, duty, cess or fee under any law			11a
+83					b	Any sum payable by way of contribution to any provident fund or superannuation fund or gratuity fund or any other fund for the welfare of employees			11b
+84					c	Any sum payable to an employee as bonus or commission for services rendered			11c
+85					d	Any sum payable as interest on any loan or borrowing from any public financial institution or a State financial corporation or a State Industrial investment corporation			11d
+86					da	Any sum payable as interest on any loan or borrowing from a deposit taking non-banking financial company or systemically important non-deposit taking non-banking financial company, in accordance with the terms and conditions of the agreement governing such loan or borrowing			11d(a)
+87					e	Any sum payable as interest on any loan or borrowing from any scheduled bank or a co-operative bank other than a primary agricultural credit society or a primary co-operative agricultural and rural development bank			11e
+88					f	Any sum payable towards leave encashment			11f
+89					g	Any sum payable to the Indian Railways for the use of railway assets			11g
+90					h	Total amount disallowable under Section 43B(total of 11a to 11g)					11h	0
+91				12	Amount of credit outstanding in the accounts in respect of
+92					a	Union Excise Duty			12a
+93					b	Service tax			12b
+94					c	VAT/sales tax			12c
+95					d	Central Goods & Service Tax (CGST)			12d
+96					e	State Goods & Services Tax (SGST)			12e
+97					f	Integrated Goods & Services Tax (IGST)			12f
+98					g	Union Territory Goods & Services Tax  (UTGST)			12g
+99					h	Any other tax			12h
+100					i	Total amount outstanding (total of 12a to 12h)					12i	0
+101				13	Amounts deemed to be profits and gains under section 33AB or 33ABA (13a+13b)						13	0
+102					a		33AB				13a
+103					b		33ABA				13b
+104				14	Any amount of profit chargeable to tax under section 41						14
+105				15	Amount of income or expenditure of prior period credited or debited to the profit and loss account (net)						15
+106				16	Amount of Expenditure disallowed u/s 14A						16
+109				17	Whether assessee is exercising option under subsection 2A of section 92CE 
+[If yes , please fill schedule TPSA]         
+						17	No

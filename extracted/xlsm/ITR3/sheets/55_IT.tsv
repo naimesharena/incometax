@@ -1,0 +1,36 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG
+2																														State check
+3			17A 
+IT																											(S
+4			A	Details of payments of Advance Tax and Self-Assessment Tax
+																			SUMIF(FormulaOfExSAT,"=A",IT.Amt)		ExSat2_New	0	SUMIF(FormulaOfExSAT1,"=B",IT.Amt)
+5				SI. NO.	BSR Code
+	Date of Deposit
+(DD/MM/YYYY)	Serial Number of
+Challan	Amount (Rs)											234C Quarter check	FALSE	ExSat	0			ExSat1	0	1	0
+6					1	2	3	4															IF(Q7<=2026,IF(T7>1,IF(AND(S7=1,R7<=10),"A",S7-3),0),S7+9)-old formula	Normal	TN	IF(Q7<=2024,IF(AND(S7=11,R7<=7),"B",S7-3),S7+9)-OLD
+IF(Q7<=2024,IF(AND(S7=11,R7<=15),"B",S7-3),S7+9)-New as per Extended Due Date - 15th Nov
+=IF(Q7<=2024,IF(AND(S7=11,R7<=15,Q7=2024),"B",IF(AND(S7=12,R7<=15,Q7=2024),"C",S7-3)),S7+9) - Due Date Extend - 15th Dec		#VALUE!	44AB FLAG		92		SIF AUDIT FLAG
+7				1													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+8				2													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	0		0		0
+9				3													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+10				4													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+11				5													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+12				6													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+13				7													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+14				8													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+15				9													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+17				Total				0
+18			Note	Enter the totals of Advance tax and Self-Assessment tax in Sl No. 10a & 10d of Part B-TTI
+20																						0	0
+21																						0	0
+22																						0	0
+23																						0	0	0
+24																						0	0
+25																						0	0
+26																						0	0	0
+27																				Quarter Income Break up	0	0	0
+28																					0	0	0
+29																					0	0	0
+30																					0	0	0
+31																	SelfAssesment	0	AdvanceTax	0	0	0	0

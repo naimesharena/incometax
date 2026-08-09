@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open ITR Suite · ITR-1 / ITR-2 / ITR-4 · AY 2026-27</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="emblem">₹</div>
+    <div>
+      <h1>Open ITR Suite</h1>
+      <p>ITR-1 · ITR-2 · ITR-4 with auto form detection · Assessment Year 2026-27 (FY 2025-26)</p>
+    </div>
+  </div>
+  <nav class="top-actions">
+    <button id="btn-load-sample" class="btn ghost" type="button">Load sample data</button>
+    <button id="btn-pdf-top" class="btn ghost" type="button" title="Detailed computation sheet (PDF)">📄 PDF</button>
+    <button id="btn-word-top" class="btn ghost" type="button" title="Detailed computation sheet (Word)">📝 Word</button>
+    <button id="btn-download-top" class="btn primary" type="button">⬇ Download ITR JSON</button>
+  </nav>
+</header>
+
+<div class="layout">
+  <aside class="stepper" id="stepper"></aside>
+
+  <main class="workspace">
+    <div id="tab-host"></div>
+
+    <div class="navrow">
+      <button id="btn-prev" class="btn ghost" type="button">← Previous</button>
+      <span id="step-indicator" class="muted"></span>
+      <button id="btn-next" class="btn primary" type="button">Next →</button>
+    </div>
+  </main>
+
+  <aside class="livepanel" id="livepanel">
+    <h3>Live computation</h3>
+    <div id="live-body" class="live-body">
+      <p class="muted">Fill in your income details to see a real-time estimate of your tax
+      liability under both regimes.</p>
+    </div>
+  </aside>
+</div>
+
+<div id="modal-overlay" class="modal-overlay hidden">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="modal-title">Result</h3>
+      <button id="modal-close" class="btn ghost small" type="button">✕</button>
+    </div>
+    <div id="modal-body" class="modal-body"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Built from the official CBDT artefacts: ITR-1/2/3/4 JSON Schemas V1.1, Validation Rules
+  AY 2026-27 and the department utilities (with 112A/TDS CSV formats). This software computes your
+  return; the final JSON is uploaded on the
+  <a href="https://www.incometax.gov.in" target="_blank" rel="noopener">e-Filing portal</a>.
+  Not legal advice — verify figures against Form 16/16A, Form 26AS and AIS before filing.</p>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+cell	formula	cached_value
+O5	IF(MID(NatureDisability_80DD,1,1)="1",1,IF(MID(NatureDisability_80DD,1,1)="2",2,0))	0
+P5	IF(O5=1,75000,IF(O5=2,125000,0))	0
+E6	IF(IS_FIRM,0,MIN(IF(MID(sheet1.ResidentialStatus1,1,2)<>"NR",MIN(R6,T7),0)))	0
+R6	IF(bacValue=1,0,Sec80DDref_New)	0
+T7	MAX(IncD.GrossTotIncome,0)	0
+E16	IF(IS_FIRM,0,IF(MID(sheet1.Status,1,1)="H",0,MIN(IF(MID(sheet1.ResidentialStatus1,1,2)="NR",0,IF(MID(sheet1.Status,1,1)<>"I",0,MIN(T18,T17))))))	0
+T17	MAX(IncD.GrossTotIncome,0)	0
+T18	IF(bacValue=1,0,IF(NatureDisability_80U=R16,75000,IF(NatureDisability_80U=S17,125000,0)))	0

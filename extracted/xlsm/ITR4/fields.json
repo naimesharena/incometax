@@ -1,0 +1,3759 @@
+[
+ {
+  "sheet": "Income Details",
+  "cell": "AM7",
+  "name": "sheet1.PAN",
+  "label": "Permanent Account Number"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E7",
+  "name": "sheet1.FirstName",
+  "label": "First Name"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "O7",
+  "name": "sheet1.MiddleName",
+  "label": "Middle Name"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "W7",
+  "name": "sheet1.SurNameOrOrgName",
+  "label": "Last Name"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AD11",
+  "name": "sheet1.ResidenceName",
+  "label": "Name of Premises/Building/Village"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E11",
+  "name": "sheet1.ResidenceNo",
+  "label": "Flat/ Door/ Block No."
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AD13",
+  "name": "sheet1.LocalityOrArea",
+  "label": "Area / Locality"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AR13",
+  "name": "sheet1.Gender1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E13",
+  "name": "sheet1.RoadOrStreet",
+  "label": "Road / Street/ Post Office"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AF15",
+  "name": "sheet1.CountryCode",
+  "label": "Country/Region",
+  "dropdown": [
+   "(Select)",
+   "93-AFGHANISTAN",
+   "1001-ALAND ISLANDS",
+   "355-ALBANIA",
+   "213-ALGERIA",
+   "684-AMERICAN SAMOA",
+   "376-ANDORRA",
+   "244-ANGOLA",
+   "1264-ANGUILLA",
+   "1010-ANTARCTICA",
+   "1268-ANTIGUA AND BARBUDA",
+   "54-ARGENTINA",
+   "374-ARMENIA",
+   "297-ARUBA",
+   "61-AUSTRALIA",
+   "43-AUSTRIA",
+   "994-AZERBAIJAN",
+   "1242-BAHAMAS",
+   "973-BAHRAIN",
+   "880-BANGLADESH",
+   "1246-BARBADOS",
+   "375-BELARUS",
+   "32-BELGIUM",
+   "501-BELIZE",
+   "229-BENIN",
+   "1441-BERMUDA",
+   "975-BHUTAN",
+   "591-BOLIVIA (PLURINATIONAL STATE OF)",
+   "1002-BONAIRE, SINT EUSTATIUS AND SABA",
+   "387-BOSNIA AND HERZEGOVINA",
+   "267-BOTSWANA",
+   "1003-BOUVET ISLAND",
+   "55-BRAZIL",
+   "1014-BRITISH INDIAN OCEAN TERRITORY",
+   "673-BRUNEI DARUSSALAM",
+   "359-BULGARIA",
+   "226-BURKINA FASO",
+   "257-BURUNDI",
+   "238-CABO VERDE",
+   "855-CAMBODIA",
+   "237-CAMEROON",
+   "1-CANADA",
+   "1345-CAYMAN ISLANDS",
+   "236-CENTRAL AFRICAN REPUBLIC",
+   "235-CHAD",
+   "56-CHILE",
+   "86-CHINA",
+   "9-CHRISTMAS ISLAND",
+   "672-COCOS (KEELING) ISLANDS",
+   "57-COLOMBIA",
+   "270-COMOROS",
+   "242-CONGO",
+   "243-CONGO (DEMOCRATIC REPUBLIC OF THE)",
+   "682-COOK ISLANDS",
+   "506-COSTA RICA",
+   "225-CÔTE D'IVOIRE",
+   "385-CROATIA",
+   "53-CUBA",
+   "1015-CURAÇAO",
+   "357-CYPRUS"
+  ],
+  "dropdownTotal": 251
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AP15",
+  "name": "sheet1.PinCode",
+  "label": "PIN Code"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E15",
+  "name": "sheet1.CityOrTownOrDistrict",
+  "label": "Town/City/District"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "W15",
+  "name": "sheet1.StateCode1",
+  "label": "State",
+  "dropdown": [
+   "(Select)",
+   "01-Andaman and Nicobar islands",
+   "02-Andhra Pradesh",
+   "03-Arunachal Pradesh",
+   "04-Assam",
+   "05-Bihar",
+   "06-Chandigarh",
+   "07-THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+   "09-Delhi",
+   "10-Goa",
+   "11-Gujarat",
+   "12-Haryana",
+   "13-Himachal Pradesh",
+   "14-Jammu and Kashmir",
+   "15-Karnataka",
+   "16-Kerala",
+   "17-Lakshadweep",
+   "18-Madhya Pradesh",
+   "19-Maharashtra",
+   "20-Manipur",
+   "21-Meghalaya",
+   "22-Mizoram",
+   "23-Nagaland",
+   "24-Odisha",
+   "25-Puducherry",
+   "26-Punjab",
+   "27-Rajasthan",
+   "28-Sikkim",
+   "29-Tamil Nadu",
+   "30-Tripura",
+   "31-Uttar Pradesh",
+   "32-West Bengal",
+   "33-Chattisgarh",
+   "34-Uttarakhand",
+   "35-Jharkhand",
+   "36-Telangana",
+   "37-Ladakh",
+   "99-Foreign"
+  ],
+  "dropdownTotal": 38
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AG16",
+  "name": "HASZIP",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AP16",
+  "name": "sheet1.ZipCode",
+  "label": "ZIP Code"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AP17",
+  "name": "Secondary_Address",
+  "label": "PIN Code",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AD20",
+  "name": "sheet1.ResidenceName2",
+  "label": "Name of Premises/Building/Village"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E20",
+  "name": "sheet1.ResidenceNo2",
+  "label": "Flat/ Door/ Block No."
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AD22",
+  "name": "sheet1.LocalityOrArea2",
+  "label": "Area / Locality"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E22",
+  "name": "sheet1.RoadOrStreet2",
+  "label": "Road / Street/ Post Office"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AF24",
+  "name": "sheet1.CountryCode2",
+  "label": "Country/Region",
+  "dropdown": [
+   "(Select)",
+   "93-AFGHANISTAN",
+   "1001-ALAND ISLANDS",
+   "355-ALBANIA",
+   "213-ALGERIA",
+   "684-AMERICAN SAMOA",
+   "376-ANDORRA",
+   "244-ANGOLA",
+   "1264-ANGUILLA",
+   "1010-ANTARCTICA",
+   "1268-ANTIGUA AND BARBUDA",
+   "54-ARGENTINA",
+   "374-ARMENIA",
+   "297-ARUBA",
+   "61-AUSTRALIA",
+   "43-AUSTRIA",
+   "994-AZERBAIJAN",
+   "1242-BAHAMAS",
+   "973-BAHRAIN",
+   "880-BANGLADESH",
+   "1246-BARBADOS",
+   "375-BELARUS",
+   "32-BELGIUM",
+   "501-BELIZE",
+   "229-BENIN",
+   "1441-BERMUDA",
+   "975-BHUTAN",
+   "591-BOLIVIA (PLURINATIONAL STATE OF)",
+   "1002-BONAIRE, SINT EUSTATIUS AND SABA",
+   "387-BOSNIA AND HERZEGOVINA",
+   "267-BOTSWANA",
+   "1003-BOUVET ISLAND",
+   "55-BRAZIL",
+   "1014-BRITISH INDIAN OCEAN TERRITORY",
+   "673-BRUNEI DARUSSALAM",
+   "359-BULGARIA",
+   "226-BURKINA FASO",
+   "257-BURUNDI",
+   "238-CABO VERDE",
+   "855-CAMBODIA",
+   "237-CAMEROON",
+   "1-CANADA",
+   "1345-CAYMAN ISLANDS",
+   "236-CENTRAL AFRICAN REPUBLIC",
+   "235-CHAD",
+   "56-CHILE",
+   "86-CHINA",
+   "9-CHRISTMAS ISLAND",
+   "672-COCOS (KEELING) ISLANDS",
+   "57-COLOMBIA",
+   "270-COMOROS",
+   "242-CONGO",
+   "243-CONGO (DEMOCRATIC REPUBLIC OF THE)",
+   "682-COOK ISLANDS",
+   "506-COSTA RICA",
+   "225-CÔTE D'IVOIRE",
+   "385-CROATIA",
+   "53-CUBA",
+   "1015-CURAÇAO",
+   "357-CYPRUS"
+  ],
+  "dropdownTotal": 251
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AP24",
+  "name": "sheet1.PinCode2",
+  "label": "PIN Code"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E24",
+  "name": "sheet1.CityOrTownOrDistrict2",
+  "label": "Town/City/District"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "W24",
+  "name": "sheet1.StateCode2",
+  "label": "State",
+  "dropdown": [
+   "(Select)",
+   "01-Andaman and Nicobar islands",
+   "02-Andhra Pradesh",
+   "03-Arunachal Pradesh",
+   "04-Assam",
+   "05-Bihar",
+   "06-Chandigarh",
+   "07-THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+   "09-Delhi",
+   "10-Goa",
+   "11-Gujarat",
+   "12-Haryana",
+   "13-Himachal Pradesh",
+   "14-Jammu and Kashmir",
+   "15-Karnataka",
+   "16-Kerala",
+   "17-Lakshadweep",
+   "18-Madhya Pradesh",
+   "19-Maharashtra",
+   "20-Manipur",
+   "21-Meghalaya",
+   "22-Mizoram",
+   "23-Nagaland",
+   "24-Odisha",
+   "25-Puducherry",
+   "26-Punjab",
+   "27-Rajasthan",
+   "28-Sikkim",
+   "29-Tamil Nadu",
+   "30-Tripura",
+   "31-Uttar Pradesh",
+   "32-West Bengal",
+   "33-Chattisgarh",
+   "34-Uttarakhand",
+   "35-Jharkhand",
+   "36-Telangana",
+   "37-Ladakh",
+   "99-Foreign"
+  ],
+  "dropdownTotal": 38
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AG25",
+  "name": "HASZIP2",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AP25",
+  "name": "sheet1.ZipCode2",
+  "label": "ZIP Code"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AD28",
+  "name": "sheet1.mobileCountryCode",
+  "label": "Primary Mobile No."
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AE28",
+  "name": "sheet1.Mobileno",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH28",
+  "name": "sheet1.STDcode",
+  "label": "STD/ISD Code"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AM28",
+  "name": "sheet1.PhoneNo",
+  "label": "Residential/Office Phone Number"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AR28",
+  "name": "sheet1.mobileCountryCode2",
+  "label": "Secondary Mobile No."
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AS28",
+  "name": "sheet1.MobileNoSec",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E28",
+  "name": "sheet1.EmailAddress",
+  "label": "Primary Email ID of the taxpayer"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "S28",
+  "name": "sheet1.EmailAddress2",
+  "label": "Secondary Email ID"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E30",
+  "name": "sheet1.DesigOfficerWardorCircle",
+  "label": "Income Tax Ward / Circle"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AF32",
+  "name": "sheet1.Aadhaar",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AF33",
+  "name": "sheet1.AadhaarEnrol",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AF34",
+  "name": "sheet1.PortugeseCC5A",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "No",
+   "Yes"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AR34",
+  "name": "sheet1.PANOFSPOUSE",
+  "label": "Enter PAN of Spouse if applicable"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BA35",
+  "name": "Radiobuttoncheck",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB35",
+  "name": "sheet1.ReturnFileSec1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BJ35",
+  "name": "sheet1.ReturnType1",
+  "label": "Filing Type",
+  "dropdown": [
+   "(Select)"
+  ],
+  "dropdownTotal": 1
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AF36",
+  "name": "sheet1.Status",
+  "label": "Status",
+  "dropdown": [
+   "(Select)",
+   "I - INDIVIDUAL",
+   "H - HUF",
+   "F - FIRM(Other than LLP)"
+  ],
+  "dropdownTotal": 4
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO36",
+  "name": "sheet1.DOB",
+  "label": "Date of Birth/Formation"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "E36",
+  "name": "sheet1.NatureofEmployment",
+  "label": "Nature of Employment",
+  "dropdown": [
+   "(Select)",
+   "Central Government",
+   "State Government",
+   "Public Sector Undertaking",
+   "Pensioners-CG",
+   "Pensioners-SG",
+   "Pensioners-PSU",
+   "Pensioners-Other",
+   "Others",
+   "Not Applicable (eg. Family pension etc)"
+  ],
+  "dropdownTotal": 10
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "N36",
+  "name": "sheet1.ReturnFileSec",
+  "label": "Filed u/s                  Filed in response to notice u/s"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "N38",
+  "name": "Sheet1.Duedate",
+  "label": "139(1)-On or before due date"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO40",
+  "name": "sheet1.OrigRetFiledDate1",
+  "label": "Date of filing of original Return (DD/MM/YYYY)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "W40",
+  "name": "sheet1.ReceiptNo1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO41",
+  "name": "sheet1.OrigRetFiledDate",
+  "label": "Date of filing of original Return (DD/MM/YYYY)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB41",
+  "name": "sheet1.ReturnFileSec2",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "139(9)",
+   "142(1)",
+   "148",
+   "153C"
+  ],
+  "dropdownTotal": 5
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "W41",
+  "name": "sheet1.ReceiptNo",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO43",
+  "name": "sheet1.NoticeDate",
+  "label": "Date of such Notice or Order"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "W43",
+  "name": "sheet1.NoticeNo",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO45",
+  "name": "Sheet1.115BAC",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "No",
+   "Yes"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO48",
+  "name": "BAC115.DateOfFiling",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO49",
+  "name": "BAC115.AssessmentYear_2425",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "2024-25",
+   "2025-26"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN50",
+  "name": "BAC115.AcknowledgementNo",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB50",
+  "name": "bacValue_New",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO51",
+  "name": "Sheet1.OptOutNewTaxRegime_New_Yes",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "No",
+   "Yes"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO53",
+  "name": "BAC115.DateOfFiling_New_Yes",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO54",
+  "name": "BAC115.AssessmentYear_Aii",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "2025-26"
+  ],
+  "dropdownTotal": 2
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN55",
+  "name": "BAC115.AcknowledgementNo_New_Yes",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO56",
+  "name": "BAC115.A23ii_No",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO57",
+  "name": "Sheet1.OptOutNewTaxRegime_New_No",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "No",
+   "Yes"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO59",
+  "name": "BAC115.DateOfFiling_New_No",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN60",
+  "name": "BAC115.AcknowledgementNo_New_No",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO62",
+  "name": "BAC115.A23b",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO67",
+  "name": "Sheet1.OptOutNewTaxRegime_New_NA",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "No",
+   "Yes"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO69",
+  "name": "BAC115.DateOfFiling_New_NA",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN70",
+  "name": "BAC115.AcknowledgementNo_New_NA",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO72",
+  "name": "Sheet1.OptOutNewTaxRegime",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "New Tax Regime",
+   "Old Tax Regime"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO74",
+  "name": "Sheet1.Dateoffiling",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO75",
+  "name": "Sheet1.acknowledgementNumber_New",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO76",
+  "name": "AYinOpting",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "2021-22",
+   "2022-23"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO77",
+  "name": "Sheet1.date10IE_Opt",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO78",
+  "name": "Sheet1.acknowledgementNumber_Opt",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO79",
+  "name": "Opt_Out115BAC",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO80",
+  "name": "AYinOptOut",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "2022-23"
+  ],
+  "dropdownTotal": 2
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO81",
+  "name": "Sheet1.date10IE_OptOut",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO82",
+  "name": "Sheet1.acknowledgementNumber_OptOut",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO83",
+  "name": "OptingNewTaxRegime",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Opting in now",
+   "Not opting"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO85",
+  "name": "Sheet1.date10IE",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO86",
+  "name": "Sheet1.acknowledgementNumber",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO89",
+  "name": "sheet1.SeventhProvisoFlag",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH90",
+  "name": "Sheet1.DepositAmountFlag",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO90",
+  "name": "Sheet1.DepositAmount",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH91",
+  "name": "Sheet1.AggrigateAmountFlag",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO91",
+  "name": "Sheet1.AggrigateAmount",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH92",
+  "name": "Sheet1.AggrigateAmountFlag1",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO92",
+  "name": "Sheet1.AggrigateAmount1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO93",
+  "name": "clauseiv7provisio139iFlg",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH94",
+  "name": "clauseiv7provisio139iFlg_1",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO94",
+  "name": "clauseiv7provisio139iAmount_1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH95",
+  "name": "clauseiv7provisio139iFlg_2",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO95",
+  "name": "clauseiv7provisio139iAmount_2",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH96",
+  "name": "clauseiv7provisio139iFlg_3",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO96",
+  "name": "clauseiv7provisio139iAmount_3",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH97",
+  "name": "clauseiv7provisio139iFlg_4",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO97",
+  "name": "clauseiv7provisio139iAmount_4",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH98",
+  "name": "sheet1.RepAssessee",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH99",
+  "name": "sheet1.NameRepAssessee",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH100",
+  "name": "sheet1.EmailRepAssessee",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH101",
+  "name": "sheet1.CountryCodeRepAssessee",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AM101",
+  "name": "sheet1.MobileRepAssessee",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH102",
+  "name": "sheet1.CapacityRep",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Legal Heir",
+   "Manager",
+   "Guardian",
+   "Other"
+  ],
+  "dropdownTotal": 5
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH103",
+  "name": "sheet1.AddressRepAssessee",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH104",
+  "name": "sheet1.PANRepAssessee",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH105",
+  "name": "sheet1.AadhaarRepAssessee",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH106",
+  "name": "sheet1.ResidentialStatus1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO107",
+  "name": "sheet1.aadharValue",
+  "label": "If Yes, Please provide Aadhaar Number"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "W107",
+  "name": "sheet1.aadharFlag",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AH108",
+  "name": "sheet1.TaxStatus",
+  "label": "If Yes, Please provide Aadhaar Number",
+  "dropdown": [
+   "(Select)",
+   "Tax Refundable",
+   "Tax Payable",
+   "Nil Tax Balance"
+  ],
+  "dropdownTotal": 4
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO110",
+  "name": "IncD.IncomeFromBP",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO111",
+  "name": "IncD.IncomeFromSal_i",
+  "label": "2(i)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO112",
+  "name": "IncD.IncomeFromSal_ii",
+  "label": "i(a)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AY112",
+  "name": "Count1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ112",
+  "name": "CountOS1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB112",
+  "name": "TotAllowances_17abc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO113",
+  "name": "IncD.IncomeFromSal_iii",
+  "label": "i(b)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AY113",
+  "name": "Count2",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ113",
+  "name": "CountOS2",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO114",
+  "name": "IncD.IncomeFromSal_iv",
+  "label": "i(c)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AY114",
+  "name": "Count3",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ114",
+  "name": "CountOS3",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BC114",
+  "name": "HRA",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO115",
+  "name": "IncomeNotified89A",
+  "label": "i(d)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AY115",
+  "name": "Count4",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ115",
+  "name": "CountOS4",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO117",
+  "name": "IncomeNotified89A_AmountUS",
+  "label": "i(d)1"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO118",
+  "name": "IncomeNotified89A_AmountUK",
+  "label": "i(d)2"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO119",
+  "name": "IncomeNotified89A_AmountCan",
+  "label": "i(d)3"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO120",
+  "name": "IncomeNotifiedOther89A",
+  "label": "i(e )"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ120",
+  "name": "CountOS5",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO121",
+  "name": "IncD.IncomeFromSal_allow",
+  "label": "2(ii)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO127",
+  "name": "IncD_q1div",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO128",
+  "name": "Sheet1.HRA",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO129",
+  "name": "Increliefus89A",
+  "label": "2iia"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO130",
+  "name": "IncD.IncomeFromSal_net",
+  "label": "2(iii)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO130",
+  "name": "IncD_q2div",
+  "label": "2(iii)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO131",
+  "name": "IncD.IncomeFromSal_va",
+  "label": "2(iv)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO131",
+  "name": "IncD_q3div",
+  "label": "2(iv)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB131",
+  "name": "Return_Dropdown_Regime",
+  "label": "Return_Dropdown_Regime OLD formula--changed by Malli"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO132",
+  "name": "IncD.IncomeFromSal_iva",
+  "label": "iv(a)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO132",
+  "name": "IncD_q4div",
+  "label": "iv(a)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AY132",
+  "name": "sheet1.minvalue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO133",
+  "name": "IncD.IncomeFromSal_v",
+  "label": "iv(b)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO133",
+  "name": "IncD_q5div",
+  "label": "iv(b)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO134",
+  "name": "IncD.IncomeFromSal_ivc",
+  "label": "iv(c)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO135",
+  "name": "IncD.IncomeFromSal",
+  "label": "2(v)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO136",
+  "name": "IncD.TypeOfHP",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Self Occupied",
+   "Let Out",
+   "Deemed let out"
+  ],
+  "dropdownTotal": 4
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO137",
+  "name": "IncD.IncomeFromHP_i",
+  "label": "3(i)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO138",
+  "name": "IncD.IncomeFromHP_ia",
+  "label": "i(a)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO139",
+  "name": "IncD.IncomeFromHP_ib",
+  "label": "i(b)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO140",
+  "name": "IncD.IncomeFromHP_ii",
+  "label": "3(ii)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO141",
+  "name": "IncD.IncomeFromHP_iii",
+  "label": "3(iii)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO142",
+  "name": "IncD.IncomeFromHP_iv",
+  "label": "3(iv)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO143",
+  "name": "IncD.IncomeFromHP_v",
+  "label": "3(v)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO144",
+  "name": "IncD.IncomeFromHP_vi",
+  "label": "3(vi)"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AE145",
+  "name": "IncD.IncomeFromHP_Actvalue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO145",
+  "name": "IncD.IncomeFromHP",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ145",
+  "name": "HPLoss",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB145",
+  "name": "LossCheckHP",
+  "label": "losscheck"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO146",
+  "name": "IncD.IncomeFromOS",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB146",
+  "name": "FP_Value",
+  "label": "losscheck"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BC146",
+  "name": "TotFamilyPension",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB148",
+  "name": "Family_Pension",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO151",
+  "name": "Sheet1.Amount2",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "H151",
+  "name": "Sheet1.Nature2",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "Interest from Saving Bank Account",
+   "Interest from Deposit (Bank/Post Office/Cooperative Society)",
+   "Interest from Income Tax Refund",
+   "Any Other"
+  ],
+  "dropdownTotal": 5
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO152",
+  "name": "OSIncomeNotifiedOther89A",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ152",
+  "name": "OSIncomeNotified89ATot",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO153",
+  "name": "OSIncomeNotified89A",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ153",
+  "name": "IncD_qOS1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO154",
+  "name": "OSIncomeNotified89A_AmountUS",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO155",
+  "name": "OSIncomeNotified89A_AmountUK",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO156",
+  "name": "OSIncomeNotified89A_AmountCan",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO158",
+  "name": "IncD_q1OS1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO159",
+  "name": "IncD_q2OS1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO160",
+  "name": "IncD_q3OS1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO161",
+  "name": "IncD_q4OS1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO162",
+  "name": "IncD_q5OS1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO163",
+  "name": "IncD_dqdiv",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BQ163",
+  "name": "IncD.Q1Inc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BR163",
+  "name": "IncD.Q1Tax",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO164",
+  "name": "IncD_dq1div",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BQ164",
+  "name": "IncD.Q2Inc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BR164",
+  "name": "IncD.Q2Tax",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO165",
+  "name": "IncD_dq2div",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BQ165",
+  "name": "IncD.Q3Inc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BR165",
+  "name": "IncD.Q3Tax",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO166",
+  "name": "IncD_dq3div",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BQ166",
+  "name": "IncD.Q4Inc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BR166",
+  "name": "IncD.Q4Tax",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO167",
+  "name": "IncD_dq4div",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BQ167",
+  "name": "IncD.Q5Inc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BR167",
+  "name": "IncD.Q5Tax",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO168",
+  "name": "IncD_dq5div",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO169",
+  "name": "OSIncreliefus89A",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO170",
+  "name": "IncD.LessDeduction57",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AY170",
+  "name": "IncD.LessDeduction57New",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BC170",
+  "name": "temp57",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO171",
+  "name": "IncD.GrossTotIncome",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ171",
+  "name": "TOTAL_INCOME",
+  "label": "For VIA Deduction we should GTI in which 112A shouldn't include"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BC171",
+  "name": "temp5",
+  "label": "For VIA Deduction we should GTI in which 112A shouldn't include"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO172",
+  "name": "IncD.GrossTotIncome_New",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ173",
+  "name": "CONSUMED_TOTAL_INCOME",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO174",
+  "name": "IncD.InvestmentDropDown",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB175",
+  "name": "IncD.Section80C",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN175",
+  "name": "IncD.Section80C_Calc",
+  "label": "System Calculated"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB176",
+  "name": "IncD.Section80CCC",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN176",
+  "name": "IncD.Section80CCC_Calc",
+  "label": "System Calculated"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BA178",
+  "name": "sum_80CCC",
+  "label": "Newly updated by Bindu as per DE V0.4 - 24th Feb 26"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB181",
+  "name": "IncD.Section80CCD_SE",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN181",
+  "name": "IncD.Section80CCD_Calc_SE",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AY181",
+  "name": "INCOMESalCheck",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ181",
+  "name": "IncdSection80CCD_1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB181",
+  "name": "seniorNRcheck",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BA183",
+  "name": "sum_80CCD1",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB186",
+  "name": "IncD.Section80CCD1B_SE",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN186",
+  "name": "IncD.Section80CCD1B_Calc_SE",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB186",
+  "name": "NormalNRCheck",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BA188",
+  "name": "sum_80CCD1b",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AX195",
+  "name": "Pran_Number",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB196",
+  "name": "IncD.Section80CCD",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN196",
+  "name": "IncD.Section80CCD_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB197",
+  "name": "IncD.Section80CCG",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN197",
+  "name": "IncD.Section80CCG_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB199",
+  "name": "IncD.Section80DValue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN199",
+  "name": "IncD.Section80D_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ199",
+  "name": "IncdSection80D",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB200",
+  "name": "IncD.Section80D",
+  "label": "6gA"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BI200",
+  "name": "Section80DValue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "P200",
+  "name": "SELECT80D",
+  "label": "",
+  "dropdown": [
+   "(Select)"
+  ],
+  "dropdownTotal": 1
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB201",
+  "name": "IncD.Section80DB",
+  "label": "6gB"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ201",
+  "name": "IncdSection80DB",
+  "label": "80DB"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "P201",
+  "name": "SELECT80DB",
+  "label": "",
+  "dropdown": [
+   "(Select)"
+  ],
+  "dropdownTotal": 1
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB202",
+  "name": "IncD.Section80DC",
+  "label": "6gC"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BB202",
+  "name": "IncD.Section80DC_Calc",
+  "label": "80DC"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "P202",
+  "name": "SELECT80DC",
+  "label": "",
+  "dropdown": [
+   "(Select)"
+  ],
+  "dropdownTotal": 1
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB203",
+  "name": "IncD.Section80DD",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN203",
+  "name": "IncD.Section80DD_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BA203",
+  "name": "Sec80DDref",
+  "label": "80DD"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BE203",
+  "name": "TempNew80D",
+  "label": "Newly added"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "P203",
+  "name": "SELECT80DD",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB204",
+  "name": "IncD.Section80DDB",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN204",
+  "name": "IncD.Section80DDB_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BA204",
+  "name": "Sec80DDBref",
+  "label": "80DDB"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "H205",
+  "name": "SELECT80DDB",
+  "label": "80DDB-Medical treatment of specified disease",
+  "dropdown": [
+   "(Select)",
+   "1-Self or dependent",
+   "2-Self or Dependent - Senior Citizen"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "P205",
+  "name": "Sheet1.Specified_Disease",
+  "label": "Name of specified disease",
+  "dropdown": [
+   "(Select)",
+   "(a) Dementia",
+   "(b) Dystonia Musculorum Deformans",
+   "(c) Motor Neuron Disease",
+   "(d) Ataxia",
+   "(e) Chorea",
+   "(f) Hemiballismus",
+   "(g) Aphasia",
+   "(h) Parkinsons Disease",
+   "(i) Malignant Cancers",
+   "(j) Full Blown Acquired Immuno-Deficiency Syndrome (AIDS)",
+   "(k) Chronic Renal failure",
+   "(l) Hematological disorders",
+   "(m) Hemophilia",
+   "(n) Thalassaemia"
+  ],
+  "dropdownTotal": 15
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB206",
+  "name": "IncD.Section80E",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN206",
+  "name": "IncD.Section80E_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB207",
+  "name": "IncD.Section80EE",
+  "label": "C10"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN207",
+  "name": "IncD.Section80EE_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB208",
+  "name": "IncD.Section80EEA",
+  "label": "C11"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN208",
+  "name": "IncD.Section80EEA_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB209",
+  "name": "IncD.Section80EEB",
+  "label": "C12"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN209",
+  "name": "IncD.Section80EEB_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB210",
+  "name": "IncD.Section80G",
+  "label": "C13"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN210",
+  "name": "IncD.Section80G_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB211",
+  "name": "IncD.Section80GG",
+  "label": "C14"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN211",
+  "name": "IncD.Section80GG_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB212",
+  "name": "IncD.Section80GGA",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN212",
+  "name": "IncD.Section80GGA_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "M213",
+  "name": "Sheet1.AckNum",
+  "label": "Acknowledgement number of Form 10BA"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB214",
+  "name": "IncD.Section80GGC",
+  "label": "C15"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN214",
+  "name": "IncD.Section80GGC_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB215",
+  "name": "IncD.Section80QQB",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN215",
+  "name": "IncD.Section80QQB_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB216",
+  "name": "IncD.Section80RRB",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN216",
+  "name": "IncD.Section80RRB_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB217",
+  "name": "IncD.Section80TTA",
+  "label": "C16"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN217",
+  "name": "IncD.Section80TTA_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BD217",
+  "name": "tta",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB218",
+  "name": "IncD.Section80TTB",
+  "label": "C17"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN218",
+  "name": "IncD.Section80TTB_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BD218",
+  "name": "ttb",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB219",
+  "name": "IncD.Section80U",
+  "label": "C18"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN219",
+  "name": "IncD.Section80U_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "BA219",
+  "name": "Sec80Uref",
+  "label": "80U"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "P219",
+  "name": "SELECT80U",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB220",
+  "name": "IncD.AnyOtherDeductions",
+  "label": "C18a"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AN220",
+  "name": "IncD.AnyOtherDeductions_Calc",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "P220",
+  "name": "IncD.AnyOther",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AB222",
+  "name": "IncD.TotalChapVIADeductions_Input",
+  "label": "C19"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO222",
+  "name": "IncD.TotalChapVIADeductions",
+  "label": "C19"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ222",
+  "name": "SumViA",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO223",
+  "name": "IncD.TotalIncome",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO224",
+  "name": "IncD.TotalIncome_New",
+  "label": "C20"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO226",
+  "name": "IncD.TotalTaxPayable",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO227",
+  "name": "IncD.Rebate87A",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO228",
+  "name": "IncD.TaxPayableOnRebate",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO229",
+  "name": "IncD.SurchargeOnTaxPayable",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO230",
+  "name": "IncD.EducationCess",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO231",
+  "name": "IncD.GrossTaxLiability",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO232",
+  "name": "IncD.Section89",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ232",
+  "name": "IncD.Section89New",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO233",
+  "name": "IncD.Section89A",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ233",
+  "name": "IncD.Section89ANew",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO234",
+  "name": "IncD.NetTaxLiability",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO235",
+  "name": "IncD.IntrstPayUs234A",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO236",
+  "name": "IncD.IntrstPayUs234B",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ236",
+  "name": "Avalue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO237",
+  "name": "IncD.IntrstPayUs234C",
+  "label": "D10"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ237",
+  "name": "Bvalue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO238",
+  "name": "IncD.IntrstPayUs234F",
+  "label": "D11"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ238",
+  "name": "Cvalue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AZ239",
+  "name": "Fvalue",
+  "label": ""
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO240",
+  "name": "IncD.IntrstPayUs234I",
+  "label": "D11a"
+ },
+ {
+  "sheet": "Income Details",
+  "cell": "AO241",
+  "name": "IncD.TotTaxPlusIntrstPay",
+  "label": "D12"
+ },
+ {
+  "sheet": "HP",
+  "cell": "Y3",
+  "name": "NumRowsPropertyBlock",
+  "label": ""
+ },
+ {
+  "sheet": "HP",
+  "cell": "Y5",
+  "name": "PropertySectionCount",
+  "label": ""
+ },
+ {
+  "sheet": "HP",
+  "cell": "F6",
+  "name": "HP.AddrDetail1",
+  "label": "Address"
+ },
+ {
+  "sheet": "HP",
+  "cell": "G6",
+  "name": "HP.CityOrTownOrDistrict1",
+  "label": "Town/ City"
+ },
+ {
+  "sheet": "HP",
+  "cell": "H6",
+  "name": "HP.StateCode1",
+  "label": "State",
+  "dropdown": [
+   "(Select)",
+   "01-Andaman and Nicobar islands",
+   "02-Andhra Pradesh",
+   "03-Arunachal Pradesh",
+   "04-Assam",
+   "05-Bihar",
+   "06-Chandigarh",
+   "07-THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+   "09-Delhi",
+   "10-Goa",
+   "11-Gujarat",
+   "12-Haryana",
+   "13-Himachal Pradesh",
+   "14-Jammu and Kashmir",
+   "15-Karnataka",
+   "16-Kerala",
+   "17-Lakshadweep",
+   "18-Madhya Pradesh",
+   "19-Maharashtra",
+   "20-Manipur",
+   "21-Meghalaya",
+   "22-Mizoram",
+   "23-Nagaland",
+   "24-Odisha",
+   "25-Puducherry",
+   "26-Punjab",
+   "27-Rajasthan",
+   "28-Sikkim",
+   "29-Tamil Nadu",
+   "30-Tripura",
+   "31-Uttar Pradesh",
+   "32-West Bengal",
+   "33-Chattisgarh",
+   "34-Uttarakhand",
+   "35-Jharkhand",
+   "36-Telangana",
+   "37-Ladakh",
+   "99-Foreign"
+  ],
+  "dropdownTotal": 38
+ },
+ {
+  "sheet": "HP",
+  "cell": "I6",
+  "name": "HP.CountryCode1",
+  "label": "Country",
+  "dropdown": [
+   "(Select)",
+   "93-AFGHANISTAN",
+   "1001-ALAND ISLANDS",
+   "355-ALBANIA",
+   "213-ALGERIA",
+   "684-AMERICAN SAMOA",
+   "376-ANDORRA",
+   "244-ANGOLA",
+   "1264-ANGUILLA",
+   "1010-ANTARCTICA",
+   "1268-ANTIGUA AND BARBUDA",
+   "54-ARGENTINA",
+   "374-ARMENIA",
+   "297-ARUBA",
+   "61-AUSTRALIA",
+   "43-AUSTRIA",
+   "994-AZERBAIJAN",
+   "1242-BAHAMAS",
+   "973-BAHRAIN",
+   "880-BANGLADESH",
+   "1246-BARBADOS",
+   "375-BELARUS",
+   "32-BELGIUM",
+   "501-BELIZE",
+   "229-BENIN",
+   "1441-BERMUDA",
+   "975-BHUTAN",
+   "591-BOLIVIA (PLURINATIONAL STATE OF)",
+   "1002-BONAIRE, SINT EUSTATIUS AND SABA",
+   "387-BOSNIA AND HERZEGOVINA",
+   "267-BOTSWANA",
+   "1003-BOUVET ISLAND",
+   "55-BRAZIL",
+   "1014-BRITISH INDIAN OCEAN TERRITORY",
+   "673-BRUNEI DARUSSALAM",
+   "359-BULGARIA",
+   "226-BURKINA FASO",
+   "257-BURUNDI",
+   "238-CABO VERDE",
+   "855-CAMBODIA",
+   "237-CAMEROON",
+   "1-CANADA",
+   "1345-CAYMAN ISLANDS",
+   "236-CENTRAL AFRICAN REPUBLIC",
+   "235-CHAD",
+   "56-CHILE",
+   "86-CHINA",
+   "9-CHRISTMAS ISLAND",
+   "672-COCOS (KEELING) ISLANDS",
+   "57-COLOMBIA",
+   "270-COMOROS",
+   "242-CONGO",
+   "243-CONGO (DEMOCRATIC REPUBLIC OF THE)",
+   "682-COOK ISLANDS",
+   "506-COSTA RICA",
+   "225-CÔTE D'IVOIRE",
+   "385-CROATIA",
+   "53-CUBA",
+   "1015-CURAÇAO",
+   "357-CYPRUS"
+  ],
+  "dropdownTotal": 251
+ },
+ {
+  "sheet": "HP",
+  "cell": "J6",
+  "name": "HP.PinCode1",
+  "label": "91-INDIA"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K6",
+  "name": "HP.ZipCode1",
+  "label": "91-INDIA"
+ },
+ {
+  "sheet": "HP",
+  "cell": "G7",
+  "name": "HP.OwnerProperty1",
+  "label": "Owner of the Property",
+  "dropdown": [
+   "(Select)",
+   "Self",
+   "Minor",
+   "Spouse",
+   "Others"
+  ],
+  "dropdownTotal": 5
+ },
+ {
+  "sheet": "HP",
+  "cell": "H7",
+  "name": "HP.OwnerPropertyDescription1",
+  "label": "Owner of the Property"
+ },
+ {
+  "sheet": "HP",
+  "cell": "J7",
+  "name": "HP.CoOwnedYN1",
+  "label": "Is the property co-owned (if “YES” please enter following details)",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "HP",
+  "cell": "K8",
+  "name": "HP.SharePercent1",
+  "label": "Percentage share of other co-owner(s) in property (%)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "H19",
+  "name": "HP.ifLetOut1",
+  "label": "Type of House property?",
+  "dropdown": [
+   "(Select)",
+   "Self Occupied",
+   "Let Out",
+   "Deemed Let Out"
+  ],
+  "dropdownTotal": 4
+ },
+ {
+  "sheet": "HP",
+  "cell": "K25",
+  "name": "HP.AnnualLetableValue1",
+  "label": "Gross rent received/ receivable/ lettable value during the year"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I26",
+  "name": "HP.RentNotRealized1",
+  "label": "The amount of rent which cannot be realized"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I27",
+  "name": "HP.LocalTaxes1",
+  "label": "Tax paid to local authorities"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I28",
+  "name": "HP.TotalUnrealizedAndTax1",
+  "label": "Total (1b + 1c)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K29",
+  "name": "HP.BalanceALV1",
+  "label": "Annual value (1a – 1d) (nil, if self -occupied etc. as per section 23(2)of the Act)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K30",
+  "name": "HP.IncomeOfHPInOwnHand1",
+  "label": "Annual value of the property owned (own percentage share x 1e)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I31",
+  "name": "HP.ThirtyPercentOfBalance1",
+  "label": "30% of Annual Value (30% *1f)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I32",
+  "name": "HP.IntOnBorwCap1",
+  "label": "Interest payable on borrowed capital"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K41",
+  "name": "TotAmt.24b1",
+  "label": "Total Interest on borrowed capital u/s 24(b)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K42",
+  "name": "HP.TotalDeduct1",
+  "label": "Total (1g+1h)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K43",
+  "name": "HP.RentOfEarlierYrSec_AandAA1",
+  "label": "Arrears/Unrealized Rent received during the year Less 30%"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K44",
+  "name": "HP.IncomeOfHP1",
+  "label": "Income from house property 1 (1f – 1i + 1j)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "S45",
+  "name": "Country_1B",
+  "label": ""
+ },
+ {
+  "sheet": "HP",
+  "cell": "F47",
+  "name": "HP.AddrDetail2",
+  "label": "Address"
+ },
+ {
+  "sheet": "HP",
+  "cell": "G47",
+  "name": "HP.CityOrTownOrDistrict2",
+  "label": "Town/ City"
+ },
+ {
+  "sheet": "HP",
+  "cell": "H47",
+  "name": "HP.StateCode2",
+  "label": "State",
+  "dropdown": [
+   "(Select)",
+   "01-Andaman and Nicobar islands",
+   "02-Andhra Pradesh",
+   "03-Arunachal Pradesh",
+   "04-Assam",
+   "05-Bihar",
+   "06-Chandigarh",
+   "07-THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+   "09-Delhi",
+   "10-Goa",
+   "11-Gujarat",
+   "12-Haryana",
+   "13-Himachal Pradesh",
+   "14-Jammu and Kashmir",
+   "15-Karnataka",
+   "16-Kerala",
+   "17-Lakshadweep",
+   "18-Madhya Pradesh",
+   "19-Maharashtra",
+   "20-Manipur",
+   "21-Meghalaya",
+   "22-Mizoram",
+   "23-Nagaland",
+   "24-Odisha",
+   "25-Puducherry",
+   "26-Punjab",
+   "27-Rajasthan",
+   "28-Sikkim",
+   "29-Tamil Nadu",
+   "30-Tripura",
+   "31-Uttar Pradesh",
+   "32-West Bengal",
+   "33-Chattisgarh",
+   "34-Uttarakhand",
+   "35-Jharkhand",
+   "36-Telangana",
+   "37-Ladakh",
+   "99-Foreign"
+  ],
+  "dropdownTotal": 38
+ },
+ {
+  "sheet": "HP",
+  "cell": "I47",
+  "name": "HP.CountryCode2",
+  "label": "Country",
+  "dropdown": [
+   "(Select)",
+   "93-AFGHANISTAN",
+   "1001-ALAND ISLANDS",
+   "355-ALBANIA",
+   "213-ALGERIA",
+   "684-AMERICAN SAMOA",
+   "376-ANDORRA",
+   "244-ANGOLA",
+   "1264-ANGUILLA",
+   "1010-ANTARCTICA",
+   "1268-ANTIGUA AND BARBUDA",
+   "54-ARGENTINA",
+   "374-ARMENIA",
+   "297-ARUBA",
+   "61-AUSTRALIA",
+   "43-AUSTRIA",
+   "994-AZERBAIJAN",
+   "1242-BAHAMAS",
+   "973-BAHRAIN",
+   "880-BANGLADESH",
+   "1246-BARBADOS",
+   "375-BELARUS",
+   "32-BELGIUM",
+   "501-BELIZE",
+   "229-BENIN",
+   "1441-BERMUDA",
+   "975-BHUTAN",
+   "591-BOLIVIA (PLURINATIONAL STATE OF)",
+   "1002-BONAIRE, SINT EUSTATIUS AND SABA",
+   "387-BOSNIA AND HERZEGOVINA",
+   "267-BOTSWANA",
+   "1003-BOUVET ISLAND",
+   "55-BRAZIL",
+   "1014-BRITISH INDIAN OCEAN TERRITORY",
+   "673-BRUNEI DARUSSALAM",
+   "359-BULGARIA",
+   "226-BURKINA FASO",
+   "257-BURUNDI",
+   "238-CABO VERDE",
+   "855-CAMBODIA",
+   "237-CAMEROON",
+   "1-CANADA",
+   "1345-CAYMAN ISLANDS",
+   "236-CENTRAL AFRICAN REPUBLIC",
+   "235-CHAD",
+   "56-CHILE",
+   "86-CHINA",
+   "9-CHRISTMAS ISLAND",
+   "672-COCOS (KEELING) ISLANDS",
+   "57-COLOMBIA",
+   "270-COMOROS",
+   "242-CONGO",
+   "243-CONGO (DEMOCRATIC REPUBLIC OF THE)",
+   "682-COOK ISLANDS",
+   "506-COSTA RICA",
+   "225-CÔTE D'IVOIRE",
+   "385-CROATIA",
+   "53-CUBA",
+   "1015-CURAÇAO",
+   "357-CYPRUS"
+  ],
+  "dropdownTotal": 251
+ },
+ {
+  "sheet": "HP",
+  "cell": "J47",
+  "name": "HP.PinCode2",
+  "label": "91-INDIA"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K47",
+  "name": "HP.ZipCode2",
+  "label": "91-INDIA"
+ },
+ {
+  "sheet": "HP",
+  "cell": "G48",
+  "name": "HP.OwnerProperty2",
+  "label": "Owner of the Property\n(Please specify if others is selected )",
+  "dropdown": [
+   "(Select)",
+   "Self",
+   "Minor",
+   "Spouse",
+   "Others"
+  ],
+  "dropdownTotal": 5
+ },
+ {
+  "sheet": "HP",
+  "cell": "H48",
+  "name": "HP.OwnerPropertyDescription2",
+  "label": "Owner of the Property\n(Please specify if others is selected )"
+ },
+ {
+  "sheet": "HP",
+  "cell": "J48",
+  "name": "HP.CoOwnedYN2",
+  "label": "Is the property co-owned?",
+  "dropdown": [
+   "(Select)",
+   "Yes",
+   "No"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "HP",
+  "cell": "P48",
+  "name": "Block_1B",
+  "label": "Your percentage of share in the property.%"
+ },
+ {
+  "sheet": "HP",
+  "cell": "Q48",
+  "name": "Final_1B",
+  "label": "Your percentage of share in the property.%"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K49",
+  "name": "HP.SharePercent2",
+  "label": "Percentage share of other co-owner(s) in property (%)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "H60",
+  "name": "HP.ifLetOut2",
+  "label": "Type Of House Property?",
+  "dropdown": [
+   "(Select)",
+   "Self Occupied",
+   "Let Out",
+   "Deemed Let Out"
+  ],
+  "dropdownTotal": 4
+ },
+ {
+  "sheet": "HP",
+  "cell": "K66",
+  "name": "HP.AnnualLetableValue2",
+  "label": "Gross rent received/ receivable/ lettable value during the year"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I67",
+  "name": "HP.RentNotRealized2",
+  "label": "The amount of rent which cannot be realized"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I68",
+  "name": "HP.LocalTaxes2",
+  "label": "Tax paid to local authorities"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I69",
+  "name": "HP.TotalUnrealizedAndTax2",
+  "label": "Total (1b + 1c)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K70",
+  "name": "HP.BalanceALV2",
+  "label": "Annual value (1a – 1d) (nil, if self -occupied etc. as per section 23(2)of the Act)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K71",
+  "name": "HP.IncomeOfHPInOwnHand2",
+  "label": "Annual value of the property owned (own percentage share x 1e)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I72",
+  "name": "HP.ThirtyPercentOfBalance2",
+  "label": "30% of Annual Value (30% *1f)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "I73",
+  "name": "HP.IntOnBorwCap2",
+  "label": "Cannot exceed 2 lacs if not let out"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K82",
+  "name": "TotAmt.24b2",
+  "label": "Total Interest on borrowed capital u/s 24(b)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K83",
+  "name": "HP.TotalDeduct2",
+  "label": "Total (1g+1h)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K84",
+  "name": "HP.RentOfEarlierYrSec_AandAA2",
+  "label": "Arrears/Unrealized rent received during the year less 30%"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K85",
+  "name": "HP.IncomeOfHP2",
+  "label": "Income from house property 2 (2f – 2i + 2j)"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K86",
+  "name": "HP.PassTroughIncome",
+  "label": "Pass through income/Loss if any *"
+ },
+ {
+  "sheet": "HP",
+  "cell": "K87",
+  "name": "HP.TotalIncomeChargeableUnHP",
+  "label": "Income chargeable under the head ‘House Property’ ( Ʃ1k )  \n(If loss, put the figure in negative)  \nNote:-Maximum loss f"
+ },
+ {
+  "sheet": "BP",
+  "cell": "A1",
+  "name": "A1123456",
+  "label": ""
+ },
+ {
+  "sheet": "BP",
+  "cell": "H19",
+  "name": "BP_E1",
+  "label": "Gross Turnover or Gross Receipts  (E1 limited to Rs.2 Crores, however if [E1b + E1C] is less than or equal to 5% of E1 t"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I19",
+  "name": "BP_E1_GR",
+  "label": "Gross Turnover or Gross Receipts  (E1 limited to Rs.2 Crores, however if [E1b + E1C] is less than or equal to 5% of E1 t"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I20",
+  "name": "BP_E1a",
+  "label": "Through a/c payee cheque or a/c payee bank draft or bank electronic clearing system or prescribed electronic modes recei"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I21",
+  "name": "BP_E1a_E1b",
+  "label": "Receipts in Cash"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I22",
+  "name": "BP_E1b",
+  "label": "Any mode other than a and b"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I23",
+  "name": "BP_E2",
+  "label": "Presumptive income under section 44AD"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I24",
+  "name": "BP_E2a",
+  "label": "6% of E1a or the amount claimed to have been earned, whichever is higher"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I25",
+  "name": "BP_E2b",
+  "label": "8% of (E1b+E1c) or the amount claimed to have been earned, whichever is higher"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I26",
+  "name": "BP_E2_PI",
+  "label": "Total (a + b)"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I37",
+  "name": "BP_E3_GR",
+  "label": "Gross Receipts  (E3 limited to Rs.50 Lakhs, however if [E3b + E3c] is less than or equal to 5% of E3 then limit under E3"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I38",
+  "name": "BP_E3_a",
+  "label": "Through a/c payee cheque or a/c payee bank draft or bank electronic clearing system or prescribed electronic modes recei"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I39",
+  "name": "BP_E3_b",
+  "label": "Receipts in Cash"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I40",
+  "name": "BP_E3_c",
+  "label": "Any mode other than a and b"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I41",
+  "name": "BP_E4_PI44ADA",
+  "label": "Presumptive Income under section 44ADA (50% of E3)\nor the amount claimed to have been earned, whichever is higher"
+ },
+ {
+  "sheet": "BP",
+  "cell": "E50",
+  "name": "SCHBP_NOB2",
+  "label": ""
+ },
+ {
+  "sheet": "BP",
+  "cell": "N53",
+  "name": "Sheet44AE.NoOfMonthsNew",
+  "label": "Presumptive income u/s 44AE for the goods carriage  \"Computed at a minimum of Rs 1000 per ton per month in case tonnage "
+ },
+ {
+  "sheet": "BP",
+  "cell": "I64",
+  "name": "Sec44AE.Total",
+  "label": "Total"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I65",
+  "name": "BP_E3",
+  "label": "Presumptive Income from Goods Carriage under section 44AE \n[total of column (5)]"
+ },
+ {
+  "sheet": "BP",
+  "cell": "H68",
+  "name": "BP_E4_2",
+  "label": "Presumptive Income under section 44AD and 44AE  (E2 +E3)"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I69",
+  "name": "BP_E3_2",
+  "label": "Salary and interest paid to the partners"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I71",
+  "name": "BP_E7_IC44AE",
+  "label": "Presumptive Income u/s 44AE (E5-E6)"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I72",
+  "name": "BP_E8_IC_BP",
+  "label": "Income chargeable under Business or Profession (E2c+ E4+ E7)"
+ },
+ {
+  "sheet": "BP",
+  "cell": "D80",
+  "name": "SCHBP_GST",
+  "label": ""
+ },
+ {
+  "sheet": "BP",
+  "cell": "H82",
+  "name": "BP_E6",
+  "label": "INCOME CHARGEABLE UNDER BUSINESS (E4 - E5)"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I83",
+  "name": "TotalGST",
+  "label": "Total of value of Outward Supplies as per the GST returns filed"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I84",
+  "name": "Total.E10b",
+  "label": "Adjustment on account of"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I91",
+  "name": "TOTAL.GrossTurnOver",
+  "label": "Gross turnover or gross receipts as shown in column E1 or column E3 (as applicable)"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I94",
+  "name": "BP_E9",
+  "label": "Partners/ members own capital"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I95",
+  "name": "BP_E10",
+  "label": "Secured loans"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I96",
+  "name": "BP_E11",
+  "label": "Unsecured loans"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I97",
+  "name": "BP_E12",
+  "label": "Advances"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I98",
+  "name": "BP_E13",
+  "label": "Sundry creditors"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I99",
+  "name": "BP_E14",
+  "label": "Other liabilities"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I100",
+  "name": "BP_E15_total",
+  "label": "Total capital and liabilities (E11+E12+E13+E14+E15+E16)"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I101",
+  "name": "BP_E16",
+  "label": "Fixed assets"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I102",
+  "name": "BP_E18a",
+  "label": "Investments"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I103",
+  "name": "BP_E17",
+  "label": "Inventories"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I104",
+  "name": "BP_E18",
+  "label": "Sundry debtors"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I105",
+  "name": "BP_E19",
+  "label": "Balance with banks"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I106",
+  "name": "BP_E20",
+  "label": "Cash-in-hand"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I107",
+  "name": "BP_E21",
+  "label": "Loans and advances"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I108",
+  "name": "BP_E22",
+  "label": "Other Assets"
+ },
+ {
+  "sheet": "BP",
+  "cell": "I109",
+  "name": "BP_E23_total",
+  "label": "Total assets (E18+E18a+E19+E20+E21+E22+E23+E24)"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "C3",
+  "name": "tdsonsal",
+  "label": ""
+ },
+ {
+  "sheet": "TDS",
+  "cell": "S4",
+  "name": "TotIncSal_TDSHidden",
+  "label": ""
+ },
+ {
+  "sheet": "TDS",
+  "cell": "AA11",
+  "name": "TDS.IncSum",
+  "label": ""
+ },
+ {
+  "sheet": "TDS",
+  "cell": "H11",
+  "name": "TDSal.Sum",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "C26",
+  "name": "SchTDS2.Button",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "J35",
+  "name": "TDS2i.Sum",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "D36",
+  "name": "SchTDS.Button2",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "E43",
+  "name": "TDsOthr.SectionTDS_ii",
+  "label": "(Col 2)"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "K47",
+  "name": "TDS2ii.Sum",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "D48",
+  "name": "SchTDS.Button5",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TDS",
+  "cell": "C62",
+  "name": "SchTDS2ii.Button",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TCS",
+  "cell": "I11",
+  "name": "TCS.Sum",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "TCS",
+  "cell": "C12",
+  "name": "SchTDS.Button4",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "IT",
+  "cell": "D4",
+  "name": "bankpayment",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "O5",
+  "name": "IT.SAT",
+  "label": "SELF ASSESSMENT"
+ },
+ {
+  "sheet": "IT",
+  "cell": "Q5",
+  "name": "IT.AT",
+  "label": "Advance Tax"
+ },
+ {
+  "sheet": "IT",
+  "cell": "X5",
+  "name": "New_Exsat",
+  "label": "Exsat"
+ },
+ {
+  "sheet": "IT",
+  "cell": "H12",
+  "name": "TaxP.Sum",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "IT",
+  "cell": "D13",
+  "name": "SchTDS.Button3",
+  "label": "TOTAL"
+ },
+ {
+  "sheet": "IT",
+  "cell": "X21",
+  "name": "IT.Sat12",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Y21",
+  "name": "IT.Sat24",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "P24",
+  "name": "IT.Sat11",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Q24",
+  "name": "IT.Sat23",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "P25",
+  "name": "IT.Sat10",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Q25",
+  "name": "IT.Sat22",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "U27",
+  "name": "IT.Sat9",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "V27",
+  "name": "IT.Sat21",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "W29",
+  "name": "IT.Sat8",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "X29",
+  "name": "IT.Sat20",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "W30",
+  "name": "IT.Sat7",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "X30",
+  "name": "IT.Sat19",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "W31",
+  "name": "IT.Sat6",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "X31",
+  "name": "IT.Sat18",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "V32",
+  "name": "IT.Qtr5",
+  "label": "Quarter Income Break up"
+ },
+ {
+  "sheet": "IT",
+  "cell": "W32",
+  "name": "IT.Sat5",
+  "label": "Quarter Income Break up"
+ },
+ {
+  "sheet": "IT",
+  "cell": "X32",
+  "name": "IT.Sat17",
+  "label": "Quarter Income Break up"
+ },
+ {
+  "sheet": "IT",
+  "cell": "X35",
+  "name": "IT.Qtr4",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Y35",
+  "name": "IT.Sat4",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Z35",
+  "name": "IT.Sat16",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "W36",
+  "name": "IT.Qtr3",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "X36",
+  "name": "IT.Sat3",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Y36",
+  "name": "IT.Sat15",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Q39",
+  "name": "one",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "V73",
+  "name": "TN.Flag",
+  "label": "TN Case"
+ },
+ {
+  "sheet": "IT",
+  "cell": "W73",
+  "name": "IT.Qtr2",
+  "label": "FALSE"
+ },
+ {
+  "sheet": "IT",
+  "cell": "X73",
+  "name": "IT.Sat2",
+  "label": "FALSE"
+ },
+ {
+  "sheet": "IT",
+  "cell": "Y73",
+  "name": "IT.Sat14",
+  "label": "FALSE"
+ },
+ {
+  "sheet": "IT",
+  "cell": "W74",
+  "name": "IT.Qtr1",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "X74",
+  "name": "IT.Sat1",
+  "label": ""
+ },
+ {
+  "sheet": "IT",
+  "cell": "Y74",
+  "name": "IT.Sat13",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H4",
+  "name": "IncD.AdvanceTax",
+  "label": "Total Advance Tax Paid (from Schedule IT)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H5",
+  "name": "IncD.SelfAssessmentTax",
+  "label": "Total Self-Assessment Tax Paid (from Schedule IT)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H6",
+  "name": "IncD.TDS",
+  "label": "Total TDS Claimed (total of column 4 of Schedule-TDS1 and column 6 of Schedule-TDS2(i) and TDS 2(ii) )"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H7",
+  "name": "IncD.TCS",
+  "label": "Total TCS Collected (total of column (5) of Schedule-TCS)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I8",
+  "name": "IncD.TotalTaxesPaid",
+  "label": "Total Taxes Paid (D13+ D14 + D15 + D16)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H9",
+  "name": "Button_epaytax",
+  "label": "Amount payable  (D12 – D17, If D12 > D17)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I9",
+  "name": "IncD.BalTaxPayable",
+  "label": "Amount payable  (D12 – D17, If D12 > D17)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I10",
+  "name": "IncD.RefundDue",
+  "label": "Refund  (D17 – D12, If D17 > D12)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "N13",
+  "name": "grosssalandexemptincome_hidden",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "P13",
+  "name": "Sec38Amt",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "Q13",
+  "name": "Agri_income",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "N14",
+  "name": "grossSalary_exempt_familyPension",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "E15",
+  "name": "others_button",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I17",
+  "name": "Total_Exempt",
+  "label": "Total"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I19",
+  "name": "IncD.Sale_LTCG",
+  "label": "Total sale consideration"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I20",
+  "name": "IncD.Cost_LTCG",
+  "label": "Total cost of acquisition"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I21",
+  "name": "IncD.CG_LTCG",
+  "label": "Long term capital gains as per sec 112A"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I23",
+  "name": "Sheet9.IBANSELECT",
+  "label": "Do you have a bank account in India (Non-residents claiming refund with no bank account in India may select NO)?",
+  "dropdown": [
+   "(Select)",
+   "YES",
+   "NO"
+  ],
+  "dropdownTotal": 3
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I24",
+  "name": "NumBankAccountsHeld",
+  "label": "Total number of savings and current bank accounts held by you at any time during the previous year (excluding dormant ac"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "F28",
+  "name": "Refund.IFSC",
+  "label": "IFS Code of the Bank"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "G28",
+  "name": "Refund.BankName",
+  "label": "Name of the Bank"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H28",
+  "name": "Refund.AcntNo",
+  "label": "Account Number"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I28",
+  "name": "Refund.CashDeposited",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "D34",
+  "name": "TPV.Button",
+  "label": "If any one field is filled then entire row shall be mandatory"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "F37",
+  "name": "Sheet9.IBAN",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "G37",
+  "name": "Sheet9.IBANBANK",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H37",
+  "name": "Sheet9.IBANCOUNTRY",
+  "label": "",
+  "dropdown": [
+   "(Select)",
+   "93-AFGHANISTAN",
+   "1001-ALAND ISLANDS",
+   "355-ALBANIA",
+   "213-ALGERIA",
+   "684-AMERICAN SAMOA",
+   "376-ANDORRA",
+   "244-ANGOLA",
+   "1264-ANGUILLA",
+   "1010-ANTARCTICA",
+   "1268-ANTIGUA AND BARBUDA",
+   "54-ARGENTINA",
+   "374-ARMENIA",
+   "297-ARUBA",
+   "61-AUSTRALIA",
+   "43-AUSTRIA",
+   "994-AZERBAIJAN",
+   "1242-BAHAMAS",
+   "973-BAHRAIN",
+   "880-BANGLADESH",
+   "1246-BARBADOS",
+   "375-BELARUS",
+   "32-BELGIUM",
+   "501-BELIZE",
+   "229-BENIN",
+   "1441-BERMUDA",
+   "975-BHUTAN",
+   "591-BOLIVIA (PLURINATIONAL STATE OF)",
+   "1002-BONAIRE, SINT EUSTATIUS AND SABA",
+   "387-BOSNIA AND HERZEGOVINA",
+   "267-BOTSWANA",
+   "1003-BOUVET ISLAND",
+   "55-BRAZIL",
+   "1014-BRITISH INDIAN OCEAN TERRITORY",
+   "673-BRUNEI DARUSSALAM",
+   "359-BULGARIA",
+   "226-BURKINA FASO",
+   "257-BURUNDI",
+   "238-CABO VERDE",
+   "855-CAMBODIA",
+   "237-CAMEROON",
+   "1-CANADA",
+   "1345-CAYMAN ISLANDS",
+   "236-CENTRAL AFRICAN REPUBLIC",
+   "235-CHAD",
+   "56-CHILE",
+   "86-CHINA",
+   "9-CHRISTMAS ISLAND",
+   "672-COCOS (KEELING) ISLANDS",
+   "57-COLOMBIA",
+   "270-COMOROS",
+   "242-CONGO",
+   "243-CONGO (DEMOCRATIC REPUBLIC OF THE)",
+   "682-COOK ISLANDS",
+   "506-COSTA RICA",
+   "225-CÔTE D'IVOIRE",
+   "385-CROATIA",
+   "53-CUBA",
+   "1015-CURAÇAO",
+   "357-CYPRUS"
+  ],
+  "dropdownTotal": 251
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I37",
+  "name": "Sheet9.IBANACCNO",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "E39",
+  "name": "TPV.Button1",
+  "label": ""
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "G41",
+  "name": "Ver.AssesseeVerName",
+  "label": "adpak4.701005120"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I41",
+  "name": "Ver.FatherName",
+  "label": "son/daughter of"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H43",
+  "name": "Ver.Capacity",
+  "label": "provisions of the Income-tax Act, 1961,  I further declare that I am making returns in my capacity as",
+  "dropdown": [
+   "(Select)",
+   "Self",
+   "Representative",
+   "Karta",
+   "Partner"
+  ],
+  "dropdownTotal": 5
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H44",
+  "name": "Ver.PAN",
+  "label": "make this return and verify it.  I am holding permanent account number"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "E45",
+  "name": "Ver.Place",
+  "label": "Place"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "H45",
+  "name": "Ver.Date",
+  "label": "Date (System Date)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "C49",
+  "name": "Ver.IdentificationNoOfTRP",
+  "label": "TRP PIN (10 Digit)"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "G49",
+  "name": "Ver.NameOfTRP",
+  "label": "Name of TRP"
+ },
+ {
+  "sheet": "Taxes Paid and Verification",
+  "cell": "I50",
+  "name": "Ver.ReImbFrmGov",
+  "label": "Amount to be paid to TRP"
+ }
+]

@@ -1,0 +1,38 @@
+cell	formula	cached_value
+M3	IF(AND(Condn_1=1,Condn_2=1,Condn_3=1,Condn_4=1,Condn_5=1,Condn_6=1),1,0)	0
+O3	IF(Sheet8b.TotalIncome=0,1,0)	1
+Q3	IF(IF(sheet10.NetPLFromSpecifiedBus="",0,sheet10.NetPLFromSpecifiedBus)=sheet10.ProfBfrTaxPL,1,0)	1
+S3	IF(sheet12.AdjustedPLFrmSpecifiedBus<0,1,0)	0
+U3	IF(IF(sheet12.DeductUs35AD="",0,sheet12.DeductUs35AD)>0,1,0)	0
+W3	IF(Sheet8b.TotalTI=0,1,0)	1
+Y3	IF(AND(Sheet8b.CurrentYearLoss =0,Sheet8b.BroughtFwdLossesSetoff =0),1,0)	1
+J4	IF(Amt_Condn=1,sheet12.ProfLossFromSpecifiedBus,Sheet8b.TotalIncome)	0
+H6	MAX(0,MIN(scvia.TotPartCchapterVIA_Calc, (Sheet8b.GrossTotalIncome-scvia.TotPartBchapterVIA_Calc-scvia.TotPartCAandDchapterVIA_Calc)))	0
+H7	MIN(busipofincl.IncOfCurYrAfterSetOffBFLosses2,AA10.TotalDedUs10Sub)	0
+N7	AMT.AdjustedUnderSec115JC3a	0
+O7	MAX(0,5000000-AMT.AdjustedUnderSec115JC3a2_50L)	5000000
+P7	IF(bacValue=1,0,IF(AMT.Total <=0,0,IF(AMT.AdjustedUnderSec115JC <=2000000,0,MAX(0,IF(sheet1.Foreign_Exchange="Yes",ROUND(AMT.AdjustedUnderSec115JC3a2New_50L+AMT.AdjustedUnderSec115JC3b2New_50L,0),ROUND(AMT.AdjustedUnderSec115JC3a2New_50L+AMT.AdjustedUnderSec115JC3b2New_50L,0))))))	0
+N8	0.09*(IF(AMT.AdjustedUnderSec115JC3a2_5cr<0,0,IF(AMT.AdjustedUnderSec115JC3b2_5cr<0,AMT.AdjustedUnderSec115JC3a2_5cr+AMT.AdjustedUnderSec115JC3b2_5cr,AMT.AdjustedUnderSec115JC3a2_5cr)))	0
+O8	0.185*(IF(AMT.AdjustedUnderSec115JC3b2_50L<0,0,IF(AMT.AdjustedUnderSec115JC3a2_50L<0,AMT.AdjustedUnderSec115JC3a2_50L+AMT.AdjustedUnderSec115JC3b2_50L,AMT.AdjustedUnderSec115JC3b2_50L)))	925000
+H9	AMT.DeductClaimSec6A+AMT.DeductClaimSec10AA+AMT.DeductClaimSec35AD	0
+M9	0.09*(IF(AMT.AdjustedUnderSec115JC3a<0,0,IF(AMT.AdjustedUnderSec115JC3b<0,AMT.AdjustedUnderSec115JC3a+AMT.AdjustedUnderSec115JC3b,AMT.AdjustedUnderSec115JC3a)))	0
+N9	AMT.AdjustedUnderSec115JC3a	0
+O9	MAX(0,50000000-AMT.AdjustedUnderSec115JC3a2_5cr)	50000000
+P9	IF(bacValue=1,0,IF(AMT.Total <=0,0,IF(AMT.AdjustedUnderSec115JC <=2000000,0,MAX(0,IF(sheet1.Foreign_Exchange="Yes",ROUND(AMT.AdjustedUnderSec115JC3a2New_5cr+AMT.AdjustedUnderSec115JC3b2New_5cr,0),ROUND(AMT.AdjustedUnderSec115JC3a2New_5cr+AMT.AdjustedUnderSec115JC3b2New_5cr,0))))))	0
+J10	IF(bacValue=1,0,MAX(0,(AMT.TotalIncItem11+AMT.Total)))	0
+M10	0.185*(IF(AMT.AdjustedUnderSec115JC3b<0,0,IF(AMT.AdjustedUnderSec115JC3a<0,AMT.AdjustedUnderSec115JC3a+AMT.AdjustedUnderSec115JC3b,AMT.AdjustedUnderSec115JC3b)))	0
+N10	0.09*(IF(AMT.AdjustedUnderSec115JC3a2_5cr<0,0,IF(AMT.AdjustedUnderSec115JC3b2_5cr<0,AMT.AdjustedUnderSec115JC3a2_5cr+AMT.AdjustedUnderSec115JC3b2_5cr,AMT.AdjustedUnderSec115JC3a2_5cr)))	0
+O10	0.185*(IF(AMT.AdjustedUnderSec115JC3b2_5cr<0,0,IF(AMT.AdjustedUnderSec115JC3a2_5cr<0,AMT.AdjustedUnderSec115JC3a2_5cr+AMT.AdjustedUnderSec115JC3b2_5cr,AMT.AdjustedUnderSec115JC3b2_5cr)))	9250000
+N11	AMT.AdjustedUnderSec115JC3a	0
+O11	MAX(0,20000000-AMT.AdjustedUnderSec115JC3a2_2cr)	20000000
+P11	IF(bacValue=1,0,IF(AMT.Total <=0,0,IF(AMT.AdjustedUnderSec115JC <=2000000,0,MAX(0,IF(sheet1.Foreign_Exchange="Yes",ROUND(AMT.AdjustedUnderSec115JC3a2New_2cr+AMT.AdjustedUnderSec115JC3b2New_2cr,0),ROUND(AMT.AdjustedUnderSec115JC3a2New_2cr+AMT.AdjustedUnderSec115JC3b2New_2cr,0))))))	0
+J12	AMT.AdjustedUnderSec115JC-AMT.AdjustedUnderSec115JC3a	0
+N12	0.09*(IF(AMT.AdjustedUnderSec115JC3a2_2cr<0,0,IF(AMT.AdjustedUnderSec115JC3b2_2cr<0,AMT.AdjustedUnderSec115JC3a2_2cr+AMT.AdjustedUnderSec115JC3b2_2cr,AMT.AdjustedUnderSec115JC3a2_2cr)))	0
+O12	0.185*(IF(AMT.AdjustedUnderSec115JC3b2_2cr<0,0,IF(AMT.AdjustedUnderSec115JC3a2_2cr<0,AMT.AdjustedUnderSec115JC3a2_2cr+AMT.AdjustedUnderSec115JC3b2_2cr,AMT.AdjustedUnderSec115JC3b2_2cr)))	3700000
+J13	IF(bacValue=1,0,IF(AMT.Total <=0,0,IF(AMT.AdjustedUnderSec115JC <=2000000,0,MAX(0,IF(sheet1.Foreign_Exchange="Yes",ROUND(AMT.AdjustedUnderSec115JC3aNew+AMT.AdjustedUnderSec115JC3bNew,0),ROUND(AMT.AdjustedUnderSec115JC3aNew+AMT.AdjustedUnderSec115JC3bNew,0))))))	0
+M13	IF(bacValue=1,0,IF(AMT.Total <=0,0,IF(AMT.AdjustedUnderSec115JC <=2000000,0,MAX(0,IF(sheet1.Foreign_Exchange="Yes",ROUND(0.09*AMT.AdjustedUnderSec115JC,0),ROUND(0.185*AMT.AdjustedUnderSec115JC,0))))))	0
+N13	AMT.AdjustedUnderSec115JC3a	0
+O13	MAX(0,10000000-AMT.AdjustedUnderSec115JC3a2_1cr)	10000000
+P13	IF(bacValue=1,0,IF(AMT.Total <=0,0,IF(AMT.AdjustedUnderSec115JC <=2000000,0,MAX(0,IF(sheet1.Foreign_Exchange="Yes",ROUND(AMT.AdjustedUnderSec115JC3a2New_1cr+AMT.AdjustedUnderSec115JC3b2New_1cr,0),ROUND(AMT.AdjustedUnderSec115JC3a2New_1cr+AMT.AdjustedUnderSec115JC3b2New_1cr,0))))))	0
+N14	0.09*(IF(AMT.AdjustedUnderSec115JC3a2_1cr<0,0,IF(AMT.AdjustedUnderSec115JC3b2_1cr<0,AMT.AdjustedUnderSec115JC3a2_1cr+AMT.AdjustedUnderSec115JC3b2_1cr,AMT.AdjustedUnderSec115JC3a2_1cr)))	0
+O14	0.185*(IF(AMT.AdjustedUnderSec115JC3b2_1cr<0,0,IF(AMT.AdjustedUnderSec115JC3a2_1cr<0,AMT.AdjustedUnderSec115JC3a2_1cr+AMT.AdjustedUnderSec115JC3b2_1cr,AMT.AdjustedUnderSec115JC3b2_1cr)))	1850000

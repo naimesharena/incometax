@@ -1,0 +1,107 @@
+{
+  "personal": {
+    "first_name": "Ravi",
+    "middle_name": "Kumar",
+    "last_name": "Sharma",
+    "pan": "BQKPS1234F",
+    "dob": "1991-06-15",
+    "aadhaar": "987654321098",
+    "employer_category": "OTH",
+    "address": {
+      "residence_no": "B-42",
+      "residence_name": "Sunrise Residency",
+      "road_or_street": "MG Road",
+      "locality_or_area": "Andheri West",
+      "city_or_town_or_district": "Mumbai",
+      "state_code": "19",
+      "pin_code": 400053,
+      "country_code": "91",
+      "country_code_mobile": 91,
+      "mobile_no": 9876543210,
+      "email_address": "ravi.sharma@example.com"
+    },
+    "secondary_address_same": true
+  },
+  "filing": {
+    "return_section": 11,
+    "opt_out_new_regime": false,
+    "filing_date": "2026-07-15",
+    "is_representative": false,
+    "seventh_provisio": false
+  },
+  "salary": {
+    "salary_17_1": 960000,
+    "perquisites_17_2": 0,
+    "profits_17_3": 0,
+    "exempt_allowances": [
+      { "section": "10(14)(i)", "amount": 20000 }
+    ],
+    "hra": {
+      "place": "2",
+      "basic_salary": 480000,
+      "da": 0,
+      "hra_received": 192000,
+      "rent_paid": 180000
+    },
+    "entertainment_allowance": 0,
+    "professional_tax": 2400
+  },
+  "house_properties": [],
+  "other_sources": [
+    { "nature": "SAV", "amount": 8500 },
+    { "nature": "IFD", "amount": 15000 }
+  ],
+  "ltcg112a": { "sale_consideration": 250000, "cost_of_acquisition": 150000 },
+  "exempt_income": [
+    { "category": "AGRI", "sub_category": "10(1)", "description": "Agricultural income", "amount": 4000 }
+  ],
+  "deductions": {
+    "80c": {
+      "amount": 150000,
+      "items": [
+        { "identification_no": "LIC-POL-88312", "amount": 50000 },
+        { "identification_no": "PPF-SBI-44321", "amount": 100000 }
+      ]
+    },
+    "80ccd2": 96000,
+    "80d": {
+      "self_family_senior_citizen": "N",
+      "self_family": {
+        "premium": 18000,
+        "preventive": 2000,
+        "policies": [
+          { "insurer": "Star Health Insurance", "policy_no": "SH-2026-77881", "amount": 18000 }
+        ]
+      },
+      "parents_senior_citizen": "P"
+    },
+    "80gg": { "amount": 0, "rent_paid": 0 },
+    "80tta": 0,
+    "80ttb": 0,
+    "80cch": 0
+  },
+  "tax_paid": {
+    "tds_on_salary": [
+      { "tan": "MUMB12345E", "employer_name": "Acme Technologies Pvt Ltd", "salary_income": 960000, "tds": 35000 }
+    ],
+    "tds_others": [
+      { "tan": "MUMS67890F", "deductor_name": "State Bank of India", "section": "94A",
+        "amount_paid": 15000, "deduction_year": "2025", "tds_deducted": 1500, "tds_claimed": 1500 }
+    ],
+    "tds3": [],
+    "tcs": [],
+    "challans": []
+  },
+  "relief_89": 0,
+  "bank_accounts": [
+    { "ifsc": "SBIN0012345", "bank_name": "State Bank of India", "account_no": "12345678901",
+      "account_type": "SB", "use_for_refund": true }
+  ],
+  "verification": {
+    "name": "Ravi Kumar Sharma",
+    "father_name": "Mahesh Sharma",
+    "pan": "BQKPS1234F",
+    "place": "Mumbai",
+    "capacity": "S"
+  }
+}

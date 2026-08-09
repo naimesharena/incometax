@@ -1,0 +1,83 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T
+3			SCH HP			Details of Income from House Property (Fields marked in RED must not be left Blank)
+4				1		Address Of Property (Note : Do not leave address blank )	Town/ City	State	Country	PIN Code	Zip Code
+5								(Select)	(Select)
+6						Owner of the Property
+(Please specify if others is selected )	(Select)		Is the property co-owned?  	(Select)	Your percentage of share in the property.%    
+7						S.No	Name of co owner(s)	PAN of Co-owner(s)	Aadhaar Number of  the Co-owner(s)	Percentage share of other co-owner(s) in property%				35
+8						1								2
+9						2														tempPercentagecountValue
+10						3
+11						4
+12						5
+13						6
+14						7
+15						Type Of House Property?		(Select)
+16						S.No	Name(s) of Tenant (s) (if let out)	PAN  of Tenant(s) (if available)	Aadhaar Number of Tenant (s)	PAN / TAN of Tenant(s) (if TDS credit is claimed)
+17						1
+18						2
+19						3
+20					a	Gross Rent received or receivable or letable value				a
+21					b	The amount of rent which cannot be realized
+22					c	Tax paid to local authorities
+23					d	Total (b + c)			0
+24					e	Annual value (a – d) (nil, if self -occupied etc. as per section 23(2)of the Act)				e	0
+25					f	Annual value of the property owned (own percentage share x e)				f	0
+26					g	30% of f			0
+27					h	Interest payable on borrowed capital 		Cannot exceed 2 lacs if not let out	0
+28				Section 24(b)	 Interest on borrowed capital
+29				Sl. No.	Loan taken from 	Name of the bank / Institution / Person from which the loan is taken	Loan Account number of the Bank/ Institution	Date of sanction of loan	Total amount of loan	Loan outstanding as on last date of financial year	Interest on Borrowed capital u/s 24(b)
+30					i	ii	iii	iv	v	vi	vii
+31			___	1
+32			___	2
+33			___	3
+34			___	4
+35					Total Interest on borrowed capital u/s 24(b)						0
+36					i	Total (g + h)				i	0
+37					j	Arrears/Unrealized Rent received during the year Less 30%				j
+38					k	Income from house property (f – i + j)				k	0
+39				2		Address Of Property (Note : Do not leave address blank )	Town/ City	State	Country	PIN Code	Zip Code
+40								(Select)	(Select)
+41						Owner of the Property
+(Please specify if others is selected )	(Select)		Is the property co-owned?  	(Select)	Your percentage of share in the property.%    
+42						S.No	Name of co owner(s)	PAN of Co-owner(s)	Aadhaar Number of  the Co-owner(s)	Percentage share of other co-owner(s) in property%
+43						1
+44						2
+45						3
+46						4
+47						5
+48						6
+49						7
+50						Type Of House Property?		(Select)
+51						S.No	Name(s) of Tenant (s) (if let out)	PAN  of Tenant(s) (if available)	Aadhaar Number of Tenant (s)	PAN / TAN of Tenant(s) (if TDS credit is claimed)
+52						1
+53						2
+54						3
+55					a	Gross Rent received or receivable or letable value				a
+56					b	The amount of rent which cannot be realized
+57					c	Tax paid to local authorities
+58					d	Total (b + c)			0
+59					e	Annual value (a – d) (nil, if self -occupied etc. as per section 23(2)of the Act)				e	0
+60					f	Annual value of the property owned (own percentage share x e)				f	0
+61					g	30% of f			0
+62					h	Interest payable on borrowed capital 		Cannot exceed 2 lacs if not let out	0
+63				Section 24(b)	 Interest on borrowed capital
+64				Sl. No.	Loan taken from 	Name of the bank / Institution / Person from which the loan is taken	Loan Account number of the Bank/ Institution	Date of sanction of loan	Total amount of loan	Loan outstanding as on last date of financial year	Interest on Borrowed capital u/s 24(b)
+65					i	ii	iii	iv	v	vi	vii
+66			___	1
+67			___	2
+68			___	3
+69			___	4
+70					Total Interest on borrowed capital u/s 24(b)						0
+71					i	Total (g + h)				i	0
+72					j	Arrears/Unrealized Rent received during the year Less 30%				j
+73					k	Income from house property  
+(1f-1i + 1j)
+(fill up details separately for each property) 
+(in case of let out, for wireframes)
+Income from House Property 1 (ii-i)  (in case of self-occupied, for wireframes. Please refer screens for formulae)				k	0
+74				2	Pass through income/Loss if any *					2	0			0
+75				3	Income under the head “Income from house property”(∑1k + 2)
+(if negative take the figure to 2i of schedule CYLA)
+
+Income under the head “Income from house property’ (1A+ 1B+…. + 2) (for wireframes)					3	0			0

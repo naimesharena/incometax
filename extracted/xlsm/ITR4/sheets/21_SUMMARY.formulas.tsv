@@ -1,0 +1,12 @@
+cell	formula	cached_value
+C4	Ver.AssesseeVerName	
+C5	Ver.FatherName	
+C6	Ver.Place	0
+C7	Ver.Date	29/06/2026
+C8	sheet1.PAN	0
+C9	Ver.PAN	0
+D12	SUM(TDSal.Sum)	0
+D13	SUM(TDS2i.Sum)	0
+D14	SUM(TDS2ii.Sum)	0
+D15	SUM(TaxP.Sum)	0
+D16	TCS.Sum	0

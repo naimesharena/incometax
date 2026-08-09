@@ -1,0 +1,13 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG
+3			Schedule 112A		From sale of equity share in a company or unit of equity oriented fund or unit of a business trust on which STT is paid under section 112A
+4				Sl. No.	Share/Unit acquired (On or before / after 31st Jan 2018)	Share/Unit Transferred (Before / on or After 23rd July 2024)	ISIN Code	Name of the Share/Unit	No. of Shares/Units	Sale-price per Share/Unit	Full Value of Consideration
+If shares/units are acquired on or before 31st January, 2018 (Total Sale Value) (4*5) or  If  shares/units are acquired after 31st January, 2018 - Please enter Full Value of Consideration 	Cost of acquisition without indexation (higher of 8 or 9 ) 	Cost of acquisition	If the long term capital asset was acquired before 01.02.2018, Lower of 6 & 11	Fair Market Value per share/unit as on 31st January,2018	Total Fair Market Value as on 31st January, 2018 of capital asset as per section 55(2)(ac)- (4*10)	Full value of Consideration - item 4 (b)(i)(B)(2) of LTCG Schedule of ITR3	Cost of improvement without indexation -  item 5 (b)(ii) of LTCG Schedule of ITR3	Expenditure wholly and exclusively in connection with transfer	Total deductions (7+12) 	Balance (6-13) - Item 4 (a) of LTCG Schedule of ITR2
+5				(Col 1)	(Col 1a)	(Col 1b)	(Col 2)	(Col 3)	(Col 4)	(Col 5)	(Col 6)	(Col 7)	(Col 8)	(Col 9)	(Col 10)	(Col 11)	(Col 12)	(Col 13)	(Col 12)	(Col 13)	(Col 14)
+6				1	(Select)						0	0		0		0	0			0	0												FALSE
+7				2	(Select)						0	0		0		0	0			0	0												FALSE
+8				3	(Select)						0	0		0		0	0			0	0												FALSE
+9				4	(Select)						0	0		0		0	0			0	0												FALSE
+11				Total							0	0	0	0		0	0	0	0	0	0
+12				Total of column (14) where transfer was before 23rd July 2024 (for each column)
+13				Total of column (14) where transfer was on or after 23rd July 2024 (for each column)
+14				Total of LTCG u/s 112A (i + ii)

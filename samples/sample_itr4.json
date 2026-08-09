@@ -1,0 +1,90 @@
+{
+  "personal": {
+    "first_name": "Dhruv",
+    "last_name": "Patel",
+    "pan": "CQWPP5678K",
+    "dob": "1990-09-05",
+    "aadhaar": "912345678901",
+    "employer_category": "NA",
+    "father_name": "Mahesh Patel",
+    "address": {
+      "residence_no": "14",
+      "residence_name": "Krishna Society",
+      "road_or_street": "Ghoddod Road",
+      "locality_or_area": "Athwalines",
+      "city_or_town_or_district": "Surat",
+      "state_code": "06",
+      "country_code": "91",
+      "pin_code": 395001,
+      "country_code_mobile": 91,
+      "mobile_no": 9898989898,
+      "email_address": "dhruv.patel@example.com"
+    }
+  },
+  "filing": {
+    "return_section": 11,
+    "opt_out_new_regime": false,
+    "filing_date": "2026-07-10"
+  },
+  "presumptive": {
+    "44ad": [
+      {"name": "Patel General Store", "code": "09028",
+       "description": "Retail trading - others",
+       "gross_turnover": 4250000, "turnover_bank": 3400000,
+       "turnover_cash": 650000, "turnover_other": 200000}
+    ],
+    "44ada": [
+      {"name": "Tuition Classes", "code": "18017",
+       "gross_receipts": 620000, "receipts_bank": 620000}
+    ],
+    "44ae": {
+      "vehicles": [
+        {"reg_no": "GJ05XY4321", "owned": "OWN", "tonnage": 0, "months": 12,
+         "heavy": false},
+        {"reg_no": "GJ19ZT9988", "owned": "LEASE", "tonnage": 16, "months": 7,
+         "heavy": true}
+      ]
+    },
+    "financials": {
+      "cash_in_hand": 38000, "bank_balance": 145000, "sundry_debtors": 90000,
+      "inventories": 410000, "fixed_assets": 260000, "total_assets": 943000,
+      "sundry_creditors": 60000, "partner_capital": 883000,
+      "total_capital_liabilities": 943000
+    }
+  },
+  "salary": {
+    "components": [
+      {"code": "BASIC", "amount": 300000},
+      {"code": "SPECIAL", "amount": 60000}
+    ]
+  },
+  "other_sources": [
+    {"nature": "SAV", "amount": 12000, "description": "Savings interest"},
+    {"nature": "IFD", "amount": 30000, "description": "FD interest"}
+  ],
+  "deductions": {
+    "80c": {"amount": 100000},
+    "80tta": 10000
+  },
+  "tax_paid": {
+    "tds_others": [
+      {"tan": "SRTB01234D", "deductor_name": "SBI", "section": "94A",
+       "amount_paid": 300000, "tds_deducted": 3000, "tds_claimed": 3000}
+    ],
+    "challans": [
+      {"bsr_code": "0011223", "date": "2026-03-15", "challan_no": 211, "amount": 20000}
+    ]
+  },
+  "bank_accounts": [
+    {"ifsc": "SBIN0060123", "bank_name": "State Bank of India",
+     "account_no": "31245678901", "account_type": "SB", "use_for_refund": true}
+  ],
+  "verification": {
+    "name": "Dhruv Patel",
+    "father_name": "Mahesh Patel",
+    "pan": "CQWPP5678K",
+    "capacity": "S",
+    "place": "Surat",
+    "date": "2026-07-10"
+  }
+}

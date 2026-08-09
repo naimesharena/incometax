@@ -1,0 +1,6 @@
+cell	formula	cached_value
+B39	TRIM(CONCATENATE(sheet1.FirstName," ",sheet1.MiddleName," ",sheet1.SurNameOrOrgName))	
+B42	calculateAge(sheet1.DOB)	2026
+B46	CONCATENATE(IF(DAY(TODAY())<10,"0",""),DAY(TODAY()),"-",IF(MONTH(TODAY())<10,"0",""),MONTH(TODAY()),"-",YEAR(TODAY()))	30-07-2026
+F48	CONCATENATE(YEAR(TODAY()),"-",IF(MONTH(TODAY())<10,"0",""),MONTH(TODAY()),"-",IF(DAY(TODAY())<10,"0",""),DAY(TODAY()))	2026-07-30
+B49	CONCATENATE(IF(DAY(TODAY())<10,"0",""),DAY(TODAY()),"-",IF(MONTH(TODAY())<10,"0",""),MONTH(TODAY()),"-",YEAR(TODAY()))	30-07-2026

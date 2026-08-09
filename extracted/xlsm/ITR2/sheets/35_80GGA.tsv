@@ -1,0 +1,15 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T
+1																				0
+3			Schedule 80GGA			Details of donations for scientific research or rural development 
+5				Sl.No	Relevant Clause under which deduction is claimed	Name of Donee	Address	City or Town or District	State Code	Pin Code	PAN of Donee	Amount of donation			Eligible Amount of Donation
+6												Donation in Cash	Donation in Other Mode	Total Donation
+7				1	(SELECT)				(SELECT)					0	0				0
+8				2	(SELECT)				(Select)					0	0				0
+9				3	(Select)				(Select)					0	0				0
+10				4	(Select)				(Select)					0	0				0
+11				5	(Select)				(Select)					0	0				0
+12				6	(Select)				(Select)					0	0				0
+13				7	(Select)				(Select)					0	0				0
+14				8	(Select)				(Select)					0	0				0
+16				Total Donation								0	0	0	0
+17																			1

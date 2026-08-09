@@ -1,0 +1,105 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O
+3			 	Nature of business or profession if more than one business indicate the three main activities/ products
+4				S.No.	Code
+[Please see instruction No.9(ii)]	Tradename	Tradename	Tradename
+5				(i)	(Select)
+6				(ii)	(Select)
+7				(iii)	(Select)
+10			Schedule BP		DETAILS OF INCOME FROM BUSINESS OR PROFESSION
+11				COMPUTATION OF PRESUMPTIVE BUSINESS INCOME UNDER SECTION 44AD
+12				Sl.No.	Name of the Business	Business Code			Description
+13				1
+14				2
+15				3
+16				4
+17				5
+19			COMPUTATION - PRESUMPTIVE INCOME	E1	Gross Turnover or Gross Receipts  (E1 limited to Rs.2 Crores, however if [E1b + E1C] is less than or equal to 5% of E1 then the limit under E1 is extended to Rs.3 Crores.)				0
+20				(a)	Through a/c payee cheque or a/c payee bank draft or bank electronic clearing system or prescribed electronic modes received before specified date									5% of E1	0
+21				(b)	Receipts in Cash 
+22				(c)	Any mode other than a and b									E1	0
+23				E2	Presumptive income under section 44AD									E1b	0
+24				(a)	6% of E1a or the amount claimed to have been earned, whichever is higher
+25				(b)	8% of (E1b+E1c) or the amount claimed to have been earned, whichever is higher
+26				(c)	Total (a + b)				0						0
+27				Note 1 : If income is less than the above percentage of Gross Receipts, it is mandatory to have a tax audit under 44AB and  other ITR, as applicable,  has to be filed
+Note 2- If the provisions of section 44AD(4) are applicable to the assessee and his total income exceeds the maximum amount which is not chargeable to tax, then, it is mandatory to keep and maintain such books of account and other documents as required under sub-section (2) of section 44AA and to have a tax audit under section 44AB, and other ITR, as applicable, has to be filed.
+28				COMPUTATION OF PRESUMPTIVE  INCOME FROM PROFESSIONS UNDER SECTION 44ADA 
+29				Sl.No.	Name of Business/Profession	Business Code			Description
+30				1
+31				2
+32				3
+33				4
+34				5
+35				6
+37				E3	Gross Receipts  (E3 limited to Rs.50 Lakhs, however if [E3b + E3c] is less than or equal to 5% of E3 then limit under E3 is extended to Rs.75 Lakhs.)        				0					5% of E3	0
+38				(a)	Through a/c payee cheque or a/c payee bank draft or bank electronic clearing system or prescribed electronic modes received before specified date
+39				(b)	Receipts in Cash 									E3	0
+40				(c)	Any mode other than a and b									E3b	0
+41				E4	Presumptive Income under section 44ADA (50% of E3)
+or the amount claimed to have been earned, whichever is higher
+42				NOTE: If income is less than 50% of Gross Receipts, it is mandatory to have a tax audit under 44AB and other ITR, as applicable,  has to be filed											0
+43				COMPUTATION OF PRESUMPTIVE INCOME FROM GOODS CARRIAGES UNDER SECTION 44AE
+44				Sl.No	Name of the Business	Business Code			Description
+45				1		(Select)
+46				2		(Select)
+47				3		(Select)
+48				4		(Select)
+49				5		(Select)
+53				SL.NO	Registration No. of goods carriage	Whether owned/leased/hired	Tonnage Capacity of goods carriage(in MT)	Number of months for which goods carriage was owned/ leased / hired  by assessee	Presumptive income u/s 44AE for the goods carriage  "Computed at a minimum of Rs 1000 per ton per month in case tonnage exceeds 12MT, or at a minimum of Rs 7500 per month if the tonnage is less than or equal to 12MT"					0
+54				1		(Select)								0	0
+55				2		(Select)								0	0
+56				3		(Select)								0	0
+57				4		(Select)								0	0
+58				5		(Select)								0	0
+59				6		(Select)								0	0
+60				7		(Select)								0	0
+61				8		(Select)								0	0
+62				9		(Select)								0	0
+63				10		(Select)								0	0
+64					Total
+65				E5	Presumptive Income from Goods Carriage under section 44AE 
+[total of column (5)]				0
+66				Note : If the profits are lower than prescribed under Section 44AE or the number of Vehicles owned at any time exceed 10 then the other ITR, as applicable, has to be filed 
+68				E6	Presumptive Income under section 44AD and 44AE  (E2 +E3)
+			0
+69				E6	Salary and interest paid to the partners 				0
+70				Note– This is to be filled up only by firms
+71				E7	Presumptive Income u/s 44AE (E5-E6)				0
+72				E8	Income chargeable under Business or Profession (E2c+ E4+ E7)				0
+73				E9	INFORMATION REGARDING TURNOVER/GROSS RECEIPT REPORTED FOR GST
+Note – Please furnish the information below for each GSTIN No. separately
+74				Sl.No.	GSTIN No.(s)	Annual Value of Outward Supplies as per the GST Return Filed
+75				1
+76				2
+77				3
+78				4
+79				5
+81				E10	Gross Turnover / Gross Receipts and reconciliation statement
+82				E6	INCOME CHARGEABLE UNDER BUSINESS (E4 - E5)		E6	0
+83				E10	Total of value of Outward Supplies as per the GST returns filed				0
+84				b	Adjustment on account of  				0
+85				Sl.No.	Nature of Items	Description ( If 'Any Other' selected) 	Amount
+86				1	(Select)	Not Applicable
+87				2	(Select)	Not Applicable
+88				3	(Select)	Not Applicable
+89				4	(Select)	Not Applicable
+91				c	Gross turnover or gross receipts as shown in column E1 or column E3 (as applicable)				0
+92			FINANCIAL PARTICULARS	FINANCIAL PARTICULARS OF THE BUSINESS  
+93				NOTE― For E11 to E25 furnish the information as on 31st day of March, 2026
+94				E11	Partners/ members own capital
+95				E12	Secured loans
+96				E13	Unsecured loans
+97				E14	Advances
+98				E15	Sundry creditors
+99				E16	Other liabilities 
+100				E17	Total capital and liabilities (E11+E12+E13+E14+E15+E16)				0
+101				E18	Fixed assets
+102				E18(a)	Investments
+103				E19	Inventories 
+104				E20	Sundry debtors
+105				E21	Balance with banks
+106				E22	Cash-in-hand
+107				E23	Loans and advances
+108				E24	Other Assets
+109				E25	Total assets (E18+E18a+E19+E20+E21+E22+E23+E24)				0
+110				Note : E15, E19, E20, E21,E22 are mandatory and others if available

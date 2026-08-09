@@ -1,0 +1,10 @@
+row	A	B	C	D	E	F	G
+1	Schedule BA			Details of Bank Accounts held in India at any time during the previous year
+2	Number of bank accounts held by you at any time (including opened/closed) during the previous year
+4	Sl.	IFS Code of the bank	Name of the Bank	Name of Joint holder(s), if any	Account Number	Account Status	Account balance as on 31st March of the previous year
+5		If no entry is made in this column, then columns (2) to (6) will not be considered for that row
+(1)	(2)	(4)	(5)		(6)
+6	1					(Select)
+7	2					(Select)
+8	3					(Select)
+9	NOTE ►			Please refer to instructions for filling out this schedule

@@ -1,0 +1,290 @@
+cell	formula	cached_value
+AL1	SUMIF(OS_DTAASectionCode,"=56",os.DTAA_AmtChk)	0
+AN1	SUMIF(OS_DTAASectionCode,"=562iii",os.DTAA_AmtChk)	0
+AL2	SUMIF(OS_DTAASectionCode,"=56i",os.DTAA_AmtChk)	0
+AN2	SUMIF(OS_DTAASectionCode,"=562x",os.DTAA_AmtChk)	0
+AL3	SUMIF(OS_DTAASectionCode,"=56i_f",os.DTAA_AmtChk)	0
+AS3	SUMIF(OS_PTISectionCode,AR3,OS_PTI_Amount)	0
+AU3	SUMIF(OS_PTISectionCode,AT3,OS_PTI_Amount)	0
+AW3	SUMIF(OS_PTISectionCode,AV3,OS_PTI_Amount)	0
+AY3	SUMIF(OS_PTISectionCode,AX3,OS_PTI_Amount)	0
+BA3	SUMIF(OS_PTISectionCode,AZ3,OS_PTI_Amount)	0
+BC3	SUM(AS3:AS10,AU3:AU10,AW3:AW10,AY3:AY10,BA3:BA4)	0
+J4	SUM(os.DividendGross,os.InterestGross,os.RentFromMachPlantBldgs,os.Totalsec56,os.TotalAnyOtherIncome)	0
+AU4	SUMIF(OS_PTISectionCode,AT4,OS_PTI_Amount)	0
+AW4	SUMIF(OS_PTISectionCode,AV4,OS_PTI_Amount)	0
+BA4	SUMIF(OS_PTISectionCode,AZ4,OS_PTI_Amount)	0
+J5	os.DividendGrossai+os.DividendGrossaii+os.DividendGrossaiii	0
+AU5	SUMIF(OS_PTISectionCode,AT5,OS_PTI_Amount)	0
+AW5	SUMIF(OS_PTISectionCode,AV5,OS_PTI_Amount)	0
+J6	BBDA.Upto15Of6+BBDA.Upto15Of9+BBDA.Up16Of9To15Of12+BBDA.Up16Of12To15Of3+BBDA.Up16Of3To31Of3+DivDTAA+IF(os.amountinterestexpenditure="",os.expenditureClaimed1,os.amountinterestexpenditure1)	0
+AU6	SUMIF(OS_PTISectionCode,AT6,OS_PTI_Amount)	0
+AW6	SUMIF(OS_PTISectionCode,AV6,OS_PTI_Amount)	0
+AS7	SUMIF(OS_PTISectionCode,AR7,OS_PTI_Amount)	0
+AS8	SUMIF(OS_PTISectionCode,AR8,OS_PTI_Amount)	0
+J9	SUM(os.SavingBank,os.TermDeposit,os.IncomeTaxRefund,os.PassThroughIncome,os.Others,IntrstSec10XIFP,IntrstSec10XISP,IntrstSec10XIIFP,IntrstSec10XIISP)	0
+AU9	SUMIF(OS_PTISectionCode,AT9,OS_PTI_Amount)	0
+AW9	SUMIF(OS_PTISectionCode,AV9,OS_PTI_Amount)	0
+AU10	SUMIF(OS_PTISectionCode,AT10,OS_PTI_Amount)	0
+AW10	SUMIF(OS_PTISectionCode,AV10,OS_PTI_Amount)	0
+AH11	MAX(0,MAX(0,SUMIF(os.check,AH10,os.SourceAmount))-MAX(0,IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AH10),SUMIF(OS_DTAASectionCode,AH10,os.DTAA_AmtChk))))+MAX((Os_PTI_5A1ai-Os_PTI_5A1ai_DTAA),0)	0
+AS12	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AR12),SUMIF(OS_DTAASectionCode,AR12,os.DTAA_AmtChk))	0
+AU12	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AT12),SUMIF(OS_DTAASectionCode,AT12,os.DTAA_AmtChk))	0
+AW12	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AV12),SUMIF(OS_DTAASectionCode,AV12,os.DTAA_AmtChk))	0
+AY12	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AX12),SUMIF(OS_DTAASectionCode,AX12,os.DTAA_AmtChk))	0
+BA12	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AZ12),SUMIF(OS_DTAASectionCode,AZ12,os.DTAA_AmtChk))	0
+AW13	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AV13),SUMIF(OS_DTAASectionCode,AV13,os.DTAA_AmtChk))	0
+AY13	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AX13),SUMIF(OS_DTAASectionCode,AX13,os.DTAA_AmtChk))	0
+BA13	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AZ13),SUMIF(OS_DTAASectionCode,AZ13,os.DTAA_AmtChk))	0
+BC13	SUM(AS13:AS21,AU13:AU21,AW13:AW21,AY13:AY21,BA13:BA18)	0
+AS14	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AR14),SUMIF(OS_DTAASectionCode,AR14,os.DTAA_AmtChk))	0
+AY17	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AX17),SUMIF(OS_DTAASectionCode,AX17,os.DTAA_AmtChk))	0
+AW18	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AV18),SUMIF(OS_DTAASectionCode,AV18,os.DTAA_AmtChk))	0
+AY18	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AX18),SUMIF(OS_DTAASectionCode,AX18,os.DTAA_AmtChk))	0
+BA18	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AZ18),SUMIF(OS_DTAASectionCode,AZ18,os.DTAA_AmtChk))	0
+AI19	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56i"),SUMIF(OS_DTAASectionCode,"=56i",os.DTAA_AmtChk))	0
+AW19	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AV19),SUMIF(OS_DTAASectionCode,AV19,os.DTAA_AmtChk))	0
+AY19	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AX19),SUMIF(OS_DTAASectionCode,AX19,os.DTAA_AmtChk))	0
+J20	MAX(0,(J21+J22+J23+J24+J25))	0
+AI20	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56"),SUMIF(OS_DTAASectionCode,"=56",os.DTAA_AmtChk))	0
+AW20	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AV20),SUMIF(OS_DTAASectionCode,AV20,os.DTAA_AmtChk))	0
+AY20	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AX20),SUMIF(OS_DTAASectionCode,AX20,os.DTAA_AmtChk))	0
+AI21	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BB"),SUMIF(OS_DTAASectionCode,"=5BB",os.DTAA_AmtChk))	0
+AW21	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AV21),SUMIF(OS_DTAASectionCode,AV21,os.DTAA_AmtChk))	0
+AY21	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AX21),SUMIF(OS_DTAASectionCode,AX21,os.DTAA_AmtChk))	0
+J26	SUM(os.OtherSections)+os_FamilyPension+OSIncomeNotified89A+OSIncomeNotifiedOther89A+OSIncomeTaxblPreYr89A+OSBusiness56+OSBonus56	0
+J29	OSIncomeNotified89A_AmountUS+OSIncomeNotified89A_AmountUK+OSIncomeNotified89A_AmountCan	0
+AC41	os.DividendGross	0
+J42	SUM(os.WinLottRacePuzz,os.WinOnlineGame,os.Total115BE,os.IncomeBenefitTotal,os.TotalChargeableSpecialRate,os.TotalPassThroughIncome,DTAA_1a_OS,DTAA_1aiii_OS,DTAA_1b_OS,DTAA_1c_OS,DTAA_1d_OS)	0
+AC47	os.DividendGrossaiii	0
+J48	MAX(0,(J49+J50+J51+J52+J53+J54))	0
+J55	SUM(os.IncomeBenefit)	0
+AJ55	SUMIF(os.check,"=5A1aiia",SRCamt)	0
+AL55	SUMIF(os.check,"=5A1bA",SRCamt)	0
+AN55	SUMIF(os.check,"=5BBA",SRCamt)	0
+AJ56	SUMIF(os.check,"=5A1aii",SRCamt)	0
+AL56	SUMIF(os.check,"=5A1aiii",SRCamt)	0
+AN56	SUMIF(os.check,"=5AD1ip",SRCamt)	0
+AJ57	SUMIF(os.check,"=5A1aii",SRCamt)	0
+AL57	SUMIF(os.check,"=5A1aiii",SRCamt)	0
+AN57	SUMIF(os.check,"=5AD1ip",SRCamt)	0
+F58	F57+1	2
+AJ58	SUMIF(os.check,"=5A1ai",SRCamt)	0
+AL58	SUMIF(os.check,"=5A1aiiac",SRCamt)	0
+AN58	SUMIF(os.check,"=5AD1i",SRCamt)	0
+F59	F58+1	3
+AJ59	SUM(os.IncomeBenefitTotal)	0
+AL59	SUMIF(os.check,"=5ACA1a",SRCamt)	0
+AN59	SUMIF(os.check,"=5BBC",SRCamt)	0
+AC60	os.InterestGross	0
+AJ60	SUMIF(os.check,"=5BBF",SRCamt)	0
+AL60	SUMIF(os.check,"=5BBG",SRCamt)	0
+AN60	SUMIF(os.check,"=5BBDA",SRCamt)	0
+J61	SUM(os.TaxBenefit)	0
+AJ61	SUMIF(os.check,"=5A1aiiaci",SRCamt)	0
+AL61	SUMIF(os.check,"=5A1aiiaaP",SRCamt)	0
+AN61	SUMIF(os.check,"=5AD1iDiv",SRCamt)	0
+J62	SUM(os.SourceAmount)	0
+AJ62	SUMIF(os.check,"=5A1aA",SRCamt)	0
+AL62	SUMIF(os.check,"=5A1aiiaa2P",SRCamt)	0
+AN62	SUMIF(os.check,"=5AC1b",SRCamt)	0
+AJ63	SUMIF(os.check,"=56",SRCamt)	0
+AL63	SUMIF(os.check,"=5A1aiiab",SRCamt)	0
+AN63	SUMIF(os.check,"=5AC1a",SRCamt)	0
+F64	1	1
+X64	IF(G64="(Select)",0,IF(G64="",0,1))	0
+Y64	IF(H64="",0,IF(H64="0",0,1))	0
+AB64	TRIM(MID(G64,1,SEARCH("-",G64)-1))	#VALUE!
+AC64	H64	0
+AJ64	SUMIF(os.check,"=56i",SRCamt)	0
+AL64	SUMIF(os.check,"=5A1aiiaa",SRCamt)	0
+AN64	SUMIF(os.check,"=5A1bB",SRCamt)	0
+AP64	SUMIF(os.check,"=5Ea",SRCamt)	0
+F65	F64+1	2
+AB65	TRIM(MID(G65,1,SEARCH("-",G65)-1))	#VALUE!
+AC65	H65	0
+F66	F65+1	3
+F67	F66+1	4
+AB67	TRIM(MID(G67,1,SEARCH("-",G67)-1))	#VALUE!
+AC67	H67	0
+F68	F67+1	5
+AB68	TRIM(MID(G68,1,SEARCH("-",G68)-1))	#VALUE!
+AC68	H68	0
+F69	F68+1	6
+AB69	TRIM(MID(G69,1,SEARCH("-",G69)-1))	#VALUE!
+AC69	H69	0
+J72	SUM(os.PTIAmount)	0
+F74	1	1
+AB74	TRIM(MID(G74,1,SEARCH("-",G74)-1))	#VALUE!
+AC74	H74	0
+AD74	IF(ISERROR(VLOOKUP(G74,OS_PTI_LookUp1,2,FALSE)),"",VLOOKUP(G74,OS_PTI_LookUp1,2,FALSE))	
+F75	F74+1	2
+AD75	IF(ISERROR(VLOOKUP(G75,OS_PTI_LookUp1,2,FALSE)),"",VLOOKUP(G75,OS_PTI_LookUp1,2,FALSE))	
+F76	F75+1	3
+F77	F76+1	4
+F78	F77+1	5
+F79	F78+1	6
+N81	IF(Residentialstatuscheck="NRI",SUMIF(os.TRC,"Yes",os.Amount_income),SUM(os.Amount_income))	0
+AM82	IF(MID(sheet1.ResidentialStatus1,1,3)="RES","RES","NRI")	NRI
+AO82	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1aiia"),SUMIF(OS_DTAASectionCode,"=5A1aiia",os.DTAA_AmtChk))	0
+AS82	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1b"),SUMIF(OS_DTAASectionCode,"=5A1b",os.DTAA_AmtChk))	0
+AU82	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BBA"),SUMIF(OS_DTAASectionCode,"=5BBA",os.DTAA_AmtChk))	0
+Z83	IF(ISERROR(VLOOKUP(M83,OS_DTAA_lookup,2,FALSE)),"",VLOOKUP(M83,OS_DTAA_lookup,2,FALSE))	
+AA83	IF(ISERROR(IF(TRIM(MID(M83,1,SEARCH("-",M83)-1))="56(2)(i)","56i",IF(TRIM(MID(M83,1,SEARCH("-",M83)-1))="56(2)","56",TRIM(MID(M83,1,SEARCH("-",M83)-1))))),0,IF(TRIM(MID(M83,1,SEARCH("-",M83)-1))="56(2)(i)","56i",IF(TRIM(MID(M83,1,SEARCH("-",M83)-1))="56(2)","56",TRIM(MID(M83,1,SEARCH("-",M83)-1)))))	0
+AB83	IF(AND(L83="No",Residentialstatuscheck="NRI"),0,G83)	0
+AC83	IF(AA83="56i",Os.1a,IF(AA83="56",Os.1b,SUMIF(os.check,AA83,SRCamt)))	0
+AD83	IF(AA83="56i",IF(Os.1a>=0,1,0),IF(AA83="56",IF(Os.1b>=0,1,0), COUNTIF(os.check,AA83)))	0
+AE83	IF(AC83<AB83,0,1)	1
+AF83	IF(OR(NOT(isdropdownblank(I83)),J83<>"",K83<>"",L83<>"",NOT(isdropdownblank(M83)),G83<>""),1,0)	0
+AL83	SUMIF(OS_DTAASectionCode,"=5BB",os.Amount_income)	0
+AO83	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1aii"),SUMIF(OS_DTAASectionCode,"=5A1aii",os.DTAA_AmtChk))	0
+AQ83	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56"),SUMIF(OS_DTAASectionCode,"=56",os.DTAA_AmtChk))	0
+AS83	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1aiii"),SUMIF(OS_DTAASectionCode,"=5A1aiii",os.DTAA_AmtChk))	0
+AU83	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5AD1ip"),SUMIF(OS_DTAASectionCode,"=5AD1ip",os.DTAA_AmtChk))	0
+F84	F83+1	2
+AF84	IF(OR(NOT(isdropdownblank(I84)),J84<>"",K84<>"",L84<>"",NOT(isdropdownblank(M84)),G84<>""),1,0)	0
+AL84	SUMIF(OS_DTAASectionCode,"=5BBDA",os.Amount_income)	0
+AO84	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1ai"),SUMIF(OS_DTAASectionCode,"=5A1ai",os.DTAA_AmtChk))	0
+AQ84	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56i"),SUMIF(OS_DTAASectionCode,"=56i",os.DTAA_AmtChk))	0
+AS84	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1aiiac"),SUMIF(OS_DTAASectionCode,"=5A1aiiac",os.DTAA_AmtChk))	0
+AU84	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5AD1i"),SUMIF(OS_DTAASectionCode,"=5AD1i",os.DTAA_AmtChk))	0
+F85	F84+1	3
+Q85	SUMIFS(os.Amount_income,os.SectionAct,"*Dividend*")	0
+AF85	IF(OR(NOT(isdropdownblank(I85)),J85<>"",K85<>"",L85<>"",NOT(isdropdownblank(M85)),G85<>""),1,0)	0
+AL85	SUMIF(OS_DTAASectionCode,"=5BBE",os.Amount_income)	0
+AO85	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=1"),SUMIF(OS_DTAASectionCode,"=1",os.DTAA_AmtChk))	0
+AQ85	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56i_f"),SUMIF(OS_DTAASectionCode,"=56i_f",os.DTAA_AmtChk))	0
+AS85	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5ACA1a"),SUMIF(OS_DTAASectionCode,"=5ACA1a",os.DTAA_AmtChk))	0
+AU85	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BBC"),SUMIF(OS_DTAASectionCode,"=5BBC",os.DTAA_AmtChk))	0
+AW85	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1aiiab"),SUMIF(OS_DTAASectionCode,"=5A1aiiab",os.DTAA_AmtChk))	0
+AY85	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5AC1a"),SUMIF(OS_DTAASectionCode,"=5AC1a",os.DTAA_AmtChk))	0
+BA85	SUM(AO82:AO86,AS82:AS86,AU82:AU86,DTAA_5Ea_OS,DTAA_5A1aA_OS)	0
+F86	F85+1	4
+AF86	IF(OR(NOT(isdropdownblank(I86)),J86<>"",K86<>"",L86<>"",NOT(isdropdownblank(M86)),G86<>""),1,0)	0
+AL86	SUMIF(OS_DTAASectionCode,"=5BBF",os.Amount_income)	0
+AO86	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BBF"),SUMIF(OS_DTAASectionCode,"=5BBF",os.DTAA_AmtChk))	0
+AS86	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BBG"),SUMIF(OS_DTAASectionCode,"=5BBG",os.DTAA_AmtChk))	0
+AU86	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BBDA"),SUMIF(OS_DTAASectionCode,"=5BBDA",os.DTAA_AmtChk))	0
+AW86	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1aiiaa"),SUMIF(OS_DTAASectionCode,"=5A1aiiaa",os.DTAA_AmtChk))	0
+AY86	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1bB"),SUMIF(OS_DTAASectionCode,"=5A1bB",os.DTAA_AmtChk))	0
+BA86	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5Ea"),SUMIF(OS_DTAASectionCode,"=5Ea",os.DTAA_AmtChk))	0
+F87	F86+1	5
+AF87	IF(OR(NOT(isdropdownblank(I87)),J87<>"",K87<>"",L87<>"",NOT(isdropdownblank(M87)),G87<>""),1,0)	0
+F88	F87+1	6
+AF88	IF(OR(NOT(isdropdownblank(I88)),J88<>"",K88<>"",L88<>"",NOT(isdropdownblank(M88)),G88<>""),1,0)	0
+AL89	SUMIF(OS_DTAASectionCode,"=5BBG",os.Amount_income)	0
+AO89	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BB"),SUMIF(OS_DTAASectionCode,"=5BB",os.DTAA_AmtChk))	0
+AU89	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5AC1b"),SUMIF(OS_DTAASectionCode,"=5AC1b",os.DTAA_AmtChk))	0
+AO90	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56i"),SUMIF(OS_DTAASectionCode,"=56i",os.DTAA_AmtChk))	0
+AQ90	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56iii"),SUMIF(OS_DTAASectionCode,"=56iii",os.DTAA_AmtChk))	0
+AO91	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=56"),SUMIF(OS_DTAASectionCode,"=56",os.DTAA_AmtChk))	0
+AQ91	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=562x"),SUMIF(OS_DTAASectionCode,"=562x",os.DTAA_AmtChk))	0
+J92	ROUNDUP(IF(os_FamilyPension>0,IF(bacValue=1,MIN((os_FamilyPension/3),25000),IF(bacValue=2,MIN((os_FamilyPension/3),15000),0)),0),0)	0
+AO92	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5A1aA"),SUMIF(OS_DTAASectionCode,"=5A1aA",os.DTAA_AmtChk))	0
+AO93	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,"=5BBJ"),SUMIF(OS_DTAASectionCode,"=5BBJ",os.DTAA_AmtChk))	0
+U96	(os.InterestGross+os.RentFromMachPlantBldgs+os.Totalsec56+V96)	0
+V96	SUM(os.OtherSections)	0
+J97	os.Expenses+os_Deduction57iia+os.Depreciation+os.amountinterestexpenditure	0
+T97	os.expenditureClaimed-MIN(os.expenditureClaimed,os.DividendGrossaii)	0
+U97	IF(os.amountinterestexpenditure="",0,os.amountinterestexpenditure-MIN(os.amountinterestexpenditure,os.DividendGrossaii))	0
+X97	os.DividendGrossai+os.DividendGrossaii	0
+L101	(os.GrossIncomeChargeableToTax-os.TotDeductions+os.AmountnotDed58+os.Profit59-DTAA_1a_OS-DTAA_1aiii_OS-DTAA_1b_OS-DTAA_1c_OS-DTAA_1d_OS-OSIncreliefus89A)	0
+L102	IF(L101<0,(J42),(J42+L101))	0
+T102	IF(os.PassThroughIncome<0,0,SUMIF(os.NatureOfIncome,"1b-Interest",os.Amount_income))	0
+T103	SUMIF(os.NatureOfIncome,"1c-Rental income from machinery, plants, buildings, etc.",os.Amount_income)	0
+U103	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5AC1a - 115AC(1)(a) - Income by way of interest  on bonds purchased in foreign currency"),SUMIF(os.SectionAct,"5AC1a - 115AC(1)(a) - Income by way of interest  on bonds purchased in foreign currency",os.Amount_income))	0
+V103	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_115AC(1)(a)-Income by way of interest on bonds purchased in foreign currency - non-resident"),SUMIF(os.SectionAct,"PTI_115AC(1)(a)-Income by way of interest on bonds purchased in foreign currency - non-resident",os.Amount_income))	0
+W103	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5AC1b - 115AC1b - Income by way of Dividend on GDRs purchased in foreign currency - non-resident"),SUMIF(os.SectionAct,"5AC1b - 115AC1b - Income by way of Dividend on GDRs purchased in foreign currency - non-resident",os.Amount_income))	0
+T104	SUMIF(os.NatureOfIncome,"1d-Income of the nature referred to in section 56(2)(x)",os.Amount_income)	0
+U104	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5A1ai - 115A(1)(a)(i) - Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)"),SUMIF(os.SectionAct,"5A1ai - 115A(1)(a)(i) - Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)",os.Amount_income))	0
+V104	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_115A(1)(a)(i)-Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)"),SUMIF(os.SectionAct,"PTI_115A(1)(a)(i)-Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)",os.Amount_income))	0
+W104	DTAA_5A1ai+DTAA_5A1aiPTI	0
+T105	SUM(H123:L123)	0
+U105	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5AD1iDiv-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)"),SUMIF(os.SectionAct,"5AD1iDiv-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",os.Amount_income))	0
+V105	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_5AD1iDiv-PTI-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)"),SUMIF(os.SectionAct,"PTI_5AD1iDiv-PTI-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",os.Amount_income))	0
+W105	DTAA_5AD1i+DTAA_5AD1iPTI	0
+X105	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_5AC1b-PTI -Income by way of Dividend on GDRs purchased in foreign currency - non-resident"),SUMIF(os.SectionAct,"PTI_5AC1b-PTI -Income by way of Dividend on GDRs purchased in foreign currency - non-resident",os.Amount_income))	0
+Y105	DTAA_5AC1b+DTAA_5AC1bPTI	0
+T106	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.NatureOfIncome,"1ai-Dividend income other than u/s 2(22)(f) and u/s 2(22)(e)"),SUMIF(os.NatureOfIncome,"1ai-Dividend income other than u/s 2(22)(f) and u/s 2(22)(e)",os.Amount_income))	0
+U106	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5ACA1a - 115ACA(1)(a) -  Income from GDR purchased in foreign currency  - resident"),SUMIF(os.SectionAct,"5ACA1a - 115ACA(1)(a) -  Income from GDR purchased in foreign currency  - resident",os.Amount_income))	0
+V106	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_115ACA(1)(a)-Income from GDR purchased in foreign currency -resident"),SUMIF(os.SectionAct,"PTI_115ACA(1)(a)-Income from GDR purchased in foreign currency -resident",os.Amount_income))	0
+W106	DTAA_5ACA1a+DTAA_5ACA1aPTI	0
+X106	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.NatureOfIncome,"1aiii-Dividend income u/s 2(22)(f)"),SUMIF(os.NatureOfIncome,"1aiii-Dividend income u/s 2(22)(f)",os.Amount_income))	0
+T107	SUMIF(os.NatureOfIncome,"2e-Pass through income",os.Amount_income)	0
+U107	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5A1aA - 115A(1)(a)(A) - Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA"),SUMIF(os.SectionAct,"5A1aA - 115A(1)(a)(A) - Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA",os.Amount_income))	0
+V107	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_115A(1)(a)(A)-Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA"),SUMIF(os.SectionAct,"PTI_115A(1)(a)(A)-Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA",os.Amount_income))	0
+W107	DTAA_5A1aA+DTAA_5A1aAPTI	0
+L108	os.Receipts-os.DeductSec57+os.notDeductSec58+os.ProfitSec59	0
+T108	SUMIF(os.NatureOfIncome,"2d-Any other income chargeable at special rate",os.Amount_income)	0
+L109	SUM(os.TotOthSrcNoRaceHorse,MAX(0,os.BalanceOwnRaceHorse))	0
+T109	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.NatureOfIncome,"2a(i)-Winnings from lotteries, crossword puzzles, races, card games etc"),SUMIF(os.NatureOfIncome,"2a(i)-Winnings from lotteries, crossword puzzles, races, card games etc",os.Amount_income))	0
+U109	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.NatureOfIncome,"2a(ii)-Income by way of winnings from online games"),SUMIF(os.NatureOfIncome,"2a(ii)-Income by way of winnings from online games",os.Amount_income))	0
+T110	SUM(H112:L112)	0
+T111	SUM(H113:L113)	0
+T112	SUM(H114:L114)	0
+U112	tempBBDA+os.DividendGrossaii+MAX(0,(os.DividendGrossaiii-SUMIF(os.NatureOfIncome,"1aiii-Dividend income u/s 2(22)(f)",os.Amount_income)))	0
+AC112	os.WinLottRacePuzz	0
+AE112	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5BB-Winnings from lotteries, crossword puzzles, races, card games etc."),0)	0
+AH112	AC112-AE112	0
+T113	SUM(H116:L116)	0
+U113	SUM(H115:L115)	0
+AC113	os.WinOnlineGame	0
+AE113	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5BBJ - Winnings from online games"),0)	0
+AH113	AC113-AE113	0
+T114	SUM(H117:L117)	0
+AC115	os.DividendGrossaiii	0
+AE115	DivDTAA_1aiii	0
+AH115	MAX(0,(AC115-AE115))	0
+T116	SUM(H118:L118)	0
+AC116	SUMIF(os.SourceDescription,"5A1ai - 115A(1)(a)(i) - Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)",os.SourceAmount)	0
+AD116	SUMIF(os.PTIDescription,"PTI_115A(1)(a)(i)-Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)",os.PTIAmount)	0
+AE116	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5A1ai - 115A(1)(a)(i) - Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)"),0)	0
+AF116	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_115A(1)(a)(i)-Dividends received by non-resident (not being company) or foreign company chargeable u/s 115A(1)(a)(i) other than first proviso to section  115A(1)(a)(A)"),0)	0
+AG116	AE116+AF116	0
+AH116	(AC116+AD116)-AG116	0
+AJ116	MAX(0,MAX(0,SUMIF(os.check,AI116,os.SourceAmount))-MAX(0,IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AI116),SUMIF(OS_DTAASectionCode,AI116,os.DTAA_AmtChk))))	0
+AK116	MAX((Os_PTI_5A1ai-Os_PTI_5A1ai_DTAA),0)	0
+AL116	SUM(AJ116,AK116)	0
+AC117	SUMIF(os.SourceDescription,"5A1aA - 115A(1)(a)(A) - Dividend in the case of non-resident received from a unit in an International Financial  Services Centre",os.SourceAmount)	0
+AD117	SUMIF(os.PTIDescription,"PTI_115A(1)(a)(A)-Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA",os.PTIAmount)	0
+AE117	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5A1aA - 115A(1)(a)(A) - Dividend in the case of non-resident received from a unit in an International Financial  Services Centre"),0)	0
+AF117	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_115A(1)(a)(A)-Dividend received by non-resident (not being company) or foreign company from a unit in an International Financial Services Centre, as referred to in sub-section (1A) of section 80LA"),0)	0
+AG117	AE117+AF117	0
+AH117	(AC117+AD117)-AG117	0
+AJ117	MAX(0,MAX(0,SUMIF(os.check,AI117,os.SourceAmount))-MAX(0,IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AI117),SUMIF(OS_DTAASectionCode,AI117,os.DTAA_AmtChk))))	0
+AK117	MAX((Os_PTI_5A1aA-Os_PTI_5A1aA_DTAA),0)	0
+AL117	SUM(AJ117,AK117)	0
+AC118	SUMIF(os.SourceDescription,"5AC1b - 115AC1b - Income by way of Dividend on GDRs purchased in foreign currency - non-resident",os.SourceAmount)	0
+AD118	SUMIF(os.PTIDescription,"PTI_5AC1b-PTI -Income by way of Dividend on GDRs purchased in foreign currency - non-resident",os.PTIAmount)	0
+AE118	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5AC1b - 115AC1b - Income by way of Dividend on GDRs purchased in foreign currency - non-resident"),0)	0
+AF118	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_5AC1b-PTI -Income by way of Dividend on GDRs purchased in foreign currency - non-resident"),0)	0
+AG118	AE118+AF118	0
+AH118	(AC118+AD118)-AG118	0
+AJ118	MAX(0,MAX(0,SUMIF(os.check,AI118,os.SourceAmount))-MAX(0,IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AI118),SUMIF(OS_DTAASectionCode,AI118,os.DTAA_AmtChk))))	0
+AK118	MAX((OS_PTI_5AC1b-Os_PTI_5AC1b_DTAA),0)	0
+AL118	SUM(AJ118,AK118)	0
+AC119	SUMIF(os.SourceDescription,"5ACA1a - 115ACA(1)(a) -  Income from GDR purchased in foreign currency  - resident",os.SourceAmount)	0
+AD119	SUMIF(os.PTIDescription,"PTI_115ACA(1)(a)-Income from GDR purchased in foreign currency -resident",os.PTIAmount)	0
+AE119	IF(MID(sheet1.ResidentialStatus1,1,3)="RES",SUMIFS(os.Amount_income,os.SectionAct,"5ACA1a - 115ACA(1)(a) -  Income from GDR purchased in foreign currency  - resident"),0)	0
+AF119	IF(MID(sheet1.ResidentialStatus1,1,3)="RES",SUMIFS(os.Amount_income,os.SectionAct,"PTI_115ACA(1)(a)-Income from GDR purchased in foreign currency -resident"),0)	0
+AG119	AE119+AF119	0
+AH119	(AC119+AD119)-AG119	0
+AJ119	MAX(0,MAX(0,SUMIF(os.check,AI119,os.SourceAmount))-MAX(0,IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AI119),SUMIF(OS_DTAASectionCode,AI119,os.DTAA_AmtChk))))	0
+AK119	MAX((OS_PTI_5ACA1a-Os_PTI_5ACA1a_DTAA),0)	0
+AL119	SUM(AJ119,AK119)	0
+AC121	SUMIF(os.SourceDescription,"5AD1iDiv-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",os.SourceAmount)	0
+AD121	SUMIF(os.PTIDescription,"PTI_5AD1iDiv-PTI-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)",os.PTIAmount)	0
+AE121	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"5AD1iDiv-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)"),0)	0
+AF121	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"PTI_5AD1iDiv-PTI-Income (being dividend) received by an FII in respect of securities (other than units referred to in section 115AB) - chargeable u/s 115AD(1)(i)"),0)	0
+AG121	AE121+AF121	0
+AH121	(AC121+AD121)-AG121	0
+AJ121	MAX(0,MAX(0,SUMIF(os.check,AI121,os.SourceAmount))-MAX(0,IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.DTAA_AmtChk,os.TRC,"=Yes",OS_DTAASectionCode,AI121),SUMIF(OS_DTAASectionCode,AI121,os.DTAA_AmtChk))))	0
+AK121	MAX((OS_PTI_5AD1iDiv-Os_PTI_5AD1iDiv_DTAA),0)	0
+AL121	SUM(AJ121,AK121)	0
+AC122	OSIncomeNotified89A	0
+AD122	OSIncreliefus89A	0
+AH122	AC122-AD122	0
+AC123	SUMIFS(os.Amount_income,os.SectionAct,"*Dividend*")	0
+AE123	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"*Dividend*"),0)	0
+AF123	IF(MID(sheet1.ResidentialStatus1,1,3)="NRI",SUMIFS(os.Amount_income,os.TRC,"=Yes",os.SectionAct,"*other than dividend*"),0)	0
+AH123	AE123-AF123	0

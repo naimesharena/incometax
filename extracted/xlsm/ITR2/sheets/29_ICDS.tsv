@@ -1,0 +1,16 @@
+row	A	B	C	D	E	F	G	H	I	J
+3			Schedule ICDS		Effect of Income Computation Disclosure Standards on profit
+4			Sl. No.	ICDS		Amount (+) or (-)				FALSE
+5			(i)	(ii)		(iii)
+6			I	Accounting Policies
+7			II	Valuation of Inventories  (other than the effect of change in method of valuation u/s 145A, if the same is separately reported at col. 4d or 4e of Part A-OI)
+8			III	Construction Contracts
+9			IV	Revenue Recognition
+10			V	Tangible Fixed Assets
+11			VI	Changes in Foreign Exchange Rates
+12			VII	Government Grants
+13			VIII	Securities(other than the effect of change in method of valuation u/s 145A, if the same is separately reported at col. 4d or 4e of Part A-OI)
+14			IX	Borrowing Costs
+15			X	Provisions, Contingent Liabilities and Contingent Assets
+16			Xi(a)	Total  effect of ICDS adjustments on profit  (I+II+III+IV+V+VI+VII+VIII+IX+X) (if positive)		0
+17			Xi(b)	Total effect of ICDS adjustments on profit  (I+II+III+IV+V+VI+VII+VIII+IX+X) (if negative)		0

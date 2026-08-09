@@ -1,0 +1,51 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV
+2																0	0	0	0
+3			Schedule DPM		Depreciation on Plant and Machinery (Other than assets on which full capital expenditure is allowable as deduction under any other section)											0	0	0	0	0	0
+4			DEPRECIATION ON PLANT AND MACHINERY	1	Block of assets 	Plant and machinery 
+5				2	Rate (%) 	15	30	40	45
+6						(i) 	(ii) 	(iii) 	(iv)																																				50	60	80	100
+7				3	Written down value on the first day of previous year   															15	30	40	50	60	80	100																			(iv) 	(v) 	(vi) 	(vii) 
+8				3(b)	Written down value on the first day of previous year, of those block of assets which were eligible for depreciation @ 50%, 60% or 80% as per the old Table
+9				3a	Amount as adjusted  on account of opting for taxation  under section 115BAC 
+10				3b	Adjusted Written down value on the first day of previous year   (3) + (3a)		0	0	0
+11				4	Additions for a period of 180 days or more in the previous year 														Total Counted Value at 16 DPM	0	0	0	0	0	0	0
+12				5	Consideration or other realization during the previous year out of  3 or  4
+13				6	Amount on which depreciation at full rate to be allowed (3 + 4 -5)  (Enter 0, if result is negative)	0	0	0	0
+14				7	Additions for a period of less than 180 days in the previous year   																																								0	0	0	0
+15				8	Consideration or other realizations during the year out of 7 															B5	B10	B100	F10	I25	S20
+16				9	Amount on which depreciation at half rate to be allowed (7 – 8)     (Enter 0, if result is negative)	0	0	0	0										Total Counted Value at 16 DOA	0	0	0	0	0	0
+17				10	Depreciation on 6 at full rate  	0	0	0	0																																				0	0	0	0
+18				11	Depreciation on 9 at half rate 	0	0	0	0																																				0	0	0	0
+19				12	Additional depreciation, if any, on 4 																																								0	0	0	0
+20				13	Additional depreciation, if any, on 7 
+21				14	Additional depreciation relating to immediately preceding  year' on asset put to use for less than 180 days
+22				15	Total depreciation (10+11+12+13+14) 	0	0	0	0
+23				16	Depreciation disallowed under section 38(2) of the I.T. Act (out of column 15)
+24				17	Net aggregate depreciation (15-16)	0	0	0	0
+25				18	Proportionate aggregate depreciation allowable in the event of succession, amalgamation, demerger etc. (out of column 17)
+26				19	Expenditure incurred in connection with transfer of asset/ assets 															15	30	40	50	60	80	100																			0	0	0	0
+27				20	Capital gains/ loss under section 50 (5 + 8 -3-4 -7 -19)  (Enter negative only if block ceases to exist)														Val Enter By User At DPM16	123123	1233	13123
+28				21	Written down value on the last day of previous year (6+ 9 -15)    (enter 0 if result is negative)	0	0	0	0
+29					Block Ceases to Exist. Select Y / N 	Y	N	N	N	N	N	N																																	0	0	0	0
+31			Schedule DOA 		Depreciation on other assets(Other than assets on which full capital expenditure is allowable as deduction) 															B5	B10	B100	F10	I25	S20
+32			DEPRECIATION ON OTHER ASSETS	1	Block of assets 	Land	Building(not including land)			Furniture and fittings	Intangible assets 	Ships 							Val Enter By User at DOA 16	30282	2323	555	12312313	23232323
+34				2	Rate (%) 	Nil	5	10	40	10	25	20
+35						(i)	(ii) 	(iii) 	(iv) 	(v) 	(vi) 	(vii) 
+36				3	Written down value on the first day of previous year  
+37				4	Additions for a period of 180 days or more in the previous year  
+38				5	Consideration or other realization during the previous year out of  3 or  4  
+39				6	Amount  on which depreciation  at  full rate to be allowed (3 + 4  -5)     (Enter 0, if result is negative)		0	0	0	0	0	0
+40				7	Additions for a period of less than 180 days in the previous year    
+41				8	Consideration or other realizations during the year out of 7 
+42				9	Amount  on  which depreciation at half rate to be allowed (7-8)    (Enter 0, if result is negative)		0	0	0	0	0	0
+43				10	Depreciation on 6 at full rate  		0	0	0	0	0	0
+44				11	Depreciation on 9 at half rate 		0	0	0	0	0	0
+45				12	Additional depreciation, if any, on 4 		0	0				0
+46				13	Additional depreciation, if any, on 7 		0	0				0
+47				12	Total depreciation (10+11) 		0	0	0	0	0	0
+48				13	Depreciation disallowed under section 38(2) of the I.T. Act (out of column 12)
+49				14	Net aggregate depreciation (12-13)		0	0	0	0	0	0
+50				15	Proportionate aggregate depreciation allowable in the event of succession, amalgamation, demerger etc. (out of column 14)								 
+51				16	Expenditure incurred in connection with transfer of asset/ assets 
+52				17	Capital gains/ loss under section 50 (5 + 8 -3-4 -7 -16) (Enter negative only if block ceases to exist)  
+53				18	Written down value on the last day of previous year (6+ 9 -12)  (enter 0 if result is negative)	0	0	0	0	0	0	0

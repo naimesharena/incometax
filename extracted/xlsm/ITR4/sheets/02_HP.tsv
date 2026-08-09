@@ -1,0 +1,92 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y
+3			SCH HP			 Details of Income from House Property 																			47
+4				1A		Address of Property 1
+5						Address	Town/ City	State	Country	PIN Code	Zip Code														2
+6								(Select)	91-INDIA
+7						Owner of the Property	(Select)		Is the property co-owned (if “YES” please enter following details)	(Select)	Your percentage of share in the Property(%)
+8						S.No	Name of Other Co-owner(s)	PAN of Other Co-owner(s)	Aadhaar No. of Other Co-owner(s)	Percentage share of other co-owner(s) in property (%)
+9						1
+10						2
+11						3
+12						4
+13						5
+14						6
+15						7
+16						8
+17						9
+18						10
+19						Type of House property?		(Select)
+20						S.No	Name(s) of Tenant (if let out)	PAN  of Tenant(s) (if available)	Aadhaar No. of Tenant(s)  (if available)	PAN / TAN of Tenant(s) (if TDS credit is claimed)
+21						1
+22						2
+23						3
+24						4
+25					a	Gross rent received/ receivable/ lettable value during the year				a
+26					b	The amount of rent which cannot be realized
+27					c	Tax paid to local authorities
+28					d	Total (1b + 1c)			0
+29					e	Annual value (1a – 1d) (nil, if self -occupied etc. as per section 23(2)of the Act)				e	0
+30					f	Annual value of the property owned (own percentage share x 1e)				f	0
+31					g	30% of Annual Value (30% *1f)			0
+32					h	Interest payable on borrowed capital 			0
+33				Section 24(b)  	Interest on borrowed capital
+34				Sl. No.	Loan taken from 	Name of the bank / Institution / Person from which the loan is taken	Loan Account number of the Bank/ Institution	Date of sanction of loan	Total amount of loan	Loan outstanding as on last date of financial year	Interest on Borrowed capital u/s 24(b)
+35					i	ii	iii	iv	v	vi	vii
+36			___	1														___
+37			___	2														___
+38			___	3														___
+39			___	4														___
+40				5														___
+41				Total Interest on borrowed capital u/s 24(b)							0
+42					i	Total (1g+1h)				j	0
+43					j	Arrears/Unrealized Rent received during the year Less 30%				j
+44					k	Income from house property 1 (1f – 1i + 1j) 				k	0
+45				1B		Address of Property 2													NoData
+46						Address	Town/ City	State	Country	PIN Code	Zip Code				NoData	NoData	NoData	NoData	NoData	NoData	NoData	NoData
+47								(Select)	91-INDIA
+48						Owner of the Property
+(Please specify if others is selected )	(Select)		Is the property co-owned?  	(Select)	Your percentage of share in the property.%    					0	NoData		10	10
+49						S.No	Name of Other Co-owner(s)	PAN of Other Co-owner(s)	Aadhaar No. of Other Co-owner(s)	Percentage share of other co-owner(s) in property (%)									10	10
+50						1
+51						2
+52						3
+53						4
+54						5
+55						6
+56						7
+57						8
+58						9
+59						10
+60						Type Of House Property?		(Select)
+61						S.No	Name(s) of Tenant (s) (if let out)	PAN  of Tenant(s) (if available)	Aadhaar Number of Tenant (s)	PAN / TAN of Tenant(s) (if TDS credit is claimed)
+62						1
+63						2
+64						3
+65						4
+66					a	Gross rent received/ receivable/ lettable value during the year				a
+67					b	The amount of rent which cannot be realized
+68					c	Tax paid to local authorities
+69					d	Total (1b + 1c)			0
+70					e	Annual value (1a – 1d) (nil, if self -occupied etc. as per section 23(2)of the Act)				e	0
+71					f	Annual value of the property owned (own percentage share x 1e)				f	0
+72					g	30% of Annual Value (30% *1f)			0
+73					h	Interest payable on borrowed capital 		Cannot exceed 2 lacs if not let out	0
+74				Section 24(b)  	Interest on borrowed capital
+75				Sl. No.	Loan taken from 	Name of the bank / Institution / Person from which the loan is taken	Loan Account number of the Bank/ Institution	Date of sanction of loan	Total amount of loan	Loan outstanding as on last date of financial year	Interest on Borrowed capital u/s 24(b)
+76					i	ii	iii	iv	v	vi	vii
+77			___	1														___
+78			___	2														___
+79			___	3														___
+80			___	4														___
+81				5														___
+82				Total Interest on borrowed capital u/s 24(b)							0
+83					i	Total (1g+1h)				i	0
+84					j	Arrears/Unrealized rent received during the year less 30%				j	0
+85					k	Income from house property 2 (2f – 2i + 2j) 				k	0
+86				2	Pass through income/Loss if any *					2	0
+87				B3	Income chargeable under the head ‘House Property’ ( Ʃ1k )  
+(If loss, put the figure in negative)  
+Note:-Maximum loss from house property that can be set-off is INR 2, 00,000. To avail the benefit of carry forward and set of loss, please use ITR-3/5. 					B3	0
+88				Note:
+Furnishing of PAN/ Aadhaar No. of tenant is mandatory, if tax is deducted under section 194-IB. 
+Furnishing of TAN of tenant is mandatory, if tax is deducted under section 194-I.  

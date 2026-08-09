@@ -1,0 +1,24 @@
+cell	formula	cached_value
+J11	MAX(0,BP_BalanceOfIncome39)	0
+J12	MAX(0,Sheet20.scei.NetAgriIncOrOthrIncRule7-Sheet20.ExpenditureOnAgriculture-Sheet20.UnabsorbedAgriculturalloss+Sheet20.Agriculturalinc)	0
+E18	E17+1	2
+E19	E18+1	3
+E20	E19+1	4
+Q23	SUMIFS(EI.Amount, Nature_Others, "Sec 10(11)-Statutory Provident Fund received")
+ + SUMIFS(EI.Amount, Nature_Others, "Sec 10(12)-Recognized Provident Fund received")
+ +SUMIFS(EI.Amount,Nature_Others,"Sec 10(13)-Approved superannuation fund received")
+ + SUMIFS(EI.Amount,Nature_Others,"Sec 10(18)-Pension received by winner of  ""Param Vir Chakra"" or ""Maha Vir Chakra"" or ""Vir Chakra"" or such other gallantry award")
+ + SUMIFS(EI.Amount,Nature_Others,"Defense Medical Disability Pension")
+ + SUMIFS(EI.Amount,Nature_Others,"Sec 10(19)-Armed Forces Family pension in case of death during operational duty")
+ +SUMIFS(EI.Amount,Nature_Others,"Sec 10(26AAA)-Any income as referred to in section 10(26AAA)")
+ +SAL.TotalGrossSalary	0
+E25	E24+1	2
+E26	E25+1	3
+E27	E26+1	4
+I28	SUM(EI.Amount)	0
+D34	D33+1	2
+D35	D34+1	3
+D36	D35+1	4
+J38	SUM(SCHEI_DTAA_AmountOfIncome)	0
+N39	SUM(0,Sheet20.scei.InterestInc,Sheet20.scei.DividendInc,Sheet20.scei.NetAgriIncOrOthrIncRule7,Sheet20.scei.Others,SchEI_TotalIncomeDTAA,SCHEI_Pass_Through_Income)	0
+J40	MAX(0,SUM(Sheet20.scei.InterestInc,Sheet20.scei.DividendInc,Sheet20.NetAgriculturalIncome,Sheet20.scei.Others,SchEI_TotalIncomeDTAA,SCHEI_Pass_Through_Income))	0

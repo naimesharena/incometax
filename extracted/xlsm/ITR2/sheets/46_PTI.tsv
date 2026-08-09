@@ -1,0 +1,57 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U
+3			Schedule PTI			PASS THROUGH INCOME DETAILS FROM BUSINESS TRUST OR INVESTMENT FUND AS PER SECTION 115U, 115UA, 115UB
+4				SL.NO.
+(1)	Investment entity covered by section 115U,115UA/115UB	Name of business trust/ investment fund
+(3)	PAN of the business trust/ investment fund
+(4)	SL.NO.
+(5)	Head of income
+(6)			Current year income 
+(7)	Share of current year loss distributed by Investment fund (8)	Net Income/ Loss 9=7-8 
+(9)	TDS on such amount, if any
+(10)				3		HP_PTI
+5				1	(SELECT)			I	House property					0					15
+6								ii	Capital Gains
+7									a	Short term		0	0	0
+8									ai	Section 111A				0
+9									aii	others				0
+10									b	Long term		0	0	0
+11									bi	Section 112A				0
+12									bii	other than section 112A				0
+13								iii	Other Sources			0		0
+14									a	Dividend 				0
+15									b	others				0
+16								iv	Income claimed to be exempt			0		0
+17									a	u/s 	10(23FBB)			0
+18									b	u/s 				0
+19									c	u/s 				0
+20				2	(SELECT)			i	House property					0
+21								ii	Capital Gains
+22									a	Short term		0	0	0
+23									ai	Section 111A				0
+24									aii	others				0
+25									b	Long term		0	0	0
+26									bi	Section 112A				0
+27									bii	other than section 112A				0
+28								iii	Other Sources			0		0
+29									a	Dividend 				0
+30									b	others				0
+31								iv	Income claimed to be exempt			0		0
+32									a	u/s 	10(23FBB)			0
+33									b	u/s 				0
+34									c	u/s 				0
+35				3	(SELECT)			i	House property					0
+36								ii	Capital Gains
+37									a	Short term		0	0	0
+38									ai	Section 111A				0
+39									aii	others				0
+40									b	Long term		0	0	0
+41									bi	Section 112A				0
+42									bii	other than section 112A				0
+43								iii	Other Sources			0		0
+44									a	Dividend 				0
+45									b	others				0
+46								iv	Income claimed to be exempt			0		0
+47									a	u/s 	10(23FBB)			0
+48									b	u/s 				0
+49									c	u/s 				0
+51				NOTE ►		Please refer to the instructions for filling out this schedule.

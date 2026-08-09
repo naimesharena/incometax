@@ -1,0 +1,35 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG
+2																														State check
+3			17A 
+IT																											(S
+4			A	Details of payments of Advance Tax and Self-Assessment Tax
+																			SUMIF(FormulaOfExSAT,"=A",IT.Amt)				SUMIF(FormulaOfExSAT1,"=B",IT.Amt)
+5				SI. NO.	BSR Code
+	Date of Deposit
+(DD/MM/YYYY)	Serial Number of
+Challan	Amount (Rs)											234C Quarter check	FALSE	ExSat	0		IF(T7>1,6,IF(Q7<2025,IF((S7=6)*(R7>15),2,IF(S7<7,1,IF((S7=9)*(R7>15),3,IF(S7<10,2,IF((S7=12)*(R7>15),4,IF(S7<13,3,4)))))),IF(S7<3,4,IF(R7<16,4,5)))) - Old	ExSat1	0	1	0
+6					1	2	3	4																Normal	TN				44AB FLAG		92		SIF AUDIT FLAG
+7				1													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+8				2													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!		#REF!		#REF!		0
+9				3													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+10				4													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+11				5													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+12				6													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+13				7													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+14				8													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+15				9													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+16				10													#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!	#VALUE!
+18				Total				0
+19			Note	Enter the totals of Advance tax and Self-Assessment tax in Sl No.15a  & 15d of Part B-TTI
+21																						0	0
+22																						0	0
+23																						0	0
+24																						0	0
+25																						0	0
+26																						0	0
+27																						0	0	0
+28																				Quarter Income Break up	0	0	0
+29																					0	0	0
+30																					0	0	0
+31																					0	0	0
+32																	SelfAssesment	0	AdvanceTax	0	0	0	0

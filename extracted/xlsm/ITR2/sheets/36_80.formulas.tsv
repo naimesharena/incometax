@@ -1,0 +1,86 @@
+cell	formula	cached_value
+E7	1	1
+F7	CONCATENATE("Undertaking ",E7)	Undertaking 1
+E8	1+E7	2
+F8	CONCATENATE("Undertaking ",E8)	Undertaking 2
+E9	1+E8	3
+F9	CONCATENATE("Undertaking ",E9)	Undertaking 3
+F12	CONCATENATE("Undertaking ",E12)	Undertaking 1
+E13	E12+1	2
+F13	CONCATENATE("Undertaking ",E13)	Undertaking 2
+F16	CONCATENATE("Undertaking ",E16)	Undertaking 1
+E17	E16+1	2
+F17	CONCATENATE("Undertaking ",E17)	Undertaking 2
+F20	CONCATENATE("Undertaking ",E20)	Undertaking 1
+E21	E20+1	2
+F21	CONCATENATE("Undertaking ",E21)	Undertaking 2
+H23	IF(bacValue=1,0,SUM(IA80.DeductProfUs80_IA_4_i,IA80.DeductProfUs80_IA_4_ii,IA80.DeductProfUs80_IA_4_iii,IA80.DeductProfUs80_IA_4_iv))	0
+F28	CONCATENATE("Undertaking ",E28)	Undertaking 1
+E29	E28+1	2
+F29	CONCATENATE("Undertaking ",E29)	Undertaking 2
+F32	CONCATENATE("Undertaking ",E32)	Undertaking 1
+E33	E32+1	2
+F33	CONCATENATE("Undertaking ",E33)	Undertaking 2
+F36	CONCATENATE("Undertaking ",E36)	Undertaking 1
+E37	E36+1	2
+F37	CONCATENATE("Undertaking ",E37)	Undertaking 2
+F40	CONCATENATE("Undertaking ",E40)	Undertaking 1
+E41	E40+1	2
+F41	CONCATENATE("Undertaking ",E41)	Undertaking 2
+F44	CONCATENATE("Undertaking ",E44)	Undertaking 1
+E45	E44+1	2
+F45	CONCATENATE("Undertaking ",E45)	Undertaking 2
+F48	CONCATENATE("Undertaking ",E48)	Undertaking 1
+E49	E48+1	2
+F49	CONCATENATE("Undertaking ",E49)	Undertaking 2
+F52	CONCATENATE("Undertaking ",E52)	Undertaking 1
+E53	E52+1	2
+F53	CONCATENATE("Undertaking ",E53)	Undertaking 2
+F56	CONCATENATE("Undertaking ",E56)	Undertaking 1
+E57	E56+1	2
+F57	CONCATENATE("Undertaking ",E57)	Undertaking 2
+F60	CONCATENATE("Undertaking ",E60)	Undertaking 1
+E61	E60+1	2
+F61	CONCATENATE("Undertaking ",E61)	Undertaking 2
+F64	CONCATENATE("Undertaking ",E64)	Undertaking 1
+E65	E64+1	2
+F65	CONCATENATE("Undertaking ",E65)	Undertaking 2
+F68	CONCATENATE("Undertaking ",E68)	Undertaking 1
+E69	E68+1	2
+F69	CONCATENATE("Undertaking ",E69)	Undertaking 2
+F72	CONCATENATE("Undertaking ",E72)	Undertaking 1
+E73	E72+1	2
+F73	CONCATENATE("Undertaking ",E73)	Undertaking 2
+H75	IF(bacValue=1,0,SUM(IB80.DeductJKLocUs80_IB_4,IB80.DeductBackStatesUs80_IB_4,IB80.DeductBackDisttUs80_IB_5,IB80.DeductMultiplexUs80_IB_7A,IB80.DeductConvCentUs80_IB_7B,IB80.DeductMinOilUs80_IB_9,IB80.DeductHousUs80_IB_10,IB80.DeductColdChainUs80_IB_11,IB80.DeductFruitVegUs80_IB_11A,IB80.DeductFoodGrainUs80_IB_11A,IB80.DeductRurHospUs80_IB_11B,IB80.DeductHospAnyAreaUs80IB_11C))	0
+F80	CONCATENATE("Undertaking ",E80)	Undertaking 1
+E81	E80+1	2
+F81	CONCATENATE("Undertaking ",E81)	Undertaking 2
+F84	CONCATENATE("Undertaking ",E84)	Undertaking 1
+E85	E84+1	2
+F85	CONCATENATE("Undertaking ",E85)	Undertaking 2
+F88	CONCATENATE("Undertaking ",E88)	Undertaking 1
+E89	E88+1	2
+F89	CONCATENATE("Undertaking ",E89)	Undertaking 2
+G93	CONCATENATE("Undertaking ",F93)	Undertaking 1
+F94	F93+1	2
+G94	CONCATENATE("Undertaking ",F94)	Undertaking 2
+G97	CONCATENATE("Undertaking ",F97)	Undertaking 1
+F98	F97+1	2
+G98	CONCATENATE("Undertaking ",F98)	Undertaking 2
+G101	CONCATENATE("Undertaking ",F101)	Undertaking 1
+F102	F101+1	2
+G102	CONCATENATE("Undertaking ",F102)	Undertaking 2
+G105	CONCATENATE("Undertaking ",F105)	Undertaking 1
+F106	F105+1	2
+G106	CONCATENATE("Undertaking ",F106)	Undertaking 2
+G109	CONCATENATE("Undertaking ",F109)	Undertaking 1
+F110	F109+1	2
+G110	CONCATENATE("Undertaking ",F110)	Undertaking 2
+G113	CONCATENATE("Undertaking ",F113)	Undertaking 1
+F114	F113+1	2
+G114	CONCATENATE("Undertaking ",F114)	Undertaking 2
+G117	CONCATENATE("Undertaking ",F117)	Undertaking 1
+F118	F117+1	2
+G118	CONCATENATE("Undertaking ",F118)	Undertaking 2
+H120	IF(bacValue=1,0,SUM(IC80.Assam,IC80.ArunachalPradesh,IC80.Manipur,IC80.Mizoram,IC80.Meghalaya,IC80.Nagaland,IC80.Tripura))	0
+H122	IF(bacValue=1,0,SUM(IC80.DeductInSikkim,IC80.DeductInHimachalP,IC80.DeductInUttaranchal,IC80.TotDeductInNorthEast))	0

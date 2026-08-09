@@ -1,0 +1,19 @@
+row	A	B	C	D	E	F	G	H	I
+3		Schedule VDA			Income from transfer of Virtual Digital Assets (Note: Details of every transaction are to be filled, wherein every ‘transfer’ is a transaction)
+4			Serial number
+(1)	Date of Acquisition
+(2)	Date of Transfer
+(3)	Head under which income to be taxed (Business/Capital Gain)
+(4)	Cost of Acquisition 
+(In case of gift; 
+a. Enter the amount on which tax is paid u/s 56(2)(x) if any
+b. In any other case cost to previous owner)
+(5)	Consideration Received
+(6)	Income from transfer of Virtual Digital Assets (enter nil in case of loss) 
+(Col. 6 – Col. 5)
+(7)
+5			1			(Select)			0
+6			2			(Select)			0
+7			3			(Select)			0
+9			A.	Total (Sum of all Positive Incomes of Business Income in Col. 7)					0
+10			B.	Total (Sum of all Positive Incomes of Capital Gain in Col. 7)					0

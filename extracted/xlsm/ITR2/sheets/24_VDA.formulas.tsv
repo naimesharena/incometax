@@ -1,0 +1,9 @@
+cell	formula	cached_value
+I6	MAX((H6-G6),0)	0
+C7	C6+1	2
+I7	MAX((H7-G7),0)	0
+C8	C7+1	3
+I8	MAX((H8-G8),0)	0
+C9	C8+1	4
+I9	MAX((H9-G9),0)	0
+I11	SUMIF(VDA.HeadIncome,"Capital Gain",VDA.TotalIncome)	0

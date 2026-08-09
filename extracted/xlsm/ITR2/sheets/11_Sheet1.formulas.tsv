@@ -1,0 +1,16 @@
+cell	formula	cached_value
+B1	CONCATENATE(YEAR(TODAY()),"-",IF(MONTH(TODAY())<10,"0",""),MONTH(TODAY()),"-",IF(DAY(TODAY())<10,"0",""),DAY(TODAY()))	2026-07-30
+A2	CONCATENATE(YEAR(TODAY()),"-",IF(MONTH(TODAY())<10,"0",""),MONTH(TODAY()),"-",IF(DAY(TODAY())<10,"0",""),DAY(TODAY()))	2026-07-30
+D10	IF(GrpC,0,IF(AND(TaxableIncome>=0,TaxableIncome<=B10),0,0))	0
+D11	IF(GrpC,0,IF(AND(TaxableIncome>=200001,TaxableIncome<=B11),(ROUND(VALUE(TaxableIncome-B10) * 0.1,0)),0))	0
+D12	IF(GrpC,0,IF(AND(TaxableIncome>=500001,TaxableIncome<=B12),(ROUND(VALUE(TaxableIncome-B11) * 0.2,0))+30000,0))	0
+D13	IF(GrpC,0,IF((TaxableIncome>=B13),(ROUND(VALUE(TaxableIncome-B12) * 0.3,0))+130000,0))	0
+D15	IF(GrpA,0,IF(AND(TaxableIncome>=0,TaxableIncome<=B15),0,0))	0
+D16	IF(GrpA,0,IF(AND(TaxableIncome>=250001,TaxableIncome<=B16),(ROUND(VALUE(TaxableIncome-B15) * 0.1,0)),0))	0
+D17	IF(GrpA,0,IF(AND(TaxableIncome>=500001,TaxableIncome<=B17),(ROUND(VALUE(TaxableIncome-B16) * 0.2,0))+25000,0))	0
+D18	IF(GrpA,0,IF((TaxableIncome>=B18),(ROUND(VALUE(TaxableIncome-B17) * 0.3,0))+125000,0))	0
+F19	F18-D18	459920
+D22	IF(GrpB,0,IF(AND(TaxableIncome>=0,TaxableIncome<=B22),0,0))	0
+D23	IF(GrpB,0,IF(AND(TaxableIncome>=500001,TaxableIncome<=B23),(ROUND(VALUE(TaxableIncome-B22) * 0.2,0)),0))	0
+D24	IF(GrpB,0,IF((TaxableIncome>=B24),(ROUND(VALUE(TaxableIncome-B23) * 0.3,0))+100000,0))	0
+D26	SUM(D10:D24)	0

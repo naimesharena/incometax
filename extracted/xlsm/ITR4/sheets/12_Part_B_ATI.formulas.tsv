@@ -1,0 +1,24 @@
+cell	formula	cached_value
+Z5	MID(sheet1.ReturnFileSec,4,4)	(1)-
+P10	IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",SUM(P5:P9),0)	0
+P12	IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",IncD.TotalIncome,0)	0
+P13	IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",IncD.BalTaxPayable,0)	0
+P14	IF(U_AmtPayable>0,0,IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",IncD.RefundDue,0))	0
+S17	 VALUE(MID( Ver.Date,4,2))	6
+T17	 VALUE(MID( Ver.Date,9,4))	26
+P18	IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",IncD.IntrstPayUs234F,0)	0
+S19	ROUND((MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)*0.25),0)	0
+P21	MAX(0,IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",IF(P17>0,P13+P17-(P15+P19+U_AmtRefundable),0),0))	0
+P22	MAX(0,IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",IF(P17=0,P13+P16-(P15+P19+U_AmtRefundable),0),0))	0
+S22	IF(LEFT(U_UpdatedReturnDuringPeriod,2)="Up",1,IF(LEFT(U_UpdatedReturnDuringPeriod,2)="Be",2,0))	1
+T22	MAX(IF(Return_Dropdown=1,ROUND((MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)*0.25),0),IF(Return_Dropdown=2,ROUND((MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)*0.5),0),0)),0)	0
+P23	MAX(IF(UR_Change=1,ROUND((MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)*0.25),0),IF(UR_Change=2,ROUND((MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)*0.5),0),IF(UR_Change=3,ROUND((MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)*0.6),0),IF(UR_Change=4,ROUND((MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)*0.7),0),0)))),0)	0
+S23	MAX(0,(U_AggrLiabilityRefund+U_AggrLiabilityNoRefund)-U_FeeIncUS234F)	0
+P24	MAX(0,IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",MAX(0,P21+P22+P23),0))	0
+S24	IF(UPPER(TRIM(U_UpdatedReturnDuringPeriod))=UPPER(TRIM("Up to 12 months from the end of Relevant Assessment Year")),1,IF(UPPER(TRIM(U_UpdatedReturnDuringPeriod))=UPPER(TRIM("Between 12 to 24 Months from the end of Relevant Assessment  Year")),2,IF(UPPER(TRIM(U_UpdatedReturnDuringPeriod))=UPPER(TRIM("Between 24 to 36 Months from the end of Relevant Assessment Year")),3,IF(UPPER(TRIM(U_UpdatedReturnDuringPeriod))=UPPER(TRIM("Between 36 to 48 Months from the end of Relevant Assessment Year")),4,0))))	1
+P25	U_Total1	0
+P26	MAX(0,IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",MAX(0,P24-P25),0))	0
+E32	E31+1	2
+K33	IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",SUM(U_Amt1),0)	0
+E40	E39+1	2
+K41	IF(MID(sheet1.ReturnFileSec,4,4)="(8A)",SUM(U_Amt2),0)	0

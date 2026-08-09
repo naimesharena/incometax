@@ -1,0 +1,56 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N
+3			Schedule Trading Account				Part A-Trading Account -Trading Account  for the financial year 2025-26 (fill items 4 to 12d in a case where regular books of accounts are maintained, otherwise fill items 61 to 65 as applicable)
+4			4	Revenue from operations
+5				A	Sales/ Gross receipts of business (net of returns and refunds and duty or tax, if any)
+6					i	Sale of goods
+7					ii	Sale of services
+8					iii	Other operating revenues (specify nature and amount)
+9						Sl.No.	Nature	Amount
+10						1
+11						2
+14						iii	Total (iiia+iiib)				0
+15					iv	Total(i+ii+iiic)							Aiv	0
+16				B	Gross receipts from Profession								B
+17				C	Duties, taxes and cess received or receivable in respect of goods and services sold or supplied
+18					i	Union Excise duties 
+19					ii	Service Tax
+20					iii	VAT/ Sales tax
+21					iv	Central Goods & Service Tax (CGST)
+22					v	State Goods & Services Tax (SGST)
+23					vi	Integrated Goods & Services Tax (IGST)
+24					vii	Union Territory Goods & Services Tax  (UTGST)
+25					viii	Any other duty, tax and cess
+26					ix	Total (i + ii + iii + iv +v+ vi+vii+viii)							4Cix	0
+27				D	Total Revenue from operations (Aiv + B +Cix)								4D	0
+28			5	Closing Stock of Finished Stocks									5
+29			6	Total of credits to Trading Account (4D + 5 )									6	0
+30			7	Opening Stock of Finished Goods									7
+31			8	Purchases (net of refunds and duty or tax, if any)									8
+32			9	Direct Expenses (9i + 9ii + 9iii)
+Note: Row can be added as per the nature of Direct Expenses									9	0
+33				i	Carriage inward
+34				ii	Power and fuel 
+35				iii	Other direct expenses 
+36						Sl.No.	Nature of direct expenses	Amount
+37						1
+38						2
+41						9iii	Total				0
+42			10	Duties and taxes, paid or payable, in respect of goods and services purchased
+43				i	Custom duty 
+44				ii	Counter veiling duty 
+45				iii	Special additional duty 
+46				iv	Union excise duty 
+47				v	Service Tax
+48				vi	VAT/ Sales tax
+49				vii	Central Goods & Service Tax (CGST)
+50				viii	State Goods & Services Tax (SGST)
+51				ix	Integrated Goods & Services Tax (IGST)
+52				x	Union Territory Goods & Services Tax  (UTGST)
+53				xi	Any other tax, paid or payable 
+54				xii	Total (10i + 10ii + 10iii + 10iv + 10v + 10vi + 10vii + 10viii + 10ix + 10x+10xi)								10xii	0
+55			11	Cost of goods produced – Transferred from Manufacturing Account 									11	0
+56			12	Gross Profit from Business/Profession - transferred to Profit and Loss account (6-7-8-9-10xii-11)									12	0
+57			12a	Turnover from Intraday Trading									12a
+58			12b	Income from Intraday Trading - transferred to Profit and Loss account									12b
+59			12c	Turnover from Futures & Options Trading 									12c
+60			12d	Income from Futures & Options Trading - transferred to Profit and Loss account 									12d

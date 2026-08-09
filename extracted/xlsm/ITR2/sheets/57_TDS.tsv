@@ -1,0 +1,96 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA	BB	BC	BD	BE	BF	BG	BH	BI	BJ	BK	BL	BM
+2		Note : In the TDS schedule, wherever possible, head of income has been pre-filled based on TDS sections. If the income is being offered under a different head, the income head entries need to be changed accordingly
+4			TDS 1																																																												0
+5			20B
+	Details of Tax Deducted at Source from SALARY [As per FORM 16 issued by Employer(s)]
+7				Sl. No.	Tax Deduction Account
+Number (TAN) of the
+Employer	Name of Employer	Income chargeable
+under Salaries	Total tax
+deducted																																																									0
+8				1	2	3	4	5
+9				1
+10				2
+11				3
+12				4
+14					Total		0	0
+17				Note: Please enter total of column 5 in 15b of Part B-TTI
+19			TDS 2
+20			20C(1)	Details of Tax Deducted at Source (TDS) on Income [As per FORM 16A  issued or Form 16B/ 16C/16E furnished  by Deductor(s)] 
+21				Sl. No.	TDS credit 
+relating to Self/Other Person[Spouse as per section 5A/Other person as per Rule 37BA(2)] 	PAN Of Other Person(If TDS credit related to other person)	Aadhaar No. Of Other Person (If TDS credit related to other person)	Tax Deduction Account
+Number (TAN) of the
+Deductor	Section under which TDS is deducted	 Unclaimed TDS 
+brought forward (b/f) 		TDS of the current financial Year (TDS deducted during the FY 2025-26)			TDS credit being claimed this Year (only if corresponding income is being offered for tax this year not applicable if TDS is deducted u/s 194N)					Corresponding Receipt/withdrawals offered																TDS2	TDS2
+22				(Col 1)	(Col 2)	(Col 3i)	(Col 3ii)	(Col 4)		Fin. Year in which TDS is deducted
+(Col 5)	TDS b/f
+(Col 6)	Deducted in own hands 
+(Col 7)	Deducted in the hands of spouse as per section 5A or any other person as per rule 37BA(2) (if applicable)
+(Col 8) 		Claimed In own hands
+(Col 9)	Claimed in the hands of spouse as per section 5A or any other person as per rule 37BA(2)(if applicable) 
+(Col 10)				Gross Amount 
+(Col 11)	Head of Income
+(Col 12)	TDS Credit  being carried forward                             (Col 13)														(Select)	(Select)
+23													Income	TDS		Income	TDS	PAN	Aadhaar No.																	2008-09	2008-09
+24				1	(Select)																	0				0										2009-10	2009-10
+25				2	(Select)																	0														2010-11	2010-11
+26				3	(Select)																	0														2011-12	2011-12
+27				4	(Select)																	0														2012-13	2012-13
+28																																					2013-14
+29				Total											0																						2014-15
+30																																					2015-16
+31																																					2016-17
+32				Note: Please enter total column 9 of above in 15b of Part B-TTI																																	2017-18
+33																																					2018-19
+34			TDS 3																																		2019-20
+35			20C	Details of Tax Deducted at Source (TDS) on Income [As per Form 16B/16C furnished  by Deductor(s)]																																	2020-21
+36				Sl.
+No.	TDS credit relating to Self/Other Person[Spouse as per section 5A/Other person as per Rule 37BA(2)] 	PAN Of Other Person(If TDS Credit related to other person)	Aadhaar No. Of Other Person (If TDS credit related to other person)                         (Col 3ii)	PAN of the buyer/Tenant	Aadhaar No. Of the buyer/ tenant 	Section under which TDS is deducted	Unclaimed TDS
+brought forward (b/f)		TDS of the current financial Year (TDS deducted during the FY 2025-26)			TDS credit being claimed this Year (only if corresponding income is being offered for tax this year)					Corresponding Receipt offered		TDS Credit  being carried forward              (Col 13)														2021-22
+37				(Col 1)	(Col 2)	(Col 3i)		(Col 4)			Financial Year in which TDS is deducted
+(Col 5)	TDS b/f
+
+(Col 6)	Deducted in own hands 
+(Col 7)	Deducted in the hands of spouse as per section 5A or any other person as per rule 37BA(2) (if applicable)
+Col (8)		Claimed in own hands
+(Col 9)	Claimed in the hands of spouse as per section 5A or any other person as per rule 37BA(2)(if applicable) 
+Col (10)				Gross Amount 
+
+(Col 11)	Head of Income
+(Col 12)															2022-23
+38														Income	TDS		Income	TDS	PAN 	Aadhaar No.																	2023-24
+39				1	(Select)																		0				0
+40				2	(Select)																		0
+41				3	(Select)																		0
+42				4	(Select)																		0
+44				Total												0
+47				Note: Please enter total column 9 of above in 15b of Part B-TTI
+49			17D	Details of Tax Collected at Source (TCS) [As per Form 27D issued by the Collector(s)]
+51				SI. No.	Tax Deduction and Collection Account Number of the Collector	Name of the Collector	Tax Collected	Amount out of (4)
+being claimed	Amount out of (4) being claimed in the
+hands of spouse, if section 5A is applicable
+52				(1)	(2)	( 3 )	( 4 )	( 5 )	( 6 )
+53				1
+54				2
+55				3
+56				4
+57				5
+59			Total					0
+62				Please enter total col(5) of TCS in 15c of Part B-TTI
+63				TCS
+64				D	Details of Tax Collected at Source (TCS) [As per form 27D issued by collectors]
+65					Sl. No.	TCS credit relating to Self/Other Person [Spouse as per section 5A/Other person as per Rule 37-I(1) 	Tax Deduction and Tax Collection Account Number of the Collector 	PAN Of Other Person (If TCS Credit related to other person)	Unclaimed TCS brought forward (b/f)		TCS of the current financial Year (TCS collected during the FY  2025-26)		TCS credit being claimed this year			TCS credit being carried forward
+66					(Col 1)	(Col 2(i))	(Col 2(ii))	(Col 3)	Fin. Year in which TCS collected
+(Col 4)	Amount b/f
+(Col 5)	Collected in own hands
+(Col 6(i))	Collected in the hands of spouse as per section 5A or any other person as per rule 37-I(1)) (if applicable) 
+(Col 6(ii))	Claimed in own hands 
+[Col 7(i)]	Claimed in the hands of spouse as per section 5A or any other person as per rule 37-I(1)) (if applicable) [Col 7(ii)]		(Col 8)
+67														TCS [Col 7(ii)(a)]	PAN [Col 7(ii)(b)]
+68					1	(Select)										0
+69					2	(Select)										0
+70					3	(Select)										0
+71					4	(Select)										0
+72					5	(Select)										0
+74					Total								0
+77				Note: Please enter total of column 7(i) of Schedule-TCS in 10c of Part B-TTI

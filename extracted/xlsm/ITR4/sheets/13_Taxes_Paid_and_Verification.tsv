@@ -1,0 +1,53 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q
+3			TAXES PAID		Taxes Paid PLEASE NOTE THAT CALCULATED FIELDS (IN WHITE) ARE PICKED UP FROM OTHER SCHEDULES AND ARE NOT TO BE ENTERED. 
+For ex :  The taxes paid figures below will get filled up when the Schedules linked to them are filled.    
+4				D13	Total Advance Tax Paid (from Schedule IT)			0
+5				D14	Total Self-Assessment Tax Paid (from Schedule IT)			0
+6				D15	Total TDS Claimed (total of column 4 of Schedule-TDS1 and column 6 of Schedule-TDS2(i) and TDS 2(ii) )			0
+7				D16	Total TCS Collected (total of column (5) of Schedule-TCS)			0
+8				D17	Total Taxes Paid (D13+ D14 + D15 + D16)				0
+9				D18	Amount payable  (D12 – D17, If D12 > D17)				0
+10				D19	Refund  (D17 – D12, If D17 > D12) 				0
+11				D20	Exempt Income only for Reporting Purpose (If agricultural income is more than Rs.5,000/-, use ITR 3/5) and Income on which no tax is payable
+12						Sl.No.	Category	Sub-Category	Description	Amount
+13						1								0		0	0
+14						2								0		0
+17						Total			0
+18				D20(a)	Long Term capital gains u/s 112A not chargeable to Income-tax
+19				i	Total sale consideration				0
+20				ii	Total cost of acquisition				0
+21				iii	Long term capital gains as per sec 112A				0
+22				D21	Details of all Bank Account Details held in India at any time during the previous year (excluding dormant accounts) 
+23				28	Do you have a bank account in India (Non-residents claiming refund with no bank account in India may select NO)?				YES
+24					Total number of savings and current bank accounts held by you at any time during the previous year (excluding dormant accounts).
+
+25				28	Details of all Bank Accounts held in India  at any time during the previous year (excluding dormant accounts).
+Note: If you do not have any bank account in India, enter the details as IFSC - NNNN0NNNNNN, Name of Bank - NOT APPLICABLE, Account No. - NA999.
+26				a)
+27					Sl.No.	IFS Code of the Bank	Name of the Bank	Account Number
+28					1									FALSE
+30					Sl.No.	IFS Code of the bank	Name of the Bank	Account Number	Type of Account	Select Account for Refund Credit
+31					1										FALSE		FALSE
+32					2										FALSE
+33				If any one field is filled then entire row shall be mandatory
+34				                                                                  (Do not delete blank rows)
+35				Note:													FALSE
+36				1.All bank accounts held at any time is to be reported, except dormant A/c.
+2. Minimum one account should be selected for refund credit.
+3. In case multiple accounts are selected, refund will be credited to one of the validated accounts decided by CPC after processing the return.
+37					1
+38				If any one of the field is filled then entire row shall become mandatory in table
+39							 (Do not delete blank rows)
+40			VERIFICATION
+41	adpak4.701005120		I, 					son/daughter of
+42			solemnly declare that to the best of my knowledge and belief, the information given in the return is correct and complete and  is in accordance with the
+43			provisions of the Income-tax Act, 1961,  I further declare that I am making returns in my capacity as 					(Select)	and I am also competent to 
+44			make this return and verify it.  I am holding permanent account number
+45			Place				Date (System Date)	29/06/2026
+46			PAN
+47			B23	If the return has been prepared by a Tax Return Preparer (TRP) give further details as below:
+48			TRP PIN (10 Digit)				Name of TRP
+50			B24	Amount to be paid to TRP					0
+51			Note: 
+1. Submission date is the system date of e-Filing portal of Income Tax Department. The same is available in the Acknowledgement/ITR-V generated after submission of return.
+2. Verification Date is the date of e-Verification at e-Filing portal of Income Tax Department or the date of receipt of ITR-V at CPC, Bengaluru. The same will be available in View Returns/Forms option of e-Filing portal. In case of e-Verification, it is available in Acknowledgement.

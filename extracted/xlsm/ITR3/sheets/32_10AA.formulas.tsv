@@ -1,0 +1,9 @@
+cell	formula	cached_value
+F4	CONCATENATE("Undertaking No.",E4)	Undertaking No.1
+I5	SUM(SEZA10.DedFromUndertaking)	0
+F11	CONCATENATE("Undertaking No.",E11)	Undertaking No.1
+E12	E11+1	2
+F12	CONCATENATE("Undertaking No.",E12)	Undertaking No.2
+E13	E12+1	3
+F13	CONCATENATE("Undertaking No.",E13)	Undertaking No.3
+I14	IF(bacValue=1,0,SUM(AA10.DedFromUndertaking))	0

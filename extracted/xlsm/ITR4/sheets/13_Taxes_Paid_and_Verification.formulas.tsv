@@ -1,0 +1,23 @@
+cell	formula	cached_value
+H4	IT.AT	0
+H5	IT.SAT	0
+H6	SUM(TDSal.TotalTDSSal,TDS2i.Sum,TDS2ii.Sum)	0
+H7	SUM(TCS.AmtTCSClaimedThisYear)	0
+I8	SUM(H4:H7)	0
+I9	ROUND(MAX(0,IncD.TotTaxPlusIntrstPay-IncD.TotalTaxesPaid),-1)	0
+I10	ROUND(MAX(0,IncD.TotalTaxesPaid-IncD.TotTaxPlusIntrstPay),-1)	0
+N13	SUMIFS(Sheet5.Amount, Sheet5.Nature, "Sec 10(11)-Statutory Provident Fund received") + SUMIFS(Sheet5.Amount, Sheet5.Nature, "Sec 10(12)-Recognized Provident Fund received") +SUMIFS(Sheet5.Amount,Sheet5.Nature,"Sec 10(13)-Approved superannuation fund received") + SUMIFS(Sheet5.Amount,Sheet5.Nature,"Sec 10(18)-Pension received by winner of  ""Param Vir Chakra"" or ""Maha Vir Chakra"" or ""Vir Chakra"" or such other gallantry award") + SUMIFS(Sheet5.Amount,Sheet5.Nature,"Defense Medical Disability Pension")  + SUMIFS(Sheet5.Amount,Sheet5.Nature,"Sec 10(19)-Armed Forces Family pension in case of death during operational duty")+SUMIFS(Sheet5.Amount,Sheet5.Nature,"Sec 10(26AAA)-Any income as referred to in section 10(26AAA)")+IncD.IncomeFromSal_i	0
+O13	MID(G13,4,6)	
+P13	SUMIF(SEC38Check,"10(38)",Sheet5.Amount)	0
+Q13	SUMIFS(Sheet5.Amount,Sheet5.Nature,"Agricultural  & related incomes")	0
+F14	F13+1	2
+N14	SUM(grosssalandexemptincome_hidden + Family_Pension)	0
+O14	MID(G14,4,6)	
+P14	SUMIF(SEC38Check,"10(38)",Sheet5.Amount)	0
+I17	SUM(Sheet5.Amount)	0
+I21	IF((MAX(0,(IncD.Sale_LTCG-IncD.Cost_LTCG)))>125000,0,MAX(0,(IncD.Sale_LTCG-IncD.Cost_LTCG)))	0
+N28	IF(F28<>"",VLOOKUP(MID(F28,1,4),IFSC_BankName,2,FALSE))	FALSE
+O31	IF(F31<>"",VLOOKUP(MID(F31,1,4),IFSC_BankName,2,FALSE))	FALSE
+E32	E31+1	2
+O32	IF(F32<>"",VLOOKUP(MID(F32,1,4),IFSC_BankName,2,FALSE))	FALSE
+H45	CONCATENATE(IF(DAY(TODAY())<10,"0",""),DAY(TODAY()),"/",IF(MONTH(TODAY())<10,"0",""),MONTH(TODAY()),"/",YEAR(TODAY()))	29/06/2026

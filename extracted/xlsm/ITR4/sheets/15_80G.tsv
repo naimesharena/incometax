@@ -1,0 +1,83 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA
+3			Schedule 80G		Details of donations entitled for deduction under section 80G															0	0	0	0	0			0
+4			A	Donations entitled for 100% deduction without qualifying limit  
+
+5				Sl.No.	Name of donee	Address	City or Town or District	State Code	Pin code	PAN of the donee	ARN (Donation Reference Number)	Amount of donation					Eligible Amount of Donation
+6												Donation in cash	Donation in other mode	Transaction Reference number for _UPI transfer / Cheque number/IMPS/NEFT/RTGS reference number	IFSC code of Bank	Total Donation
+7				1				(Select)								0	0			NoData	_NoData	0		0
+8				2				(Select)								0	0			NoData	_NoData	0		0
+9				3				(Select)								0	0			NoData	_NoData	0		0
+10				4				(Select)								0	0			NoData	_NoData	0		0
+11				5				(Select)								0	0			NoData	_NoData	0		0
+12				6				(Select)								0	0			NoData	_NoData	0		0
+13				Total  A :								0	0			0	0
+18			B	Donations entitled for 50% deduction without qualifying limit
+19				Sl.No.	Name of donee	Address	City or Town or District	State Code	Pin code	PAN of the donee 		Amount of donation					Eligible Amount of Donation
+20												Donation in cash	Donation in other mode	Transaction Reference number for _UPI transfer / Cheque number/IMPS/NEFT/RTGS reference number	IFSC code of Bank	Total Donation
+21				1				(Select)								0	0			NoData	_NoData	0		0
+22				2				(Select)								0	0			NoData	_NoData	0		0
+23				3				(Select)								0	0			NoData	_NoData	0		0
+24				4				(Select)								0	0			NoData	_NoData	0		0
+25				5				(Select)								0	0			NoData	_NoData	0		0
+26				6				(Select)								0	0			NoData	_NoData	0		0
+27				Total  B :								0	0			0	0
+32			C	Donations entitled for 100% deduction subject to qualifying limit
+33				Sl.No.	Name of donee	Address	City Or Town Or District	State Code	Pin code	PAN of the donee  		Amount of donation					Eligible Amount of Donation
+34												Donation in cash	Donation in other mode	Transaction Reference number for _UPI transfer / Cheque number/IMPS/NEFT/RTGS reference number	IFSC code of Bank	Total Donation
+35				1				(Select)								0	0			NoData	_NoData	0		0
+36				2				(Select)								0	0			NoData	_NoData	0		0
+37				3				(Select)								0	0			NoData	_NoData	0		0
+38				4				(Select)								0	0			NoData	_NoData	0		0
+39				5				(Select)								0	0			NoData	_NoData	0		0
+40				6				(Select)								0	0			NoData	_NoData	0		0
+41				Total  C : 								0	0			0	0
+46			D	Donations entitled for 50% deduction subject to qualifying limit
+47				Sl.No.	Name of donee	Address	City Or Town Or District	State Code	Pin code	PAN of the donee   	ARN (Donation Reference Number)	Amount of donation					Eligible Amount of Donation
+48												Donation in cash	Donation in other mode	Transaction Reference number for _UPI transfer / Cheque number/IMPS/NEFT/RTGS reference number	IFSC code of Bank	Total Donation
+49				1				(Select)								0	0			NoData	_NoData	0	0	0
+50				2				(Select)								0	0			NoData	_NoData	0	0	0
+51				3				(Select)								0	0			NoData	_NoData	0	0	0
+52				4				(Select)								0	0			NoData	_NoData	0	0	0
+53				5				(Select)								0	0			NoData	_NoData	0	0	0
+54				6				(Select)								0	0			NoData	_NoData	0	0	0
+55				Total  D :								0	0			0	0
+59			E	Total Amount of Donations  (A + B + C + D)								0	0			0	0
+60			Note: In case of Donee Funds setup by Government as described in section 80G(2) please use PAN as "GGGGG0000G".
+159				(Select)
+160				01-ANDAMAN AND NICOBAR ISLANDS
+161				02-ANDHRA PRADESH
+162				03-ARUNACHAL PRADESH
+163				04-ASSAM
+164				05-BIHAR
+165				06-CHANDIGARH
+166				07-DADRA AND NAGAR HAVELI
+167				08-DAMAN AND DIU
+168				09-DELHI
+169				10-GOA
+170				11-GUJARAT
+171				12-HARYANA
+172				13-HIMACHAL PRADESH
+173				14-JAMMU AND KASHMIR
+174				15-KARNATAKA
+175				16-KERALA
+176				17-LAKHSWADEEP
+177				18-MADHYA PRADESH
+178				19-MAHARASHTRA
+179				20-MANIPUR
+180				21-MEGHALAYA
+181				22-MIZORAM
+182				23-NAGALAND
+183				24-ORISSA
+184				25-PONDICHERRY
+185				26-PUNJAB
+186				27-RAJASTHAN
+187				28-SIKKIM
+188				29-TAMILNADU
+189				30-TRIPURA
+190				31-UTTAR PRADESH
+191				32-WEST BENGAL
+192				33-CHHATISHGARH
+193				34-UTTARANCHAL
+194				35-JHARKHAND
+195				36-TELANGANA
+196				99-FOREIGN

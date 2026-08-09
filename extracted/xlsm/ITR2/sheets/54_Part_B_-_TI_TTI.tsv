@@ -1,0 +1,140 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ
+3			Part B - TI					Part B-TI Computation of total income
+
+4			TOTAL INCOME	1	Salaries (6 of Schedule S)						1	0
+5				2	Income from house property (3 of Schedule-HP) (enter nil if loss)						2	0
+6				3	Profits and gains from business or profession
+7					i	Profit and gains from business other than speculative business and specified business (A38 of Schedule-BP) (enter nil if loss)			3i	0
+8					ii	Profit and gains from speculative business (3(ii) of table E  of Schedule BP) (enter nil if loss and take the figure to schedule CFL)			3ii	0
+9					iii	Profit and gains from specified  business(3(iii) of Table E of Schedule BP) (enter nil if loss and take the figure to schedule CFL)			3iii	0
+10					iv	Income chargeable to tax at special rates (3e & 3f of Schedule BP)			3iv	0
+11					v	Total (3i + 3ii + 3iii + 3iv) (enter nil if 3v is a loss)					3v	0
+12				3	Capital gains
+13					a	Short-term 
+14						ia	Short term chargeable @15% (11ii of item E of Sch CG)		aia	0
+15						i	Short term chargeable @20% (8ii of item E of Sch CG)		ai	0
+16						ii 	Short term chargeable @30% (8iii of item E of Sch CG)		aii	0
+17						iii 	Short term chargeable at applicable rate (8iv of item E of Sch CG)		aiii	0
+18						iv 	Short-term chargeable at special rates in India as per DTAA (8v of item E of Schedule CG)		aiv	0
+19						v 	Total Short term (ai+aii+aiii+aiv) (enter nil if loss)		av	0
+20					b	Long-term 
+21						ia	Long-term chargeable @ 10% (11vii of item E of schedule CG)		bia	0
+22						i	Long-term chargeable @ 12.5% (8vi of item E of schedule CG)		bi	0
+23						ii	Long-term chargeable @ 20% (11ix of item E of schedule CG)		bii	0
+24						ii	LTCG chargeable at special rates as per DTAA (8vii of item E of Schedule CG)		bii	0
+25						iii 	Total Long term (bi+bii)  (enter nil if loss)		biii	0
+26					c	Sum of Short-term / Long-term Capital Gains (3av + 3biii)  (enter nil if loss)					3c	0
+27					d	Capital gains chargeable @ 30 % u/s 115BBH (C2 of Schedule CG)					3d	0
+28					e	Total Capital Gains (3c+3d)					3e	0
+29				4	Income from other sources
+30					a	Net income from other sources chargeable to tax at normal applicable rates   (6 of Schedule OS) (enter nil if loss)			4a	0
+31					b	Income chargeable to tax at special rates
+(2 of Schedule OS)			4b	0
+32					c	Income from the activity of owning & maintaining race horses (8e of Schedule OS)(enter nil if loss)			4b	0
+33					d	Total (4a + 4b + 4c)  (enter nil if loss)					4d	0
+34				5	Total of head wise income (1+2+3e+4d)						5	0
+35				6	Losses of current year set off against 5  (total of 2xiii and 3xiii of Schedule CYLA)						6	0
+36				7	Balance after set off current year losses (5-6) (total of column 4 of Schedule CYLA+2 of Schedule OS)						7	0
+37				8	Brought forward losses set off against 7 ( 2xii of Schedule BFLA)						8	0
+38				9	Gross Total income (7-8) (3xiii of Schedule BFLA + 2 of Schedule OS )						9	0
+39				10	Income chargeable to tax at special rate under section 111A, 112, 112A  etc. included in  9						10	0						0
+40					a	Part-B, CA and D of Chapter VI-A [(1 + 3) of Schedule VI-A and limited upto](i5+ii5+iii5+iv5+v5+viii5+xiii5+xiv5 of BFLA]			a	0
+41					b	Part-C of Chapter VI-A [(2 of Schedule VI-A]			b	0
+42				11	Deductions under Chapter VI-A [v of Schedule VIA and limited to (9-10)]						11c	0							To Calculate 17
+43				12	Deduction u/s 10AA ( c of Sch. 10AA)						12	0
+44				12	Total income(9-11)						12	0
+45				13	Income which is included in 12 and chargeable to tax at special rates (total of column (i) of schedule SI)						13	0						tempInc(14-15)	0
+46				14	Net agricultural income/ any other income for rate purpose (2 of Schedule EI)						14	0			0	Formula changed by Bindu on 14th May 25 as per Sonam/Aparna
+47				15	Aggregate income  (12-13+14) [applicable if (12-13) exceeds maximum amount not chargeable to tax]						15	0			0	0		Exemtion 	400000	0	Formula changed by Konda as per Bindu on 10-06-2026
+48				16	Losses of current year to be carried forward (total of row xi of Schedule CFL)						16	0			Formula changed by Bindu on 14th May 25 as per Sonam/Aparna
+49				17	Deemed income under section 115JC (3 of schedule AMT)						17	0
+51			Part B - TTI					Computation of tax liability on total income
+52			COMPUTATION OF TAX LIABILITY	1	Tax payable on deemed total income													2035000.0000000002
+53					1a	Tax payable on deemed total income under section 115JC (4 of Schedule AMT)					1a	0							TTI 1b					TTI 1b					TTI 1b					TTI 1b
+54					1b	Surcharge on (a) (if applicable) 					1b	0							CalcSurchargeAboveOneCrore					CalcSurchargeAbove50Lakh					CalcSurchargeAboveTwoCrore					CalcSurchargeAboveFiveCrore
+55					1c	Health and Education Cess @ 4% on (1a+1b) above					1c	0						taxPayable or taxOnTotInc	0				taxPayable or taxOnTotInc	0				taxPayable or taxOnTotInc	0				taxPayable or taxOnTotInc	0
+56					1d	Total Tax Payable on deemed total income (1a+1b+1c)					1d	0						taxOnCutOffInc (including previous slab surcharge i.e 10%	0		Last Digit of AMT		taxOnCutOffInc	0		Last Digit of AMT		taxOnCutOffInc (including previous slab surcharge i.e 15%	0		Last Digit of AMT		taxOnCutOffInc (including previous slab surcharge i.e 10%	0		Last Digit of AMT
+57				2	Tax payable on total income													RoundDown Value from AMT	0		0		RoundDown Value from AMT	0		0		RoundDown Value from AMT	0		0		RoundDown Value from AMT	0		0
+58					a	Tax at normal rates on 15 of Part B-TI			2a	0						As per BA team updated	Old formula -23-24
+59					b	Tax at special rates (total of  col (ii) of Schedule-SI)			2b	0					This formula not used any where so AY_25_26 not change this function	0	0	tempSurcharge	0				tempSurcharge	0				tempSurcharge	0				tempSurcharge	0
+60					c	Rebate on agricultural income [applicable if (12-13) of Part B-TI exceeds maximum amount not chargeable to tax]			2c	0					0	0	0
+61					d	Tax Payable on Total Income (2a + 2b-2c)					2d	0			0	12.5% updated by Bindu	Old formula -24-25	//check if eligible for marginal relief					//check if eligible for marginal relief					//check if eligible for marginal relief					//check if eligible for marginal relief
+62				2	Rebate under section 88E (4 of Schedule-STTR)						2
+63				3	Balance Tax Payable (1 -2) 						3	0
+64				4	Surcharge on 3						4
+65				3	Rebate under section 87A 						3	0		0	0	0	0
+66				4	Tax payable after rebate (2d – 3)						4	0			New tax - Old approach	Old Formula -23-24	New Tax - new approcah-currently using	extraInc	-10000000				extraInc	-5000000				extraInc	-20000000				extraInc	-50000000
+67				5	Surcharge
+68					A	Surcharge computed before marginal relief
+69					i	25% of  tax u/s 115BBE (Income under section 68, 69, 69A, 69B, 69C or 69D)			Ai	0					0		0
+70					ii	10% or 15% as applicable			Aii	0					AY_25_26_New FORMULA
+71					iii	On [(4) – ( 15(ii) of schedule SI- tax on income referred to in 5(ii) above)] 			Aiii						0	Q71-Updated by Bindu on 16th march 26	0	0
+72					B	Surcharge after marginal relief									0	AY_24-25_OLD FORMULA
+73					i	25% of  tax u/s 115BBE (Income under section 68, 69, 69A, 69B, 69C or 69D)			Bi	0
+74					ii	10% or 15% as applicable			Bii	0
+75					iii	On [(4) – ( 15(ii) of schedule SI- tax on income referred to in 5(ii) above)] 			Biii						0
+76					iv	Total (ia + iia)					5gBiv	0
+77				6	Health and Education cess @ 4% on (4 + 5iv)						6	0						marginal Relief	10000000				marginal Relief	5000000				marginal Relief	20000000				marginal Relief	50000000
+78				7	Gross tax liability(4 + 5iv + 6)						7	0				By sai for Rebate 87A	Old Formula
+79				8	Gross tax payable (higher of 1d and 7) (8a+8b)						8	0					0
+80				8a	Tax on  income without including  income on perquisites referred  in section 17(2)(vi) received  from employer, being an eligible start-up referred to in section 80-IAC ( Schedule Salary) (8-8b)						8a	0			16th March updated by Bindu 26	0	Updated by Bindu	surchargeOnAboveCrore	0				surchargeOnAbove50Lakh	0				surchargeOnAboveTwoCrore	0				surchargeOnAboveCrore	0
+81				8b	Tax deferred - relatable to income on perquisites referred  in section 17(2)(vi) received from employer, being an eligible start-up referred to in section 80-IAC						8b	0				0
+82				8c	Tax deferred from earlier years but payable during current AY ( total of col 7 of schedule Tax deferred on ESOP)						8c	0
+83				9	Credit under Section 115JD of tax paid in earlier years (applicable only if 7 is higher than 1d)(row 5 of Schedule AMTC)						9	0										0	FALSE	FALSE					0
+84				10	Tax payable after credit under section 115JD (8a+8c-9)						10	0																	0
+85				11	Tax relief  																								0
+86					11a	Section 89 (Please ensure to submit Form 10E to claim this relief)			11a	0					0				TO Calculate 2g						TTI Income Tax Calculations				If Normal Tax is more than AMT
+87					b	Section 89A			6b	0
+88					11b	Section 90/ 90A ( 2 of Schedule TR)			11b	0																			0	Deferred Tax 
+89					11c	Section 91 ( 3 of Schedule TR)			11c	0														Total Inc from 17 of TI	0				0	Surcharge on Deferred Tax
+90					11d	Total (11a + 11b + 11c )					11d	0						taxPayable	0										0	Rebate on agriculture income w.r.t deferred tax
+91				12	Net tax liability  (10-11d) (enter zero if negative)
+  
+						12	0						totInc (14 of TI)	0										0	Education cess
+92				13	Interest and fee payable 																			Temp Net Taxable Inc	0				0	Total Deferred Tax
+93					a	Interest for default in furnishing the return (section 234A)			13a	0								totalIncome	0
+94					b	Interest for default in payment of advance tax (section 234B) 			13b	0
+95					c	Interest for deferment of advance tax (section 234C) 			13c	0								incChargeTaxSplRate111A112 (11 of TI)	0						FALSE				If AMT is more than Normal Tax
+96					d	Fee for default in furnishing return of income (section 234F)			13d	0																			0	Deferred Tax 
+97					da	Fee for furnishing revised return of income (section 234-I) 			13da	0
+98					e	Total Interest and Fee Payable (13a+13b+13c+13d+13da)					13e	0																	0	Surcharge on Deferred Tax
+99				14	Aggregate liability (12+13e)						14	0						taxAtSpecialRates (2b of TTI)	0										0	Education cess
+100			TAXES PAID	15	Taxes Paid																								0	Total Deferred Tax
+101					a	Advance Tax (from column 5 of 20A)			15a	0								dtaaInc	0
+102					b	TDS (total of column 5 of 20B and column 9 of 20C)			15b	0								dtaaTax	0
+103					c	TCS (total of column 7(i) of 20D)			15c	0
+104					d	Self Assessment Tax (from column 5 of 20A)			15d	0									// for Surcharge
+105					e	Total Taxes Paid (15a+15b+15c+15d)					15e	0
+106				16	Amount payable (Enter if 14 is greater than 15e, else enter 0).						16	0						totInc + dtaaInc	0
+107				17	Refund (If 15e is greater than 14) (Refund, if any, will be directly credited into the bank account) .						17	0						(taxOnTotInc-incChargeTaxSplRate111A112)+taxAtSpecialRates	0
+108				13	Enter your bank account number (, the number should be 9 digits or more as per CBS system of the bank )													normalInc
+109				14	Select Yes  if you want your refund by direct  deposit into your bank account, Select No if you want refund by Cheque. 							(Select)
+110					Bank Account Details
+111				IFS Code of the bank						Type of account(select)		(Select)
+112				18	Do you have a bank account in India (Non-residents claiming refund with no bank account in India may select No)?						18	Yes
+113					Total number of savings and current bank accounts held by you at any time during the previous year (excluding dormant accounts). Provide the details below.
+114				13	Details of all Bank Accounts held in India  at any time during the previous year (excluding dormant accounts).
+Note: If you do not have any bank account in India, enter the details as IFSC - NNNN0NNNNNN, Name of Bank - NOT APPLICABLE, Account No. - NA999.
+115				(a)	Details of all Bank Accounts held in India at any time during the previous year (excluding dormant accounts)
+116					Sl.No		IFS Code of the Bank	Name of the Bank	Account Number
+117					1
+118					b. Other Bank account details
+119					Sl.No		IFS Code of the bank	Name of the Bank	Account Number	Type of account 	Select Account for refund credit (tick at least one account √)	Note: Please validate Schedule CG before importing Bank details																	FALSE
+120					1														FALSE	TRUE									FALSE
+121					2														FALSE	FALSE
+122					Note :
+1.All bank accounts held at any time is to be reported, except dormant A/c.
+2.In case multiple accounts are selected, then refund will be credited to one of the validated accounts after processing the return.
+124				(b)	Non-residents, not having bank account in India may, at their option, furnish the details of one foreign bank account:
+125					Sl.No		SWIFT Code	Name of the Bank	Country of Location	IBAN
+126					1
+129				19	Do you at any time during the previous year,-
+(i) hold, as beneficial owner, beneficiary or otherwise, any asset (including financial interest in any entity) located outside India; or
+(ii) have signing authority in any account located outside India; or
+(iii) have income from any source outside India? 
+[applicable only in case of a resident]        [Ensure Schedule FA is filled up if the answer is Yes ]
+						19
+130			15	If the return has been prepared by a Tax Return Preparer (TRP) give further details below:
+131				Identification No. of TRP						Counter Signature of TRP
+132				Name of TRP
+133				If TRP is entitled for any reimbursement from the Government, amount thereof……………					16

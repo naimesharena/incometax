@@ -1,0 +1,27 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R
+3			Schedule Manufacturing Account				Part A-Manufacturing  Account- Manufacturing Account  for the financial year   2021-22 (fill items 1 to 3 in a case where regular books of accounts are maintained, otherwise fill items 61 to 65 as applicable)
+4			1	Debits to manufacturing account
+5				Opening Inventory
+6				A	i	Opening stock of raw-material 											Ai
+7					ii	Opening stock of Work in progress 											Aii
+8					iii	Total (i + ii)											Aiii	0
+9				B	Purchases (net of refunds and duty or tax, if any)												B
+10				C	Direct wages 												C
+11				D	Direct expenses (Di + Dii + Diii)												D	0
+12					i	Carriage inward											Di
+13					ii	Power and fuel 											Dii
+14					iii	Other direct expenses 											Diii
+15				E	Factory Overheads
+16					i	 Indirect wages											Ei
+17					ii	Factory rent and rates 											Eii
+18					iii	Factory Insurance 											Eiii
+19					iv	Factory fuel and power 											Eiv
+20					v	Factory general expenses 											Ev
+21					vi	Depreciation of factory machinery											Evi
+22					vii	Total (i+ii+iii+iv+v+vi)											Evii	0
+23				F	Total of Debits to Manufacturing Account (Aiii+B+C+D+Evii)												F	0
+24			2	Closing Stock
+25				i	Raw material												i
+26				ii	Work-in-progress												ii
+27				iii	Total (2i +2ii)												iii	0
+28			3	Cost of Goods Produced – transferred to Trading Account (1F-2)													3	0

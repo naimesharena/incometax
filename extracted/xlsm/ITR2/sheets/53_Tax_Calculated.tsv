@@ -1,0 +1,338 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	AA	AB	AC	AD	AE	AF	AG	AH	AI	AJ	AK	AL	AM	AN	AO	AP	AQ	AR	AS	AT	AU	AV	AW	AX	AY	AZ	BA	BB	BC	BD	BE	BF	BG	BH	BI	BJ	BK	BL	BM	BN	BO	BP	BQ	BR	BS	BT	BU	BV	BW	BX	BY	BZ	CA	CB	CC	CD	CE	CF	CG	CH	CI	CJ	CK	CL	CM	CN	CO	CP	CQ	CR	CS	CT	CU	CV	CW	CX	CY	CZ	DA	DB	DC	DD	DE	DF	DG	DH	DI	DJ	DK
+1	Calculation of 234A		Creation Date	2026-07-30																																																																																																													System  Due Dates	Manul Due Dates	True / False
+2			Todays Date	30-07-2026		(S																																																																																																					234C	0		234A	0		31/07/2026	31/07/2026	TRUE
+3	intsrt234AprincTemp	0	matchedSAT	0			Duedateextesnsiondate	duedate+1																																																																																																									31/07/2026	31/10/2026	FALSE
+4	intsrt234Aprinc	0		countIsLiable	0	From 16/09/2025 to 31/07/2026	31/07/2026	01/08/2026																																																																																																Months	Balance Prin Amount	234B Month calculation	Tax amount	Carry foreard Interest	IT amount	Exsat Amount	234A	Due date carry forward	31/07/2026	30/11/2026	FALSE
+5	dueDate1	43842				Changed by sadineni on 30/01/2026	31/10/2026	01/11/2026																																																																																																Apr	0	32225	0	0
+6	dueDateLiable	43842	44AB	0			30/11/2026	01/12/2026																																																																																																May	0	32225	0		100000
+7	finalDuedate	43842	92E	0																																																																																																				Jun	0	32225	0		0
+8	currentVerDate	28/07/2026	92EO	0																																																																																																				Jul	0	32225	0		0
+9	filingType	11	Sch IF-Audit	0			01/01/2027	15/01/2027																																																																																																Aug	0	24394	0		1000000		0
+10	systemDate	46233	Audit_Act Table	0			Year changed by sadineni from 2026 to 2027																																																																																																	Sep	0	24394	0		0	0	0	0
+11	currentDateAftercomp(sys,ver)	28/07/2026																																																																																																						Oct	0	23171	0		200000		0
+12	finalCurrentDate	28/07/2026																																																																																																						Nov	0	23171	0		0		0
+13	noOfMonthAfterdueDate	#VALUE!		DelayedNoOfMonths	0																																																																																																			Dec	0		0		0		0
+14	JK&L	43842																																																																																																						Jan	0		0				0
+15	section234A	0																																																																																																						Feb	0		0				0
+16	234A Lakh check	0																																																																																																						Mar	0		0				0
+17																																																																																																								Apr	0		0				0
+18																																																																																																								May	0		0				0
+19	Tax Calculation at normal Rate on aggregate income:				Rebate On Agricultural Income:          					Aggregate income tax for 50lac					Aggregate income tax for 1 Crore					Aggregate income tax for 2 Crore					Aggregate income tax for 5 Crore																																																																															Jun	0		0				0
+20	taxPayerStatus	(			totIncm	0				taxPayerStatus	(				taxPayerStatus	(				taxPayerStatus	(				taxPayerStatus	(																																																																														Jul	0		0				0
+21	resStatus	(Se			netTxblIncm	0				resStatus	(Se				resStatus	(Se				resStatus	(Se				resStatus	(Se																																																																														Aug	0		0				0
+22	age	2026			tax1	0	Senior Citizen	0		age	2026				age	2026				age	2026				age	2026																																																																														Sep	0		0				0
+23	totalIncm	0			tax2	0	Super senior citizen	0		totalIncm	5000000				totalIncm	10000000				totalIncm	20000000				totalIncm	50000000																																																																														Oct	0		0				0
+24	pan				tax3	0	normal citizen	0		pan					pan					pan					pan																																																																															Nov	0		0				0
+25	netTxblIncm	0			rebateOnAgriIncm	0	0			netTxblIncm	5000000				netTxblIncm	10000000				netTxblIncm	20000000				netTxblIncm	50000000																																																																														Dec	0		0				0
+26	checkwhichGropu	FALSE		Old formula for -D29 - Updated by Bindu on 16th March 26		0	0			checkwhichGropu	FALSE				checkwhichGropu	FALSE				checkwhichGropu	FALSE				checkwhichGropu	FALSE																																																																														Jan	0		0				0
+27	tax1	0	Senior Citizen	0			0			tax1	1310000	Senior Citizen			tax1	2810000	Senior Citizen			tax1	5810000	Senior Citizen			tax1	14810000	Senior Citizen																																																																													Feb	0		0				0
+28	tax2	0	Super senior citizen	Malli_AY_2025_26_Newtax	Malli_AY_2024_25_Newtax					tax2	1300000	Super senior citizen	AY 2025-26 by Riyaz		tax2	2800000	Super senior citizen	AY 2025-26 by Riyaz		tax2	5800000	Super senior citizen	AY 2025-26 by Riyaz		tax2	14800000	Super senior citizen	AY 2025-26 by Riyaz																																																																												Mar	0		0				0
+29	tax3	0	normal citizen	0	0					tax3	1312500	normal citizen	1080000		tax3	2812500	normal citizen	2580000		tax3	5812500	normal citizen	5580000		tax3	14812500	normal citizen	14580000																																																																												Apr	0		0				0
+30	taxAggrIncm	0		0						taxAggrIncm	1080000		0		taxAggrIncm	2580000		0		taxAggrIncm	5580000		0		taxAggrIncm	14580000		0																																																																												May	0		0				0
+31																																																																																																								Jun	0		0				0
+32																																																																																																								Jul	0		0				0
+33	Exemption	0	0																																																																																																					Aug	0		0				0
+34			0																																																																																																					Sep	0		0				0
+35																																																																																																								Oct	0		0				0
+36	Calculation of Surcharge: ( Not Working)																																																																																																							Nov	0		0				0
+37	taxPayable	0																																																																																																						Dec	0		0				0
+38	totalIncome	0		Tax Payable Calculation:			slabbed Tax For normalCutOffInc																																																																																																	Jan	0		0				0
+39	incChargeTaxSplRate111A112	0		Group	FALSE		slabbedTax1	#REF!																																																																																																Feb	0		0				0
+40	Value(totalIncome-incChargeTaxSplRate111A1112	0		incTax1	0		slabbedTax2	#REF!																																																																																																Mar	0		0				0
+41	taxAtSpecialRates	0		incTax2	0		slabbedTax3	#REF!																																																																																																Apr	0		0				0
+42	dtaaInc	#REF!		IncTax3	0		slabbedTax	0																																																																																																May	0		0				0
+43	dtaaTax	#REF!		final_incTax	0																																																																																																			Jun	0		0				0
+44	totInc	#REF!																																																																																																						Jul	0		0				0
+45	taxOnTotInc	0		Slabbed Income:																																																																																																				Aug	0		0				0
+46	exemption	0		inc1	11																																																																																																			Sep	0		0				0
+47	cg10	0		inc2	21																																																																																																			Oct	0		0				0
+48	cg15	0		inc3	31																																																																																																			Nov	0		0				0
+49	cg20	0		normal10	0																																																																																																			Dec	0		0				0
+50	cg30	0		normal20	0																																																																																																			Jan	0		0				0
+51	toBeTaxed	#REF!		normal30	0																																																																																																			Feb	0		0				0
+52	exmptn10	0																																																																																																						Mar	0		0				0
+53	exmptn15	0		Find CgTax,CgTaxed and tobeTaxed:																																																																																																				Apr	0		0				0
+54	exmptn20	0		case1(cg10<toBeTaxed )	#REF!																																																																																																			May	0		0				0
+55	toBeTaxedAftrCg10andCg15	#REF!		case2(cg15<toBeTaxed)	#REF!																																																																																																			Jun	0		0				0
+56	toBeTaxedAftrCg20	#REF!		case3(cg20<toBeTaxed)	#REF!																																																																																																			Jul	0		0				0
+57	normalCutOffInc	#REF!		case4(cg30<toBeTaxed)	#REF!																																																																																																			Aug	0		0				0
+58	taxOnCutOffInc	#REF!																																																																																																						Sep	0		0				0
+59	tempSurcharge	#REF!		Cg10	cg15	cg20	cg30																																																																																																	Oct	0		0				0
+60	extraInc	#REF!	cgTax	#REF!	#REF!	#REF!	#REF!																																																																																																	Nov	0		0				0
+61	marginalRelief	#REF!	cgTaxed	#REF!	#REF!	#REF!	#REF!																																																																																																	Dec	0		0				0
+62	surcharge	0	toBeTaxed	#REF!	#REF!	#REF!	#REF!																																																																																																	Jan	0		0				0
+63																																																																																																								Feb	0		0				0
+64	calculate234B																																																																																																							Mar	0		0				0
+65	intrst234A	0		scvia_TotPartCchapterVIA_Calc 	0																							44AD calc																																																																												Apr	0		0				0
+66	intrst234C	0		SEZA10_TotalDedUs10Sub	0																									taxPayerStatus	(			totIncm	0																																																																					May	0		0				0
+67	advance tax	0		AA10_TotalDedUs10Sub	0																									resStatus	(Se			netTxblIncm	0				Surcharge Calculation																																																																	Jun	0		0				0
+68	tds	0		is 44AD applicable	FALSE																									age	2026			tax1	0																																																																					Jul	0		0				0
+69	tcs	0		intrst234F	0																									totalIncm	0			tax2	0																																																																					Aug	0		0				0
+70	netTaxLiability	0	IF(E68,MAX(AG101,L222), Sheet9.NetTaxLiability)																											pan				tax3	0				taxPayable	0																																																																Sep	0		0				0
+71	shortFall	0																												netTxblIncm	0			rebateOnAgriIncm	0				totalIncome	0																																																																Oct	0		0				0
+72	dateOfProcessing	28/07/2026																												checkwhichGropu	FALSE																																																																									Nov	0		0				0
+73	startDate	43191																												tax1	0																																																																									Dec	0		0				0
+74	CalcIntrst234BUptoPeriod	4																												tax2	0																																																																									Jan	0		0				0
+75	44AD income	0																												tax3	0																																																																									Feb	0		0				0
+76	234B------- 24 cycles:	Cycle 1	Cycle 2	Cycle  3	Cycle  4	Cycle  5	Cycle   6	Cycle  7	Cycle  8	Cycle  9	Cycle  10	Cycle  11	Cycle  12	Cycle  13	Cycle 14	Cycle  15	Cycle  16	Cycle  17	Cycle  18	Cycle  19	Cycle  20	Cycle  21	Cycle  22	Cycle  23	Cycle  24					taxAggrIncm after 44AD	0																																																																									Mar	0		0				0
+77	balancePrincipal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																																																															Apr	0		0				0
+78	calcIntrst234BOnPeriod	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0					Exemption	0																																																																									May	0		0				0
+79	calcInterestPayable234B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																																																															Jun	0		0				0
+80	balanceInterest	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																																																															Jul	0		0				0
+81	SATPaidAtPeriod	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0				Tax at normal rates on 17 of Part B-TI				0																																																																							Aug	0		0				0
+82	adjustedInterest	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0				Tax at special rates (total of (ii) of Schedule-SI)				0																																																																							Sep	0		0				0
+83	adjustedPrincipal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0				Rebate on agricultural income [applicable if (14-15) of Part B-TI exceeds maximum amount not chargeable to tax]				0																																																																							Oct	0		0				0
+84	carryForwardPrinicipal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0				Tax Payable on Total Income (2a + 2b-2c)				0																																																																							Nov	0		0				0
+85	carryForwardInterest	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0														surcharge	0																																																																Dec	0		0				0
+86																																																																																																								Jan	0		0				0
+87	interest234Bi	0																																																																																																						Feb	0		0				0
+88	interest234Bii	0																											Rebate under section 87A (applicable if 14 of Part B-TI does not exceed 5 lakh)				0																																																																							Mar	0		0				0
+89	interest234Biii	0																											Tax payable after rebate (2d – 2e)				0																																																																							Apr	0		0				0
+90	interest234Biv	0																											Surcharge on 2f (applicable if 14 of Part B-TI exceeds 1 crore				0																																																																							May	0		0				0
+91																													Education cess, including secondary and higher education cess on (2f + 2g)				0																																																																							Jun	0		0				0
+92	interest234B	0																											Gross tax liability (2f + 2g + 2h)				0																																																																							Jul	0		0				0
+93																													Gross tax payable (higher of 1d and 2i)				0																																																																							Aug	0		0				0
+94	Calculation of 234C													BP 234C Calaculation															Credit under section 115JD of tax paid in earlier years (applicable if 2i is more than 1d) (5 of Schedule AMTC)				0																																																																							Sep	0		0				0
+95				winLottRace	0	Added  by Riyaz for ST 20%  & LT 12.5%							Date of Commencement	0	Q1	TRUE	0												Tax payable after credit under section 115JD (3 - 4)				0																																																																							Oct	0		0				0
+96	CGTotal	0		cg10	0	CG 12.5_LTCG	0						Year	2021	Q2	TRUE													Tax relief  																																																																											Nov	0		0				0
+97	SI_Income(OS)	0		cg15	0	CG 20_STCG	0						Month	4	Q3	TRUE													a	Section 89			0																																																																							Dec	0		0				0
+98	totalIncome	0		cg20	0								Day	0	Q4	TRUE													b	Section 90/ 90A ( 2 of Schedule TR)			0																																																																							Jan	0		0				0
+99	MarginalRelief	FALSE		cg30	0										Q5	TRUE													c	Section 91 ( 3 of Schedule TR)			0																																																																							Feb	0		0				0
+100	normalBalanceIncm	0	0	CgAr	0																								d	Total (6a + 6b + 6c)			0																																																																							Mar	0		0				0
+101	exemptionOth_Spl	0	MAX(0,IF(NOT(C267),Sheet8b.GrossTotalIncome-B96-B97-Sheet8b.DeductionsUnderScheduleVIA-Sheet8b.DeductionsUnder10Aor10AA+IF(sheet9.RebateOnAgriInc>0,Sheet8b.NetAgricultureIncomeOrOtherIncomeForRate,0),Sheet8b.GrossTotalIncome-B96-B97-Sheet8b.DeductionsUnderScheduleVIA-Sheet8b.DeductionsUnder10Aor10AA+IF(sheet9.RebateOnAgriInc>0,Sheet8b.NetAgricultureIncomeOrOtherIncomeForRate,0)-(sheet11.Section44AD+sheet11.Section44ADA)))	exmptn10	0																								NET TAX LIABILITY FOR 44AD 				0																																																																							Apr	0		0				0
+102				exmptn15	0	STCG exampt 20%	0	111A,PTI-15%(PTI-1% ADDED BY BINDU AS PER APARNA																																																																																																May	0		0				0
+103	exemption	0		exmptn20	0	LTCG  examptn 12.5% 	0	112, 112A, PTI 12.5%																																																																																																Jun	0		0				0
+104				exemptn30	0																																																																																																			Jul	0		0				0
+105				BP Income	0																																																																																																			Aug	0		0				0
+106																																																																																																								Sep	0		0				0
+107	AppRate +NormalIncome	Removed C108 by Bindu As per Aparna	Dividend_1aiii_2 (22)f																																																																																																					Oct	0		0				0
+108	IncomeAftrExemp	0	0		Qtr5 tax calculation:																																																																																																			Nov	0		0				0
+109	exemptionRemaining	0		case1:	AR income	0	case2:	Incm till Q3	0																																																																																															Dec	0		0				0
+110					tax	0		tax	0																																																																																															Jan	0		0				0
+111					Surcharge	0		Surcharge	0																																																																																															Feb	0		0				0
+112	Q5Tax(case1_Tax-case2_Tax)	0			eduCess	0		eduCess	0																																																																																															Mar	0		0				0
+113	44AD surchage and bal taxpayble considerations				total tax	0		total tax	0																																																																																															Apr	0		0				0
+114	Sheet9.SurchargeOnTaxPayable	0																																																																																																						May	0		0				0
+115	Sheet9.BalTaxPayable	1																																																																																																						Jun	0		0				0
+116	Quarter	Income	BasicExemption	Net income	Accum Income	Normal Income	TotalIncome	Tax on tot Income	Tax on tot Income - Agri_Rebate	Surcharge	EduCess	Total Tax																																																																																												Jul	0		0				0
+117	totalUpto15Of6	0	0	0	0	0	0	0	0	0	0	0																																																																																												Aug	0		0				0
+118	totalUpto15Of9	0	0	0	0	0	0	0	0	0	0	0																																																																																												Sep	0		0				0
+119	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0	0	0	0																																																																																												Oct	0		0				0
+120	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0	0	0	0																																																																																												Nov	0		0				0
+121	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0	0	0	0																																																																																												Dec	0		0				0
+122		0																																																																																																						Jan	0		0				0
+123	30% Os winning from lottery		Online Games newly added																																																																																																					Feb	0		0				0
+124																																																																																																								Mar	0		0				0
+126	Quarter	Income	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax
+127	totalUpto15Of6	0	0	0	0	0	0	0
+128	totalUpto15Of9	0	0	0	0	0	0	0
+129	totalUp16Of9To15Of12	0	0	0	0	0	0	0
+130	totalUp16Of12To15Of3	0	0	0	0	0	0	0
+131	totalUp16Of3To31Of3	0	0	0	0	0	0	0
+133	30% CG income		VDA Newly added
+136	Quarter	Income	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax
+137	totalUpto15Of6	0	0	0	0	0	0	0
+138	totalUpto15Of9	0	0	0	0	0	0	0
+139	totalUp16Of9To15Of12	0	0	0	0	0	0	0
+140	totalUp16Of12To15Of3	0	0	0	0	0	0	0
+141	totalUp16Of3To31Of3	0	0	0	0	0	0	0
+145	20% CG income	LTCG 20% Removed by Riyaz AY 2026-27
+146	exmptn20	0	G102 as Added			MAX(0,E150*0.2-IF(('SPI - SI'!$H$25*20/100)>0,MIN(('SPI - SI'!$H$25*20/100),LTCG.B3h_Excess),0)) - Old formula
+147	CountValue	0				MAX(0,E150*0.2-LTCG.B3h_Excess) 
+148						Formula updated by Bindu as per Aaprna
+149	Quarter	Income	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax
+150	totalUpto15Of6	0	0	0	0	0	0	0	0
+151	totalUpto15Of9	0	0	0	0	0	0	0	0
+152	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0
+153	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0
+154	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0
+158	15% CG income	STCG 15% Removed by Riyaz AY 2026-27
+159	exmptn15	0
+160	countValue	0
+162	Quarter	Income	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax	0
+163	totalUpto15Of6	0	0	0	0	0	0	0	0	0
+164	totalUpto15Of9	0	0	0	0	0	0	0	0	0
+165	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0	0
+166	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0	0
+167	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0
+171	10% BBDA
+172	exmptn10	0
+173	countValue	0
+175	Quarter	Income	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax
+176	totalUpto15Of6	0	0	0	0	0	0	0	0
+177	totalUpto15Of9	0	0	0	0	0	0	0	0
+178	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0
+179	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0
+180	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0
+184	STCG DTAA
+185	exmptn10	0
+186	countValue	0
+187						Correct
+188	Quarter	Income	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax
+189	totalUpto15Of6	0	0	0	0	0	0	0	0
+190	totalUpto15Of9	0	0	0	0	0	0	0	0
+191	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0
+192	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0
+193	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0
+195	LTCG DTAA
+196	exmptn10	0
+197	countValue	0
+199	Quarter	Income	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax
+200	totalUpto15Of6	0	0	0	0	0	0	0	0
+201	totalUpto15Of9	0	0	0	0	0	0	0	0
+202	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0
+203	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0
+204	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0
+206	10% CG income	LTCG 10% Removed by Riyaz AY 2026-27
+207	exmptn10	0
+208	countValue	0
+209										Not chaning any below cells bcz not using any where - By Bindu on 5th Feb 26
+210	Quarter	Income	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax	0	0	0
+211	totalUpto15Of6	0	0	0	0	0	0	0	0	0	0	0
+212	totalUpto15Of9	0	0	0	0	0	0	0	0	0	0	0
+213	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0	0	0	0
+214	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0	0	0	0
+215	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0	0	0	0
+217	LTCG 12.5% Iincome	Newly added in AY 25-26 by Riyaz
+218	exmptn10	0
+219	countValue	0				MAX(0,E222*0.125-LTCG.B1g_ImmpropertyB1e1c)
+220		IF(C362>0,E365,AccLTCG12.5.Upto15Of6) ,IF(C362>0,E366,AccLTCG12.5.Upto15Of9),IF(C362>0,E367,AccLTCG12.5.Up16Of9To15Of12),IF(C362>0,E368,AccLTCG12.5.Up16Of12To15Of3),IF(C362>0,E369,AccLTCG12.5.Up16Of3To31Of3) - Old formula				Formula updated by Bindu as per Aparna
+221	Quarter	Income-Updated by Bindu on 5th Feb 26	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax	0	0	0
+222	totalUpto15Of6	0	0	0	0	0	0	0	0	Not updating anything like 211 to 215 cells as not using anywhere - By Bindu on 5th Feb 26
+223	totalUpto15Of9	0	0	0	0	0	0	0	0
+224	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0
+225	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0
+226	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0
+229	Consolidation of tax for 234C
+230	SI_IncmTax(otherThanCG)	0	I58 ADDED BY BINDU ON 3RD MARCH 26								SurCharge 44AD	0
+231	SurchargeOnSI	0									Tax on 44 AD	0
+232	EduCess	0					Tax on 115BBE	0	Surcharge 115BBE	0	Tax on Other	1
+233	TotalSITax	0					Tax on Other	1	Surcharge Normal	0
+235	Quarter	 tax App+income	tax 30%	tax 20%	tax 15%	Tax  of 10%	Tax of 12.5% LTCG Added by Riyaz AY 2025-26	STCG DTAA	LTCG DTAA	tax SI	total tax	Total Income after Rebate, if applicable (u/s87E)	Surchage	Education Cess	Total Tax Liability	totaltax-TDS-TCS-taxRelief-Credit115JD	Cumulative tax to be paid	12 & 36 % for 1,2 Qtr	Cumulative tax paid	Amount on which interest is payable	interest u/s 234C
+236	totalUpto15Of6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+237	totalUpto15Of9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+238	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0
+239	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0
+240	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0		0	0	0
+241																	Total 234C	0
+244	Surcharge Calculation
+245			0	Exemptions	0
+246				Exemptionused_Normal	0	Slabbed Income:
+247	taxPayable	0		exmptn10	0	normal5	0	0	toBeTaxed After DTAA Exemption 1 Cr	10000000
+248	totalIncome	0		exmptn15	0	normal20	0	0
+249	incChargeTaxSplRate111A112	0		exmptn20	0	normal30	0	0
+250	Value(totalIncome-incChargeTaxSplRate111A1112	0		exmptn 12.5	0			H58 ADDED BY BINDU ON 3RD MARCH 26
+251	tax on normal income	0			4%Income	5%Income	9%Income	10%income	12.5% LTCG 	15%Incomne	20%Income-STCG20%(NEWLY ADDED)	25%income	30%Income	50%Income	60%Income(115BE)
+252	taxAtSpecialRates	0		Income	0	0	0	0	0	0	0	0	0	0	0
+253	dtaaInc	0		CheckFor1Cr.	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+254	dtaaTax	0		Tax	0	0	0	0	0	0	0	0	0	0	0
+255	totInc	0		tobeTaxed	10000000	10000000	10000000	10000000	10000000	10000000	10000000	10000000	10000000	10000000	10000000
+256	taxOnTotInc	0
+257				Tax on Total Income	0	Add surcharge on 115BBE	1500000			0
+258	taxOnCutOffInc	0		Surcharge on 115BBE 	0	Marginal Relief (A-B)	0
+259	tempSurcharge	0	IPIP-105757	Surcharge On other than 115BBE	0	Surcharge	0
+260	extraInc	0		Total Tax (A)	0
+261	marginalRelief	0		Tax on 1 crore:	0	Surchage w.r.t.  Income u/s 115BBE 	0
+262	surcharge	0		Tax on 1 crore+excess income  (B)	1500000	Surchage w.r.t.  Normal income	0
+266									44AD Calculation
+267	IF 3 = 1d	is 44AD applic	FALSE	1d or 3 Value	0				Total Income as per item 14 of PART-B-TI					0
+268									Adjustment as per section 115JC(2)
+269									a 	Deduction Claimed under any section included in Chapter VI-A under the heading “C.—Deductions in respect of certain incomes” 	2a	0
+270	Quarter	total tax	totaltax-TDS-TCS	Cumulative tax to be paid	12 & 36 % for 1,2 Qtr	Cumulative tax paid	Amount on which interest is payable	interest u/s 234C	b 	Deduction Claimed u/s 10AA	2b	0
+271	totalUpto15Of6	0	0	0	0	0	0	0	c 	Total Adjustment (2a+ 2b)	2c	0
+272	totalUpto15Of9	0	0	0	0	0	0	0	Adjusted Total Income under section 115JC(1) (1+2c)		3	0
+273	totalUp16Of9To15Of12	0	0	0		0	0	0	Tax payable under section 115JC  [18.5% of (3)] (if 3 is greater than 20 lacs)		4	0
+274	totalUp16Of12To15Of3	0	0	0		0	0	0					Surcharge Calculation For AMT
+275	totalUp16Of3To31Of3	0	0	0		0	0	0	a	Tax payable on deemed total income under section 115JC (4 of Schedule AMT)	1a	0		TTI 1b
+276							Total 234C	0	b	Surcharge on (a) (applicable if 3 of schedule AMT exceeds 1 crore)	1b	0		CalcSurchargeAboveOneCrore
+277									c	Education Cess, including secondary and higher education cess on (1a+1b) above	1c	0	taxPayable or taxOnTotInc	0
+278									d	Total Tax Payable on deemed total income (1a+1b+1c)	1d	0	taxOnCutOffInc	1850000		Last Digit of AMT
+279													RoundDown Value from AMT	0		0
+280	OS DTAA
+281	exmptn10	0											tempSurcharge	0
+282	countValue	0
+283													//check if eligible for marginal relief
+284	Quarter	Income	BasicExemption	Net income	Accum Income	Tax on tot Income	Surcharge	EduCess	Total Tax
+285	totalUpto15Of6	0	0	0	0	0	0	0	0
+286	totalUpto15Of9	0	0	0	0	0	0	0	0
+287	totalUp16Of9To15Of12	0	0	0	0	0	0	0	0
+288	totalUp16Of12To15Of3	0	0	0	0	0	0	0	0				extraInc	-10000000
+289	totalUp16Of3To31Of3	0	0	0	0	0	0	0	0
+290													marginal Relief	8150000
+292													surchargeOnAboveCrore	0
+293	Surcharge Calculation for 5000000
+294			0	Exemptions	0															Surcharge Rate		0.1
+295				Exemptionused_Normal	0	Slabbed Income:														TaxAtNormalRate		0
+296	taxPayable	0		exmptn10	0	normal5	0	0	toBeTaxed After DTAA Exemption for 50 Lakh	5000000										Surcharge_RateEH		0.1
+297	totalIncome	0		exmptn15	0	normal20	0	0												Surcharge_IncomeEH2		0
+298	incChargeTaxSplRate111A112	0		exmptn20	0	normal30	0	0												Surcharge_IncomeEH		0
+299	Value(totalIncome-incChargeTaxSplRate111A1112	0		exmptn 12.5	0			Slabbed income for 12.5 Need help from BA	H58 ADDED BY BINDU ON 3RD MARCH 26											K2		0
+300	tax on normal income	0			4%Income	5%Income	9%Income	10%income	12.5% LTCG	15%Incomne	20%Income-STCG 20% NEWLY ADDED	25%income	30%Income	50%Income	60%Income(115BE)					K1		0	0
+301	taxAtSpecialRates	0		Income	0	0	0	0	0	0	0	0	0	0	0					5AD1iDiv	0	0
+302	dtaaInc	0		CheckFor50L	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE					PTI_5AD1iDiv	0	0
+303	dtaaTax	0		Tax	0	0	0	0	0	0	0	0	0	0	0					115AD 10%	0	0	IF(MID(sheet1.Status,1,1)="I",SUM('SPI - SI'!H56,'SPI - SI'!H57,'SPI - SI'!H59),0)-U303
+IF(MID(sheet1.Status,1,1)="I",SUM('SPI - SI'!I56,SI_Section115AD,'SPI - SI'!I59),0)-V303	H58,I58 ADDED BY BINDU ON 3RD MARCH 26
+304	totInc	0		tobeTaxed	5000000	5000000	5000000	5000000	5000000	5000000	5000000	5000000	5000000	5000000	5000000					115AD 15% and PTI 15%	0	0
+305	taxOnTotInc	0																		115AD 30%	0	0
+306				Tax on Total Income	0	Add surcharge on 115BBE	750000			0										Pti_112a (Both before & after 23rd july)	0	0		Other income <=2cr and Total income  >2cr and <=5cr	FALSE		0	0
+307	taxOnCutOffInc	0		Surcharge on 115BBE 	0	Marginal Relief (A-B)	0													111A (Both before & after 23rd july)	0	0		Other income >2cr and <=5cr and Total income >2cr and <=5cr	FALSE
+308	tempSurcharge	0	IPIP-105757	Surcharge On other than 115BBE	0	Surcharge	0													112A(Both before & after 23rd july)	0	0		Other income <=2cr  and Total income >5cr	FALSE
+309	extraInc	0		Total Tax (A)	0															112A and 111A and PTI112A	0	0		Other income > 2cr and <=5 cr  and  Total income >5cr	FALSE
+310	marginalRelief	0		Tax on 50 Lakh:	0	Surchage w.r.t.  Income u/s 115BBE 	0													Other than above income	0			Other income >5 cr  and  Total income >5cr	FALSE
+311	surcharge	0		Tax on 50 Lakh+excess income  (B)	750000	Surchage w.r.t.  Normal income	0													Total	0
+313						Final Surcharge w.r.t Income u/s 115BBE	0
+314						Final Surcharge w.r.t Normal Income	0	0
+316	Surcharge Calculation 2 Crore
+317			0	Exemptions	0																								Refernces below are given before BEL but whatver coming from table 5cr "income to be taxed" is after BEL. Not possible to take before BEL and so leaving it like this - BA team
+318				Exemptionused_Normal	0	Slabbed Income:																							Surcharge for  5Crore - for cut off income- rare scenario
+319	taxPayable	0		exmptn10	0	normal5	0	0	toBeTaxed After DTAA Exemption 1 Cr	20000000																		Income available for 5Cr cut off income
+320	totalIncome	0		exmptn15	0	normal20	0	0																				111A _15% and 20%	0	0
+321	incChargeTaxSplRate111A112	0		exmptn20	0	normal30	0	0																				115AD & PTI_15% and 20%	0	0
+322	Value(totalIncome-incChargeTaxSplRate111A1112	0		exmptn 12.5	0																			Other income <=2cr and Total income  >2cr and <=5cr	0	4		115AD & PTI_30% 	0	0	4
+323								H76,taxableInc2B	Slabbed income for 12.5 Need help from BA	H58 ADDED BY BINDU ON 3RD MARCH 26																		115AD(1)(iii) proviso_LTCg 10% & 12.5%	0	0	IF(MID(sheet1.Status,1,1)="I",MIN(SUM('SPI - SI'!H56,'SPI - SI'!H57),G349)+MIN(taxableInc5ADiiiPB,J349),0)-AC323-H58 ADDED BY BINDU ON 3RD MARCH 26
+324	tax on normal income	0			4%Income	5%Income	9%Income	10%_112A_112APTI	10%income	12.5%_112A_112APTI	12.5% Income	15%  111A	15%Incomne	20%  111A	20%Income	25%income	30%Income	50%Income	60%Income(115BE)						Other income >2cr and <=5cr and Total income >2cr and <=5cr	0		112A and PTI 112A_12.5%	0	0
+325	taxAtSpecialRates	0		Income	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						Other income <=2cr  and Total income >5cr	FALSE		112A and PTI 112A_10%	0	0
+326	dtaaInc	0		CheckFor2Cr.	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE						Other income > 2cr and <=5 cr  and  Total income >5cr	TRUE		112 income _20% (LTCG other, proviso 112(1)  & PTI 20%)	0	0
+327	dtaaTax	0		Tax	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						Other income >5 cr  and  Total income >5cr	FALSE		112 income _10% (1 112(1)©(iii)	0	0
+328	totInc	0		tobeTaxed	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000	20000000									112 income _12.5%	0	0
+329	taxOnTotInc	0														Total	50000000											5AD1iDiv	0	0
+330				Tax on Total Income	0	Add surcharge on 115BBE	3000000			0																		PTI_5AD1iDiv	0	0
+331	taxOnCutOffInc	0		Surcharge on 115BBE 	0	Marginal Relief (A-B)	0																					Dividend Income 	0	0
+332	tempSurcharge	0	IPIP-105757	Surcharge On other than 115BBE	0	Surcharge	0																					Total Max 15% cap income	0	0
+333	extraInc	0		Total Tax (A)	0																							Other than above income	50000000
+334	marginalRelief	0		Tax on 2 crore:	0	Surchage w.r.t.  Income u/s 115BBE 	0
+335	surcharge	0		Tax on 2 crore+excess income  (B)	3000000	Surchage w.r.t.  Normal income	0
+338	Surcharge Calculation more than 5 crore
+339			0	Exemptions	0
+340				Exemptionused_Normal	0	Slabbed Income:
+341	taxPayable	0		exmptn10	0	normal5	0	0	toBeTaxed After DTAA Exemption 1 Cr	50000000
+342	totalIncome	0		exmptn15	0	normal20	0	0
+343	incChargeTaxSplRate111A112	0		exmptn20	0	normal30	0	0
+344	Value(totalIncome-incChargeTaxSplRate111A1112	0		exmptn 12.5	0				H76,taxableInc2B	H56	Slabbed income for 12.5 Need help from BA	H58 - 115AD(1)(b)(iii) added by Bindu on 3rd March 26
+345	tax on normal income	0			4%Income	5%Income	9%Income	10%_112A_112APTI	10% 115AD	10%income	12.5%_112A_112APTI	12.5% 115AD	12.5%  income	15%  111A	15%Incomne (115AD & PTI 15%)	15%Incomne	20%  111A	20%Incomne (115AD & PTI )	20%Income	25%income	30%115AD_PTI	30%Income	50%Income	60%Income(115BE)
+346	taxAtSpecialRates	0		Income	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+347	dtaaInc	0		CheckFor5Cr.	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+348	dtaaTax	0		Tax	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+349	totInc	0		tobeTaxed	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000	50000000
+350	taxOnTotInc	0
+351				Tax on Total Income	0	Add surcharge on 115BBE	7500000			0
+352	taxOnCutOffInc	0		Surcharge on 115BBE 	0	Marginal Relief (A-B)	0
+353	tempSurcharge	0	IPIP-105757	Surcharge On other than 115BBE	0	Surcharge	0
+354	extraInc	0		Total Tax (A)	0
+355	marginalRelief	0		Tax on 5 crore:	0	Surchage w.r.t.  Income u/s 115BBE 	0
+356	surcharge	0		Tax on 5 crore+excess income  (B)	7500000	Surchage w.r.t.  Normal income	0
+357					7500000
+362	Added by Riyaz CG 12.5%_112A,PTI 112A,115AD		0	No need to change as in SI Sheet chaning by Bindu on 5th feb 26
+364	Quarter	Income	Limit Avalible	Limit_Consumed	Final Q Income
+365	totalUpto15Of6	0	0	0	0
+366	totalUpto15Of9	0	0	0	0
+367	totalUp16Of9To15Of12	0	0	0	0
+368	totalUp16Of12To15Of3	0	0	0	0
+369	totalUp16Of3To31Of3	0	0	0	0
+372	Added by Riyaz CG 10%_112A,PTI 112A,115AD		0
+374	Quarter	Income	Limit Avalible	Limit_Consumed	Final Q Income
+375	totalUpto15Of6	0	0	0	0
+376	totalUpto15Of9	0	0	0	0
+377	totalUp16Of9To15Of12	0	0	0	0
+378	totalUp16Of12To15Of3	0	0	0	0
+379	totalUp16Of3To31Of3	0	0	0	0

@@ -1,0 +1,24 @@
+row	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T
+4			Section 80DD	
+Details of deduction in respect of maintenance including medical treatment of a dependent who is a person with disability																(Select)
+5			Nature of disability 
+(ia)	Type of disability
+(ib)	Amount of Deduction
+(ii)	Type of dependent
+(iii)	PAN of the dependent
+(iv)	Aadhaar of the dependent
+(v)	Acknowledgement number 
+(vi)	UDID Number (If available)
+(vii)					0	0	1-Dependent person with disability
+6			(Select)	(Select)	0												2-Dependent person with severe disability	0
+7																				0
+14			Section 80U	Details of deduction in case of a person with disability
+15			Nature of disability
+(ia)	Type of disability
+(ib)	Amount of Deduction
+(ii)	Acknowledgement Number
+(iii)	UDID Number(If available)
+(iv)												(Select)
+16					0													1-Self with disability
+17																			2-Self with severe disability	0
+18																				0
